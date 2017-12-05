@@ -1,0 +1,6 @@
+testName,cycleName,testResult,outputFilePath
+test1,regression,pass,D:\Shema\jmeterTests\outputFiles\test1Attached.txt
+test2,regression,blocked,D:\Shema\jmeterTests\outputFiles\test2Attached.txt
+test3,load,fail,D:\Shema\jmeterTests\outputFiles\test3Attached.txt
+test4,sanity,wip,
+test5,sanity,pass,
