@@ -59,7 +59,7 @@
 
 //print(response1);
 
-vars.put (response1,&quot;resultFromHook&quot;);
+vars.put (&quot;resultFromHook&quot;,response1);
 
 </stringProp>
           </BeanShellPostProcessor>

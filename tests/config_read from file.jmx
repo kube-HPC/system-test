@@ -11,7 +11,7 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="read from file" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -60,7 +60,7 @@ String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
 String rep3=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
 rep3=rep3.replaceAll(&quot;\t&quot;,&quot;&quot;);
 rep3=rep3.replaceAll(&quot; &quot;,&quot;&quot;);
-vars.put (rep3,&quot;responseFinal&quot;);
+vars.put (&quot;responseFinal&quot;,rep3);
 
 //print (rep3);</stringProp>
           </BeanShellPostProcessor>
