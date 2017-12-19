@@ -1,2 +1,2 @@
-basePath
-/home/eitang/WorkStuff/TestManager/system-tests/expectedFiles
+basePath,bodiesPath
+/home/eitang/WorkStuff/TestManager/system-tests/expectedFiles,/home/eitang/WorkStuff/TestManager/system-tests/requestBodies 
