@@ -1,0 +1,38 @@
+{
+	"name": "bigevaltest",
+	"nodes": [
+		{
+			"nodeName": "evaladd",
+			"algorithmName": "eval-alg",
+			"input": [
+				[
+					"(input,require)=> {",
+					"const result= input[0][0]+input[0][1]",
+					"return result;}"
+				],
+				"@flowInput.addInput"
+			]
+		},
+		{
+			"nodeName": "evalmul",
+			"algorithmName": "eval-alg",
+			"input": [
+				[
+					"(input,require)=> {",
+					"const result = input[0][0]*input[1].results",
+					"return result;}"
+				],
+				"@flowInput.multInput",
+				"@evaladd.results"
+			]
+		}
+	],
+	"webhooks": {
+		"progress": "string",
+		"result": "string"
+	},
+	"options": {
+		"batchTolerance": 80,
+		"progressVerbosityLevel": "info"
+	}
+ }

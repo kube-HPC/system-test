@@ -1,0 +1,46 @@
+{
+	"name": "bigeval",
+	"nodes": [
+  	{
+    	"nodeName": "evaladd",
+    	"algorithmName": "eval-alg",
+    	"input": [
+            "@flowInput.functionadd",
+            "@flowInput.inputadd" 
+    	]
+    },
+    {
+        "nodeName":"evalmul",
+        "algorithmName":"eval-alg",
+        "input":[
+            "@flowInput.functionmult",
+            "@evaladd",
+            "@flowInput.inputmult"
+        ]
+    }
+	],
+	"flowInput": {
+        "functionadd":[
+            "(input,require)=> {",
+            "const result= input[0]+input[1]",
+            "return result;}"
+        ],
+        "inputadd": [],
+        "functionmult":[
+            "(input,require)=> {",
+            "const result1 = input[0]*input[1]",
+            "return result1 ;}"
+        ],
+        "inputmult":[]
+
+          
+	},
+	"webhooks": {
+  		"progress": "string",
+  		"result": "string"
+		},
+	"options": {
+  		"batchTolerance": 80,
+  		"progressVerbosityLevel": "info"
+	}
+}

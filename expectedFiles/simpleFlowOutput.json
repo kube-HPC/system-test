@@ -1,0 +1,25 @@
+[
+    {
+        "timestamp":"{timeStamp}",
+        "execution_id":"{id}",
+        "pipeline":"simple",
+        "data":
+        {
+            "result":
+            [
+                {
+                    "nodeName":"black",
+                    "algorithmName":"black-alg",
+                    "result":
+                    {
+                        "results":
+                        {
+                            "output":42
+                        }
+                    }
+                }
+            ],
+            "status":"completed"
+        }
+    }
+]

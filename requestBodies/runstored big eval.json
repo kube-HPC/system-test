@@ -1,0 +1,11 @@
+{
+  "name": "bigevaltest",
+  "flowInput":{
+      "addInput":[4,5],
+      "multInput":[4]
+  },
+  "options": {
+      "batchTolerance": 60,
+      "progressVerbosityLevel": "info"
+  }
+}

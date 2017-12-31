@@ -1,0 +1,23 @@
+[
+    {
+        "timestamp":"{timeStamp}",
+        "execution_id":"{id}",
+        "data":
+        {
+            "result":
+            [
+                {
+                    "name":"black",
+                    "algorithm":"black-alg",
+                    "result":
+                    {
+                        "results":
+                        {
+                            "output":42
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]

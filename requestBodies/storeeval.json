@@ -1,0 +1,21 @@
+{
+    "name": "evaladd",
+    "nodes": [
+      {
+        "nodeName": "eval1",
+        "algorithmName": "eval-alg",
+        "input": [
+        
+        ]
+      }
+    ],
+    "flowInput":{}, 
+    "webhooks": {
+      "progress": "string",
+      "result": "string"
+    },
+    "options": {
+      "batchTolerance": 60,
+      "progressVerbosityLevel": "info"
+    }
+  }

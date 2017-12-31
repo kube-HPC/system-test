@@ -1,0 +1,22 @@
+{
+    "name": "evaladd",
+    "nodes": [
+      {
+        "nodeName": "eval1",
+        "algorithmName": "eval-alg",
+        "input": [
+          "(input,require)=>{return (input[0]+input[1]);}",4,3
+        ]
+      }
+    ],
+    "flowInput": {
+    },
+    "webhooks": {
+      "progress": "http://10.42.128.80:3002/webhook/progress",
+      "result": "http://10.42.128.80:3002/webhook/result"
+    },
+    "options": {
+      "batchTolerance": 60,
+      "progressVerbosityLevel": "info"
+    }
+  }
