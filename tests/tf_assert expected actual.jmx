@@ -73,13 +73,13 @@ String actual=vars.get (&quot;resultFromHook&quot;);
 if (actual.equals(expected))
 {
 	Failure=false;
-	print(&quot;pass&quot;);
+//	print(&quot;pass&quot;);
 }
 else 
 {
 	Failure=true;
 	FailureMessage=&quot;both string was not equal&quot;;
-	print (&quot;fail&quot;);
+//	print (&quot;fail&quot;);
 }
 </stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
