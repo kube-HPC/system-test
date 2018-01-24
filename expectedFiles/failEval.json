@@ -1,22 +1,10 @@
-[
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"evalfail",
+    "data":
     {
-        "timestamp":"{timeStamp}",
-        "execution_id":"{id}",
-        "pipeline":"evalfail",
-        "data":
-        {
-            "result":
-            [
-                {
-                    "nodeName":"evalfail",
-                    "algorithmName":"eval-alg",
-                    "result":
-                    {
-                        "results":"ERROR TypeError: Assignment to constant variable."
-                    }
-                }
-            ],
-            "status":"completed"
-        }
+        "error":"Error: Assignment to constant variable.",
+        "status":"failed"
     }
-]
+}

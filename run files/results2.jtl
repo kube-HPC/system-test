@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1515326171675,96,Create request REST,200,OK,Create request REST 1-1,text,true,,1846,245,1,1,58,0,37
+1515326177024,21,GetStatus REST,200,OK,Create request REST 1-1,text,true,,2068,265,1,1,19,0,5
+1515326177069,4,Get results REST,404,Not Found,Create request REST 1-1,text,true,,1901,249,1,1,4,0,0

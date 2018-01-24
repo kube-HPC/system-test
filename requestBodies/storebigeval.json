@@ -23,7 +23,7 @@
 					"return result;}"
 				],
 				"@flowInput.multInput",
-				"@evaladd.results"
+				"@evaladd"
 			]
 		}
 	],

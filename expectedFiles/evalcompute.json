@@ -1,0 +1,17 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"waitcom",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"evalsleep",
+                "algorithmName":"eval-alg",
+                "result":1500
+            }
+        ],
+        "status":"completed"
+    }
+}

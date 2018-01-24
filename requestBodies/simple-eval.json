@@ -1,0 +1,19 @@
+{
+  "name": "simple-eval",
+  "flowInput":{
+      "num": {
+      	"inp1":7,
+      	"inp2":5,
+      	"inp3":7,
+      	"inp4":4
+      }   
+  },
+	"webhooks": {
+		"progress": "http://127.0.0.1:3002/webhook/progress",
+		"result": "http://127.0.0.1:3002/webhook/result"
+	},
+  "options": {
+      "batchTolerance": 60,
+      "progressVerbosityLevel": "info"
+  }
+}

@@ -120,11 +120,11 @@
 			&quot;input&quot;: [&#xd;
 				[&#xd;
 					&quot;(input,require)=&gt; {&quot;,&#xd;
-					&quot;const result = input[0][0]*input[1].results&quot;,&#xd;
+					&quot;const result = input[0][0]*input[1]&quot;,&#xd;
 					&quot;return result;}&quot;&#xd;
 				],&#xd;
 				&quot;@flowInput.multInput&quot;,&#xd;
-				&quot;@evaladd.results&quot;&#xd;
+				&quot;@evaladd&quot;&#xd;
 			]&#xd;
 		}&#xd;
 	],&#xd;
@@ -172,7 +172,16 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="clear web hook" enabled="true">
+        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="false">
+          <stringProp name="CounterConfig.start">1</stringProp>
+          <stringProp name="CounterConfig.end"></stringProp>
+          <stringProp name="CounterConfig.incr">1</stringProp>
+          <stringProp name="CounterConfig.name">counter</stringProp>
+          <stringProp name="CounterConfig.format"></stringProp>
+          <boolProp name="CounterConfig.per_user">false</boolProp>
+        </CounterConfig>
+        <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="clear web hook" enabled="false">
           <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_clear server webhook.jmx</stringProp>
         </IncludeController>
         <hashTree/>
@@ -222,7 +231,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -234,6 +243,57 @@
       &quot;addInput&quot;:[4.5,5],&#xd;
       &quot;multInput&quot;:[4.2]&#xd;
   },&#xd;
+  &quot;options&quot;: {&#xd;
+      &quot;batchTolerance&quot;: 60,&#xd;
+      &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..execution_id</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute simple eval" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;name&quot;: &quot;simple-eval&quot;,&#xd;
+  &quot;flowInput&quot;:{&#xd;
+      &quot;num&quot;: {&#xd;
+      	&quot;inp1&quot;:7,&#xd;
+      	&quot;inp2&quot;:5,&#xd;
+      	&quot;inp3&quot;:7,&#xd;
+      	&quot;inp4&quot;:4&#xd;
+      }   &#xd;
+  },&#xd;
+	&quot;webhooks&quot;: {&#xd;
+		&quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
+		&quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
+	},&#xd;
   &quot;options&quot;: {&#xd;
       &quot;batchTolerance&quot;: 60,&#xd;
       &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;

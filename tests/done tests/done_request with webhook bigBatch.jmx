@@ -50,11 +50,6 @@
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="vars" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="max_counter" elementType="Argument">
-            <stringProp name="Argument.name">max_counter</stringProp>
-            <stringProp name="Argument.value">20</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="bodyFile" elementType="Argument">
             <stringProp name="Argument.name">bodyFile</stringProp>
             <stringProp name="Argument.value">bigBatchbody.json</stringProp>
@@ -73,6 +68,11 @@
           <elementProp name="expectedoutput2" elementType="Argument">
             <stringProp name="Argument.name">expectedoutput2</stringProp>
             <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="maxTries" elementType="Argument">
+            <stringProp name="Argument.name">maxTries</stringProp>
+            <stringProp name="Argument.value">20</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>

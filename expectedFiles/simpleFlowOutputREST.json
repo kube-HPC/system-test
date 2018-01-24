@@ -1,24 +1,20 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"simple",
+    "data":
     {
-        "timestamp":"{timeStamp}",
-        "execution_id":"{id}",
-        "pipeline":"simple",
-        "data":
-        {
-            "result":
-            [
+        "result":
+        [
+            {
+                "nodeName":"black",
+                "algorithmName":"black-alg",
+                "result":
                 {
-                    "nodeName":"black",
-                    "algorithmName":"black-alg",
-                    "result":
-                    {
-                        "results":
-                        {
-                            "output":42
-                        }
-                    }
+                    "output":42
                 }
-            ],
-            "status":"completed"
-        }
+            }
+        ],
+        "status":"completed"
     }
-
+}

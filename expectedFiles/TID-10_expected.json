@@ -1,0 +1,18 @@
+[
+    {
+        "jobId": "{id}",
+        "timestamp": "{timeStamp}",
+        "execution_id": "{id}",
+        "pipeline": "bigevaltest",
+        "data": {
+            "result": [
+                {
+                    "nodeName": "evalmul",
+                    "algorithmName": "eval-alg",
+                    "result": 24
+                }
+            ],
+            "status": "completed"
+        }
+    }
+]

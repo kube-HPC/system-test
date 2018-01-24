@@ -1,0 +1,60 @@
+{
+    "name": "simple-eval",
+    "nodes": [
+        {
+            "nodeName": "eval1",
+            "algorithmName": "eval-alg",
+            "input": [
+                [
+                    "(input,require) => {",
+                    "const result = input[0] + input[1]",
+                    "return result }"
+                ],
+                "@flowInput.num.inp1",
+                "@flowInput.num.inp2"
+            ]
+        },
+        {
+            "nodeName": "eval2",
+            "algorithmName": "eval-alg",
+            "input": [
+                [
+                    "(input,require) => {",
+                    "const result = input[0] * input[1]",
+                    "return result }"
+                ],
+                "@eval1",
+                "@flowInput.num.inp3"
+            ]
+        },
+        {
+            "nodeName": "eval3",
+            "algorithmName": "eval-alg",
+            "input": [
+                [
+                    "(input,require) => {",
+                    "const result = input[0] / input[1]",
+                    "return result }"
+                ],
+                "@eval2",
+                "@flowInput.num.inp4"
+            ]
+        }
+    ],
+    "flowInput": {
+        "num": {
+            "inp1": 7,
+            "inp2": 5,
+            "inp3": 6,
+            "inp4": 4
+        }
+    },
+    "webhooks": {
+        "progress": "http://127.0.0.1:3002/webhook/progress",
+        "result": "http://127.0.0.1:3002/webhook/result"
+    },
+    "options": {
+        "batchTolerance": 80,
+        "progressVerbosityLevel": "info"
+    }
+}

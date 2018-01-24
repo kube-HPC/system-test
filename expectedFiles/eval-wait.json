@@ -1,0 +1,18 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"evalwait",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"evalsleep",
+                "batchID":"evalsleep#1",
+                "algorithmName":"eval-alg",
+                "result":4
+            }
+        ],
+        "status":"completed"
+    }
+}
