@@ -1,0 +1,21 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"apak-batch",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"apak",
+                "batchIndex":1,
+                "algorithmName":"red-alg",
+                "result":
+                {
+                    "output":"[{\"audio\":\"/ApakMCR/example_input_output/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":1,\"max_score\":-0.013612132771464816,\"max_window_sec\":30,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/example_input_output/test1.wav\\\")\",\"speakerName\":1},{\"audio\":\"/ApakMCR/example_input_output/test1.wav\",\"audioGuid\":\"test2\",\"SpeakerId\":1,\"max_score\":0.0040309516440919669,\"max_window_sec\":15,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/example_input_output/test2.wav\\\")\",\"speakerName\":1},{\"audio\":\"/ApakMCR/example_input_output/test1.wav\",\"audioGuid\":\"test3\",\"SpeakerId\":1,\"max_score\":0.031598223966561159,\"max_window_sec\":0,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/example_input_output/test3.wav\\\")\",\"speakerName\":1}]"
+                }
+            }
+        ],
+        "status":"completed"
+    }
+}

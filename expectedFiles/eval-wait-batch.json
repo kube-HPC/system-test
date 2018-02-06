@@ -8,61 +8,61 @@
         [
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#1",
+                "batchIndex":1,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#2",
+                "batchIndex":2,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#3",
+                "batchIndex":3,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#4",
+                "batchIndex":4,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#5",
+                "batchIndex":5,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#6",
+                "batchIndex":6,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#7",
+                "batchIndex":7,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#8",
+                "batchIndex":8,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#9",
+                "batchIndex":9,
                 "algorithmName":"eval-alg",
                 "result":4
             },
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#10",
+                "batchIndex":10,
                 "algorithmName":"eval-alg",
                 "result":4
             }

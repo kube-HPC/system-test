@@ -75,6 +75,11 @@
             <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="podsToDelete" elementType="Argument">
+            <stringProp name="Argument.name">podsToDelete</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>

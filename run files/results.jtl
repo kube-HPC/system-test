@@ -1,6 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1515326164865,44,clear results from web server,200,OK,run workflow webhook 1-1,text,true,,218,186,1,1,44,0,34
-1515326164912,51,Execute request webhook,200,OK,run workflow webhook 1-1,text,true,,1929,471,1,1,14,0,2
-1515326170231,4,get progress from webHook no id,200,OK,run workflow webhook 1-1,text,true,,2378,192,1,1,2,0,1
-1515326170249,8,get results from webHook no id,200,OK,run workflow webhook 1-1,text,true,,2196,191,1,1,2,0,0
-1515326170258,7,assert expected/actual,200,OK,run workflow webhook 1-1,text,false,both string was not equal,1764,0,1,1,0,0,0
