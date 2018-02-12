@@ -42,6 +42,36 @@
             <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySamplerProperties">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">int length=Integer.parseInt (vars.get (&quot;pod_name_matchNr&quot;));
+int del=Integer.parseInt (vars.get (&quot;podsToDelete&quot;));
+
+
+int num=Math.min (length,del);
+
+
+print (num);
+
+vars.put (&quot;podsToDeleterun&quot;,String.valueOf(num));
+
+
+
+
+
+
+</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
         </hashTree>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="false">
           <stringProp name="WhileController.condition">${__javaScript(${podsDeleted}&lt;=2}}</stringProp>
@@ -118,9 +148,24 @@ vars.put (&quot;pod_name_current&quot;,podToDelete);</stringProp>
         </hashTree>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <stringProp name="LoopController.loops">${podsToDelete}</stringProp>
+          <stringProp name="LoopController.loops">${podsToDeleterun}</stringProp>
         </LoopController>
         <hashTree>
+          <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="false">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">int length=Integer.parseInt (vars.get (&quot;pod_name_matchNr&quot;));
+int del=Integer.parseInt (vars.get (&quot;podsToDelete&quot;));
+
+
+int num=Math.min (length,del);
+
+print (num);
+
+vars.put (&quot;podsToDeleterun&quot;,num);</stringProp>
+          </BeanShellPreProcessor>
+          <hashTree/>
           <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
@@ -132,7 +177,9 @@ String pod_name_current=&quot;pod_name_&quot;+currentcount;
 //print (pod_name_current);
 
 String podToDelete=vars.get (pod_name_current);
-//print (podToDelete);
+print (&quot;*******&quot;);
+print (podToDelete);
+
 
 vars.put (&quot;pod_name_current&quot;,podToDelete);</stringProp>
           </BeanShellPreProcessor>
@@ -155,15 +202,19 @@ vars.put (&quot;pod_name_current&quot;,podToDelete);</stringProp>
             <stringProp name="HTTPSampler.connect_timeout"></stringProp>
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
-          <hashTree>
-            <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-              <boolProp name="displayJMeterProperties">false</boolProp>
-              <boolProp name="displayJMeterVariables">true</boolProp>
-              <boolProp name="displaySamplerProperties">true</boolProp>
-              <boolProp name="displaySystemProperties">false</boolProp>
-            </DebugPostProcessor>
-            <hashTree/>
-          </hashTree>
+          <hashTree/>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="false">
+            <stringProp name="IfController.condition">${__BeanShell(&quot;${pod_name_current}&quot; != &quot;&quot;)}</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+          </IfController>
+          <hashTree/>
+          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySamplerProperties">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugPostProcessor>
+          <hashTree/>
           <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
             <stringProp name="CounterConfig.start">1</stringProp>
             <stringProp name="CounterConfig.end"></stringProp>

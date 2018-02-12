@@ -80,15 +80,33 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
- &quot;query&quot;: {&#xd;
-     &quot;bool&quot;: {&#xd;
-       &quot;filter&quot;: [{&#xd;
-       &quot;term&quot;: {&quot;meta.internal.jobId.keyword&quot; : &quot;big-batch:f60306cc-8c27-4312-9697-8b7d2421fe25&quot;}&#xd;
-     }]&#xd;
-     }&#xd;
-   },&#xd;
-   &quot;_source&quot;: [&quot;message&quot;, &quot;meta.type&quot;]&#xd;
-}&apos;</stringProp>
+    &quot;size&quot;: 100,&#xd;
+    &quot;query&quot;: {&#xd;
+        &quot;bool&quot;: {&#xd;
+            &quot;filter&quot;: [&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.internal.jobId.keyword&quot;: &quot;primecheck:b19f49fe-cd61-43df-a385-6c5212c12092&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.type.keyword&quot;: &quot;pipeline-driver&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;match_phrase&quot;: {&#xd;
+                        &quot;message&quot;: &quot;started&quot;&#xd;
+                    }&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
+    },&#xd;
+    &quot;_source&quot;: [&#xd;
+        &quot;message&quot;,&#xd;
+        &quot;meta.type&quot;&#xd;
+    ]&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>

@@ -52,12 +52,12 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">30</stringProp>
+            <stringProp name="Argument.value">100</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">apakone.json</stringProp>
+            <stringProp name="Argument.value">apak5batch.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="podsToDelete" elementType="Argument">
@@ -271,9 +271,29 @@
    &quot;flowInput&quot;:{&#xd;
        &quot;input&quot;: [&#xd;
        {&#xd;
-              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_input1.csv&quot;,&#xd;
+              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
               &quot;json_input&quot;:&quot;&quot;,&#xd;
               &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+       },&#xd;
+       {&#xd;
+              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
+              &quot;json_input&quot;:&quot;&quot;,&#xd;
+              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out1.csv&quot;&#xd;
+       },       &#xd;
+       {&#xd;
+              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
+              &quot;json_input&quot;:&quot;&quot;,&#xd;
+              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out2.csv&quot;&#xd;
+       },       &#xd;
+       {&#xd;
+              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
+              &quot;json_input&quot;:&quot;&quot;,&#xd;
+              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out3.csv&quot;&#xd;
+       },&#xd;
+       {&#xd;
+              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
+              &quot;json_input&quot;:&quot;&quot;,&#xd;
+              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out4.csv&quot;&#xd;
        }&#xd;
 &#xd;
        ]&#xd;
@@ -305,7 +325,7 @@
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pods" enabled="false">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pods" enabled="true">
           <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_get runing pods by jobid and delete podsToDelete of them.jmx</stringProp>
         </IncludeController>
         <hashTree>

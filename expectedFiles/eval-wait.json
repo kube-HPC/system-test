@@ -8,7 +8,7 @@
         [
             {
                 "nodeName":"evalsleep",
-                "batchID":"evalsleep#1",
+                "batchIndex":1,
                 "algorithmName":"eval-alg",
                 "result":4
             }

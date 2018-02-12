@@ -8,7 +8,7 @@
         [
             {
                 "nodeName":"green",
-                "batchID":"green#1",
+                "batchIndex":1,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -17,7 +17,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#2",
+                "batchIndex":2,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -26,7 +26,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#3",
+                "batchIndex":3,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -35,7 +35,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#4",
+                "batchIndex":4,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -44,7 +44,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#5",
+                "batchIndex":5,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -53,7 +53,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#6",
+                "batchIndex":6,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -62,7 +62,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#7",
+                "batchIndex":7,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -71,7 +71,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#8",
+                "batchIndex":8,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -80,7 +80,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#9",
+                "batchIndex":9,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -89,7 +89,7 @@
             },
             {
                 "nodeName":"green",
-                "batchID":"green#10",
+                "batchIndex":10,
                 "algorithmName":"green-alg",
                 "result":
                 {
@@ -98,7 +98,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#1",
+                "batchIndex":1,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -107,7 +107,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#2",
+                "batchIndex":2,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -116,7 +116,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#3",
+                "batchIndex":3,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -125,7 +125,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#4",
+                "batchIndex":4,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -134,7 +134,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#5",
+                "batchIndex":5,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -143,7 +143,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#6",
+                "batchIndex":6,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -152,7 +152,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#7",
+                "batchIndex":7,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -161,7 +161,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#8",
+                "batchIndex":8,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -170,7 +170,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#9",
+                "batchIndex":9,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -179,7 +179,7 @@
             },
             {
                 "nodeName":"yellow",
-                "batchID":"yellow#10",
+                "batchIndex":10,
                 "algorithmName":"yellow-alg",
                 "result":
                 {
@@ -188,7 +188,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#1",
+                "batchIndex":1,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -197,7 +197,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#2",
+                "batchIndex":2,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -206,7 +206,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#3",
+                "batchIndex":3,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -215,7 +215,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#4",
+                "batchIndex":4,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -224,7 +224,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#5",
+                "batchIndex":5,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -233,7 +233,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#6",
+                "batchIndex":6,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -242,7 +242,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#7",
+                "batchIndex":7,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -251,7 +251,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#8",
+                "batchIndex":8,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -260,7 +260,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#9",
+                "batchIndex":9,
                 "algorithmName":"black-alg",
                 "result":
                 {
@@ -269,7 +269,7 @@
             },
             {
                 "nodeName":"black",
-                "batchID":"black#10",
+                "batchIndex":10,
                 "algorithmName":"black-alg",
                 "result":
                 {
