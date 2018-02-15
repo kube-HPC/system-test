@@ -12,7 +12,7 @@
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ip configs" enabled="true">
-        <stringProp name="filename">../testConfigFiles/ipConfigs.csv</stringProp>
+        <stringProp name="filename">../../testConfigFiles/ipConfigs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -37,7 +37,7 @@
       </HeaderManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="paths configs" enabled="true">
-        <stringProp name="filename">../testConfigFiles/paths.csv</stringProp>
+        <stringProp name="filename">../../testConfigFiles/paths.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -55,31 +55,28 @@
             <stringProp name="Argument.value">50</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="bodyFile" elementType="Argument">
-            <stringProp name="Argument.name">bodyFile</stringProp>
-            <stringProp name="Argument.value">bigBatchbody.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="bodyFile2" elementType="Argument">
-            <stringProp name="Argument.name">bodyFile2</stringProp>
-            <stringProp name="Argument.value">bigBatchbody.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="expectedoutput1" elementType="Argument">
-            <stringProp name="Argument.name">expectedoutput1</stringProp>
-            <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="expectedoutput2" elementType="Argument">
-            <stringProp name="Argument.name">expectedoutput2</stringProp>
-            <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
+          <elementProp name="expected_file_name" elementType="Argument">
+            <stringProp name="Argument.name">expected_file_name</stringProp>
+            <stringProp name="Argument.value">TID120expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflow" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+      <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="elastic Authorization Manager" enabled="true">
+        <collectionProp name="AuthManager.auth_list">
+          <elementProp name="" elementType="Authorization">
+            <stringProp name="Authorization.url"></stringProp>
+            <stringProp name="Authorization.username">kube</stringProp>
+            <stringProp name="Authorization.password">ubadmin</stringProp>
+            <stringProp name="Authorization.domain"></stringProp>
+            <stringProp name="Authorization.realm"></stringProp>
+          </elementProp>
+        </collectionProp>
+      </AuthManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflow" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
@@ -99,36 +96,25 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;evalwait&quot;,&#xd;
-    &quot;nodes&quot;: [&#xd;
-        {&#xd;
-            &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-            &quot;input&quot;: [&#xd;
-                [&#xd;
-                    &quot;(input,require)=&gt; {&quot;,&#xd;
-                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
-                ],&#xd;
-                &quot;#@flowInput.inputs&quot;&#xd;
-            ]&#xd;
-        }&#xd;
-    ],&#xd;
-    &quot;webhooks&quot;: {&#xd;
-        &quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-        &quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-    },&#xd;
-    &quot;options&quot;: {&#xd;
-        &quot;batchTolerance&quot;: 80,&#xd;
-        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-    }&#xd;
+                <stringProp name="Argument.value">[]&#xd;
+{&#xd;
+ &quot;name&quot;: &quot;apak-batch&quot;,&#xd;
+  &quot;nodes&quot;: [&#xd;
+       {&#xd;
+           &quot;nodeName&quot;: &quot;apak&quot;,&#xd;
+           &quot;algorithmName&quot;: &quot;red-alg&quot;,&#xd;
+           &quot;input&quot;:[&#xd;
+               &quot;#@flowInput.input&quot;&#xd;
+           ]&#xd;
+       }&#xd;
+   ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
@@ -158,45 +144,24 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="false">
-          <stringProp name="CounterConfig.start">1</stringProp>
-          <stringProp name="CounterConfig.end"></stringProp>
-          <stringProp name="CounterConfig.incr">1</stringProp>
-          <stringProp name="CounterConfig.name">counter</stringProp>
-          <stringProp name="CounterConfig.format"></stringProp>
-          <boolProp name="CounterConfig.per_user">false</boolProp>
-        </CounterConfig>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="clear web hook" enabled="false">
-          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_clear server webhook.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="update eval" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute Apak" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;evaladd&quot;,&#xd;
-  &quot;nodes&quot;: [&#xd;
-    {&#xd;
-      &quot;nodeName&quot;: &quot;eval1&quot;,&#xd;
-      &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-      &quot;input&quot;: [&#xd;
-      &#xd;
-      ]&#xd;
-    }&#xd;
-  ],&#xd;
-  &quot;flowInput&quot;:{}, &#xd;
-  &quot;webhooks&quot;: {&#xd;
-    &quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-    &quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-  },&#xd;
-  &quot;options&quot;: {&#xd;
-    &quot;batchTolerance&quot;: 60,&#xd;
-    &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-  }&#xd;
+ &quot;name&quot;: &quot;apak-batch&quot;,&#xd;
+   &quot;flowInput&quot;:{&#xd;
+       &quot;input&quot;: [&#xd;
+       {&#xd;
+              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono1.59.csv&quot;,&#xd;
+              &quot;json_input&quot;:&quot;&quot;,&#xd;
+              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+       }&#xd;
+&#xd;
+       ]&#xd;
+   }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -204,37 +169,6 @@
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
           <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
-          <stringProp name="HTTPSampler.method">PUT</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval wait" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;inputs&quot;:[30000]&#xd;
-    }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
@@ -255,136 +189,161 @@
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute simple eval" enabled="false">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;simple-eval&quot;,&#xd;
-  &quot;flowInput&quot;:{&#xd;
-      &quot;num&quot;: {&#xd;
-      	&quot;inp1&quot;:7,&#xd;
-      	&quot;inp2&quot;:5,&#xd;
-      	&quot;inp3&quot;:7,&#xd;
-      	&quot;inp4&quot;:4&#xd;
-      }   &#xd;
-  },&#xd;
-	&quot;webhooks&quot;: {&#xd;
-		&quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-		&quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-	},&#xd;
-  &quot;options&quot;: {&#xd;
-      &quot;batchTolerance&quot;: 60,&#xd;
-      &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-  }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..execution_id</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval raw" enabled="false">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;evalrunner&quot;,&#xd;
-  &quot;nodes&quot;: [&#xd;
-    {&#xd;
-      &quot;nodeName&quot;: &quot;eval&quot;,&#xd;
-      &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-      &quot;input&quot;: [     &#xd;
-         &quot;(input,require)=&gt;{return (input[0]+input[1]);}&quot;,&#xd;
-	3,4&#xd;
-      ]&#xd;
-&#xd;
-    }&#xd;
-  ],&#xd;
-  &quot;flowInput&quot;: {},&#xd;
-  &quot;webhooks&quot;: {&#xd;
-    &quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-    &quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-  },&#xd;
-  &quot;options&quot;: {&#xd;
-    &quot;batchTolerance&quot;: 60,&#xd;
-    &quot;progressVerbosityLevel&quot;: &quot;debug&quot;&#xd;
-  }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/exec/raw</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..execution_id</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-        </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress rest" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="true">
           <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_Get status REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="stop execution" enabled="false">
-          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_stop execution.jmx</stringProp>
-        </IncludeController>
-        <hashTree>
-          <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="true">
-            <stringProp name="scriptLanguage">groovy</stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="cacheKey"></stringProp>
-            <stringProp name="script">sleep (10000);</stringProp>
-          </JSR223Timer>
-          <hashTree/>
-        </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results rest" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
           <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="true">
+          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_assert expected actual.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query started" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;size&quot;: 100,&#xd;
+    &quot;query&quot;: {&#xd;
+        &quot;bool&quot;: {&#xd;
+            &quot;filter&quot;: [&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.internal.jobId.keyword&quot;: &quot;${id}&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.type.keyword&quot;: &quot;pipeline-driver&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;match_phrase&quot;: {&#xd;
+                        &quot;message&quot;: &quot;started&quot;&#xd;
+                    }&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
+    },&#xd;
+    &quot;_source&quot;: [&#xd;
+        &quot;message&quot;,&#xd;
+        &quot;meta.type&quot;,&#xd;
+        &quot;@timestamp&quot;&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">10.32.10.6</stringProp>
+          <stringProp name="HTTPSampler.port">6443</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/v1/namespaces/kube-system/services/elasticsearch:http/proxy/logstash-*/_search?pretty</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">10000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="55126294">timestamp</stringProp>
+              <stringProp name="954925063">message</stringProp>
+              <stringProp name="37015179">${id}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query completed" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;size&quot;: 100,&#xd;
+    &quot;query&quot;: {&#xd;
+        &quot;bool&quot;: {&#xd;
+            &quot;filter&quot;: [&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.internal.jobId.keyword&quot;: &quot;${id}&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.type.keyword&quot;: &quot;pipeline-driver&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;match_phrase&quot;: {&#xd;
+                        &quot;message&quot;: &quot;completed&quot;&#xd;
+                    }&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
+    },&#xd;
+    &quot;_source&quot;: [&#xd;
+        &quot;message&quot;,&#xd;
+        &quot;meta.type&quot;,&#xd;
+        &quot;@timestamp&quot;&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">10.32.10.6</stringProp>
+          <stringProp name="HTTPSampler.port">6443</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/api/v1/namespaces/kube-system/services/elasticsearch:http/proxy/logstash-*/_search?pretty</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">10000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="55126294">timestamp</stringProp>
+              <stringProp name="954925063">message</stringProp>
+              <stringProp name="37015179">${id}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete workflow" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete workflow" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
@@ -410,10 +369,10 @@
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/evalwait</stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/primecheck</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>

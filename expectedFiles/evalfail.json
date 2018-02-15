@@ -1,0 +1,10 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"evalerror",
+    "data":
+    {
+        "error":"Error: eval error, dont know what to do",
+        "status":"failed"
+    }
+}

@@ -33,35 +33,59 @@
           <stringProp name="script">print (&quot;hi&quot;);</stringProp>
         </BeanShellPreProcessor>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute start time" enabled="true">
           <stringProp name="BeanShellSampler.query">String startTime=&quot;${__time(,)}&quot;;
-print (&quot;****************&quot;);
+//print (&quot;****************&quot;);
 vars.put (&quot;startTime&quot;,startTime);
-print (startTime);</stringProp>
+//print (startTime);</stringProp>
           <stringProp name="BeanShellSampler.filename"></stringProp>
           <stringProp name="BeanShellSampler.parameters"></stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
         </BeanShellSampler>
         <hashTree/>
-        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
           <stringProp name="ConstantTimer.delay">2000</stringProp>
         </ConstantTimer>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute end time" enabled="true">
           <stringProp name="BeanShellSampler.query">String endTime= &quot;${__time(,)}&quot;;
 
-print (endTime);
+//print (endTime);
 double start= Double.parseDouble (vars.get(&quot;startTime&quot;).trim());
 double end=  Double.parseDouble (endTime.trim());
 double result=end-start;
-print (result);
 
-print (&quot;****************&quot;);</stringProp>
+//print (result);
+
+//print (&quot;****************&quot;);</stringProp>
           <stringProp name="BeanShellSampler.filename"></stringProp>
           <stringProp name="BeanShellSampler.parameters"></stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
         </BeanShellSampler>
-        <hashTree/>
+        <hashTree>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">double total_time= Double.parseDouble (vars.get(&quot;result&quot;).trim());
+
+double expectedTime= Double.parseDouble (vars.get(&quot;expectedTime&quot;).trim());
+
+boolean pass=total_time &lt; expectedTime;
+
+if (pass)
+{
+	Failure=false;
+}
+else
+{
+	Failure=true;
+	FailureMessage=&quot;the time was not compatible&quot;;
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+        </hashTree>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>

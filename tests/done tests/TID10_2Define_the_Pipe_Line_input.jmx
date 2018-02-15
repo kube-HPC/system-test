@@ -50,24 +50,9 @@
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="vars" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="bodyFile" elementType="Argument">
-            <stringProp name="Argument.name">bodyFile</stringProp>
-            <stringProp name="Argument.value">bigBatchbody.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="bodyFile2" elementType="Argument">
-            <stringProp name="Argument.name">bodyFile2</stringProp>
-            <stringProp name="Argument.value">bigBatchbody.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">TID-10_expected.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="expectedoutput2" elementType="Argument">
-            <stringProp name="Argument.name">expectedoutput2</stringProp>
-            <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
+            <stringProp name="Argument.value">TID-10_2expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">
@@ -93,14 +78,14 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow mult add" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;name&quot;: &quot;bigevaltest&quot;,&#xd;
+	&quot;name&quot;: &quot;multadd&quot;,&#xd;
 	&quot;nodes&quot;: [&#xd;
 		{&#xd;
 			&quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
@@ -108,10 +93,11 @@
 			&quot;input&quot;: [&#xd;
 				[&#xd;
 					&quot;(input,require)=&gt; {&quot;,&#xd;
-					&quot;const result= input[0][0]+input[0][1]&quot;,&#xd;
+					&quot;const result = input[0][0]+input[1]&quot;,&#xd;
 					&quot;return result;}&quot;&#xd;
 				],&#xd;
-				&quot;@flowInput.addInput&quot;&#xd;
+				&quot;@flowInput.addInput&quot;,&#xd;
+				&quot;@evalmul&quot;&#xd;
 			]&#xd;
 		},&#xd;
 		{&#xd;
@@ -120,14 +106,15 @@
 			&quot;input&quot;: [&#xd;
 				[&#xd;
 					&quot;(input,require)=&gt; {&quot;,&#xd;
-					&quot;const result = input[0][0]*input[1]&quot;,&#xd;
+					&quot;const result = input[0][0]*input[0][1]&quot;,&#xd;
 					&quot;return result;}&quot;&#xd;
 				],&#xd;
-				&quot;@flowInput.multInput&quot;,&#xd;
-				&quot;@evaladd&quot;&#xd;
+				&quot;@flowInput.multInput&quot;&#xd;
+				&#xd;
 			]&#xd;
 		}&#xd;
 	],&#xd;
+	&#xd;
 	&quot;webhooks&quot;: {&#xd;
 		&quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
 		&quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
@@ -157,7 +144,7 @@
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored mult add" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -172,76 +159,17 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="false">
-          <stringProp name="CounterConfig.start">1</stringProp>
-          <stringProp name="CounterConfig.end"></stringProp>
-          <stringProp name="CounterConfig.incr">1</stringProp>
-          <stringProp name="CounterConfig.name">counter</stringProp>
-          <stringProp name="CounterConfig.format"></stringProp>
-          <boolProp name="CounterConfig.per_user">false</boolProp>
-        </CounterConfig>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="clear web hook" enabled="false">
-          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_clear server webhook.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="update eval" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval multadd" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;evaladd&quot;,&#xd;
-  &quot;nodes&quot;: [&#xd;
-    {&#xd;
-      &quot;nodeName&quot;: &quot;eval1&quot;,&#xd;
-      &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-      &quot;input&quot;: [&#xd;
-      &#xd;
-      ]&#xd;
-    }&#xd;
-  ],&#xd;
-  &quot;flowInput&quot;:{}, &#xd;
-  &quot;webhooks&quot;: {&#xd;
-    &quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-    &quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-  },&#xd;
-  &quot;options&quot;: {&#xd;
-    &quot;batchTolerance&quot;: 60,&#xd;
-    &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-  }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
-          <stringProp name="HTTPSampler.method">PUT</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;bigevaltest&quot;,&#xd;
+  &quot;name&quot;: &quot;multadd&quot;,&#xd;
   &quot;flowInput&quot;:{&#xd;
-      &quot;addInput&quot;:[3,5],&#xd;
-      &quot;multInput&quot;:[3]&#xd;
+      &quot;addInput&quot;:[3],&#xd;
+      &quot;multInput&quot;:[5,3]&#xd;
   },&#xd;
   &quot;options&quot;: {&#xd;
       &quot;batchTolerance&quot;: 60,&#xd;
@@ -361,7 +289,7 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow multadd" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -376,7 +304,7 @@
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/bigevaltest</stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/multadd</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -388,6 +316,13 @@
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
+      <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+        <boolProp name="displayJMeterProperties">false</boolProp>
+        <boolProp name="displayJMeterVariables">true</boolProp>
+        <boolProp name="displaySamplerProperties">true</boolProp>
+        <boolProp name="displaySystemProperties">false</boolProp>
+      </DebugPostProcessor>
+      <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>

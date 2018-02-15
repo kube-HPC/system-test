@@ -1,0 +1,17 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"addmult",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"evalmul",
+                "algorithmName":"eval-alg",
+                "result":24
+            }
+        ],
+        "status":"completed"
+    }
+}

@@ -1,0 +1,5008 @@
+{
+ "name": "apak-batch",
+   "flowInput":{
+       "input": [
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+},
+{
+    "input_file_path": "/ApakMCR/example_input_output/example_mono1.59.csv",
+    "json_input": "",
+    "output_file_path": "/ApakMCR/example_input_output/outBatch.csv"
+}
+
+       ]
+   }
+}

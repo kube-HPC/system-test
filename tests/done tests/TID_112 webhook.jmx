@@ -12,7 +12,7 @@
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ip configs" enabled="true">
-        <stringProp name="filename">../testConfigFiles/ipConfigs.csv</stringProp>
+        <stringProp name="filename">../../testConfigFiles/ipConfigs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -37,7 +37,7 @@
       </HeaderManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="paths configs" enabled="true">
-        <stringProp name="filename">../testConfigFiles/paths.csv</stringProp>
+        <stringProp name="filename">../../testConfigFiles/paths.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -65,6 +65,11 @@
             <stringProp name="Argument.value">bigBatchbody.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="maxTries" elementType="Argument">
+            <stringProp name="Argument.name">maxTries</stringProp>
+            <stringProp name="Argument.value">50</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -87,7 +92,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">10.42.128.80</stringProp>
+          <stringProp name="HTTPSampler.domain">${webhook}</stringProp>
           <stringProp name="HTTPSampler.port">3002</stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -109,11 +114,23 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;name&quot;:&quot;evalrunner&quot;,&#xd;
-	  &quot;webhooks&quot;: {&#xd;
-      &quot;progress&quot;: &quot;http://10.42.128.80:3003/webhook/progress&quot;,&#xd;
-      &quot;result&quot;: &quot;http://10.42.128.80:3003/webhook/result&quot;&#xd;
-    }&#xd;
+    &quot;name&quot;: &quot;apak-batch&quot;,&#xd;
+    &quot;flowInput&quot;: {&#xd;
+        &quot;input&quot;: [&#xd;
+            {&#xd;
+                &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono1.59.csv&quot;,&#xd;
+                &quot;json_input&quot;: &quot;&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+            }&#xd;
+        ]&#xd;
+    },&#xd;
+    &quot;webhooks&quot;: {&#xd;
+        &quot;progress&quot;: &quot;http://10.32.10.6:3002/webhook/progress&quot;,&#xd;
+        &quot;result&quot;: &quot;http://10.32.10.6:3002/webhook/result&quot;&#xd;
+    },&#xd;
+     &quot;options&quot;: {&#xd;
+    &quot;progressVerbosityLevel&quot;: &quot;debug&quot;&#xd;
+  }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -149,16 +166,16 @@
           <hashTree/>
         </hashTree>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
-          <stringProp name="WhileController.condition">${__javaScript(&quot;${status}&quot; != &quot;completed&quot;,)} </stringProp>
+          <stringProp name="WhileController.condition">${__javaScript((&quot;${status}&quot; != &quot;completed&quot;) &amp;&amp; (${counter}&lt;${maxTries}),)} </stringProp>
         </WhileController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get progress from webHook" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get progress from webHook no id ${id}" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">10.42.128.80</stringProp>
-            <stringProp name="HTTPSampler.port">3002</stringProp>
-            <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+            <stringProp name="HTTPSampler.domain">${webhook}</stringProp>
+            <stringProp name="HTTPSampler.port">${webhookport}</stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
             <stringProp name="HTTPSampler.path">getProgress</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -171,7 +188,7 @@
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="true">
+            <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="false">
               <stringProp name="cacheKey"></stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
@@ -179,8 +196,17 @@
               <stringProp name="scriptLanguage">groovy</stringProp>
             </JSR223Timer>
             <hashTree/>
-            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="status extractor" enabled="true">
-              <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
+            <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
+              <stringProp name="CounterConfig.start">1</stringProp>
+              <stringProp name="CounterConfig.end"></stringProp>
+              <stringProp name="CounterConfig.incr">1</stringProp>
+              <stringProp name="CounterConfig.name">counter</stringProp>
+              <stringProp name="CounterConfig.format"></stringProp>
+              <boolProp name="CounterConfig.per_user">true</boolProp>
+            </CounterConfig>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="false">
+              <stringProp name="JSONPostProcessor.referenceNames">status1</stringProp>
               <stringProp name="JSONPostProcessor.jsonPathExprs">$.[-1:].data.status</stringProp>
               <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
             </JSONPostProcessor>
@@ -192,15 +218,184 @@
               <boolProp name="displaySystemProperties">false</boolProp>
             </DebugPostProcessor>
             <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extract last response" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">data</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.[-1:]</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">//String response = prev.getResponseDataAsString();
+
+String response=vars.get (&quot;data&quot;);
+char [] responseCharArray = response.toCharArray();
+Arrays.sort(responseCharArray);
+response = Arrays.toString(responseCharArray);
+
+//prev.setResponseData(response.getBytes());
+
+
+vars.put (&quot;hookResponse&quot;,response);</stringProp>
+            </BeanShellPostProcessor>
+            <hashTree/>
+            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">String responsehook=ctx.getPreviousResult().getResponseDataAsString();
+
+//String responsehook=vars.get (&quot;data&quot;);
+//print (responsehook);
+vars.put (&quot;hookResponse&quot;,responsehook);
+</stringProp>
+            </BeanShellPostProcessor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="false">
+              <stringProp name="BeanShellAssertion.query">String maxs=vars.get (&quot;maxTries&quot;);
+String counters=vars.get (&quot;counter&quot;);
+
+int max= Integer.parseInt (maxs);
+int counter=Integer.parseInt (counters);
+
+if (counter&lt;max)
+{
+	Failure=false;
+}
+else
+{
+	Failure=true;
+	FailureMessage=&quot;max tries has exceeded&quot;;
+}
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="max tries assetion" enabled="true">
+              <stringProp name="BeanShellAssertion.query">String maxs=vars.get (&quot;maxTries&quot;);
+String counters=vars.get (&quot;counter&quot;);
+
+int max= Integer.parseInt (maxs);
+int counter=Integer.parseInt (counters);
+
+if (counter&lt;max)
+{
+	Failure=false;
+}
+else
+{
+	Failure=true;
+	FailureMessage=&quot;max tries has exceeded&quot;;
+}
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+            <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="true">
+              <stringProp name="cacheKey"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="script">sleep (6000);</stringProp>
+              <stringProp name="scriptLanguage">groovy</stringProp>
+            </JSR223Timer>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get progress REST ${id}" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">${urlHeader}/exec/status/${id}</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$..data.status</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+              <boolProp name="displayJMeterProperties">true</boolProp>
+              <boolProp name="displayJMeterVariables">true</boolProp>
+              <boolProp name="displaySamplerProperties">true</boolProp>
+              <boolProp name="displaySystemProperties">false</boolProp>
+            </DebugPostProcessor>
+            <hashTree/>
+            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">String responseRest=ctx.getPreviousResult().getResponseDataAsString();
+print (&quot;***************&quot;);
+print (responseRest);
+vars.put (&quot;restResponse&quot;,responseRest);
+</stringProp>
+            </BeanShellPostProcessor>
+            <hashTree/>
+            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="script">String response = prev.getResponseDataAsString();
+
+//String response=vars.get (&quot;data&quot;);
+char [] responseCharArray = response.toCharArray();
+Arrays.sort(responseCharArray);
+response = Arrays.toString(responseCharArray);
+
+//prev.setResponseData(response.getBytes());
+
+
+vars.put (&quot;restResponse&quot;,response);</stringProp>
+            </BeanShellPostProcessor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+              <stringProp name="BeanShellAssertion.query">String rest=vars.get (&quot;restResponse&quot;);
+String hook=vars.get (&quot;hookResponse&quot;);
+
+boolean equal=rest.equals(hook);
+
+if (equal)
+{
+	Failure=false;
+}
+else
+{
+	Failure=true;
+	FailureMessage=&quot;both string was not equal&quot;;
+}
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
           </hashTree>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get results from webHook" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get results from webHook with id ${id}" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">10.42.128.80</stringProp>
-          <stringProp name="HTTPSampler.port">3002</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.domain">${webhook}</stringProp>
+          <stringProp name="HTTPSampler.port">${webhookport}</stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">getResults</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -219,23 +414,84 @@
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="true">
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="extract last response" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">data</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$[0]</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="false">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="script">String response1=ctx.getPreviousResult().getResponseDataAsString();
 
-//print(response1);
 
+char[] chars = response1.toCharArray();
+chars[0] = &apos;&apos;;
+chars[chars.length()-1]=&apos;&apos;;
+response1 = String.valueOf(myNameChars);
+print (&quot;********&quot;):
+print(response1);
+print (&quot;********&quot;):
+//response1=response1.replace (&quot; &quot;,&quot;&quot;);
+//response1
 vars.put (&quot;resultFromHook&quot;,response1);
 
 </stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="output extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">output</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..output</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySamplerProperties">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">String responsehook=ctx.getPreviousResult().getResponseDataAsString();
+
+//String responsehook=vars.get (&quot;data&quot;);
+//print (responsehook);
+vars.put (&quot;responsehook&quot;,responsehook);
+</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get results REST ${id}" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/exec/results/${id}</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="false">
+            <stringProp name="cacheKey"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">sleep (5000);</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Timer>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..data.status</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
           <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
@@ -245,72 +501,31 @@ vars.put (&quot;resultFromHook&quot;,response1);
             <boolProp name="displaySystemProperties">false</boolProp>
           </DebugPostProcessor>
           <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="assert expected/actual" enabled="false">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain"></stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
-          <stringProp name="HTTPSampler.protocol">file</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${basePath}/${expected_file_name}</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">true</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String response=ctx.getPreviousResult().getResponseDataAsString();
-String id=vars.get(&quot;id&quot;);
-String time=vars.get (&quot;timeStamp&quot;);
-
-
-String rep1=response.replace(&quot;{id}&quot;, id);
-String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
-String rep3=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
-rep3=rep3.replaceAll(&quot;\t&quot;,&quot;&quot;);
-rep3=rep3.replaceAll(&quot; &quot;,&quot;&quot;);
-vars.put (&quot;responseFinal&quot;,rep3);
-
-//print (rep3);</stringProp>
+            <stringProp name="script">String responseRest=ctx.getPreviousResult().getResponseDataAsString();
+//print (&quot;***************&quot;);
+//print (responseRest);
+vars.put (&quot;responseRest&quot;,responseRest);
+</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
-          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-            <boolProp name="displayJMeterProperties">false</boolProp>
-            <boolProp name="displayJMeterVariables">true</boolProp>
-            <boolProp name="displaySamplerProperties">false</boolProp>
-            <boolProp name="displaySystemProperties">false</boolProp>
-          </DebugPostProcessor>
-          <hashTree/>
           <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-            <stringProp name="BeanShellAssertion.query">String expected=vars.get (&quot;responseFinal&quot;);
-String actual=vars.get (&quot;resultFromHook&quot;);
+            <stringProp name="BeanShellAssertion.query">String rest=vars.get (&quot;responseRest&quot;);
+String hook=vars.get (&quot;responsehook&quot;);
 
+boolean equal=rest.equals(hook);
 
-//print (expected);
-//print (&quot;*********&quot;);
-//print (actual);
-//print (&quot;***********&quot;);
-if (actual.equals(expected))
+if (equal)
 {
 	Failure=false;
-//	print(&quot;pass&quot;);
 }
-else 
+else
 {
 	Failure=true;
 	FailureMessage=&quot;both string was not equal&quot;;
-//	print (&quot;fail&quot;);
 }
 </stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
@@ -319,25 +534,6 @@ else
           </BeanShellAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="clear results from web server" enabled="false">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">10.42.128.80</stringProp>
-          <stringProp name="HTTPSampler.port">3002</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">clear</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>

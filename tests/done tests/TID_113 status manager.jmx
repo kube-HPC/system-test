@@ -12,7 +12,7 @@
     </TestPlan>
     <hashTree>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ip configs" enabled="true">
-        <stringProp name="filename">../testConfigFiles/ipConfigs.csv</stringProp>
+        <stringProp name="filename">../../testConfigFiles/ipConfigs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -37,7 +37,7 @@
       </HeaderManager>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="paths configs" enabled="true">
-        <stringProp name="filename">../testConfigFiles/paths.csv</stringProp>
+        <stringProp name="filename">../../testConfigFiles/paths.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
@@ -55,31 +55,21 @@
             <stringProp name="Argument.value">50</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="bodyFile" elementType="Argument">
-            <stringProp name="Argument.name">bodyFile</stringProp>
-            <stringProp name="Argument.value">bigBatchbody.json</stringProp>
+          <elementProp name="expected_file_name" elementType="Argument">
+            <stringProp name="Argument.name">expected_file_name</stringProp>
+            <stringProp name="Argument.value">prime batch 100.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="bodyFile2" elementType="Argument">
-            <stringProp name="Argument.name">bodyFile2</stringProp>
-            <stringProp name="Argument.value">bigBatchbody.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="expectedoutput1" elementType="Argument">
-            <stringProp name="Argument.name">expectedoutput1</stringProp>
-            <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="expectedoutput2" elementType="Argument">
-            <stringProp name="Argument.name">expectedoutput2</stringProp>
-            <stringProp name="Argument.value">bitBatchOutput.json</stringProp>
+          <elementProp name="podsToDelete" elementType="Argument">
+            <stringProp name="Argument.name">podsToDelete</stringProp>
+            <stringProp name="Argument.value">3</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflow" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
@@ -100,35 +90,47 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;evalwait&quot;,&#xd;
-    &quot;nodes&quot;: [&#xd;
-        {&#xd;
-            &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-            &quot;input&quot;: [&#xd;
-                [&#xd;
-                    &quot;(input,require)=&gt; {&quot;,&#xd;
-                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
-                ],&#xd;
-                &quot;#@flowInput.inputs&quot;&#xd;
-            ]&#xd;
-        }&#xd;
-    ],&#xd;
-    &quot;webhooks&quot;: {&#xd;
-        &quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-        &quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-    },&#xd;
-    &quot;options&quot;: {&#xd;
-        &quot;batchTolerance&quot;: 80,&#xd;
-        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-    }&#xd;
-}</stringProp>
+	&quot;name&quot;: &quot;primecheck&quot;,&#xd;
+	&quot;nodes&quot;: [&#xd;
+		{&#xd;
+			&quot;nodeName&quot;: &quot;prime&quot;,&#xd;
+			&quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+			&quot;input&quot;: [&#xd;
+				[&#xd;
+					&quot;(input,require) =&gt; {&quot;,&#xd;
+					&quot;var num=input[0]&quot;,&#xd;
+					&quot;if (num == 1) {&quot;,&#xd;
+        					&quot;return num + &apos; not prime&apos;;}&quot;,&#xd;
+   					&quot;else if (num == 2) {&quot;,&#xd;
+						&quot;return num + &apos; prime&apos;;}&quot;,&#xd;
+					&quot;else {&quot;,&#xd;
+						&quot;for (var x = 2; x &lt; num; x++) {&quot;,&#xd;
+					   		&quot;if (num % x == 0) {&quot;,&#xd;
+					            &quot;return num + &apos; not prime&apos;;}}&quot;,&#xd;
+					        &quot;return num + &apos; prime&apos;;}}&quot;&#xd;
+				],&#xd;
+				&quot;#@flowInput.nums&quot;&#xd;
+			]&#xd;
+		}&#xd;
+	],&#xd;
+	&quot;flowInput&quot;:{&#xd;
+		&quot;nums&quot;:[]&#xd;
+	},&#xd;
+	&quot;webhooks&quot;: {&#xd;
+		&quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
+		&quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
+	},&#xd;
+	&quot;options&quot;: {&#xd;
+		&quot;batchTolerance&quot;: 80,&#xd;
+		&quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
+	}&#xd;
+ }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
@@ -158,15 +160,6 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="false">
-          <stringProp name="CounterConfig.start">1</stringProp>
-          <stringProp name="CounterConfig.end"></stringProp>
-          <stringProp name="CounterConfig.incr">1</stringProp>
-          <stringProp name="CounterConfig.name">counter</stringProp>
-          <stringProp name="CounterConfig.format"></stringProp>
-          <boolProp name="CounterConfig.per_user">false</boolProp>
-        </CounterConfig>
-        <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="clear web hook" enabled="false">
           <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_clear server webhook.jmx</stringProp>
         </IncludeController>
@@ -217,16 +210,22 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval wait" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;inputs&quot;:[30000]&#xd;
+    &quot;name&quot;: &quot;primecheck&quot;,&#xd;
+    &quot;flowInput&quot;: {&#xd;
+        &quot;nums&quot;: [&#xd;
+            3&#xd;
+        ]&#xd;
+    },&#xd;
+    &quot;options&quot;: {&#xd;
+        &quot;batchTolerance&quot;: 60,&#xd;
+        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
     }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -234,7 +233,7 @@
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
@@ -255,30 +254,122 @@
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute simple eval" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;simple-eval&quot;,&#xd;
-  &quot;flowInput&quot;:{&#xd;
-      &quot;num&quot;: {&#xd;
-      	&quot;inp1&quot;:7,&#xd;
-      	&quot;inp2&quot;:5,&#xd;
-      	&quot;inp3&quot;:7,&#xd;
-      	&quot;inp4&quot;:4&#xd;
-      }   &#xd;
-  },&#xd;
-	&quot;webhooks&quot;: {&#xd;
-		&quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-		&quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-	},&#xd;
-  &quot;options&quot;: {&#xd;
-      &quot;batchTolerance&quot;: 60,&#xd;
-      &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-  }&#xd;
+    &quot;name&quot;: &quot;primecheck&quot;,&#xd;
+    &quot;flowInput&quot;: {&#xd;
+        &quot;nums&quot;: [&#xd;
+            1232243,&#xd;
+            1232269,&#xd;
+            1232291,&#xd;
+            1232299,&#xd;
+            1232327,&#xd;
+            1232339,&#xd;
+            1232351,&#xd;
+            1232353,&#xd;
+            1232377,&#xd;
+            1232389,&#xd;
+            1232393,&#xd;
+            1232401,&#xd;
+            1232411,&#xd;
+            1232417,&#xd;
+            1232431,&#xd;
+            1232437,&#xd;
+            1232453,&#xd;
+            1232461,&#xd;
+            1232477,&#xd;
+            1232527,&#xd;
+            1232531,&#xd;
+            1232537,&#xd;
+            1232563,&#xd;
+            1232573,&#xd;
+            1232603,&#xd;
+            1232611,&#xd;
+            1232617,&#xd;
+            1232657,&#xd;
+            1232659,&#xd;
+            1232683,&#xd;
+            1232689,&#xd;
+            1232713,&#xd;
+            1232719,&#xd;
+            1232771,&#xd;
+            1232797,&#xd;
+            1232801,&#xd;
+            1232809,&#xd;
+            1232831,&#xd;
+            1232843,&#xd;
+            1232849,&#xd;
+            1232851,&#xd;
+            1232879,&#xd;
+            1232893,&#xd;
+            1232909,&#xd;
+            1232941,&#xd;
+            1232947,&#xd;
+            1232977,&#xd;
+            1232981,&#xd;
+            1232983,&#xd;
+            1232999,&#xd;
+            1233019,&#xd;
+            1233047,&#xd;
+            1233073,&#xd;
+            1233079,&#xd;
+            1233097,&#xd;
+            1233101,&#xd;
+            1233107,&#xd;
+            1233121,&#xd;
+            1233143,&#xd;
+            1233179,&#xd;
+            1233181,&#xd;
+            1233187,&#xd;
+            1233209,&#xd;
+            1233241,&#xd;
+            1233251,&#xd;
+            1233259,&#xd;
+            1233263,&#xd;
+            1233301,&#xd;
+            1233313,&#xd;
+            1233319,&#xd;
+            1233361,&#xd;
+            1233371,&#xd;
+            1233373,&#xd;
+            1233377,&#xd;
+            1233409,&#xd;
+            1233431,&#xd;
+            1233433,&#xd;
+            1233437,&#xd;
+            1233439,&#xd;
+            1233473,&#xd;
+            1233493,&#xd;
+            1233497,&#xd;
+            1233509,&#xd;
+            1233523,&#xd;
+            1233527,&#xd;
+            1233539,&#xd;
+            1233563,&#xd;
+            1233569,&#xd;
+            1233577,&#xd;
+            1233587,&#xd;
+            1233593,&#xd;
+            1233599,&#xd;
+            1233607,&#xd;
+            1233611,&#xd;
+            1233619,&#xd;
+            1233641,&#xd;
+            1233647,&#xd;
+            1233653,&#xd;
+            1233709,&#xd;
+            1233721&#xd;
+        ]&#xd;
+    },&#xd;
+    &quot;options&quot;: {&#xd;
+        &quot;batchTolerance&quot;: 60,&#xd;
+        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
+    }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -286,7 +377,7 @@
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
           <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
@@ -301,7 +392,7 @@
         <hashTree>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..execution_id</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..jobId</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
@@ -361,30 +452,181 @@
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress rest" enabled="true">
-          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_Get status REST.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="stop execution" enabled="false">
-          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_stop execution.jmx</stringProp>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pods" enabled="false">
+          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_get runing pods by jobid and delete podsToDelete of them.jmx</stringProp>
         </IncludeController>
         <hashTree>
-          <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="true">
-            <stringProp name="scriptLanguage">groovy</stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="cacheKey"></stringProp>
-            <stringProp name="script">sleep (10000);</stringProp>
-          </JSR223Timer>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">3000</stringProp>
+          </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results rest" enabled="true">
+        <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
+          <stringProp name="WhileController.condition">${__javaScript((&quot;${status}&quot; != &quot;completed&quot;) &amp;&amp; (${counter}&lt;${maxTries}),)} </stringProp>
+        </WhileController>
+        <hashTree>
+          <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
+            <stringProp name="IfController.condition">${__javaScript(${counter}==${maxTries})}</stringProp>
+            <boolProp name="IfController.evaluateAll">false</boolProp>
+          </IfController>
+          <hashTree>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="stop pipeline" enabled="true">
+              <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+              <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+                <collectionProp name="Arguments.arguments">
+                  <elementProp name="" elementType="HTTPArgument">
+                    <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                    <stringProp name="Argument.value">{&#xd;
+  &quot;jobId&quot;: &quot;${id}&quot;,&#xd;
+  &quot;reason&quot;: &quot;stop request-max tries reached&quot;&#xd;
+}</stringProp>
+                    <stringProp name="Argument.metadata">=</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </elementProp>
+              <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+              <stringProp name="HTTPSampler.port">${port}</stringProp>
+              <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+              <stringProp name="HTTPSampler.path">${urlHeader}/exec/stop</stringProp>
+              <stringProp name="HTTPSampler.method">POST</stringProp>
+              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+              <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+                <boolProp name="displayJMeterProperties">true</boolProp>
+                <boolProp name="displayJMeterVariables">true</boolProp>
+                <boolProp name="displaySamplerProperties">true</boolProp>
+                <boolProp name="displaySystemProperties">false</boolProp>
+              </DebugPostProcessor>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get progress REST ${id}" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+            <stringProp name="HTTPSampler.port">${port}</stringProp>
+            <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">${urlHeader}/exec/status/${id}</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
+              <stringProp name="CounterConfig.start">1</stringProp>
+              <stringProp name="CounterConfig.end"></stringProp>
+              <stringProp name="CounterConfig.incr">1</stringProp>
+              <stringProp name="CounterConfig.name">counter</stringProp>
+              <stringProp name="CounterConfig.format"></stringProp>
+              <boolProp name="CounterConfig.per_user">true</boolProp>
+              <boolProp name="CounterConfig.reset_on_tg_iteration">true</boolProp>
+            </CounterConfig>
+            <hashTree/>
+            <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="true">
+              <stringProp name="cacheKey"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="script">sleep (5000);</stringProp>
+              <stringProp name="scriptLanguage">groovy</stringProp>
+            </JSR223Timer>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$..data.status</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+            <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+              <boolProp name="displayJMeterProperties">false</boolProp>
+              <boolProp name="displayJMeterVariables">true</boolProp>
+              <boolProp name="displaySamplerProperties">true</boolProp>
+              <boolProp name="displaySystemProperties">false</boolProp>
+            </DebugPostProcessor>
+            <hashTree/>
+            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="max tries assetion" enabled="true">
+              <stringProp name="BeanShellAssertion.query">String maxs=vars.get (&quot;maxTries&quot;);
+String counters=vars.get (&quot;counter&quot;);
+
+int max= Integer.parseInt (maxs);
+int counter=Integer.parseInt (counters);
+
+if (counter&lt;max)
+{
+	Failure=false;
+}
+else
+{
+	Failure=true;
+	FailureMessage=&quot;max tries has exceeded&quot;;
+}
+</stringProp>
+              <stringProp name="BeanShellAssertion.filename"></stringProp>
+              <stringProp name="BeanShellAssertion.parameters"></stringProp>
+              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+            </BeanShellAssertion>
+            <hashTree/>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="-892481550">status</stringProp>
+                <stringProp name="1557721666">details</stringProp>
+                <stringProp name="-372069726">pipeline</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="false">
+          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_Get status REST.jmx</stringProp>
+        </IncludeController>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-892481550">status</stringProp>
+              <stringProp name="1557721666">details</stringProp>
+              <stringProp name="-372069726">pipeline</stringProp>
+              <stringProp name="96994925">eytan</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+            <stringProp name="Assertion.scope">children</stringProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
           <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_Get results REST.jmx</stringProp>
+        </IncludeController>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">2000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="true">
+          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete workflow" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
@@ -410,10 +652,10 @@
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/evalwait</stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/primecheck</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>

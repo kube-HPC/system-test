@@ -1,0 +1,17 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"multadd",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"evaladd",
+                "algorithmName":"eval-alg",
+                "result":18
+            }
+        ],
+        "status":"completed"
+    }
+}
