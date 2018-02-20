@@ -1,2 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1518363985850,28,clear results from web server,Non HTTP response code: java.net.ConnectException,Non HTTP response message: Connection refused (Connection refused),run workflow webhook 1-1,text,false,,2058,0,1,1,0,0,28

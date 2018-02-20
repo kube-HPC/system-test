@@ -1,6 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1518363998800,680,run pipeline REST,200,OK,run workflow webhook 1-1,text,true,,2194,477,1,1,642,0,481
-1518364004671,399,get progress REST big-batch:68c7b235-502b-4b3b-82c7-c1df657d2acb,200,OK,run workflow webhook 1-1,text,true,,2375,257,1,1,398,0,322
-1518364005150,96,Get results REST big-batch:68c7b235-502b-4b3b-82c7-c1df657d2acb,200,OK,run workflow webhook 1-1,text,true,,7779,258,1,1,86,0,0
-1518364005250,8,assert expected/actual,200,OK,run workflow webhook 1-1,text,true,,16375,0,1,1,0,0,0
-1518364010265,222,stop execution big-batch:68c7b235-502b-4b3b-82c7-c1df657d2acb,400,Bad Request,run workflow webhook 1-1,text,true,,604,319,1,1,222,0,145

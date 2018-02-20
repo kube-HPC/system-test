@@ -1,2 +1,2 @@
-ip,port,urlHeader,methood,getpodsip,webhook,webhookport,azure,minikube
-10.32.10.11,,hkube/api-server/api/v1,https,hkube/monitor-server/pods,10.32.10.6,3002,10.32.10.6,192.168.99.100
+ip,port,urlHeader,methood,getpodsip,webhook,webhookport,elasticIP,elasticPort,elasticPath,,,,,,,,,,azure,minikube
+10.32.10.11,,hkube/api-server/api/v1,https,hkube/monitor-server/pods,10.32.10.6,3002,10.32.10.6,6443,/api/v1/namespaces/kube-system/services/elasticsearch:http/proxy/logstash-*/_search?pretty,,,,,,,,,,10.32.10.6,192.168.99.100
