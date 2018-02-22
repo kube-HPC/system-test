@@ -146,31 +146,36 @@
  &quot;name&quot;: &quot;apak-batch&quot;,&#xd;
    &quot;flowInput&quot;:{&#xd;
        &quot;input&quot;: [&#xd;
-       {&#xd;
-              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-              &quot;json_input&quot;:&quot;&quot;,&#xd;
-              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
-       },&#xd;
-       {&#xd;
-              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-              &quot;json_input&quot;:&quot;&quot;,&#xd;
-              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out1.csv&quot;&#xd;
-       },       &#xd;
-       {&#xd;
-              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-              &quot;json_input&quot;:&quot;&quot;,&#xd;
-              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out2.csv&quot;&#xd;
-       },       &#xd;
-       {&#xd;
-              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-              &quot;json_input&quot;:&quot;&quot;,&#xd;
-              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out3.csv&quot;&#xd;
-       },&#xd;
-       {&#xd;
-              &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-              &quot;json_input&quot;:&quot;&quot;,&#xd;
-              &quot;output_file_path&quot;:&quot;/ApakMCR/example_input_output/out4.csv&quot;&#xd;
-       }&#xd;
+            {&#xd;
+                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+            },&#xd;
+            {&#xd;
+                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+            },&#xd;
+            {&#xd;
+                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+            },&#xd;
+            {&#xd;
+                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+            },&#xd;
+            {&#xd;
+                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+            }&#xd;
 &#xd;
        ]&#xd;
    }&#xd;
@@ -362,11 +367,12 @@
             <bytes>true</bytes>
             <sentBytes>true</sentBytes>
             <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
             <idleTime>true</idleTime>
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">${__property(resultPath,,defaultfile.csv)}</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>

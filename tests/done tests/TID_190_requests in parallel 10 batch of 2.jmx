@@ -57,7 +57,7 @@
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">apakone.json</stringProp>
+            <stringProp name="Argument.value">TID_190_Expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -143,14 +143,16 @@
     &quot;flowInput&quot;: {&#xd;
         &quot;input&quot;: [&#xd;
             {&#xd;
-                &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-                &quot;json_input&quot;: &quot;&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/outBatch.csv&quot;&#xd;
+                &quot;SessionGuid&quot;: &quot;test1&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
             },&#xd;
             {&#xd;
-                &quot;input_file_path&quot;: &quot;/ApakMCR/example_input_output/example_mono7.57.csv&quot;,&#xd;
-                &quot;json_input&quot;: &quot;&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/outBatch.csv&quot;&#xd;
+                &quot;SessionGuid&quot;: &quot;test1&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/7.57mono.wav&quot;,&#xd;
+                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
             }&#xd;
         ]&#xd;
     }&#xd;
@@ -194,7 +196,7 @@
         </IncludeController>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored batch 1000 thread 4" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored batch 1000 thread 4" enabled="false">
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -5391,11 +5393,12 @@
             <bytes>true</bytes>
             <sentBytes>true</sentBytes>
             <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
             <idleTime>true</idleTime>
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">${__property(resultPath,,defaultfile.csv)}</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>

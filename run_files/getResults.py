@@ -30,7 +30,7 @@ names=[]
 for filename in os.listdir(base):
     if filename.endswith(".jtl"):
         now= read_from_jtl(filename)
-        if now==False:
+        if now==True:
             names.append(filename)
             succsess=False
 

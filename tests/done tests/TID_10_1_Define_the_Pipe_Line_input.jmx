@@ -408,7 +408,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${__property(resultPath,,)}</stringProp>
+        <stringProp name="filename">${__property(resultPath,,defaultfile.csv)}</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
