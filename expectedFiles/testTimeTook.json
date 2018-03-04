@@ -1,0 +1,18 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "timeTook":"{timeTook}",
+    "pipeline":"multadd",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"evaladd",
+                "algorithmName":"eval-alg",
+                "result":"35,3undefined"
+            }
+        ],
+        "status":"completed"
+    }
+}

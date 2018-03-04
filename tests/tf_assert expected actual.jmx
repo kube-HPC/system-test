@@ -40,10 +40,12 @@
             <stringProp name="script">String response=ctx.getPreviousResult().getResponseDataAsString();
 String id=vars.get(&quot;id&quot;);
 String time=vars.get (&quot;timeStamp&quot;);
+String timeTook= vars.get (&quot;timeTook&quot;);
 
 
 String rep1=response.replace(&quot;{id}&quot;, id);
 String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
+rep2=rep2.replace (&quot;\&quot;{timeTook}\&quot;&quot;, timeTook);
 String rep3=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
 rep3=rep3.replaceAll(&quot;\t&quot;,&quot;&quot;);
 rep3=rep3.replaceAll(&quot; &quot;,&quot;&quot;);

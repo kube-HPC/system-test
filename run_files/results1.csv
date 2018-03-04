@@ -1,0 +1,5 @@
+date,time,test name,status
+28-02-2018,11:30:00,TID_10_1_Define_the_Pipe_Line_input.jtl,fail
+28-02-2018,11:30:00,TID_10_1.jtl,fail
+28-02-2018,11:30:00,TID_10_2.jtl,pass
+28-02-2018,11:30:00,TID_10 3.jtl,fail

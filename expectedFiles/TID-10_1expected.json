@@ -1,6 +1,7 @@
 {
     "jobId":"{id}",
     "timestamp":"{timeStamp}",
+    "timeTook":"{timeTook}",
     "pipeline":"addmult",
     "data":
     {

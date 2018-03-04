@@ -83,48 +83,39 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow prime" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;name&quot;: &quot;primecheck&quot;,&#xd;
-	&quot;nodes&quot;: [&#xd;
-		{&#xd;
-			&quot;nodeName&quot;: &quot;prime&quot;,&#xd;
-			&quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-			&quot;input&quot;: [&#xd;
-				[&#xd;
-					&quot;(input,require) =&gt; {&quot;,&#xd;
-					&quot;var num=input[0]&quot;,&#xd;
-					&quot;if (num == 1) {&quot;,&#xd;
-        					&quot;return num + &apos; not prime&apos;;}&quot;,&#xd;
-   					&quot;else if (num == 2) {&quot;,&#xd;
-						&quot;return num + &apos; prime&apos;;}&quot;,&#xd;
-					&quot;else {&quot;,&#xd;
-						&quot;for (var x = 2; x &lt; num; x++) {&quot;,&#xd;
-					   		&quot;if (num % x == 0) {&quot;,&#xd;
-					            &quot;return num + &apos; not prime&apos;;}}&quot;,&#xd;
-					        &quot;return num + &apos; prime&apos;;}}&quot;&#xd;
-				],&#xd;
-				&quot;#@flowInput.nums&quot;&#xd;
-			]&#xd;
-		}&#xd;
-	],&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;nums&quot;:[]&#xd;
-	},&#xd;
-	&quot;webhooks&quot;: {&#xd;
-		&quot;progress&quot;: &quot;http://10.42.128.80:3002/webhook/progress&quot;,&#xd;
-		&quot;result&quot;: &quot;http://10.42.128.80:3002/webhook/result&quot;&#xd;
-	},&#xd;
-	&quot;options&quot;: {&#xd;
-		&quot;batchTolerance&quot;: 80,&#xd;
-		&quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-	}&#xd;
- }</stringProp>
+    &quot;name&quot;: &quot;primecheck&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;#@flowInput.nums&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require) =&gt; {&quot;,&#xd;
+                        &quot;var num=input[0]&quot;,&#xd;
+                        &quot;if (num == 1) {&quot;,&#xd;
+                                &quot;return num + &apos; not prime&apos;;}&quot;,&#xd;
+                           &quot;else if (num == 2) {&quot;,&#xd;
+                            &quot;return num + &apos; prime&apos;;}&quot;,&#xd;
+                        &quot;else {&quot;,&#xd;
+                            &quot;for (var x = 2; x &lt; num; x++) {&quot;,&#xd;
+                                   &quot;if (num % x == 0) {&quot;,&#xd;
+                                    &quot;return num + &apos; not prime&apos;;}}&quot;,&#xd;
+                                &quot;return num + &apos; prime&apos;;}}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ]&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -157,21 +148,16 @@
             &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
             &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                [&#xd;
-                    &quot;(input,require)=&gt; {&quot;,&#xd;
-                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
-                ],&#xd;
                 &quot;@flowInput.inputs&quot;&#xd;
-            ]&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                        &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
         }&#xd;
-    ],&#xd;
-    &quot;flowInput&quot;:{&#xd;
-    		&quot;inputs&quot;:[]&#xd;
-    },&#xd;
-    &quot;options&quot;: {&#xd;
-        &quot;batchTolerance&quot;: 80,&#xd;
-        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-    }&#xd;
+    ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>

@@ -85,34 +85,25 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;name&quot;: &quot;evalfail&quot;,&#xd;
-	&quot;nodes&quot;: [&#xd;
-		{&#xd;
-			&quot;nodeName&quot;: &quot;evalfail&quot;,&#xd;
-			&quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-			&quot;input&quot;: [&#xd;
-				[&#xd;
-					&quot;(input,require)=&gt; {&quot;,&#xd;
-					&quot;const result= input[0][0]+input[0][1]&quot;,&#xd;
-					&quot;result=100;&quot;,&#xd;
-					&quot;return result;}&quot;&#xd;
-				],&#xd;
-				&quot;@flowInput.addInput&quot;&#xd;
-			]&#xd;
-		}&#xd;
-	],&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;addInput&quot;:[]&#xd;
-	},&#xd;
-	&quot;webhooks&quot;: {&#xd;
-		&quot;progress&quot;: &quot;http://${webhook}:${webhookport}/webhook/progress&quot;,&#xd;
-		&quot;result&quot;: &quot;http://${webhook}:${webhookport}/webhook/result&quot;&#xd;
-	},&#xd;
-	&quot;options&quot;: {&#xd;
-		&quot;batchTolerance&quot;: 80,&#xd;
-		&quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-	}&#xd;
- }</stringProp>
+    &quot;name&quot;: &quot;evalfail&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalfail&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+            	&quot;@flowInput.addInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                        &quot;const result= input[0][0]+input[0][1]&quot;,&#xd;
+                        &quot;result=100;&quot;,&#xd;
+                        &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ]&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>

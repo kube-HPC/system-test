@@ -1,0 +1,607 @@
+{
+    "name": "apak-batch",
+    "flowInput": {
+        "input": [
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+                        {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            },
+            {
+                "SessionGuid": "test1",
+                "SessionFilePath": "/ApakMCR/example_input_output/test1.wav",
+                "SpeakerId": "2",
+                "output_file_path": "/ApakMCR/example_input_output/out0.csv"
+            }
+        ]
+    }
+}
