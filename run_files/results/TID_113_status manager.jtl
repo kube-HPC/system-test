@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1520773672245,588,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,587,0,464
+1520773672866,463,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,463,0,324
+1520773678701,397,get progress REST primecheck:e7fd4dd6-733c-462e-a707-6ddc2667b58e,200,OK,run stored 2-1,text,true,,2557,258,1,1,389,0,314
+1520773679135,2297,Get results REST primecheck:e7fd4dd6-733c-462e-a707-6ddc2667b58e,200,OK,run stored 2-1,text,true,,20447,259,1,1,2211,0,0
+1520773681443,16,assert expected/actual,200,OK,run stored 2-1,text,true,,46417,0,1,1,0,0,0
+1520773681464,407,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,407,0,323

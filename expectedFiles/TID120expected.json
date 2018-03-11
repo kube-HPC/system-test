@@ -8,12 +8,12 @@
         "result":
         [
             {
-                "nodeName":"apak",
+                "nodeName":"apak-batch",
                 "batchIndex":1,
                 "algorithmName":"red-alg",
                 "result":
                 {
-                    "output":"{\"audio\":\"/ApakMCR/example_input_output/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/example_input_output/7.57mono.wav\\\")\",\"speakerName\":2}"
+                    "output":"{\"audio\":\"/ApakMCR/example_input_output/1.59mono.wav\",\"audioGuid\":\"1.59mono\",\"SpeakerId\":2,\"max_score\":0.10788981592983012,\"max_window_sec\":45,\"max_train\":\"81e81147-f467-685a-f0d5-ad9e4688e000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/example_input_output/1.59mono.wav\\\")\",\"speakerName\":2}"
                 }
             }
         ],
