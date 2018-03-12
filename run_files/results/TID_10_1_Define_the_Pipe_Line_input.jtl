@@ -1,7 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1520773283561,806,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,806,0,495
-1520773284714,494,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,494,0,321
-1520773290511,393,get progress REST addmult:dfad49a1-23a0-4f15-a257-c93db6b1eb3c,200,OK,run stored add mult 2-1,text,true,,2563,255,1,1,390,0,316
-1520773290920,103,Get results REST addmult:dfad49a1-23a0-4f15-a257-c93db6b1eb3c,200,OK,run stored add mult 2-1,text,true,,2884,256,1,1,94,0,0
-1520773291025,14,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,1977,0,1,1,0,0,0
-1520773291055,408,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,408,0,323

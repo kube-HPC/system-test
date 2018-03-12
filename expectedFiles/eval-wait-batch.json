@@ -1,6 +1,7 @@
 {
     "jobId":"{id}",
     "timestamp":"{timeStamp}",
+    "timeTook":"{timeTook}",
     "pipeline":"evalwait",
     "data":
     {
@@ -67,6 +68,7 @@
                 "result":4
             }
         ],
-        "status":"completed"
+        "status":"completed",
+        "storageModule":"@hkube/s3-adapter"
     }
 }

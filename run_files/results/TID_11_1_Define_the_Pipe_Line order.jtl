@@ -1,7 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1520773303018,670,create workflow countEven,201,Created,create workflow 1-1,text,true,,515,998,1,1,670,0,498
-1520773304083,443,execute countEven,200,OK,run stored countEven 2-1,text,true,,575,464,1,1,443,0,323
-1520773309856,226,get progress REST countEven:aecbb497-882e-43d8-b3cb-7cc2b885d10b,200,OK,run stored countEven 2-1,text,true,,2567,257,1,1,217,0,136
-1520773310118,109,Get results REST countEven:aecbb497-882e-43d8-b3cb-7cc2b885d10b,200,OK,run stored countEven 2-1,text,true,,2887,258,1,1,101,0,0
-1520773310230,12,assert expected/actual,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: /home/eitang/WorkStuff/TestManager/system-tests/expectedFiles/TID_10_3.json (No such file or directory),run stored countEven 2-1,text,false,both string was not equal,3720,0,1,1,0,0,0
-1520773310249,403,delete workflow countEven,200,OK,delete workflow 3-1,text,true,,510,246,1,1,403,0,317

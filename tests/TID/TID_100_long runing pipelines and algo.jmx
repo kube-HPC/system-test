@@ -62,7 +62,7 @@
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">200</stringProp>
+            <stringProp name="Argument.value">400</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -96,21 +96,16 @@
             &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
             &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                [&#xd;
+                &quot;#@flowInput.inputs&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
                     &quot;(input,require)=&gt; {&quot;,&#xd;
                     &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
-                ],&#xd;
-                &quot;#@flowInput.inputs&quot;&#xd;
-            ]&#xd;
+                ]&#xd;
+            }&#xd;
         }&#xd;
-    ],&#xd;
-    &quot;flowInput&quot;:{&#xd;
-    		&quot;inputs&quot;:[]&#xd;
-    },&#xd;
-    &quot;options&quot;: {&#xd;
-        &quot;batchTolerance&quot;: 80,&#xd;
-        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-    }&#xd;
+    ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -199,7 +194,7 @@
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="false">
           <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>
@@ -229,7 +224,6 @@
   	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
 	&quot;flowInput&quot;:{&#xd;
 		&quot;inputs&quot;:[&#xd;
-			600000,600000,600000,600000,600000,600000,600000,600000,600000,600000,&#xd;
 			600000,600000,600000,600000,600000,600000,600000,600000,600000,600000&#xd;
 		]&#xd;
     }&#xd;

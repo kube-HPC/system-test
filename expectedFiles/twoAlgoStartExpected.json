@@ -1,0 +1,19 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "timeTook":"{timeTook}",
+    "pipeline":"evenodd",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"retriveMax",
+                "algorithmName":"eval-alg",
+                "result":1
+            }
+        ],
+        "status":"completed",
+        "storageModule":"@hkube/s3-adapter"
+    }
+}

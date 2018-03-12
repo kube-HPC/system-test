@@ -24,6 +24,6 @@ $jmeter -n -t "../tests/TID/TID_110_sevirity levels.jmx" -l "results/TID_110_sev
 $jmeter -n -t "../tests/TID/TID_170_1_10 percent overhead batch.jmx" -l "results/TID_170_1_10 percent overhead batch.jtl" -e -o "results/dashboards/TID_170_1_10 percent overhead batch"
 $jmeter -n -t "../tests/TID/TID_170_10 percent overhead.jmx" -l "results/TID_170_10 percent overhead.jtl" -e -o "results/dashboards/TID_170_10 percent overhead"
 $jmeter -n -t "../tests/TID/TID_120_system logs.jmx" -l "results/TID_120_system logs.jtl" -e -o "results/dashboards/TID_120_system logs"
-
+$jmeter -n -t "../tests/TID/TID_140_algo_writes logs.jmx" -l "results/TID_140_algo_writes logs.jtl" -e -o "results/dashboards/TID_140_algo_writes logs"
 
 python getResults.py results/

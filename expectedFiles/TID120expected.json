@@ -8,7 +8,7 @@
         "result":
         [
             {
-                "nodeName":"apak-batch",
+                "nodeName":"apak",
                 "batchIndex":1,
                 "algorithmName":"red-alg",
                 "result":
@@ -17,6 +17,7 @@
                 }
             }
         ],
-        "status":"completed"
+        "status":"completed",
+        "storageModule":"@hkube/s3-adapter"
     }
 }

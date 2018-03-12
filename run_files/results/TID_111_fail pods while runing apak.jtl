@@ -1,0 +1,41 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1520859985609,693,execute Apak,200,OK,run stored 1-1,text,true,,576,1665,1,1,692,0,507
+1520859988345,398,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2414,248,1,1,387,0,310
+1520859988785,106,delete pod,200,OK,run stored 1-1,text,true,,6649,259,1,1,105,0,0
+1520859988893,99,delete pod,200,OK,run stored 1-1,text,true,,6649,259,1,1,99,0,0
+1520859988996,171,delete pod,200,OK,run stored 1-1,text,true,,6649,259,1,1,170,0,0
+1520859994419,393,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2840,258,1,1,393,0,315
+1520859999859,426,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,425,0,329
+1520860005335,413,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,410,0,321
+1520860010804,585,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,584,0,319
+1520860016430,428,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,427,0,339
+1520860021907,219,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,219,0,141
+1520860027151,390,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2930,258,1,1,389,0,310
+1520860032564,384,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2930,258,1,1,383,0,309
+1520860037971,226,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2930,258,1,1,226,0,136
+1520860043224,386,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,385,0,310
+1520860048635,395,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,394,0,315
+1520860054068,403,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,399,0,318
+1520860059515,212,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,210,0,134
+1520860064762,213,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,212,0,134
+1520860069999,419,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,418,0,317
+1520860075461,396,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,394,0,318
+1520860080894,410,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,409,0,316
+1520860086343,415,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,414,0,307
+1520860091798,407,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,406,0,317
+1520860097243,389,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,388,0,312
+1520860102670,400,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,399,0,320
+1520860108115,422,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,421,0,312
+1520860113574,209,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,209,0,134
+1520860118805,478,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,477,0,320
+1520860124321,431,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,431,0,331
+1520860129790,386,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,385,0,309
+1520860135191,211,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,211,0,133
+1520860140420,395,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,394,0,318
+1520860145856,399,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,398,0,310
+1520860151281,212,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,211,0,136
+1520860156525,223,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,222,0,139
+1520860161777,215,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,214,0,134
+1520860167026,392,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2853,258,1,1,391,0,317
+1520860167428,256,Get results REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,6724,259,1,1,249,0,0
+1520860167690,23,assert expected/actual,200,OK,run stored 1-1,text,false,both string was not equal,45343,0,1,1,0,0,0

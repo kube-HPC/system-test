@@ -19,6 +19,7 @@
                 "result":2462
             }
         ],
-        "status":"completed"
+        "status":"completed",
+        "storageModule":"@hkube/s3-adapter"
     }
 }

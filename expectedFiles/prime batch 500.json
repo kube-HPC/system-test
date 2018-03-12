@@ -3007,6 +3007,7 @@
                 "result":"1239529 prime"
             }
         ],
-        "status":"completed"
+        "status":"completed",
+        "storageModule":"@hkube/s3-adapter"
     }
 }

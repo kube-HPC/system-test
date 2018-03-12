@@ -513,3 +513,1294 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1520773732301,387,execute eval string,400,Bad Request,run stored string 9-4,text,true,,583,401,2,2,387,1,0,0,316
 1520773732503,387,execute eval string,400,Bad Request,run stored string 9-5,text,true,,583,401,1,1,387,1,0,0,317
 1520773732896,410,delete workflow error,200,OK,delete workflow 10-1,text,true,,510,246,1,1,410,1,0,0,321
+1520773735267,564,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,698,1,1,563,1,0,0,466
+1520773735880,4,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520773735885,458,create request 300 batch,200,OK,Create request REST 2-1,text,true,,574,2462,1,1,458,1,0,0,318
+1520773741635,216,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2626,256,1,1,213,1,0,0,140
+1520773746889,394,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,393,1,0,0,317
+1520773752339,398,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,397,1,0,0,317
+1520773757770,395,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,393,1,0,0,316
+1520773763208,210,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,209,1,0,0,136
+1520773768451,398,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,395,1,0,0,318
+1520773773894,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,391,1,0,0,310
+1520773779313,207,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,206,1,0,0,134
+1520773784550,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,390,1,0,0,315
+1520773789981,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,389,1,0,0,316
+1520773795419,385,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,383,1,0,0,309
+1520773800838,394,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,392,1,0,0,319
+1520773806279,385,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,384,1,0,0,310
+1520773811706,388,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,387,1,0,0,311
+1520773817135,394,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,392,1,0,0,318
+1520773822566,405,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,402,1,0,0,319
+1520773828005,456,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,455,1,0,0,312
+1520773833500,384,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,384,1,0,0,309
+1520773838907,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,315
+1520773844324,393,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,392,1,0,0,317
+1520773849754,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,312
+1520773855186,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,315
+1520773860607,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,314
+1520773866041,387,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,386,1,0,0,312
+1520773871460,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,389,1,0,0,313
+1520773876884,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,314
+1520773882306,209,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,208,1,0,0,134
+1520773887551,388,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,387,1,0,0,314
+1520773892958,392,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,391,1,0,0,315
+1520773898383,406,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,405,1,0,0,324
+1520773903807,385,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,384,1,0,0,310
+1520773909227,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,314
+1520773914651,396,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,395,1,0,0,309
+1520773920080,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,313
+1520773925504,397,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,395,1,0,0,321
+1520773930934,386,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,385,1,0,0,311
+1520773936355,388,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,387,1,0,0,314
+1520773941782,379,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,379,1,0,0,306
+1520773947179,387,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,387,1,0,0,314
+1520773952588,385,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,384,1,0,0,310
+1520773957989,392,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,391,1,0,0,316
+1520773963414,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,390,1,0,0,315
+1520773968844,388,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,387,1,0,0,313
+1520773974267,389,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,388,1,0,0,315
+1520773979689,393,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,393,1,0,0,317
+1520773985106,393,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,392,1,0,0,315
+1520773990540,390,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,389,1,0,0,313
+1520773995966,384,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,384,1,0,0,310
+1520774001387,206,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,206,1,0,0,132
+1520774006615,210,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,210,1,0,0,134
+1520774011842,206,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,206,1,0,0,133
+1520774017069,394,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,394,1,0,0,320
+1520774022478,388,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,387,1,0,0,314
+1520774027924,381,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,381,1,0,0,308
+1520774033321,387,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2631,256,1,1,386,1,0,0,312
+1520774038743,384,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,383,1,0,0,310
+1520774044167,383,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,382,1,0,0,309
+1520774049564,403,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,403,1,0,0,313
+1520774054984,382,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,382,1,0,0,309
+1520774060435,384,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,383,1,0,0,310
+1520774065860,385,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,384,1,0,0,312
+1520774071272,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,390,1,0,0,315
+1520774076708,392,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,392,1,0,0,308
+1520774082119,396,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,395,1,0,0,319
+1520774087561,208,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,208,1,0,0,135
+1520774092786,393,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,392,1,0,0,319
+1520774098216,386,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,385,1,0,0,309
+1520774103635,386,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,385,1,0,0,310
+1520774109039,386,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,386,1,0,0,313
+1520774114444,207,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,207,1,0,0,134
+1520774119679,385,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,384,1,0,0,311
+1520774125086,390,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,389,1,0,0,315
+1520774130509,208,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,208,1,0,0,134
+1520774135745,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,true,,2740,256,1,1,390,1,0,0,315
+1520774136160,110,stop pipeline,200,OK,Create request REST 2-1,text,true,,5278,341,1,1,110,1,0,0,0
+1520774141277,391,get progress REST evalwait:1fc9465a-8f47-462e-bc69-c691dbedab63,200,OK,Create request REST 2-1,text,false,max tries has exceeded,2742,256,1,1,390,1,1,0,316
+1520774141685,399,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,399,1,0,0,317
+1520774144073,647,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,647,1,0,0,509
+1520774144777,5,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520774144782,517,create request,200,OK,Create request REST 2-1,text,true,,574,308,1,1,517,1,0,0,315
+1520774150700,395,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2625,256,1,1,392,1,0,0,318
+1520774156132,389,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,387,1,0,0,313
+1520774161572,388,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,388,1,0,0,313
+1520774167002,395,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,394,1,0,0,319
+1520774172445,388,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,387,1,0,0,312
+1520774177883,393,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,391,1,0,0,314
+1520774183312,393,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,392,1,0,0,317
+1520774188747,392,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,390,1,0,0,314
+1520774194176,391,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,390,1,0,0,309
+1520774199618,393,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,392,1,0,0,315
+1520774205040,391,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,390,1,0,0,317
+1520774210461,447,get progress REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2638,256,1,1,446,1,0,0,320
+1520774210922,114,Get results REST evalwait:37d08f32-47d1-4a98-8af0-68c503ff87ee,200,OK,Create request REST 2-1,text,true,,2994,257,1,1,109,1,0,0,0
+1520774211037,7,assert expected/actual,200,OK,Create request REST 2-1,text,true,,2136,0,1,1,0,1,0,0,0
+1520774211047,11,compute end time var expectedTime,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520774211066,399,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,399,1,0,0,315
+1520774213486,706,execute Apak,200,OK,run stored 1-1,text,true,,576,662,1,1,706,1,0,0,511
+1520774219563,405,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2645,297,1,1,396,1,0,0,319
+1520774225027,394,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2649,297,1,1,393,1,0,0,318
+1520774230476,215,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2649,297,1,1,213,1,0,0,137
+1520774235738,389,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2649,297,1,1,389,1,0,0,310
+1520774241161,387,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2649,297,1,1,386,1,0,0,311
+1520774246580,217,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2649,297,1,1,216,1,0,0,137
+1520774251836,390,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2649,297,1,1,389,1,0,0,314
+1520774257250,399,get progress REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,2657,297,1,1,398,1,0,0,321
+1520774257666,99,Get results REST apak-batch:4a285421-7db4-457d-9b63-bd223d686ef2,200,OK,run stored 1-1,text,true,,3660,298,1,1,93,1,0,0,0
+1520774257768,11,assert expected/actual,200,OK,run stored 1-1,text,true,,3416,0,1,1,0,1,0,0,0
+1520774267782,440,elastic query started,200,OK,run stored 1-1,text,false,Test failed: text expected to contain /timestamp/,341,1036,1,1,439,1,1,0,330
+1520847890493,597,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,597,1,0,0,460
+1520847891481,531,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,531,1,0,0,316
+1520847897311,406,get progress REST addmult:5ba3088d-c008-4e6f-bc86-a76b3b7ec7ee,200,OK,run stored add mult 2-1,text,true,,2564,255,1,1,397,1,0,0,321
+1520847897759,92,Get results REST addmult:5ba3088d-c008-4e6f-bc86-a76b3b7ec7ee,200,OK,run stored add mult 2-1,text,true,,2960,256,1,1,90,1,0,0,0
+1520847897852,4,assert expected/actual,200,OK,run stored add mult 2-1,text,false,both string was not equal,2053,0,1,1,0,1,1,0,0
+1520847897860,396,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,396,1,0,0,311
+1520847900003,607,create workflow mult add,201,Created,create workflow 1-1,text,true,,3328,1397,1,1,598,1,0,0,465
+1520847900954,509,execute eval multadd,200,OK,run stored mult add 2-1,text,true,,2408,420,1,1,509,1,0,0,324
+1520847906798,401,get progress REST multadd:e09651e1-7c70-41d9-9d4c-315a006f2e30,200,OK,run stored mult add 2-1,text,true,,4323,255,1,1,399,1,0,0,321
+1520847907245,100,Get results REST multadd:e09651e1-7c70-41d9-9d4c-315a006f2e30,200,OK,run stored mult add 2-1,text,true,,4770,256,1,1,90,1,0,0,0
+1520847907348,16,assert expected/actual,200,OK,run stored mult add 2-1,text,false,both string was not equal,4363,0,1,1,0,1,1,0,0
+1520847907374,408,delete workflow multadd,200,OK,delete workflow 3-1,text,true,,2172,244,1,1,408,1,0,0,321
+1520847909811,598,create workflow countEven,201,Created,create workflow 1-1,text,true,,515,998,1,1,598,1,0,0,492
+1520847910749,517,execute countEven,200,OK,run stored countEven 2-1,text,true,,575,464,1,1,517,1,0,0,330
+1520847916534,398,get progress REST countEven:fe5310a8-42fa-42ca-80d7-983a5ef2db04,200,OK,run stored countEven 2-1,text,true,,2576,257,1,1,394,1,0,0,320
+1520847916958,98,Get results REST countEven:fe5310a8-42fa-42ca-80d7-983a5ef2db04,200,OK,run stored countEven 2-1,text,true,,2968,258,1,1,94,1,0,0,0
+1520847917058,6,assert expected/actual,200,OK,run stored countEven 2-1,text,false,both string was not equal,2055,0,1,1,0,1,1,0,0
+1520847917068,403,delete workflow countEven,200,OK,delete workflow 3-1,text,true,,510,246,1,1,403,1,0,0,315
+1520847919841,607,create workflow pipelineName,201,Created,create workflow 1-1,text,true,,515,714,1,1,606,1,0,0,467
+1520847920823,655,execute pipelinename,200,OK,run stored add mult 2-1,text,true,,578,401,1,1,655,1,0,0,321
+1520847926846,390,get progress REST pipelineName:62076886-4ad6-49e9-b612-cfd14c283bf1,200,OK,run stored add mult 2-1,text,true,,2589,260,1,1,387,1,0,0,312
+1520847927255,102,Get results REST pipelineName:62076886-4ad6-49e9-b612-cfd14c283bf1,200,OK,run stored add mult 2-1,text,true,,2993,261,1,1,93,1,0,0,0
+1520847928859,209,execute pipeline,404,Not Found,run stored add mult 2-1,text,true,,586,397,1,1,209,1,0,0,134
+1520847929070,85,delete workflow pipelineName,200,OK,run stored add mult 2-1,text,true,,510,249,1,1,85,1,0,0,0
+1520847930656,76,execute pipelineName,404,Not Found,run stored add mult 2-1,text,true,,590,401,1,1,76,1,0,0,0
+1520847932504,604,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,705,1,1,604,1,0,0,462
+1520847933135,460,create request eval wait 1,200,OK,run workflow eval wait 2-1,text,true,,574,308,1,1,459,1,0,0,324
+1520847933647,201,stop execution evalwait:13871bdb-edb8-4562-b440-48e46136d44c,200,OK,run workflow eval wait 2-1,text,true,,510,318,1,1,201,1,0,0,0
+1520847935348,390,stop execution evalwait:13871bdb-edb8-4562-b440-48e46136d44c,400,Bad Request,run workflow eval wait 2-1,text,true,,600,318,1,1,390,1,0,0,314
+1520847935741,92,Get results REST evalwait:13871bdb-edb8-4562-b440-48e46136d44c,200,OK,run workflow eval wait 2-1,text,true,,2746,257,1,1,81,1,0,0,0
+1520847935836,491,create request eval wait 2,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,574,308,1,1,491,1,0,0,314
+1520847946487,408,stop execution without a reason evalwait:f8edf381-ec91-4775-be84-1fc5e9468261,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,510,292,1,1,408,1,0,0,315
+1520847956906,382,stop execution that dosent exist,404,Not Found,stop workflow that dosent exist 4-1,text,true,,589,304,1,1,382,1,0,0,308
+1520847957292,399,delete workflow eval wait,200,OK,delete workflow 5-1,text,true,,510,245,1,1,399,1,0,0,315
+1520847959524,811,create workflow prime,201,Created,create workflow 1-1,text,true,,515,1150,1,1,811,1,0,0,475
+1520847960342,89,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,88,1,0,0,0
+1520847960492,447,create request eval wait 1,200,OK,run stored 2-1,text,true,,574,425,1,1,447,1,0,0,310
+1520847965941,359,execute eval prime,200,OK,run stored 2-1,text,true,,576,22420,1,1,359,1,0,0,139
+1520847971572,401,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2589,258,1,1,393,1,0,0,319
+1520847977036,387,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,386,1,0,0,312
+1520847982467,396,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,394,1,0,0,320
+1520847987916,213,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,210,1,0,0,136
+1520847993175,394,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,393,1,0,0,318
+1520847998618,382,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,381,1,0,0,308
+1520848004026,393,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,392,1,0,0,317
+1520848009465,211,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,209,1,0,0,135
+1520848014724,395,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2593,258,1,1,393,1,0,0,315
+1520848020165,382,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2594,258,1,1,380,1,0,0,306
+1520848025602,465,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2695,258,1,1,464,1,0,0,314
+1520848031092,650,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2695,258,1,1,649,1,0,0,310
+1520848036773,439,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2695,258,1,1,439,1,0,0,309
+1520848042238,475,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2695,258,1,1,474,1,0,0,317
+1520848047757,387,get progress REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,2592,258,1,1,386,1,0,0,310
+1520848048148,23974,Get results REST primecheck:0a37c430-67d7-4194-983f-86c6152570c7,200,OK,run stored 2-1,text,true,,189656,259,1,1,23727,1,0,0,0
+1520848072133,34,assert expected/actual,200,OK,run stored 2-1,text,false,both string was not equal,469327,0,1,1,0,1,1,0,0
+1520848073671,403,delete workflow primecheck,200,OK,delete workflow 3-1,text,true,,510,247,1,1,403,1,0,0,320
+1520848075575,89,delete workflow wait,200,OK,delete workflow 3-1,text,true,,510,245,1,1,89,1,0,0,0
+1520848077638,597,create workflow to fail,201,Created,store eval to fail 1-1,text,true,,515,747,1,1,597,1,0,0,494
+1520848078281,473,execute Apak,200,OK,run stored 2-1,text,true,,576,618,1,1,473,1,0,0,321
+1520848084093,414,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2555,258,1,1,406,1,0,0,330
+1520848089573,389,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,389,1,0,0,315
+1520848095002,393,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,392,1,0,0,317
+1520848100422,213,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,212,1,0,0,137
+1520848105684,396,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,395,1,0,0,319
+1520848111132,209,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,208,1,0,0,134
+1520848116372,390,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,389,1,0,0,314
+1520848121803,389,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,388,1,0,0,312
+1520848127235,212,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2559,258,1,1,210,1,0,0,136
+1520848132482,397,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,395,1,0,0,321
+1520848137920,388,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,388,1,0,0,310
+1520848143338,392,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,391,1,0,0,317
+1520848148780,385,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,384,1,0,0,310
+1520848154202,394,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,392,1,0,0,317
+1520848159636,390,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,390,1,0,0,310
+1520848165048,397,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,394,1,0,0,319
+1520848170478,392,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,391,1,0,0,317
+1520848175898,393,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,392,1,0,0,317
+1520848181335,401,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,400,1,0,0,315
+1520848186780,387,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,386,1,0,0,310
+1520848192206,395,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,395,1,0,0,322
+1520848197616,385,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,384,1,0,0,310
+1520848203035,409,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,408,1,0,0,331
+1520848208482,382,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2560,258,1,1,382,1,0,0,308
+1520848213885,387,get progress REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,2568,258,1,1,387,1,0,0,313
+1520848214276,112,Get results REST apak-batch:18f639e7-f404-4592-a5d6-aca12be20174,200,OK,run stored 2-1,text,true,,3565,259,1,1,108,1,0,0,0
+1520848214390,4,assert expected/actual,200,OK,run stored 2-1,text,false,both string was not equal,3340,0,1,1,0,1,1,0,0
+1520848214409,487,run eval to fail,200,OK,run eval to fail 3-1,text,true,,574,404,1,1,487,1,0,0,317
+1520848219905,386,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2537,256,1,1,385,1,0,0,312
+1520848220300,81,Get results REST evalfail:94958221-2fd2-496a-9701-90039aba7ded,200,OK,run eval to fail 3-1,text,true,,2784,257,1,1,77,1,0,0,0
+1520848220388,409,delete workflow to fail,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,409,1,0,0,321
+1520848222726,620,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,620,1,0,0,502
+1520848223348,94,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,709,1,1,94,1,0,0,0
+1520848223490,455,create request wait batch 20,200,OK,Create request REST 2-1,text,true,,574,425,1,1,455,1,0,0,315
+1520848233999,525,execute addmult 1,200,OK,Create request REST 2-1,text,true,,573,402,1,1,525,1,0,0,313
+1520848234726,128,execute addmult 2,200,OK,Create request REST 2-1,text,true,,573,403,1,1,128,1,0,0,0
+1520848235055,193,execute addmult 3,200,OK,Create request REST 2-1,text,true,,573,402,1,1,193,1,0,0,0
+1520848235449,139,execute addmult 4,200,OK,Create request REST 2-1,text,true,,573,407,1,1,139,1,0,0,0
+1520848240920,401,get progress REST evalwait:7c040dd6-624d-446a-94fc-e5f375168308,200,OK,Create request REST 2-1,text,true,,2882,256,1,1,390,1,0,0,314
+1520848246386,219,get progress REST evalwait:7c040dd6-624d-446a-94fc-e5f375168308,200,OK,Create request REST 2-1,text,true,,2789,256,1,1,217,1,0,0,137
+1520848246627,428,Get results REST evalwait:7c040dd6-624d-446a-94fc-e5f375168308,200,OK,Create request REST 2-1,text,true,,6203,257,1,1,420,1,0,0,0
+1520848247058,14,assert expected/actual,200,OK,Create request REST 2-1,text,false,both string was not equal,10117,0,1,1,0,1,1,0,0
+1520848247074,103,Get results REST addmult:56dbbb42-e02c-44e8-86a7-ee51272ad5e5,200,OK,Create request REST 2-1,text,true,,791,256,1,1,103,1,0,0,0
+1520848247179,99,Get results REST addmult:b2e4296d-1917-4191-a2d3-e5c553496aee,200,OK,Create request REST 2-1,text,true,,791,256,1,1,99,1,0,0,0
+1520848247279,91,Get results REST addmult:8655c6e8-6af2-4db2-bd5c-c18519bedf2f,200,OK,Create request REST 2-1,text,true,,790,256,1,1,91,1,0,0,0
+1520848248371,99,Get results REST addmult:13853a79-2b5a-4d55-bd70-5543f04e70db,200,OK,Create request REST 2-1,text,true,,792,256,1,1,99,1,0,0,0
+1520848248479,405,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,405,1,0,0,323
+1520848248885,107,delete workflow addmult,200,OK,delete pipeline 3-1,text,true,,510,244,1,1,107,1,0,0,0
+1520848251101,672,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,672,1,0,0,531
+1520848251868,479,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,479,1,0,0,326
+1520848252384,76,get progress with wrong id,404,Not Found,run stored 2-1,text,true,,626,260,1,1,76,1,0,0,0
+1520848257759,392,get progress REST primecheck:4d7dc127-f01d-4311-8539-d62d838e1587,200,OK,run stored 2-1,text,true,,2556,258,1,1,388,1,0,0,314
+1520848258169,2127,Get results REST primecheck:4d7dc127-f01d-4311-8539-d62d838e1587,200,OK,run stored 2-1,text,true,,20518,259,1,1,2058,1,0,0,0
+1520848260299,389,Get results with wrong id,404,Not Found,run stored 2-1,text,true,,626,261,1,1,388,1,0,0,311
+1520848260689,32,assert expected/actual,200,OK,run stored 2-1,text,false,both string was not equal,46491,0,1,1,0,1,1,0,0
+1520848260727,395,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,395,1,0,0,312
+1520848262914,651,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,651,1,0,0,544
+1520848263600,476,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,476,1,0,0,319
+1520848269371,412,get progress REST primecheck:94d785b6-2ac7-4b7f-a264-1ea959c696f4,200,OK,run stored 2-1,text,true,,2557,258,1,1,405,1,0,0,324
+1520848269810,2229,Get results REST primecheck:94d785b6-2ac7-4b7f-a264-1ea959c696f4,200,OK,run stored 2-1,text,true,,20519,259,1,1,2155,1,0,0,0
+1520848272043,13,assert expected/actual,200,OK,run stored 2-1,text,false,both string was not equal,46491,0,1,1,0,1,1,0,0
+1520848272061,409,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,409,1,0,0,316
+1520848274299,575,create workflow error,201,Created,create workflow 1-1,text,true,,515,788,1,1,575,1,0,0,472
+1520848276384,455,execute eval 100,200,OK,run stored 100 2-1,text,true,,575,396,5,5,455,1,0,0,327
+1520848276588,559,execute eval 100,200,OK,run stored 100 2-2,text,true,,575,396,5,5,559,1,0,0,317
+1520848276791,538,execute eval 100,200,OK,run stored 100 2-3,text,true,,575,396,5,5,538,1,0,0,314
+1520848276994,502,execute eval 100,200,OK,run stored 100 2-4,text,true,,575,396,5,5,501,1,0,0,312
+1520848277198,672,execute eval 100,200,OK,run stored 100 2-5,text,true,,575,396,5,5,672,1,0,0,320
+1520848282068,405,get progress 100 evalerror:51ab1d33-106c-4c23-b181-278f7816f5e4,200,OK,run stored 100 2-1,text,true,,2633,257,5,5,393,1,0,0,317
+1520848282156,407,get progress 100 evalerror:d9ca38b0-f65d-4ccf-9b9f-86bd63d0e5c0,200,OK,run stored 100 2-2,text,true,,2632,257,5,5,405,1,0,0,318
+1520848282336,409,get progress 100 evalerror:759c378e-b222-49a0-8b2c-0f452e1819e4,200,OK,run stored 100 2-3,text,true,,2632,257,5,5,408,1,0,0,322
+1520848282512,393,get progress 100 evalerror:fd3e5393-68bd-4090-b6ad-0ff8f5806ad0,200,OK,run stored 100 2-4,text,true,,2633,257,5,5,392,1,0,0,318
+1520848282885,389,get progress 100 evalerror:76692fb7-40b2-4cfe-b705-ff1a1a118bd2,200,OK,run stored 100 2-5,text,true,,2633,257,5,5,387,1,0,0,313
+1520848283495,158,Get results 100 evalerror:51ab1d33-106c-4c23-b181-278f7816f5e4,200,OK,run stored 100 2-1,text,true,,3032,258,5,5,157,1,0,0,0
+1520848283567,119,Get results 100 evalerror:d9ca38b0-f65d-4ccf-9b9f-86bd63d0e5c0,200,OK,run stored 100 2-2,text,true,,3031,258,4,4,119,1,0,0,0
+1520848283752,153,Get results 100 evalerror:759c378e-b222-49a0-8b2c-0f452e1819e4,200,OK,run stored 100 2-3,text,true,,3030,258,3,3,153,1,0,0,0
+1520848283907,175,Get results 100 evalerror:fd3e5393-68bd-4090-b6ad-0ff8f5806ad0,200,OK,run stored 100 2-4,text,true,,3031,258,2,2,175,1,0,0,0
+1520848284278,138,Get results 100 evalerror:76692fb7-40b2-4cfe-b705-ff1a1a118bd2,200,OK,run stored 100 2-5,text,true,,3032,258,1,1,137,1,0,0,0
+1520848285950,466,execute eval 20,200,OK,run stored 20 3-1,text,true,,575,395,5,5,465,1,0,0,311
+1520848286161,559,execute eval 20,200,OK,run stored 20 3-2,text,true,,575,395,5,5,559,1,0,0,308
+1520848286365,428,execute eval 20,200,OK,run stored 20 3-3,text,true,,575,395,5,5,428,1,0,0,313
+1520848286569,620,execute eval 20,200,OK,run stored 20 3-4,text,true,,575,395,5,5,620,1,0,0,316
+1520848286773,537,execute eval 20,200,OK,run stored 20 3-5,text,true,,575,395,5,5,537,1,0,0,316
+1520848291422,393,get progress 20 evalerror:a8268583-10b0-493b-80e5-ddb6d5ecdeec,200,OK,run stored 20 3-1,text,true,,2811,257,5,5,392,1,0,0,315
+1520848291738,391,get progress 20 evalerror:c870d21e-86ac-4213-b546-01dcdb5e2827,200,OK,run stored 20 3-2,text,true,,2822,257,5,5,390,1,0,0,316
+1520848291808,385,get progress 20 evalerror:887470e4-bf2b-4da0-a1c8-a20cf075c537,200,OK,run stored 20 3-3,text,true,,2822,257,5,5,384,1,0,0,311
+1520848292195,394,get progress 20 evalerror:457559d5-109a-4865-a2d3-735e7fc84f96,200,OK,run stored 20 3-4,text,true,,2810,257,5,5,393,1,0,0,318
+1520848292316,381,get progress 20 evalerror:b313ccae-469e-4998-9a93-4185139ed065,200,OK,run stored 20 3-5,text,true,,2820,257,5,5,381,1,0,0,309
+1520848292819,78,Get results 20 evalerror:a8268583-10b0-493b-80e5-ddb6d5ecdeec,200,OK,run stored 20 3-1,text,true,,2646,258,5,5,77,1,0,0,0
+1520848293138,76,Get results 20 evalerror:c870d21e-86ac-4213-b546-01dcdb5e2827,200,OK,run stored 20 3-2,text,true,,2641,258,4,4,76,1,0,0,0
+1520848293198,79,Get results 20 evalerror:887470e4-bf2b-4da0-a1c8-a20cf075c537,200,OK,run stored 20 3-3,text,true,,2641,258,3,3,79,1,0,0,0
+1520848293592,84,Get results 20 evalerror:457559d5-109a-4865-a2d3-735e7fc84f96,200,OK,run stored 20 3-4,text,true,,2640,258,2,2,83,1,0,0,0
+1520848293699,78,Get results 20 evalerror:b313ccae-469e-4998-9a93-4185139ed065,200,OK,run stored 20 3-5,text,true,,2645,258,1,1,77,1,0,0,0
+1520848295286,456,execute eval 60,200,OK,run stored 60 4-1,text,true,,575,395,5,5,456,1,0,0,313
+1520848295493,496,execute eval 60,200,OK,run stored 60 4-2,text,true,,575,395,5,5,496,1,0,0,316
+1520848295698,569,execute eval 60,200,OK,run stored 60 4-3,text,true,,575,395,5,5,569,1,0,0,316
+1520848295900,517,execute eval 60,200,OK,run stored 60 4-4,text,true,,575,395,5,5,517,1,0,0,315
+1520848296105,547,execute eval 60,200,OK,run stored 60 4-5,text,true,,575,395,5,5,547,1,0,0,313
+1520848300757,405,get progress 60 evalerror:4641ec44-227d-4644-a4f7-0d0460685b3e,200,OK,run stored 60 4-1,text,true,,2630,257,5,5,404,1,0,0,324
+1520848300995,389,get progress 60 evalerror:5332f641-c7e7-4c90-b75a-292cfa859a83,200,OK,run stored 60 4-2,text,true,,2631,257,5,5,388,1,0,0,315
+1520848301284,400,get progress 60 evalerror:25139062-33cd-4f55-bdec-28aaf2982970,200,OK,run stored 60 4-3,text,true,,2631,257,5,5,399,1,0,0,317
+1520848301431,401,get progress 60 evalerror:4aeb1889-daf4-4422-b925-42fbaa109a08,200,OK,run stored 60 4-4,text,true,,2631,257,5,5,400,1,0,0,327
+1520848301668,392,get progress 60 evalerror:fa266b3e-fa65-434a-bb14-1fe0cec3d971,200,OK,run stored 60 4-5,text,true,,2631,257,5,5,390,1,0,0,317
+1520848302168,164,Get results 60 evalerror:4641ec44-227d-4644-a4f7-0d0460685b3e,200,OK,run stored 60 4-1,text,true,,3030,258,5,5,163,1,0,0,0
+1520848302390,171,Get results 60 evalerror:5332f641-c7e7-4c90-b75a-292cfa859a83,200,OK,run stored 60 4-2,text,true,,3030,258,4,4,170,1,0,0,0
+1520848302689,159,Get results 60 evalerror:25139062-33cd-4f55-bdec-28aaf2982970,200,OK,run stored 60 4-3,text,true,,3030,258,3,3,158,1,0,0,0
+1520848302834,177,Get results 60 evalerror:4aeb1889-daf4-4422-b925-42fbaa109a08,200,OK,run stored 60 4-4,text,true,,3030,258,2,2,176,1,0,0,0
+1520848303064,177,Get results 60 evalerror:fa266b3e-fa65-434a-bb14-1fe0cec3d971,200,OK,run stored 60 4-5,text,true,,3030,258,1,1,176,1,0,0,0
+1520848304764,462,execute eval 0,200,OK,run stored 0 5-1,text,true,,575,394,5,5,462,1,0,0,314
+1520848304979,501,execute eval 0,200,OK,run stored 0 5-2,text,true,,575,394,5,5,501,1,0,0,315
+1520848305192,650,execute eval 0,200,OK,run stored 0 5-3,text,true,,575,394,5,5,650,1,0,0,313
+1520848305403,453,execute eval 0,200,OK,run stored 0 5-4,text,true,,575,394,5,5,453,1,0,0,314
+1520848305615,682,execute eval 0,200,OK,run stored 0 5-5,text,true,,575,394,5,5,682,1,0,0,318
+1520848310235,387,get progress 0 evalerror:8ce3513f-ee62-46ab-9a61-c0342c99defb,200,OK,run stored 0 5-1,text,true,,2808,257,5,5,387,1,0,0,314
+1520848310495,409,get progress 0 evalerror:9ddd5757-40bd-4862-bf6e-6d4d36b11f92,200,OK,run stored 0 5-2,text,true,,2808,257,5,5,409,1,0,0,336
+1520848310860,379,get progress 0 evalerror:9754993f-eb83-4263-9a0c-a3a1fe047ad8,200,OK,run stored 0 5-3,text,true,,2729,257,5,5,378,1,0,0,305
+1520848310871,379,get progress 0 evalerror:3a55d815-b7f1-49bd-824e-3c014f12dbe0,200,OK,run stored 0 5-4,text,true,,2819,257,5,5,378,1,0,0,306
+1520848311624,80,Get results 0 evalerror:8ce3513f-ee62-46ab-9a61-c0342c99defb,200,OK,run stored 0 5-1,text,true,,2637,258,5,5,80,1,0,0,0
+1520848311311,392,get progress 0 evalerror:06cd3b90-e996-44f3-bbb7-f591edc05314,200,OK,run stored 0 5-5,text,true,,2807,257,5,5,391,1,0,0,318
+1520848311906,79,Get results 0 evalerror:9ddd5757-40bd-4862-bf6e-6d4d36b11f92,200,OK,run stored 0 5-2,text,true,,2638,258,4,4,78,1,0,0,0
+1520848312243,82,Get results 0 evalerror:9754993f-eb83-4263-9a0c-a3a1fe047ad8,200,OK,run stored 0 5-3,text,true,,2638,258,3,3,82,1,0,0,0
+1520848312254,76,Get results 0 evalerror:3a55d815-b7f1-49bd-824e-3c014f12dbe0,200,OK,run stored 0 5-4,text,true,,2638,258,2,2,76,1,0,0,0
+1520848312708,79,Get results 0 evalerror:06cd3b90-e996-44f3-bbb7-f591edc05314,200,OK,run stored 0 5-5,text,true,,2642,258,1,1,78,1,0,0,0
+1520848314296,380,execute eval -2,400,Bad Request,run stored -2 6-1,text,true,,580,395,5,5,380,1,0,0,310
+1520848314495,393,execute eval -2,400,Bad Request,run stored -2 6-2,text,true,,580,395,4,4,393,1,0,0,322
+1520848314697,387,execute eval -2,400,Bad Request,run stored -2 6-3,text,true,,580,395,3,3,387,1,0,0,317
+1520848314896,391,execute eval -2,400,Bad Request,run stored -2 6-4,text,true,,580,395,2,2,391,1,0,0,317
+1520848315097,382,execute eval -2,400,Bad Request,run stored -2 6-5,text,true,,580,395,1,1,382,1,0,0,312
+1520848316987,388,execute eval 101,400,Bad Request,run stored 101 7-1,text,true,,582,396,5,5,388,1,0,0,318
+1520848317188,382,execute eval 101,400,Bad Request,run stored 101 7-2,text,true,,582,396,4,4,382,1,0,0,313
+1520848317390,384,execute eval 101,400,Bad Request,run stored 101 7-3,text,true,,582,396,3,3,384,1,0,0,315
+1520848317590,381,execute eval 101,400,Bad Request,run stored 101 7-4,text,true,,582,396,2,2,381,1,0,0,311
+1520848317798,380,execute eval 101,400,Bad Request,run stored 101 7-5,text,true,,582,396,1,1,380,1,0,0,311
+1520848319681,387,execute eval 20.6,400,Bad Request,run stored 20.6 8-1,text,true,,583,397,5,5,387,1,0,0,317
+1520848319882,385,execute eval 20.6,400,Bad Request,run stored 20.6 8-2,text,true,,583,397,4,4,385,1,0,0,315
+1520848320084,383,execute eval 20.6,400,Bad Request,run stored 20.6 8-3,text,true,,583,397,3,3,383,1,0,0,313
+1520848320291,383,execute eval 20.6,400,Bad Request,run stored 20.6 8-4,text,true,,583,397,2,2,383,1,0,0,314
+1520848320490,380,execute eval 20.6,400,Bad Request,run stored 20.6 8-5,text,true,,583,397,1,1,380,1,0,0,311
+1520848322373,389,execute eval string,400,Bad Request,run stored string 9-1,text,true,,583,401,5,5,389,1,0,0,312
+1520848322573,409,execute eval string,400,Bad Request,run stored string 9-2,text,true,,583,401,4,4,408,1,0,0,328
+1520848322774,404,execute eval string,400,Bad Request,run stored string 9-3,text,true,,583,401,3,3,404,1,0,0,323
+1520848322974,414,execute eval string,400,Bad Request,run stored string 9-4,text,true,,583,401,2,2,414,1,0,0,344
+1520848323175,396,execute eval string,400,Bad Request,run stored string 9-5,text,true,,583,401,1,1,396,1,0,0,326
+1520848323577,420,delete workflow error,200,OK,delete workflow 10-1,text,true,,510,246,1,1,420,1,0,0,327
+1520848326015,625,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,698,1,1,625,1,0,0,505
+1520848326687,7,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520848326695,393,create request 150 batch,400,Bad Request,Create request REST 2-1,text,false,,581,1381,1,1,393,1,1,0,318
+1520848327239,404,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,404,1,0,0,314
+1520848329657,585,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,585,1,0,0,477
+1520848330303,6,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520848330310,449,create request,200,OK,Create request REST 2-1,text,true,,574,308,1,1,449,1,0,0,319
+1520848336101,231,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2625,256,1,1,219,1,0,0,141
+1520848341386,391,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,390,1,0,0,315
+1520848346823,393,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,393,1,0,0,318
+1520848352261,392,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,390,1,0,0,314
+1520848357751,406,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,405,1,0,0,326
+1520848363203,381,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,380,1,0,0,306
+1520848368620,388,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,387,1,0,0,313
+1520848374050,394,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,394,1,0,0,319
+1520848379477,207,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,206,1,0,0,133
+1520848384712,398,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,397,1,0,0,319
+1520848390140,385,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,385,1,0,0,308
+1520848395555,397,get progress REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,2638,256,1,1,395,1,0,0,315
+1520848395967,111,Get results REST evalwait:7e71fccf-6568-466a-a4ed-504350a8f0b2,200,OK,Create request REST 2-1,text,true,,3067,257,1,1,109,1,0,0,0
+1520848396079,3,assert expected/actual,200,OK,Create request REST 2-1,text,false,both string was not equal,2209,0,1,1,0,1,1,0,0
+1520848396083,6,compute end time var expectedTime,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520848396093,405,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,405,1,0,0,321
+1520848398905,683,execute Apak,200,OK,run stored 1-1,text,true,,576,662,1,1,682,1,0,0,494
+1520848404994,398,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2646,297,1,1,395,1,0,0,320
+1520848410448,220,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2650,297,1,1,219,1,0,0,140
+1520848415724,211,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2650,297,1,1,210,1,0,0,136
+1520848421025,224,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2650,297,1,1,222,1,0,0,140
+1520848426333,397,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2650,297,1,1,396,1,0,0,320
+1520848431768,395,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2650,297,1,1,394,1,0,0,317
+1520848437254,388,get progress REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,2658,297,1,1,387,1,0,0,313
+1520848437650,110,Get results REST apak-batch:e004482a-2b0b-4be6-8210-431a278ee1a7,200,OK,run stored 1-1,text,true,,3720,298,1,1,103,1,0,0,0
+1520848437763,10,assert expected/actual,200,OK,run stored 1-1,text,false,both string was not equal,3409,0,1,1,0,1,1,0,0
+1520848519781,657,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,657,1,0,0,508
+1520848520854,469,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,469,1,0,0,321
+1520848526648,398,get progress REST addmult:63215188-344f-49de-93c2-ea5909ced079,200,OK,run stored add mult 2-1,text,true,,2564,255,1,1,391,1,0,0,317
+1520848527099,109,Get results REST addmult:63215188-344f-49de-93c2-ea5909ced079,200,OK,run stored add mult 2-1,text,true,,2960,256,1,1,100,1,0,0,0
+1520848527211,10,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2133,0,1,1,0,1,0,0,0
+1520848527231,401,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,401,1,0,0,318
+1520848529561,655,create workflow mult add,201,Created,create workflow 1-1,text,true,,3328,1397,1,1,651,1,0,0,529
+1520848530567,476,execute eval multadd,200,OK,run stored mult add 2-1,text,true,,2410,420,1,1,476,1,0,0,314
+1520848536382,395,get progress REST multadd:2834aa30-d5ec-4bac-908a-3c90bd7430c0,200,OK,run stored mult add 2-1,text,true,,4325,255,1,1,392,1,0,0,315
+1520848536821,101,Get results REST multadd:2834aa30-d5ec-4bac-908a-3c90bd7430c0,200,OK,run stored mult add 2-1,text,true,,4772,256,1,1,98,1,0,0,0
+1520848536923,5,assert expected/actual,200,OK,run stored mult add 2-1,text,true,,4445,0,1,1,0,1,0,0,0
+1520848536932,396,delete workflow multadd,200,OK,delete workflow 3-1,text,true,,2172,244,1,1,396,1,0,0,314
+1520848539366,613,create workflow countEven,201,Created,create workflow 1-1,text,true,,515,998,1,1,612,1,0,0,500
+1520848540314,444,execute countEven,200,OK,run stored countEven 2-1,text,true,,575,464,1,1,443,1,0,0,315
+1520848546066,410,get progress REST countEven:22a4c09e-ed9d-4a28-b668-4b347f54eaae,200,OK,run stored countEven 2-1,text,true,,2576,257,1,1,401,1,0,0,323
+1520848546511,115,Get results REST countEven:22a4c09e-ed9d-4a28-b668-4b347f54eaae,200,OK,run stored countEven 2-1,text,true,,2969,258,1,1,104,1,0,0,0
+1520848546630,15,assert expected/actual,200,OK,run stored countEven 2-1,text,true,,2135,0,1,1,0,1,0,0,0
+1520848546662,397,delete workflow countEven,200,OK,delete workflow 3-1,text,true,,510,246,1,1,397,1,0,0,315
+1520848549610,612,create workflow pipelineName,201,Created,create workflow 1-1,text,true,,515,714,1,1,611,1,0,0,492
+1520848550594,445,execute pipelinename,200,OK,run stored add mult 2-1,text,true,,578,401,1,1,445,1,0,0,323
+1520848556338,416,get progress REST pipelineName:c3f3a9ea-802c-4bf0-9b3f-d0a0f76c13f5,200,OK,run stored add mult 2-1,text,true,,2589,260,1,1,408,1,0,0,334
+1520848556813,109,Get results REST pipelineName:c3f3a9ea-802c-4bf0-9b3f-d0a0f76c13f5,200,OK,run stored add mult 2-1,text,true,,2993,261,1,1,96,1,0,0,0
+1520848558425,400,execute pipeline,404,Not Found,run stored add mult 2-1,text,true,,586,397,1,1,400,1,0,0,326
+1520848558828,98,delete workflow pipelineName,200,OK,run stored add mult 2-1,text,true,,510,249,1,1,98,1,0,0,0
+1520848560427,213,execute pipelineName,404,Not Found,run stored add mult 2-1,text,true,,590,401,1,1,213,1,0,0,138
+1520848562536,688,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,705,1,1,688,1,0,0,523
+1520848563246,451,create request eval wait 1,200,OK,run workflow eval wait 2-1,text,true,,574,308,1,1,451,1,0,0,328
+1520848563744,106,stop execution evalwait:7abf24ae-3a4c-4cc9-bbfe-5b3395323530,200,OK,run workflow eval wait 2-1,text,true,,510,318,1,1,106,1,0,0,0
+1520848565351,383,stop execution evalwait:7abf24ae-3a4c-4cc9-bbfe-5b3395323530,400,Bad Request,run workflow eval wait 2-1,text,true,,600,318,1,1,383,1,0,0,310
+1520848565737,90,Get results REST evalwait:7abf24ae-3a4c-4cc9-bbfe-5b3395323530,200,OK,run workflow eval wait 2-1,text,true,,2746,257,1,1,78,1,0,0,0
+1520848565832,476,create request eval wait 2,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,574,308,1,1,476,1,0,0,312
+1520848576508,427,stop execution without a reason evalwait:a661b2d0-6d32-4040-b013-02f12d659f7a,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,510,292,1,1,427,1,0,0,321
+1520848586962,391,stop execution that dosent exist,404,Not Found,stop workflow that dosent exist 4-1,text,true,,589,304,1,1,391,1,0,0,310
+1520848587357,401,delete workflow eval wait,200,OK,delete workflow 5-1,text,true,,510,245,1,1,401,1,0,0,315
+1520848589676,595,create workflow prime,201,Created,create workflow 1-1,text,true,,515,1150,1,1,595,1,0,0,482
+1520848590278,123,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,123,1,0,0,0
+1520848590498,475,create request eval wait 1,200,OK,run stored 2-1,text,true,,574,425,1,1,475,1,0,0,314
+1520848595974,3969,execute eval prime,200,OK,run stored 2-1,text,true,,576,22420,1,1,3969,1,0,0,325
+1520848605267,389,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2589,258,1,1,386,1,0,0,310
+1520848610722,395,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,395,1,0,0,315
+1520848616153,392,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,391,1,0,0,308
+1520848621581,395,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,394,1,0,0,320
+1520848627017,214,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,214,1,0,0,139
+1520848632275,383,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,382,1,0,0,309
+1520848637710,394,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,393,1,0,0,319
+1520848643147,384,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,383,1,0,0,309
+1520848648577,391,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2593,258,1,1,390,1,0,0,316
+1520848654015,426,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2691,258,1,1,425,1,0,0,310
+1520848659469,487,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2695,258,1,1,486,1,0,0,316
+1520848665002,321,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2695,258,1,1,319,1,0,0,134
+1520848670365,421,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2695,258,1,1,421,1,0,0,315
+1520848675816,387,get progress REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,2592,258,1,1,386,1,0,0,313
+1520848676215,23712,Get results REST primecheck:d7fb7901-16b8-4770-afa3-a63e21c808f3,200,OK,run stored 2-1,text,true,,189656,259,1,1,23472,1,0,0,0
+1520848699937,26,assert expected/actual,200,OK,run stored 2-1,text,true,,469408,0,1,1,0,1,0,0,0
+1520848701469,420,delete workflow primecheck,200,OK,delete workflow 3-1,text,true,,510,247,1,1,420,1,0,0,330
+1520848703390,85,delete workflow wait,200,OK,delete workflow 3-1,text,true,,510,245,1,1,84,1,0,0,0
+1520848705630,628,create workflow to fail,201,Created,store eval to fail 1-1,text,true,,515,747,1,1,628,1,0,0,531
+1520848706298,453,execute Apak,200,OK,run stored 2-1,text,true,,576,618,1,1,453,1,0,0,318
+1520848712156,395,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2554,258,1,1,391,1,0,0,316
+1520848717625,405,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,404,1,0,0,318
+1520848723072,394,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,393,1,0,0,318
+1520848728519,402,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,401,1,0,0,329
+1520848733958,238,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,238,1,0,0,154
+1520848739229,402,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,399,1,0,0,322
+1520848744684,403,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,403,1,0,0,324
+1520848750107,398,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,397,1,0,0,322
+1520848755534,393,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2558,258,1,1,392,1,0,0,314
+1520848760965,216,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,215,1,0,0,135
+1520848766230,387,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,385,1,0,0,311
+1520848771658,401,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,400,1,0,0,322
+1520848777112,401,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,400,1,0,0,316
+1520848782557,387,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,386,1,0,0,311
+1520848787970,401,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,400,1,0,0,327
+1520848793399,426,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,424,1,0,0,322
+1520848798847,400,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,399,1,0,0,321
+1520848804298,406,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,405,1,0,0,326
+1520848809752,395,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,394,1,0,0,318
+1520848815189,392,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,392,1,0,0,315
+1520848820597,396,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,396,1,0,0,323
+1520848826023,392,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,391,1,0,0,317
+1520848831451,388,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,388,1,0,0,314
+1520848836860,213,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,213,1,0,0,136
+1520848842092,392,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2559,258,1,1,391,1,0,0,313
+1520848847522,385,get progress REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,2567,258,1,1,384,1,0,0,310
+1520848847913,99,Get results REST apak-batch:fea5ed61-2c3f-41bb-946c-d810a247b51c,200,OK,run stored 2-1,text,true,,3566,259,1,1,91,1,0,0,0
+1520848848014,4,assert expected/actual,200,OK,run stored 2-1,text,false,both string was not equal,3421,0,1,1,0,1,1,0,0
+1520848848035,471,run eval to fail,200,OK,run eval to fail 3-1,text,true,,574,404,1,1,471,1,0,0,315
+1520848853519,389,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2537,256,1,1,388,1,0,0,313
+1520848853922,82,Get results REST evalfail:05fc4321-369a-4a07-9403-f3e0b2a9f2c0,200,OK,run eval to fail 3-1,text,true,,2784,257,1,1,79,1,0,0,0
+1520848854010,403,delete workflow to fail,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,403,1,0,0,318
+1520848856167,564,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,563,1,0,0,465
+1520848856732,108,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,709,1,1,108,1,0,0,0
+1520848856898,441,create request wait batch 20,200,OK,Create request REST 2-1,text,true,,574,425,1,1,441,1,0,0,313
+1520848867368,563,execute addmult 1,200,OK,Create request REST 2-1,text,true,,573,402,1,1,563,1,0,0,317
+1520848868132,146,execute addmult 2,200,OK,Create request REST 2-1,text,true,,573,403,1,1,146,1,0,0,0
+1520848868479,121,execute addmult 3,200,OK,Create request REST 2-1,text,true,,573,402,1,1,121,1,0,0,0
+1520848868802,255,execute addmult 4,200,OK,Create request REST 2-1,text,true,,573,407,1,1,255,1,0,0,0
+1520848874323,410,get progress REST evalwait:b1e8409d-be89-455e-a868-dab8d01d6db4,200,OK,Create request REST 2-1,text,true,,2881,256,1,1,400,1,0,0,318
+1520848879785,390,get progress REST evalwait:b1e8409d-be89-455e-a868-dab8d01d6db4,200,OK,Create request REST 2-1,text,true,,2788,256,1,1,388,1,0,0,311
+1520848880198,477,Get results REST evalwait:b1e8409d-be89-455e-a868-dab8d01d6db4,200,OK,Create request REST 2-1,text,true,,6203,257,1,1,473,1,0,0,0
+1520848880677,7,assert expected/actual,200,OK,Create request REST 2-1,text,true,,10198,0,1,1,0,1,0,0,0
+1520848880685,91,Get results REST addmult:49e7cb0e-b82d-41cb-b794-2e1ed8e0df2b,200,OK,Create request REST 2-1,text,true,,791,256,1,1,91,1,0,0,0
+1520848880779,92,Get results REST addmult:fcc911f5-799a-400f-ac40-8ed3a66697d2,200,OK,Create request REST 2-1,text,true,,791,256,1,1,92,1,0,0,0
+1520848880872,90,Get results REST addmult:bf51b308-a141-453b-9be8-8c5ac67952ce,200,OK,Create request REST 2-1,text,true,,790,256,1,1,90,1,0,0,0
+1520848881963,407,Get results REST addmult:d1bac6f4-72fb-4bb0-abda-ecd1ebbf34de,200,OK,Create request REST 2-1,text,true,,792,256,1,1,407,1,0,0,313
+1520848882382,410,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,410,1,0,0,314
+1520848882793,86,delete workflow addmult,200,OK,delete pipeline 3-1,text,true,,510,244,1,1,86,1,0,0,0
+1520848884741,561,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,560,1,0,0,467
+1520848885329,479,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,479,1,0,0,320
+1520848885863,73,get progress with wrong id,404,Not Found,run stored 2-1,text,true,,626,260,1,1,73,1,0,0,0
+1520848891200,409,get progress REST primecheck:d2138ab9-89e3-4756-8e13-ed34327701de,200,OK,run stored 2-1,text,true,,2557,258,1,1,398,1,0,0,323
+1520848891647,2036,Get results REST primecheck:d2138ab9-89e3-4756-8e13-ed34327701de,200,OK,run stored 2-1,text,true,,20519,259,1,1,1962,1,0,0,0
+1520848893687,395,Get results with wrong id,404,Not Found,run stored 2-1,text,true,,626,261,1,1,395,1,0,0,317
+1520848894084,34,assert expected/actual,200,OK,run stored 2-1,text,true,,46572,0,1,1,0,1,0,0,0
+1520848894125,392,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,392,1,0,0,310
+1520848896320,565,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,565,1,0,0,467
+1520848896910,495,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,495,1,0,0,318
+1520848902719,403,get progress REST primecheck:50bfbbec-4654-4d68-8b9f-512f3e2cf894,200,OK,run stored 2-1,text,true,,2556,258,1,1,395,1,0,0,318
+1520848903163,2503,Get results REST primecheck:50bfbbec-4654-4d68-8b9f-512f3e2cf894,200,OK,run stored 2-1,text,true,,20519,259,1,1,2424,1,0,0,0
+1520848905671,14,assert expected/actual,200,OK,run stored 2-1,text,true,,46572,0,1,1,0,1,0,0,0
+1520848905689,401,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,401,1,0,0,315
+1520848908065,643,create workflow error,201,Created,create workflow 1-1,text,true,,515,788,1,1,642,1,0,0,536
+1520848910219,460,execute eval 100,200,OK,run stored 100 2-1,text,true,,575,396,5,5,460,1,0,0,312
+1520848910424,562,execute eval 100,200,OK,run stored 100 2-2,text,true,,575,396,5,5,562,1,0,0,332
+1520848910633,478,execute eval 100,200,OK,run stored 100 2-3,text,true,,575,396,5,5,478,1,0,0,318
+1520848910838,477,execute eval 100,200,OK,run stored 100 2-4,text,true,,575,396,5,5,477,1,0,0,313
+1520848911043,487,execute eval 100,200,OK,run stored 100 2-5,text,true,,575,396,5,5,486,1,0,0,309
+1520848915943,209,get progress 100 evalerror:ae5fa08c-69ae-44a6-b24a-73ec4a5fe211,200,OK,run stored 100 2-1,text,true,,2633,257,5,5,205,1,0,0,133
+1520848915997,385,get progress 100 evalerror:6fea905b-c7c9-4a3d-abd8-820a7f8425d8,200,OK,run stored 100 2-2,text,true,,2633,257,5,5,384,1,0,0,311
+1520848916119,384,get progress 100 evalerror:d46c3687-d294-4bc6-b059-bd93edbc1461,200,OK,run stored 100 2-3,text,true,,2633,257,5,5,382,1,0,0,309
+1520848916335,388,get progress 100 evalerror:f31760a8-8f59-409f-a309-473f7dafb303,200,OK,run stored 100 2-4,text,true,,2633,257,5,5,388,1,0,0,314
+1520848916537,209,get progress 100 evalerror:4402f58c-867d-4fb9-b653-ad43fd4e0547,200,OK,run stored 100 2-5,text,true,,2632,257,5,5,208,1,0,0,136
+1520848917162,167,Get results 100 evalerror:ae5fa08c-69ae-44a6-b24a-73ec4a5fe211,200,OK,run stored 100 2-1,text,true,,3032,258,5,5,166,1,0,0,0
+1520848917384,143,Get results 100 evalerror:6fea905b-c7c9-4a3d-abd8-820a7f8425d8,200,OK,run stored 100 2-2,text,true,,3032,258,4,4,142,1,0,0,0
+1520848917509,151,Get results 100 evalerror:d46c3687-d294-4bc6-b059-bd93edbc1461,200,OK,run stored 100 2-3,text,true,,3031,258,3,3,151,1,0,0,0
+1520848917726,119,Get results 100 evalerror:f31760a8-8f59-409f-a309-473f7dafb303,200,OK,run stored 100 2-4,text,true,,3032,258,2,2,118,1,0,0,0
+1520848917748,163,Get results 100 evalerror:4402f58c-867d-4fb9-b653-ad43fd4e0547,200,OK,run stored 100 2-5,text,true,,3031,258,1,1,162,1,0,0,0
+1520848919419,468,execute eval 20,200,OK,run stored 20 3-1,text,true,,575,395,5,5,468,1,0,0,313
+1520848919628,527,execute eval 20,200,OK,run stored 20 3-2,text,true,,575,395,5,5,527,1,0,0,316
+1520848919833,498,execute eval 20,200,OK,run stored 20 3-3,text,true,,575,395,5,5,498,1,0,0,315
+1520848920034,517,execute eval 20,200,OK,run stored 20 3-4,text,true,,575,395,5,5,517,1,0,0,321
+1520848920238,630,execute eval 20,200,OK,run stored 20 3-5,text,true,,575,395,5,5,630,1,0,0,309
+1520848924895,390,get progress 20 evalerror:3a1b2912-7947-40eb-9f36-f0c9cb391486,200,OK,run stored 20 3-1,text,true,,2822,257,5,5,389,1,0,0,313
+1520848925174,394,get progress 20 evalerror:e1579aa5-f3f8-456f-856f-b6d1e3451b8d,200,OK,run stored 20 3-2,text,true,,2822,257,5,5,393,1,0,0,318
+1520848925337,396,get progress 20 evalerror:e788e172-0052-47f2-ac8b-c83215c74405,200,OK,run stored 20 3-3,text,true,,2811,257,5,5,395,1,0,0,319
+1520848925566,394,get progress 20 evalerror:9b5616a0-85af-4a15-a05d-73ce6bfd974e,200,OK,run stored 20 3-4,text,true,,2811,257,5,5,393,1,0,0,319
+1520848925884,388,get progress 20 evalerror:05e69ee3-2519-467a-846e-8220954c8e77,200,OK,run stored 20 3-5,text,true,,2811,257,5,5,387,1,0,0,312
+1520848926294,79,Get results 20 evalerror:3a1b2912-7947-40eb-9f36-f0c9cb391486,200,OK,run stored 20 3-1,text,true,,2641,258,5,5,76,1,0,0,0
+1520848926575,77,Get results 20 evalerror:e1579aa5-f3f8-456f-856f-b6d1e3451b8d,200,OK,run stored 20 3-2,text,true,,2641,258,4,4,76,1,0,0,0
+1520848926744,76,Get results 20 evalerror:e788e172-0052-47f2-ac8b-c83215c74405,200,OK,run stored 20 3-3,text,true,,2641,258,3,3,76,1,0,0,0
+1520848926966,77,Get results 20 evalerror:9b5616a0-85af-4a15-a05d-73ce6bfd974e,200,OK,run stored 20 3-4,text,true,,2641,258,2,2,76,1,0,0,0
+1520848927277,113,Get results 20 evalerror:05e69ee3-2519-467a-846e-8220954c8e77,200,OK,run stored 20 3-5,text,true,,2641,258,1,1,113,1,0,0,0
+1520848928911,442,execute eval 60,200,OK,run stored 60 4-1,text,true,,575,395,5,5,442,1,0,0,317
+1520848929123,632,execute eval 60,200,OK,run stored 60 4-2,text,true,,575,395,5,5,632,1,0,0,316
+1520848929329,449,execute eval 60,200,OK,run stored 60 4-3,text,true,,575,395,5,5,449,1,0,0,314
+1520848929532,541,execute eval 60,200,OK,run stored 60 4-4,text,true,,575,395,5,5,541,1,0,0,311
+1520848929737,503,execute eval 60,200,OK,run stored 60 4-5,text,true,,575,395,5,5,503,1,0,0,314
+1520848934371,387,get progress 60 evalerror:b99eba50-0037-43b7-b3b6-23c2a8c661ab,200,OK,run stored 60 4-1,text,true,,2631,257,5,5,386,1,0,0,314
+1520848934763,388,get progress 60 evalerror:59c60819-e60a-4fc8-a2e0-74b44b5da71d,200,OK,run stored 60 4-2,text,true,,2631,257,5,5,387,1,0,0,312
+1520848934785,391,get progress 60 evalerror:7b733ef5-2c5a-4c33-8afc-647fa094ae3a,200,OK,run stored 60 4-3,text,true,,2631,257,5,5,390,1,0,0,314
+1520848935079,381,get progress 60 evalerror:6bbf7f52-1173-4481-b7ff-6c3733d34f4e,200,OK,run stored 60 4-4,text,true,,2630,257,5,5,381,1,0,0,308
+1520848935246,389,get progress 60 evalerror:88fe74dc-128c-4e6b-818c-628000316551,200,OK,run stored 60 4-5,text,true,,2628,257,5,5,388,1,0,0,309
+1520848935765,144,Get results 60 evalerror:b99eba50-0037-43b7-b3b6-23c2a8c661ab,200,OK,run stored 60 4-1,text,true,,3030,258,5,5,143,1,0,0,0
+1520848936154,187,Get results 60 evalerror:59c60819-e60a-4fc8-a2e0-74b44b5da71d,200,OK,run stored 60 4-2,text,true,,3030,258,4,4,187,1,0,0,0
+1520848936179,234,Get results 60 evalerror:7b733ef5-2c5a-4c33-8afc-647fa094ae3a,200,OK,run stored 60 4-3,text,true,,3030,258,3,3,234,1,0,0,0
+1520848936463,157,Get results 60 evalerror:6bbf7f52-1173-4481-b7ff-6c3733d34f4e,200,OK,run stored 60 4-4,text,true,,3029,258,2,2,157,1,0,0,0
+1520848936639,156,Get results 60 evalerror:88fe74dc-128c-4e6b-818c-628000316551,200,OK,run stored 60 4-5,text,true,,3029,258,1,1,156,1,0,0,0
+1520848938303,465,execute eval 0,200,OK,run stored 0 5-1,text,true,,575,394,5,5,465,1,0,0,320
+1520848938509,570,execute eval 0,200,OK,run stored 0 5-2,text,true,,575,394,5,5,570,1,0,0,319
+1520848938713,553,execute eval 0,200,OK,run stored 0 5-3,text,true,,575,394,5,5,553,1,0,0,318
+1520848938920,635,execute eval 0,200,OK,run stored 0 5-4,text,true,,575,394,5,5,635,1,0,0,315
+1520848939124,484,execute eval 0,200,OK,run stored 0 5-5,text,true,,575,394,5,5,484,1,0,0,316
+1520848943783,381,get progress 0 evalerror:225bdfea-c1ad-41c4-a862-7405822eee8c,200,OK,run stored 0 5-1,text,true,,2808,257,5,5,381,1,0,0,308
+1520848944096,382,get progress 0 evalerror:380bfa49-bf31-4f59-b606-cf4c4c34cd82,200,OK,run stored 0 5-2,text,true,,2819,257,5,5,382,1,0,0,307
+1520848944284,383,get progress 0 evalerror:519f81de-962c-4477-bf54-78eddaf76e92,200,OK,run stored 0 5-3,text,true,,2808,257,5,5,382,1,0,0,308
+1520848944568,386,get progress 0 evalerror:a76546a4-2c91-4280-9da0-2d0d2755a54c,200,OK,run stored 0 5-4,text,true,,2807,257,5,5,385,1,0,0,311
+1520848944622,386,get progress 0 evalerror:7b7df608-a5e4-49dd-9bd0-3bc63fd282d3,200,OK,run stored 0 5-5,text,true,,2808,257,5,5,386,1,0,0,315
+1520848945167,82,Get results 0 evalerror:225bdfea-c1ad-41c4-a862-7405822eee8c,200,OK,run stored 0 5-1,text,true,,2639,258,5,5,81,1,0,0,0
+1520848945480,78,Get results 0 evalerror:380bfa49-bf31-4f59-b606-cf4c4c34cd82,200,OK,run stored 0 5-2,text,true,,2638,258,4,4,77,1,0,0,0
+1520848945672,91,Get results 0 evalerror:519f81de-962c-4477-bf54-78eddaf76e92,200,OK,run stored 0 5-3,text,true,,2637,258,3,3,91,1,0,0,0
+1520848945958,76,Get results 0 evalerror:a76546a4-2c91-4280-9da0-2d0d2755a54c,200,OK,run stored 0 5-4,text,true,,2637,258,2,2,76,1,0,0,0
+1520848946010,76,Get results 0 evalerror:7b7df608-a5e4-49dd-9bd0-3bc63fd282d3,200,OK,run stored 0 5-5,text,true,,2637,258,1,1,76,1,0,0,0
+1520848947589,386,execute eval -2,400,Bad Request,run stored -2 6-1,text,true,,580,395,5,5,386,1,0,0,315
+1520848947792,392,execute eval -2,400,Bad Request,run stored -2 6-2,text,true,,580,395,4,4,392,1,0,0,319
+1520848947992,403,execute eval -2,400,Bad Request,run stored -2 6-3,text,true,,580,395,3,3,403,1,0,0,334
+1520848948192,381,execute eval -2,400,Bad Request,run stored -2 6-4,text,true,,580,395,2,2,380,1,0,0,311
+1520848948392,386,execute eval -2,400,Bad Request,run stored -2 6-5,text,true,,580,395,1,1,386,1,0,0,315
+1520848950285,386,execute eval 101,400,Bad Request,run stored 101 7-1,text,true,,582,396,5,5,386,1,0,0,317
+1520848950486,382,execute eval 101,400,Bad Request,run stored 101 7-2,text,true,,582,396,4,4,382,1,0,0,312
+1520848950687,395,execute eval 101,400,Bad Request,run stored 101 7-3,text,true,,582,396,3,3,395,1,0,0,312
+1520848950887,382,execute eval 101,400,Bad Request,run stored 101 7-4,text,true,,582,396,2,2,382,1,0,0,312
+1520848951088,379,execute eval 101,400,Bad Request,run stored 101 7-5,text,true,,582,396,1,1,379,1,0,0,309
+1520848952970,394,execute eval 20.6,400,Bad Request,run stored 20.6 8-1,text,true,,583,397,5,5,394,1,0,0,323
+1520848953171,398,execute eval 20.6,400,Bad Request,run stored 20.6 8-2,text,true,,583,397,4,4,398,1,0,0,318
+1520848953371,387,execute eval 20.6,400,Bad Request,run stored 20.6 8-3,text,true,,583,397,3,3,387,1,0,0,317
+1520848953576,392,execute eval 20.6,400,Bad Request,run stored 20.6 8-4,text,true,,583,397,2,2,392,1,0,0,322
+1520848953776,395,execute eval 20.6,400,Bad Request,run stored 20.6 8-5,text,true,,583,397,1,1,395,1,0,0,323
+1520848955875,386,execute eval string,400,Bad Request,run stored string 9-2,text,true,,583,401,5,5,386,1,0,0,316
+1520848956275,409,execute eval string,400,Bad Request,run stored string 9-4,text,true,,583,401,4,4,409,1,0,0,323
+1520848955673,1114,execute eval string,400,Bad Request,run stored string 9-1,text,true,,583,401,3,3,1114,1,0,0,753
+1520848956075,768,execute eval string,400,Bad Request,run stored string 9-3,text,true,,583,401,2,2,768,1,0,0,406
+1520848956476,396,execute eval string,400,Bad Request,run stored string 9-5,text,true,,583,401,1,1,396,1,0,0,316
+1520848956878,416,delete workflow error,200,OK,delete workflow 10-1,text,true,,510,246,1,1,416,1,0,0,319
+1520848959452,627,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,698,1,1,627,1,0,0,502
+1520848960143,6,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520848960149,397,create request 150 batch,400,Bad Request,Create request REST 2-1,text,false,,581,1381,1,1,397,1,1,0,320
+1520848960705,421,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,421,1,0,0,321
+1520848963073,628,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,628,1,0,0,518
+1520848963762,5,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520848963767,449,create request,200,OK,Create request REST 2-1,text,true,,574,308,1,1,449,1,0,0,316
+1520848969666,411,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2625,256,1,1,401,1,0,0,316
+1520848975134,392,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,391,1,0,0,315
+1520848980579,396,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,394,1,0,0,319
+1520848986042,387,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,386,1,0,0,313
+1520848991453,212,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,210,1,0,0,136
+1520848996705,212,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,209,1,0,0,135
+1520849001962,395,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,393,1,0,0,318
+1520849007418,398,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,396,1,0,0,321
+1520849012857,388,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,387,1,0,0,312
+1520849018317,396,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,396,1,0,0,323
+1520849023743,392,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,391,1,0,0,313
+1520849029173,394,get progress REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,2638,256,1,1,392,1,0,0,315
+1520849029580,98,Get results REST evalwait:0bb0f614-9853-4d36-a81a-a1af0d28aff7,200,OK,Create request REST 2-1,text,true,,3067,257,1,1,95,1,0,0,0
+1520849029679,4,assert expected/actual,200,OK,Create request REST 2-1,text,true,,2289,0,1,1,0,1,0,0,0
+1520849029685,9,compute end time var expectedTime,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520849029699,405,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,405,1,0,0,313
+1520849032059,694,execute Apak,200,OK,run stored 1-1,text,true,,576,662,1,1,694,1,0,0,506
+1520849038091,429,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2645,297,1,1,421,1,0,0,339
+1520849043586,407,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2649,297,1,1,406,1,0,0,321
+1520849049044,386,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2649,297,1,1,385,1,0,0,311
+1520849054464,401,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2649,297,1,1,400,1,0,0,322
+1520849059921,396,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2649,297,1,1,395,1,0,0,319
+1520849065410,213,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2649,297,1,1,213,1,0,0,138
+1520849070681,394,get progress REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,2657,297,1,1,391,1,0,0,316
+1520849071093,111,Get results REST apak-batch:3f034343-aaed-4daf-9138-eea67d642b05,200,OK,run stored 1-1,text,true,,3720,298,1,1,102,1,0,0,0
+1520849071207,13,assert expected/actual,200,OK,run stored 1-1,text,false,both string was not equal,3490,0,1,1,0,1,1,0,0
+1520856209692,557,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,557,1,0,0,443
+1520856210617,515,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,515,1,0,0,321
+1520856216453,399,get progress REST addmult:e9a95f4f-8bdb-47cf-a49e-71495fe226b3,200,OK,run stored add mult 2-1,text,true,,2564,255,1,1,391,1,0,0,317
+1520856216891,91,Get results REST addmult:e9a95f4f-8bdb-47cf-a49e-71495fe226b3,200,OK,run stored add mult 2-1,text,true,,2960,256,1,1,88,1,0,0,0
+1520856216982,5,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2134,0,1,1,0,1,0,0,0
+1520856216990,409,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,409,1,0,0,320
+1520856219375,628,create workflow mult add,201,Created,create workflow 1-1,text,true,,3328,1397,1,1,625,1,0,0,496
+1520856220339,501,execute eval multadd,200,OK,run stored mult add 2-1,text,true,,2410,420,1,1,500,1,0,0,331
+1520856226137,396,get progress REST multadd:7c8d29ce-10a3-4766-89b4-9c1214c5e4c7,200,OK,run stored mult add 2-1,text,true,,4325,255,1,1,395,1,0,0,317
+1520856226578,105,Get results REST multadd:7c8d29ce-10a3-4766-89b4-9c1214c5e4c7,200,OK,run stored mult add 2-1,text,true,,4772,256,1,1,97,1,0,0,0
+1520856226685,14,assert expected/actual,200,OK,run stored mult add 2-1,text,true,,4445,0,1,1,0,1,0,0,0
+1520856226712,401,delete workflow multadd,200,OK,delete workflow 3-1,text,true,,2172,244,1,1,401,1,0,0,318
+1520856228949,613,create workflow countEven,201,Created,create workflow 1-1,text,true,,515,998,1,1,613,1,0,0,491
+1520856229917,537,execute countEven,200,OK,run stored countEven 2-1,text,true,,575,464,1,1,537,1,0,0,318
+1520856235719,404,get progress REST countEven:1a37edfe-4a13-4296-9a5b-ac8ba17c23d7,200,OK,run stored countEven 2-1,text,true,,2576,257,1,1,397,1,0,0,323
+1520856236144,98,Get results REST countEven:1a37edfe-4a13-4296-9a5b-ac8ba17c23d7,200,OK,run stored countEven 2-1,text,true,,2969,258,1,1,90,1,0,0,0
+1520856236244,14,assert expected/actual,200,OK,run stored countEven 2-1,text,true,,2135,0,1,1,0,1,0,0,0
+1520856236270,404,delete workflow countEven,200,OK,delete workflow 3-1,text,true,,510,246,1,1,404,1,0,0,321
+1520856239118,604,create workflow pipelineName,201,Created,create workflow 1-1,text,true,,515,714,1,1,604,1,0,0,496
+1520856240038,477,execute pipelinename,200,OK,run stored add mult 2-1,text,true,,578,401,1,1,477,1,0,0,316
+1520856245769,393,get progress REST pipelineName:78091e01-f068-4b5f-8914-aa8115c88276,200,OK,run stored add mult 2-1,text,true,,2588,260,1,1,389,1,0,0,314
+1520856246185,98,Get results REST pipelineName:78091e01-f068-4b5f-8914-aa8115c88276,200,OK,run stored add mult 2-1,text,true,,2992,261,1,1,94,1,0,0,0
+1520856247784,397,execute pipeline,404,Not Found,run stored add mult 2-1,text,true,,586,397,1,1,396,1,0,0,322
+1520856248183,88,delete workflow pipelineName,200,OK,run stored add mult 2-1,text,true,,510,249,1,1,88,1,0,0,0
+1520856249773,75,execute pipelineName,404,Not Found,run stored add mult 2-1,text,true,,590,401,1,1,75,1,0,0,0
+1520856251580,580,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,705,1,1,580,1,0,0,459
+1520856252176,442,create request eval wait 1,200,OK,run workflow eval wait 2-1,text,true,,574,308,1,1,442,1,0,0,321
+1520856252649,171,stop execution evalwait:165acb8f-1c4d-4e51-9ae6-6305520b6513,200,OK,run workflow eval wait 2-1,text,true,,510,318,1,1,171,1,0,0,0
+1520856254321,400,stop execution evalwait:165acb8f-1c4d-4e51-9ae6-6305520b6513,400,Bad Request,run workflow eval wait 2-1,text,true,,600,318,1,1,400,1,0,0,324
+1520856254729,100,Get results REST evalwait:165acb8f-1c4d-4e51-9ae6-6305520b6513,200,OK,run workflow eval wait 2-1,text,true,,2745,257,1,1,77,1,0,0,0
+1520856254832,476,create request eval wait 2,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,574,308,1,1,476,1,0,0,314
+1520856265481,412,stop execution without a reason evalwait:ba3fb659-cd86-488f-b59c-d2a3c5ac8ca6,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,510,292,1,1,412,1,0,0,321
+1520856275923,393,stop execution that dosent exist,404,Not Found,stop workflow that dosent exist 4-1,text,true,,589,304,1,1,393,1,0,0,319
+1520856276326,404,delete workflow eval wait,200,OK,delete workflow 5-1,text,true,,510,245,1,1,404,1,0,0,320
+1520856278557,626,create workflow prime,201,Created,create workflow 1-1,text,true,,515,1150,1,1,625,1,0,0,494
+1520856279186,95,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,95,1,0,0,0
+1520856279311,473,create request eval wait 1,200,OK,run stored 2-1,text,true,,574,425,1,1,473,1,0,0,314
+1520856284786,582,execute eval prime,200,OK,run stored 2-1,text,true,,576,22420,1,1,582,1,0,0,321
+1520856290642,395,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2589,258,1,1,389,1,0,0,313
+1520856296081,394,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,393,1,0,0,318
+1520856301509,390,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,390,1,0,0,309
+1520856306933,216,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,214,1,0,0,137
+1520856312179,394,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,393,1,0,0,316
+1520856317622,387,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,385,1,0,0,311
+1520856323035,396,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,395,1,0,0,314
+1520856328460,391,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,389,1,0,0,314
+1520856333881,212,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2593,258,1,1,211,1,0,0,136
+1520856339126,385,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2594,258,1,1,384,1,0,0,311
+1520856344543,481,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2695,258,1,1,479,1,0,0,315
+1520856350071,421,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2695,258,1,1,420,1,0,0,310
+1520856355522,472,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2695,258,1,1,471,1,0,0,316
+1520856361027,547,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2695,258,1,1,546,1,0,0,315
+1520856366598,391,get progress REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,2592,258,1,1,390,1,0,0,316
+1520856367002,22616,Get results REST primecheck:93b7b7b8-bccf-4287-9955-6510b529c5df,200,OK,run stored 2-1,text,true,,189653,259,1,1,22374,1,0,0,0
+1520856389628,31,assert expected/actual,200,OK,run stored 2-1,text,true,,469405,0,1,1,0,1,0,0,0
+1520856391171,401,delete workflow primecheck,200,OK,delete workflow 3-1,text,true,,510,247,1,1,401,1,0,0,318
+1520856393073,98,delete workflow wait,200,OK,delete workflow 3-1,text,true,,510,245,1,1,98,1,0,0,0
+1520856395027,568,create workflow to fail,201,Created,store eval to fail 1-1,text,true,,515,747,1,1,568,1,0,0,455
+1520856395656,450,execute Apak,200,OK,run stored 2-1,text,true,,576,618,1,1,450,1,0,0,318
+1520856401366,398,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2562,258,1,1,395,1,0,0,320
+1520856406799,397,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,396,1,0,0,311
+1520856412250,419,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,418,1,0,0,320
+1520856417703,398,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,396,1,0,0,315
+1520856423152,210,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,209,1,0,0,132
+1520856428390,396,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,394,1,0,0,320
+1520856433835,403,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,401,1,0,0,319
+1520856439283,394,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,393,1,0,0,319
+1520856444705,392,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2566,258,1,1,391,1,0,0,316
+1520856450117,393,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,393,1,0,0,311
+1520856455535,382,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,381,1,0,0,306
+1520856460942,390,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,389,1,0,0,314
+1520856466362,390,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,389,1,0,0,315
+1520856471776,394,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,394,1,0,0,313
+1520856477193,390,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,390,1,0,0,312
+1520856482607,392,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,389,1,0,0,315
+1520856488025,389,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,388,1,0,0,312
+1520856493457,399,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,398,1,0,0,317
+1520856498877,394,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,393,1,0,0,316
+1520856504308,210,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,209,1,0,0,135
+1520856509559,387,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,386,1,0,0,313
+1520856514968,393,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,392,1,0,0,314
+1520856520383,384,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,383,1,0,0,310
+1520856525805,390,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2567,258,1,1,389,1,0,0,312
+1520856531216,388,get progress REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,2575,258,1,1,387,1,0,0,313
+1520856531619,96,Get results REST apak-batch:f77d9bd5-64a5-4fe3-8324-63192e2e6879,200,OK,run stored 2-1,text,true,,3573,259,1,1,93,1,0,0,0
+1520856531716,4,assert expected/actual,200,OK,run stored 2-1,text,true,,3417,0,1,1,0,1,0,0,0
+1520856531733,446,run eval to fail,200,OK,run eval to fail 3-1,text,true,,574,404,1,1,446,1,0,0,316
+1520856537192,385,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2543,256,1,1,384,1,0,0,310
+1520856537591,84,Get results REST evalfail:305e6201-e5ab-45bc-a099-5ab9f5a5e96c,200,OK,run eval to fail 3-1,text,true,,2805,257,1,1,78,1,0,0,0
+1520856537682,397,delete workflow to fail,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,397,1,0,0,311
+1520856539892,591,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,590,1,0,0,477
+1520856540490,94,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,709,1,1,94,1,0,0,0
+1520856540654,493,create request wait batch 20,200,OK,Create request REST 2-1,text,true,,574,425,1,1,493,1,0,0,338
+1520856551203,613,execute addmult 1,200,OK,Create request REST 2-1,text,true,,573,402,1,1,613,1,0,0,322
+1520856552018,134,execute addmult 2,200,OK,Create request REST 2-1,text,true,,573,403,1,1,134,1,0,0,0
+1520856552354,129,execute addmult 3,200,OK,Create request REST 2-1,text,true,,573,402,1,1,129,1,0,0,0
+1520856552685,206,execute addmult 4,200,OK,Create request REST 2-1,text,true,,573,407,1,1,206,1,0,0,0
+1520856558123,401,get progress REST evalwait:88f7ceef-0c9c-48d2-8eb2-2ae7a93ad81a,200,OK,Create request REST 2-1,text,true,,2881,256,1,1,390,1,0,0,315
+1520856563569,398,get progress REST evalwait:88f7ceef-0c9c-48d2-8eb2-2ae7a93ad81a,200,OK,Create request REST 2-1,text,true,,2788,256,1,1,396,1,0,0,316
+1520856563976,357,Get results REST evalwait:88f7ceef-0c9c-48d2-8eb2-2ae7a93ad81a,200,OK,Create request REST 2-1,text,true,,6203,257,1,1,346,1,0,0,0
+1520856564337,21,assert expected/actual,200,OK,Create request REST 2-1,text,true,,10198,0,1,1,0,1,0,0,0
+1520856564361,126,Get results REST addmult:d11be852-ab78-44dd-b898-f53925de4d39,200,OK,Create request REST 2-1,text,true,,791,256,1,1,126,1,0,0,0
+1520856564494,94,Get results REST addmult:f158b01c-20ba-44e0-8d00-ea491bf44975,200,OK,Create request REST 2-1,text,true,,791,256,1,1,94,1,0,0,0
+1520856564589,91,Get results REST addmult:1b494261-d783-4e5f-8f31-57a7389497db,200,OK,Create request REST 2-1,text,true,,789,256,1,1,91,1,0,0,0
+1520856565682,422,Get results REST addmult:2c5bbcdd-5eec-4ac0-a754-3feec29ba6f4,200,OK,Create request REST 2-1,text,true,,792,256,1,1,422,1,0,0,315
+1520856566111,402,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,402,1,0,0,318
+1520856566514,84,delete workflow addmult,200,OK,delete pipeline 3-1,text,true,,510,244,1,1,84,1,0,0,0
+1520856568583,665,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,665,1,0,0,491
+1520856569273,501,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,501,1,0,0,320
+1520856569819,72,get progress with wrong id,404,Not Found,run stored 2-1,text,true,,626,260,1,1,72,1,0,0,0
+1520856575162,393,get progress REST primecheck:68f7c488-ed43-48aa-b592-902a4c8241bc,200,OK,run stored 2-1,text,true,,2555,258,1,1,387,1,0,0,312
+1520856575575,2200,Get results REST primecheck:68f7c488-ed43-48aa-b592-902a4c8241bc,200,OK,run stored 2-1,text,true,,20518,259,1,1,2127,1,0,0,0
+1520856577778,395,Get results with wrong id,404,Not Found,run stored 2-1,text,true,,626,261,1,1,395,1,0,0,320
+1520856578175,34,assert expected/actual,200,OK,run stored 2-1,text,true,,46572,0,1,1,0,1,0,0,0
+1520856578215,467,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,467,1,0,0,356
+1520856580460,603,create workflow,201,Created,create workflow 1-1,text,true,,515,1088,1,1,603,1,0,0,495
+1520856581089,482,execute eval,200,OK,run stored 2-1,text,true,,576,2619,1,1,482,1,0,0,341
+1520856586896,408,get progress REST primecheck:f12cfba4-ff00-41f6-be17-5b0b6091232c,200,OK,run stored 2-1,text,true,,2557,258,1,1,398,1,0,0,318
+1520856587345,2252,Get results REST primecheck:f12cfba4-ff00-41f6-be17-5b0b6091232c,200,OK,run stored 2-1,text,true,,20519,259,1,1,2173,1,0,0,0
+1520856589600,13,assert expected/actual,200,OK,run stored 2-1,text,true,,46572,0,1,1,0,1,0,0,0
+1520856589617,405,delete workflow,200,OK,delete workflow 3-1,text,true,,510,247,1,1,405,1,0,0,321
+1520856591824,604,create workflow error,201,Created,create workflow 1-1,text,true,,515,788,1,1,603,1,0,0,470
+1520856593944,470,execute eval 100,200,OK,run stored 100 2-1,text,true,,575,396,5,5,470,1,0,0,312
+1520856594150,519,execute eval 100,200,OK,run stored 100 2-2,text,true,,575,396,5,5,519,1,0,0,310
+1520856594354,554,execute eval 100,200,OK,run stored 100 2-3,text,true,,575,396,5,5,554,1,0,0,316
+1520856594558,539,execute eval 100,200,OK,run stored 100 2-4,text,true,,575,396,5,5,539,1,0,0,307
+1520856594762,715,execute eval 100,200,OK,run stored 100 2-5,text,true,,575,396,5,5,715,1,0,0,314
+1520856599626,383,get progress 100 evalerror:5a8466bd-3c4c-4159-a25b-0900e1b7424e,200,OK,run stored 100 2-1,text,true,,2633,257,5,5,380,1,0,0,307
+1520856599675,387,get progress 100 evalerror:dbe82d08-c707-4ba1-8a39-ba6e4cf18514,200,OK,run stored 100 2-2,text,true,,2633,257,5,5,386,1,0,0,313
+1520856599919,383,get progress 100 evalerror:6ee19af9-40b2-4cdc-9b83-ce2e9c38f57c,200,OK,run stored 100 2-3,text,true,,2633,257,5,5,383,1,0,0,309
+1520856600102,382,get progress 100 evalerror:0cec26c5-718d-4049-9ff4-d66fdfd37531,200,OK,run stored 100 2-4,text,true,,2633,257,5,5,380,1,0,0,306
+1520856600487,394,get progress 100 evalerror:a086ee2e-6ea1-40b5-b432-b107041dc89e,200,OK,run stored 100 2-5,text,true,,2632,257,5,5,393,1,0,0,319
+1520856601018,228,Get results 100 evalerror:5a8466bd-3c4c-4159-a25b-0900e1b7424e,200,OK,run stored 100 2-1,text,true,,3032,258,5,5,227,1,0,0,0
+1520856601064,189,Get results 100 evalerror:dbe82d08-c707-4ba1-8a39-ba6e4cf18514,200,OK,run stored 100 2-2,text,true,,3032,258,4,4,188,1,0,0,0
+1520856601305,159,Get results 100 evalerror:6ee19af9-40b2-4cdc-9b83-ce2e9c38f57c,200,OK,run stored 100 2-3,text,true,,3032,258,3,3,159,1,0,0,0
+1520856601488,151,Get results 100 evalerror:0cec26c5-718d-4049-9ff4-d66fdfd37531,200,OK,run stored 100 2-4,text,true,,3032,258,2,2,150,1,0,0,0
+1520856601885,155,Get results 100 evalerror:a086ee2e-6ea1-40b5-b432-b107041dc89e,200,OK,run stored 100 2-5,text,true,,3031,258,1,1,154,1,0,0,0
+1520856603553,471,execute eval 20,200,OK,run stored 20 3-1,text,true,,575,395,5,5,471,1,0,0,320
+1520856603764,635,execute eval 20,200,OK,run stored 20 3-2,text,true,,575,395,5,5,635,1,0,0,316
+1520856603973,492,execute eval 20,200,OK,run stored 20 3-3,text,true,,575,395,5,5,492,1,0,0,312
+1520856604177,645,execute eval 20,200,OK,run stored 20 3-4,text,true,,575,395,5,5,645,1,0,0,316
+1520856604382,510,execute eval 20,200,OK,run stored 20 3-5,text,true,,575,395,5,5,510,1,0,0,327
+1520856609035,385,get progress 20 evalerror:14b73c7b-ecf3-4c59-87d8-d3120f35603a,200,OK,run stored 20 3-1,text,true,,2822,257,5,5,384,1,0,0,310
+1520856609415,390,get progress 20 evalerror:c1569262-2802-4f9d-b0c3-44a02006e2f0,200,OK,run stored 20 3-2,text,true,,2811,257,5,5,389,1,0,0,315
+1520856609481,391,get progress 20 evalerror:691f11f3-d31e-4f8e-ab94-de8d5261819e,200,OK,run stored 20 3-3,text,true,,2822,257,5,5,390,1,0,0,316
+1520856609838,393,get progress 20 evalerror:d10e2395-0490-4063-9d5f-9df366411dff,200,OK,run stored 20 3-4,text,true,,2822,257,5,5,392,1,0,0,315
+1520856609898,391,get progress 20 evalerror:22b1af98-46aa-4dc0-9071-24573c506b97,200,OK,run stored 20 3-5,text,true,,2821,257,5,5,390,1,0,0,315
+1520856610428,81,Get results 20 evalerror:14b73c7b-ecf3-4c59-87d8-d3120f35603a,200,OK,run stored 20 3-1,text,true,,2640,258,5,5,79,1,0,0,0
+1520856610812,76,Get results 20 evalerror:c1569262-2802-4f9d-b0c3-44a02006e2f0,200,OK,run stored 20 3-2,text,true,,2641,258,4,4,76,1,0,0,0
+1520856610881,81,Get results 20 evalerror:691f11f3-d31e-4f8e-ab94-de8d5261819e,200,OK,run stored 20 3-3,text,true,,2641,258,3,3,81,1,0,0,0
+1520856611238,79,Get results 20 evalerror:d10e2395-0490-4063-9d5f-9df366411dff,200,OK,run stored 20 3-4,text,true,,2641,258,2,2,78,1,0,0,0
+1520856611293,78,Get results 20 evalerror:22b1af98-46aa-4dc0-9071-24573c506b97,200,OK,run stored 20 3-5,text,true,,2641,258,1,1,77,1,0,0,0
+1520856612888,450,execute eval 60,200,OK,run stored 60 4-1,text,true,,575,395,5,5,450,1,0,0,313
+1520856613097,666,execute eval 60,200,OK,run stored 60 4-2,text,true,,575,395,5,5,666,1,0,0,316
+1520856613301,571,execute eval 60,200,OK,run stored 60 4-3,text,true,,575,395,5,5,571,1,0,0,315
+1520856613504,662,execute eval 60,200,OK,run stored 60 4-4,text,true,,575,395,5,5,662,1,0,0,308
+1520856613705,549,execute eval 60,200,OK,run stored 60 4-5,text,true,,575,395,5,5,549,1,0,0,315
+1520856618358,387,get progress 60 evalerror:9c1f64dc-6657-403c-9667-7a8beb463b42,200,OK,run stored 60 4-1,text,true,,2631,257,5,5,386,1,0,0,312
+1520856618773,398,get progress 60 evalerror:8a1a6a69-dfe1-4167-b3d0-f32a115d840c,200,OK,run stored 60 4-2,text,true,,2631,257,5,5,397,1,0,0,322
+1520856618880,398,get progress 60 evalerror:da1654b0-a505-4150-8fc1-8a6fbb3459c7,200,OK,run stored 60 4-3,text,true,,2631,257,5,5,397,1,0,0,318
+1520856619173,212,get progress 60 evalerror:f1696f4b-252c-445f-ae80-4372c2c33118,200,OK,run stored 60 4-4,text,true,,2631,257,5,5,211,1,0,0,135
+1520856619262,210,get progress 60 evalerror:ec2db9bd-35b9-4c6a-af10-561b43c47db7,200,OK,run stored 60 4-5,text,true,,2631,257,5,5,209,1,0,0,135
+1520856619751,170,Get results 60 evalerror:9c1f64dc-6657-403c-9667-7a8beb463b42,200,OK,run stored 60 4-1,text,true,,3030,258,5,5,170,1,0,0,0
+1520856620174,152,Get results 60 evalerror:8a1a6a69-dfe1-4167-b3d0-f32a115d840c,200,OK,run stored 60 4-2,text,true,,3029,258,4,4,151,1,0,0,0
+1520856620285,162,Get results 60 evalerror:da1654b0-a505-4150-8fc1-8a6fbb3459c7,200,OK,run stored 60 4-3,text,true,,3028,258,3,3,161,1,0,0,0
+1520856620390,158,Get results 60 evalerror:f1696f4b-252c-445f-ae80-4372c2c33118,200,OK,run stored 60 4-4,text,true,,3030,258,2,2,158,1,0,0,0
+1520856620477,134,Get results 60 evalerror:ec2db9bd-35b9-4c6a-af10-561b43c47db7,200,OK,run stored 60 4-5,text,true,,3030,258,1,1,134,1,0,0,0
+1520856622119,444,execute eval 0,200,OK,run stored 0 5-1,text,true,,575,394,5,5,444,1,0,0,315
+1520856622528,494,execute eval 0,200,OK,run stored 0 5-3,text,true,,575,394,5,5,494,1,0,0,317
+1520856622325,699,execute eval 0,200,OK,run stored 0 5-2,text,true,,575,394,5,5,698,1,0,0,317
+1520856622734,634,execute eval 0,200,OK,run stored 0 5-4,text,true,,575,394,5,5,634,1,0,0,315
+1520856622939,702,execute eval 0,200,OK,run stored 0 5-5,text,true,,575,394,5,5,702,1,0,0,317
+1520856627580,382,get progress 0 evalerror:f1052710-b93f-43a4-8bb5-54bd3fd79e05,200,OK,run stored 0 5-1,text,true,,2808,257,5,5,382,1,0,0,309
+1520856628038,381,get progress 0 evalerror:92be2e71-fee8-49fc-bb0d-c32f3b274059,200,OK,run stored 0 5-2,text,true,,2819,257,5,5,380,1,0,0,306
+1520856628036,382,get progress 0 evalerror:e296ffaf-c77f-4c13-b0e0-113c672e8e12,200,OK,run stored 0 5-3,text,true,,2808,257,5,5,382,1,0,0,308
+1520856628379,388,get progress 0 evalerror:b63978d6-695c-45bc-8980-40397dd11286,200,OK,run stored 0 5-4,text,true,,2808,257,5,5,387,1,0,0,314
+1520856628649,387,get progress 0 evalerror:b67913b2-e4f4-4bf9-9624-f5145d567588,200,OK,run stored 0 5-5,text,true,,2819,257,5,5,386,1,0,0,312
+1520856628965,75,Get results 0 evalerror:f1052710-b93f-43a4-8bb5-54bd3fd79e05,200,OK,run stored 0 5-1,text,true,,2638,258,5,5,75,1,0,0,0
+1520856629422,79,Get results 0 evalerror:e296ffaf-c77f-4c13-b0e0-113c672e8e12,200,OK,run stored 0 5-3,text,true,,2643,258,4,4,79,1,0,0,0
+1520856629422,81,Get results 0 evalerror:92be2e71-fee8-49fc-bb0d-c32f3b274059,200,OK,run stored 0 5-2,text,true,,2637,258,4,4,80,1,0,0,0
+1520856629771,79,Get results 0 evalerror:b63978d6-695c-45bc-8980-40397dd11286,200,OK,run stored 0 5-4,text,true,,2638,258,2,2,79,1,0,0,0
+1520856630040,81,Get results 0 evalerror:b67913b2-e4f4-4bf9-9624-f5145d567588,200,OK,run stored 0 5-5,text,true,,2637,258,1,1,80,1,0,0,0
+1520856631629,386,execute eval -2,400,Bad Request,run stored -2 6-1,text,true,,580,395,5,5,386,1,0,0,316
+1520856631830,390,execute eval -2,400,Bad Request,run stored -2 6-2,text,true,,580,395,4,4,390,1,0,0,319
+1520856632032,386,execute eval -2,400,Bad Request,run stored -2 6-3,text,true,,580,395,3,3,386,1,0,0,316
+1520856632232,383,execute eval -2,400,Bad Request,run stored -2 6-4,text,true,,580,395,2,2,383,1,0,0,313
+1520856632432,389,execute eval -2,400,Bad Request,run stored -2 6-5,text,true,,580,395,1,1,389,1,0,0,317
+1520856634329,385,execute eval 101,400,Bad Request,run stored 101 7-1,text,true,,582,396,5,5,385,1,0,0,315
+1520856634530,383,execute eval 101,400,Bad Request,run stored 101 7-2,text,true,,582,396,4,4,383,1,0,0,314
+1520856634729,376,execute eval 101,400,Bad Request,run stored 101 7-3,text,true,,582,396,3,3,376,1,0,0,307
+1520856634932,382,execute eval 101,400,Bad Request,run stored 101 7-4,text,true,,582,396,2,2,381,1,0,0,312
+1520856635132,380,execute eval 101,400,Bad Request,run stored 101 7-5,text,true,,582,396,1,1,380,1,0,0,310
+1520856637018,389,execute eval 20.6,400,Bad Request,run stored 20.6 8-1,text,true,,583,397,5,5,389,1,0,0,319
+1520856637220,398,execute eval 20.6,400,Bad Request,run stored 20.6 8-2,text,true,,583,397,4,4,398,1,0,0,324
+1520856637421,399,execute eval 20.6,400,Bad Request,run stored 20.6 8-3,text,true,,583,397,3,3,399,1,0,0,329
+1520856637622,391,execute eval 20.6,400,Bad Request,run stored 20.6 8-4,text,true,,583,397,2,2,391,1,0,0,319
+1520856637826,389,execute eval 20.6,400,Bad Request,run stored 20.6 8-5,text,true,,583,397,1,1,389,1,0,0,319
+1520856639721,390,execute eval string,400,Bad Request,run stored string 9-1,text,true,,583,401,5,5,390,1,0,0,319
+1520856639924,389,execute eval string,400,Bad Request,run stored string 9-2,text,true,,583,401,4,4,389,1,0,0,317
+1520856640124,388,execute eval string,400,Bad Request,run stored string 9-3,text,true,,583,401,3,3,388,1,0,0,317
+1520856640325,385,execute eval string,400,Bad Request,run stored string 9-4,text,true,,583,401,2,2,385,1,0,0,316
+1520856640525,376,execute eval string,400,Bad Request,run stored string 9-5,text,true,,583,401,1,1,376,1,0,0,307
+1520856640905,397,delete workflow error,200,OK,delete workflow 10-1,text,true,,510,246,1,1,397,1,0,0,307
+1520856643101,609,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,698,1,1,608,1,0,0,473
+1520856643781,4,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520856643785,463,create request 150 batch,200,OK,Create request REST 2-1,text,true,,574,1231,1,1,463,1,0,0,312
+1520856649494,409,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2628,256,1,1,403,1,0,0,328
+1520856654943,406,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2632,256,1,1,404,1,0,0,326
+1520856660399,387,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2632,256,1,1,386,1,0,0,311
+1520856665832,383,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2632,256,1,1,383,1,0,0,309
+1520856671242,389,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2632,256,1,1,388,1,0,0,315
+1520856676665,402,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2741,256,1,1,399,1,0,0,322
+1520856682122,212,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2741,256,1,1,211,1,0,0,136
+1520856687361,394,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2741,256,1,1,392,1,0,0,317
+1520856692788,395,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2741,256,1,1,394,1,0,0,319
+1520856698212,387,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2742,256,1,1,387,1,0,0,313
+1520856703624,384,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2742,256,1,1,383,1,0,0,309
+1520856709032,396,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,394,1,0,0,320
+1520856714484,214,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,212,1,0,0,136
+1520856719721,208,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,207,1,0,0,134
+1520856724952,213,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,212,1,0,0,137
+1520856730191,392,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,388,1,0,0,314
+1520856735603,213,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,212,1,0,0,136
+1520856740858,383,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,383,1,0,0,306
+1520856746257,386,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,385,1,0,0,311
+1520856751657,384,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,384,1,0,0,311
+1520856757062,389,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,388,1,0,0,314
+1520856762475,393,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,392,1,0,0,318
+1520856767889,387,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,386,1,0,0,312
+1520856773298,228,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,227,1,0,0,136
+1520856778545,207,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,206,1,0,0,134
+1520856783771,392,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,391,1,0,0,317
+1520856789206,207,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,207,1,0,0,133
+1520856794431,389,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,388,1,0,0,314
+1520856799852,382,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,381,1,0,0,309
+1520856805254,395,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,394,1,0,0,319
+1520856810681,395,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,394,1,0,0,320
+1520856816112,410,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,409,1,0,0,312
+1520856821552,395,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2744,256,1,1,394,1,0,0,320
+1520856826982,389,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,388,1,0,0,315
+1520856832404,775,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,774,1,0,0,662
+1520856838209,391,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,390,1,0,0,316
+1520856843623,390,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,389,1,0,0,313
+1520856849041,384,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,384,1,0,0,311
+1520856854447,210,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,209,1,0,0,135
+1520856859691,388,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,388,1,0,0,313
+1520856865097,230,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,229,1,0,0,136
+1520856870361,386,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,385,1,0,0,312
+1520856875781,385,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,384,1,0,0,311
+1520856881201,211,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,210,1,0,0,136
+1520856886449,388,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,387,1,0,0,312
+1520856891858,388,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,387,1,0,0,314
+1520856897283,388,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,387,1,0,0,313
+1520856902694,389,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,388,1,0,0,315
+1520856908117,388,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,387,1,0,0,312
+1520856913541,387,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2746,256,1,1,386,1,0,0,311
+1520856918964,383,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,382,1,0,0,310
+1520856924363,390,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,389,1,0,0,314
+1520856929783,389,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,388,1,0,0,313
+1520856935210,390,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,389,1,0,0,316
+1520856940634,387,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2745,256,1,1,387,1,0,0,311
+1520856946037,218,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2734,256,1,1,218,1,0,0,135
+1520856951292,396,get progress REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,2643,256,1,1,395,1,0,0,320
+1520856951700,3113,Get results REST evalwait:a6de2051-b890-41ba-b396-7f217c55c25d,200,OK,Create request REST 2-1,text,true,,26704,257,1,1,3041,1,0,0,0
+1520856954818,21,assert expected/actual,200,OK,Create request REST 2-1,text,true,,59345,0,1,1,0,1,0,0,0
+1520856954839,8,compute end time var expectedTime,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520856954851,396,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,396,1,0,0,313
+1520856957139,599,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,706,1,1,599,1,0,0,486
+1520856957794,6,compute start time,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520856957801,498,create request,200,OK,Create request REST 2-1,text,true,,574,308,1,1,498,1,0,0,316
+1520856963605,392,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2625,256,1,1,385,1,0,0,312
+1520856969048,388,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,387,1,0,0,313
+1520856974492,382,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,382,1,0,0,309
+1520856979915,206,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,206,1,0,0,132
+1520856985153,389,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,389,1,0,0,315
+1520856990573,389,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,389,1,0,0,316
+1520856995992,389,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,389,1,0,0,316
+1520857001408,392,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,390,1,0,0,316
+1520857006842,405,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2629,256,1,1,403,1,0,0,324
+1520857012289,397,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,396,1,0,0,322
+1520857017729,387,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2630,256,1,1,386,1,0,0,313
+1520857023135,395,get progress REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,2638,256,1,1,394,1,0,0,322
+1520857023536,100,Get results REST evalwait:e3eda85f-a030-412b-9f2f-702fd935a025,200,OK,Create request REST 2-1,text,true,,3067,257,1,1,97,1,0,0,0
+1520857023637,4,assert expected/actual,200,OK,Create request REST 2-1,text,true,,2290,0,1,1,0,1,0,0,0
+1520857023642,10,compute end time var expectedTime,200,OK,Create request REST 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1520857023656,398,delete workflow eval wait,200,OK,delete pipeline 3-1,text,true,,510,245,1,1,398,1,0,0,314
+1520857026091,689,execute Apak,200,OK,run stored 1-1,text,true,,576,662,1,1,689,1,0,0,495
+1520857032155,418,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2646,297,1,1,409,1,0,0,326
+1520857037629,387,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2650,297,1,1,386,1,0,0,312
+1520857043061,400,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2650,297,1,1,399,1,0,0,322
+1520857048501,396,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2650,297,1,1,394,1,0,0,317
+1520857053945,400,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2650,297,1,1,399,1,0,0,324
+1520857059395,408,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2650,297,1,1,406,1,0,0,326
+1520857064846,379,get progress REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,2658,297,1,1,378,1,0,0,306
+1520857065229,99,Get results REST apak-batch:3263bb89-2697-4d6b-9a68-bd08207dfda8,200,OK,run stored 1-1,text,true,,3720,298,1,1,96,1,0,0,0
+1520857065328,4,assert expected/actual,200,OK,run stored 1-1,text,true,,3546,0,1,1,0,1,0,0,0
+1520857075335,414,elastic query started,200,OK,run stored 1-1,text,true,,753,1036,1,1,414,1,0,0,323
+1520857075752,92,elastic query completed,200,OK,run stored 1-1,text,true,,755,1038,1,1,92,1,0,0,0
+1520858159345,753,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,753,1,0,0,496
+1520858160134,416,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240305,208,1,1,179,1,0,0,0
+1520858160570,90,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,7459,268,1,1,90,1,0,0,0
+1520858165906,415,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5580,258,1,1,413,1,0,0,323
+1520858171381,395,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5559,258,1,1,393,1,0,0,317
+1520858176828,225,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5559,258,1,1,224,1,0,0,144
+1520858182092,223,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5661,258,1,1,222,1,0,0,134
+1520858187354,411,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5661,258,1,1,409,1,0,0,331
+1520858192843,393,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5661,258,1,1,392,1,0,0,314
+1520858198272,408,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5662,258,1,1,407,1,0,0,312
+1520858203711,403,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5662,258,1,1,402,1,0,0,322
+1520858209143,212,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5662,258,1,1,212,1,0,0,136
+1520858214404,459,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,458,1,0,0,317
+1520858219896,420,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,420,1,0,0,330
+1520858225345,217,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,217,1,0,0,136
+1520858230584,399,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,398,1,0,0,318
+1520858236009,442,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,439,1,0,0,316
+1520858241492,431,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,430,1,0,0,316
+1520858246943,405,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,404,1,0,0,319
+1520858252363,392,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5663,258,1,1,391,1,0,0,314
+1520858257780,388,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5662,258,1,1,388,1,0,0,312
+1520858263191,397,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5662,258,1,1,397,1,0,0,321
+1520858268611,388,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5662,258,1,1,387,1,0,0,313
+1520858274021,415,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5651,258,1,1,415,1,0,0,309
+1520858279456,392,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5651,258,1,1,391,1,0,0,317
+1520858284881,386,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5651,258,1,1,386,1,0,0,311
+1520858290304,211,get progress REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,5569,258,1,1,211,1,0,0,133
+1520858290520,1154,Get results REST apak-batch:04405a6f-a1cc-44c4-b47e-ae508fb0575f,200,OK,run apak and fail pipeline driver 1-1,text,true,,40959,259,1,1,1085,1,0,0,0
+1520858291678,5,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,false,both string was not equal,44854,0,1,1,0,1,1,0,0
+1520858314307,684,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,684,1,0,0,470
+1520858315020,382,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240293,208,1,1,155,1,0,0,1
+1520858315427,81,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,7328,262,1,1,80,1,0,0,0
+1520858320777,405,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5562,258,1,1,403,1,0,0,315
+1520858326238,418,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5541,258,1,1,417,1,0,0,322
+1520858331703,208,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5541,258,1,1,208,1,0,0,134
+1520858336943,391,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5643,258,1,1,389,1,0,0,314
+1520858342379,399,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5643,258,1,1,397,1,0,0,319
+1520858347816,391,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5643,258,1,1,390,1,0,0,309
+1520858353241,384,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,383,1,0,0,309
+1520858358664,404,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,403,1,0,0,321
+1520858364091,405,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,403,1,0,0,318
+1520858369536,212,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,211,1,0,0,136
+1520858374787,401,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,400,1,0,0,318
+1520858380226,385,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,385,1,0,0,310
+1520858385635,412,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,411,1,0,0,322
+1520858391085,387,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,386,1,0,0,307
+1520858396494,398,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,398,1,0,0,318
+1520858401911,224,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5645,258,1,1,224,1,0,0,134
+1520858407162,402,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,402,1,0,0,311
+1520858412580,392,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,392,1,0,0,314
+1520858417996,248,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,247,1,0,0,136
+1520858423284,414,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5644,258,1,1,414,1,0,0,314
+1520858428736,386,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5633,258,1,1,385,1,0,0,309
+1520858434152,381,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5633,258,1,1,381,1,0,0,309
+1520858439550,390,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5633,258,1,1,390,1,0,0,314
+1520858444956,210,get progress REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5551,258,1,1,209,1,0,0,135
+1520858445176,1082,Get results REST apak-batch:70d4b378-bc68-488e-a9fb-15a4067f2f8b,200,OK,run apak and fail pipeline driver 1-1,text,true,,40941,259,1,1,1004,1,0,0,0
+1520858446268,14,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79829,0,1,1,0,1,0,0,0
+1520858458897,769,execute Apak 25 batch,200,OK,run apak and fail pods 1-1,text,true,,576,13218,1,1,768,1,0,0,536
+1520858461698,396,get pods running the pipeline,200,OK,run apak and fail pods 1-1,text,true,,2650,248,1,1,385,1,0,0,316
+1520858462134,121,delete pod,200,OK,run apak and fail pods 1-1,text,true,,6792,259,1,1,119,1,0,0,0
+1520858462261,106,delete pod,200,OK,run apak and fail pods 1-1,text,true,,6792,259,1,1,105,1,0,0,0
+1520858462372,158,delete pod,200,OK,run apak and fail pods 1-1,text,true,,6793,259,1,1,157,1,0,0,0
+1520858462537,109,delete pod,200,OK,run apak and fail pods 1-1,text,true,,6792,259,1,1,108,1,0,0,0
+1520858462650,110,delete pod,200,OK,run apak and fail pods 1-1,text,true,,6792,259,1,1,109,1,0,0,0
+1520858468048,418,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3012,258,1,1,415,1,0,0,319
+1520858473521,402,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3016,258,1,1,400,1,0,0,313
+1520858478975,386,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3115,258,1,1,385,1,0,0,310
+1520858484403,397,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3115,258,1,1,395,1,0,0,315
+1520858489850,460,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3115,258,1,1,458,1,0,0,381
+1520858495354,396,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3127,258,1,1,394,1,0,0,312
+1520858500797,387,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3128,258,1,1,386,1,0,0,312
+1520858506211,391,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3128,258,1,1,391,1,0,0,318
+1520858511638,392,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3128,258,1,1,392,1,0,0,316
+1520858517048,393,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,389,1,0,0,314
+1520858522464,390,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,388,1,0,0,310
+1520858527878,380,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,380,1,0,0,307
+1520858533288,402,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,401,1,0,0,323
+1520858538733,395,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,394,1,0,0,317
+1520858544179,394,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,393,1,0,0,311
+1520858549610,390,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,389,1,0,0,313
+1520858555026,212,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,211,1,0,0,137
+1520858560261,392,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,391,1,0,0,315
+1520858565675,394,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,392,1,0,0,315
+1520858571092,394,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,394,1,0,0,314
+1520858576503,384,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,384,1,0,0,311
+1520858581907,404,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,402,1,0,0,315
+1520858587355,385,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,384,1,0,0,308
+1520858592763,398,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,397,1,0,0,322
+1520858598201,388,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,387,1,0,0,308
+1520858603621,400,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,399,1,0,0,317
+1520858609064,394,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,392,1,0,0,317
+1520858614497,398,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3120,258,1,1,397,1,0,0,316
+1520858619938,408,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,407,1,0,0,317
+1520858625365,417,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,417,1,0,0,317
+1520858630800,418,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,417,1,0,0,315
+1520858636266,223,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3119,258,1,1,222,1,0,0,137
+1520858641531,385,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3108,258,1,1,385,1,0,0,307
+1520858646932,390,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3108,258,1,1,390,1,0,0,309
+1520858652340,393,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3108,258,1,1,392,1,0,0,318
+1520858657772,386,get progress REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,3026,258,1,1,385,1,0,0,311
+1520858658168,815,Get results REST apak-batch:57eef9c2-96f0-4484-857e-9118ab2cce4c,200,OK,run apak and fail pods 1-1,text,true,,38387,259,1,1,746,1,0,0,0
+1520858659001,549,execute Apak 25 batch,200,OK,run apak and fail api server 2-1,text,true,,576,13218,1,1,549,1,0,0,318
+1520858659551,382,get all pods,200,OK,run apak and fail api server 2-1,text,true,,240283,208,1,1,147,1,0,0,1
+1520858659940,89,delete pod,200,OK,run apak and fail api server 2-1,text,true,,7577,258,1,1,89,1,0,0,0
+1520858665042,392,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,503,Service Temporarily Unavailable,run apak and fail api server 2-1,text,true,,5257,258,1,1,391,1,0,0,324
+1520858670465,397,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,503,Service Temporarily Unavailable,run apak and fail api server 2-1,text,true,,5236,258,1,1,396,1,0,0,329
+1520858675884,378,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,503,Service Temporarily Unavailable,run apak and fail api server 2-1,text,true,,5236,258,1,1,377,1,0,0,310
+1520858681278,400,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5630,258,1,1,400,1,0,0,316
+1520858686692,407,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5630,258,1,1,406,1,0,0,326
+1520858692110,419,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5630,258,1,1,418,1,0,0,321
+1520858697565,390,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,390,1,0,0,314
+1520858702970,207,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,206,1,0,0,132
+1520858708195,394,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,393,1,0,0,316
+1520858713625,413,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,412,1,0,0,326
+1520858719071,403,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,403,1,0,0,320
+1520858724500,399,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,398,1,0,0,315
+1520858729916,391,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,391,1,0,0,315
+1520858735321,398,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,397,1,0,0,315
+1520858740750,423,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,422,1,0,0,337
+1520858746205,398,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5632,258,1,1,397,1,0,0,318
+1520858751641,421,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,421,1,0,0,335
+1520858757080,215,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,214,1,0,0,135
+1520858762314,396,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,396,1,0,0,317
+1520858767727,497,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5631,258,1,1,496,1,0,0,413
+1520858773254,391,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5620,258,1,1,390,1,0,0,315
+1520858778661,399,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5620,258,1,1,399,1,0,0,311
+1520858784076,400,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5620,258,1,1,399,1,0,0,323
+1520858789506,387,get progress REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,5538,258,1,1,386,1,0,0,313
+1520858789915,1097,Get results REST apak-batch:bd1376a2-8105-4a74-b400-25c54e66196b,200,OK,run apak and fail api server 2-1,text,true,,40927,259,1,1,1029,1,0,0,0
+1520858802880,795,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,794,1,0,0,459
+1520858803726,369,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240301,208,1,1,145,1,0,0,1
+1520858804116,86,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,7214,263,1,1,86,1,0,0,0
+1520858809431,419,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5572,258,1,1,416,1,0,0,327
+1520858814914,427,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5551,258,1,1,426,1,0,0,337
+1520858820368,410,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5551,258,1,1,408,1,0,0,325
+1520858825806,395,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,394,1,0,0,316
+1520858831244,404,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,402,1,0,0,323
+1520858836685,418,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,417,1,0,0,325
+1520858842135,398,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,398,1,0,0,317
+1520858847560,335,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,334,1,0,0,148
+1520858852916,210,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,210,1,0,0,132
+1520858858148,401,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,400,1,0,0,315
+1520858863592,396,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,396,1,0,0,315
+1520858869008,392,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,391,1,0,0,311
+1520858874430,440,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,439,1,0,0,338
+1520858879894,413,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,411,1,0,0,313
+1520858885328,388,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,387,1,0,0,311
+1520858890758,405,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,404,1,0,0,318
+1520858896204,406,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,405,1,0,0,317
+1520858901626,259,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,258,1,0,0,135
+1520858906926,220,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,219,1,0,0,136
+1520858912166,218,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,216,1,0,0,137
+1520858917412,412,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5654,258,1,1,411,1,0,0,316
+1520858922845,409,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5643,258,1,1,408,1,0,0,325
+1520858928274,407,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5643,258,1,1,406,1,0,0,322
+1520858933699,384,get progress REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,5561,258,1,1,384,1,0,0,308
+1520858934087,1182,Get results REST apak-batch:66391d2f-7ccd-4c8f-8e67-46bf786c5cea,200,OK,run apak and fail pipeline driver 1-1,text,true,,40949,259,1,1,1102,1,0,0,0
+1520858935279,20,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79837,0,1,1,0,1,0,0,0
+1520858947460,949,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,949,1,0,0,530
+1520858948439,412,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240295,208,1,1,163,1,0,0,0
+1520858948875,85,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,7148,256,1,1,85,1,0,0,0
+1520858954216,405,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5559,258,1,1,404,1,0,0,320
+1520858959658,395,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5538,258,1,1,394,1,0,0,318
+1520858965102,416,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5538,258,1,1,415,1,0,0,319
+1520858970571,392,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,390,1,0,0,309
+1520858976008,553,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,551,1,0,0,312
+1520858981603,401,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,400,1,0,0,317
+1520858987043,393,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,392,1,0,0,317
+1520858992466,395,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,394,1,0,0,314
+1520858997900,401,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,400,1,0,0,311
+1520859003325,385,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,385,1,0,0,310
+1520859008734,418,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,416,1,0,0,332
+1520859014190,396,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,395,1,0,0,310
+1520859019623,431,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,430,1,0,0,333
+1520859025088,220,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,219,1,0,0,132
+1520859030329,397,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,396,1,0,0,318
+1520859035768,429,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5642,258,1,1,428,1,0,0,323
+1520859041224,410,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,409,1,0,0,308
+1520859046653,411,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,410,1,0,0,322
+1520859052086,407,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,407,1,0,0,318
+1520859057514,397,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,396,1,0,0,310
+1520859062955,392,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5630,258,1,1,391,1,0,0,313
+1520859068384,391,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5630,258,1,1,390,1,0,0,316
+1520859073805,394,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5630,258,1,1,393,1,0,0,310
+1520859079216,395,get progress REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,5548,258,1,1,395,1,0,0,316
+1520859079623,1015,Get results REST apak-batch:e84b459f-c55c-4c47-b5d3-c5950eaf323c,200,OK,run apak and fail pipeline driver 1-1,text,true,,40937,259,1,1,945,1,0,0,0
+1520859080641,11,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79824,0,1,1,0,1,0,0,0
+1520859092731,861,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,861,1,0,0,464
+1520859093625,368,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240309,208,1,1,150,1,0,0,0
+1520859094014,91,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,8333,271,1,1,91,1,0,0,0
+1520859099355,427,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5588,258,1,1,426,1,0,0,345
+1520859104823,405,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5567,258,1,1,404,1,0,0,321
+1520859110275,393,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5567,258,1,1,392,1,0,0,314
+1520859115705,397,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5669,258,1,1,396,1,0,0,320
+1520859121138,393,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5669,258,1,1,391,1,0,0,310
+1520859126575,448,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5669,258,1,1,448,1,0,0,317
+1520859132048,395,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,394,1,0,0,312
+1520859137492,220,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,218,1,0,0,134
+1520859142756,398,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,397,1,0,0,317
+1520859148200,400,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,399,1,0,0,313
+1520859153637,391,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,389,1,0,0,315
+1520859159064,392,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,391,1,0,0,312
+1520859164497,421,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,420,1,0,0,311
+1520859169940,262,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,259,1,0,0,135
+1520859175241,387,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,387,1,0,0,311
+1520859180646,403,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,402,1,0,0,319
+1520859186088,425,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,424,1,0,0,308
+1520859191542,402,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5671,258,1,1,401,1,0,0,319
+1520859196977,397,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,396,1,0,0,320
+1520859202414,401,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,400,1,0,0,314
+1520859207835,410,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,409,1,0,0,325
+1520859213287,389,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5670,258,1,1,388,1,0,0,309
+1520859218694,397,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5659,258,1,1,397,1,0,0,318
+1520859224108,396,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5659,258,1,1,395,1,0,0,318
+1520859229538,448,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5659,258,1,1,447,1,0,0,368
+1520859235010,383,get progress REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,5577,258,1,1,383,1,0,0,306
+1520859235398,1258,Get results REST apak-batch:46ea8482-d5c1-4cf2-b673-1c66f6edb93b,200,OK,run apak and fail pipeline driver 1-1,text,true,,40966,259,1,1,1190,1,0,0,0
+1520859236659,7,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79853,0,1,1,0,1,0,0,0
+1520859248616,743,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,743,1,0,0,511
+1520859249386,370,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240290,208,1,1,147,1,0,0,0
+1520859249774,87,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,7319,261,1,1,85,1,0,0,0
+1520859255120,403,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5558,258,1,1,403,1,0,0,324
+1520859260563,421,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5537,258,1,1,420,1,0,0,318
+1520859266030,402,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5537,258,1,1,400,1,0,0,319
+1520859271481,397,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5639,258,1,1,396,1,0,0,320
+1520859276921,218,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5639,258,1,1,217,1,0,0,139
+1520859282173,393,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5639,258,1,1,393,1,0,0,313
+1520859287589,390,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,389,1,0,0,312
+1520859293017,404,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,402,1,0,0,316
+1520859298461,387,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,386,1,0,0,307
+1520859303876,427,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,426,1,0,0,313
+1520859309342,400,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,400,1,0,0,320
+1520859314762,394,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,393,1,0,0,311
+1520859320179,435,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,434,1,0,0,341
+1520859325642,385,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,384,1,0,0,306
+1520859331049,219,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,219,1,0,0,137
+1520859336298,213,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,212,1,0,0,136
+1520859341546,398,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,398,1,0,0,310
+1520859346964,383,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,383,1,0,0,308
+1520859352369,215,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,214,1,0,0,136
+1520859357602,214,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5640,258,1,1,214,1,0,0,136
+1520859362857,403,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5629,258,1,1,402,1,0,0,315
+1520859368280,389,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5629,258,1,1,388,1,0,0,309
+1520859373697,213,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5629,258,1,1,211,1,0,0,137
+1520859378948,215,get progress REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,5547,258,1,1,213,1,0,0,136
+1520859379174,1134,Get results REST apak-batch:685abfbe-caca-4b83-a28a-37929b4eec08,200,OK,run apak and fail pipeline driver 1-1,text,true,,40934,259,1,1,1064,1,0,0,0
+1520859392345,741,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,740,1,0,0,474
+1520859393123,424,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240306,208,1,1,147,1,0,0,1
+1520859393583,86,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,8442,269,1,1,85,1,0,0,0
+1520859398906,404,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5584,258,1,1,404,1,0,0,316
+1520859404346,403,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5563,258,1,1,401,1,0,0,324
+1520859409798,391,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5563,258,1,1,391,1,0,0,312
+1520859415214,392,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5665,258,1,1,391,1,0,0,317
+1520859420640,413,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5665,258,1,1,410,1,0,0,319
+1520859426102,423,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5665,258,1,1,421,1,0,0,320
+1520859431570,393,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,391,1,0,0,316
+1520859437009,391,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,389,1,0,0,314
+1520859442434,410,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,409,1,0,0,323
+1520859447860,398,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,397,1,0,0,308
+1520859453274,397,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,396,1,0,0,316
+1520859458718,414,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,414,1,0,0,314
+1520859464154,425,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,424,1,0,0,323
+1520859469623,403,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,398,1,0,0,318
+1520859475073,212,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,211,1,0,0,136
+1520859480324,215,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5667,258,1,1,214,1,0,0,138
+1520859485561,393,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,392,1,0,0,316
+1520859491006,389,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,388,1,0,0,312
+1520859496434,404,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,403,1,0,0,319
+1520859501864,430,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5666,258,1,1,429,1,0,0,314
+1520859507313,388,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,388,1,0,0,311
+1520859512718,412,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,412,1,0,0,314
+1520859518144,395,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5655,258,1,1,394,1,0,0,317
+1520859523582,393,get progress REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,5573,258,1,1,392,1,0,0,315
+1520859523981,1188,Get results REST apak-batch:0510505d-e7a4-41e5-8ecd-49ac42710344,200,OK,run apak and fail pipeline driver 1-1,text,true,,40960,259,1,1,1108,1,0,0,0
+1520859525182,17,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79849,0,1,1,0,1,0,0,0
+1520859537082,678,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,678,1,0,0,459
+1520859537783,377,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240283,208,1,1,144,1,0,0,0
+1520859538178,89,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,8303,266,1,1,89,1,0,0,0
+1520859543492,425,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5566,258,1,1,424,1,0,0,332
+1520859548958,394,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5545,258,1,1,393,1,0,0,310
+1520859554380,397,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5545,258,1,1,396,1,0,0,321
+1520859559827,397,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5647,258,1,1,396,1,0,0,319
+1520859565275,414,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5647,258,1,1,411,1,0,0,322
+1520859570714,412,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5647,258,1,1,410,1,0,0,329
+1520859576171,254,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5648,258,1,1,254,1,0,0,137
+1520859581449,400,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5648,258,1,1,399,1,0,0,323
+1520859586879,396,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5648,258,1,1,395,1,0,0,315
+1520859592317,445,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,444,1,0,0,316
+1520859597809,214,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,213,1,0,0,133
+1520859603049,399,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,398,1,0,0,320
+1520859608482,403,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,402,1,0,0,322
+1520859613904,215,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,212,1,0,0,137
+1520859619140,447,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,446,1,0,0,315
+1520859624606,528,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,527,1,0,0,327
+1520859630174,212,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,212,1,0,0,132
+1520859635408,433,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5649,258,1,1,432,1,0,0,313
+1520859640884,400,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5648,258,1,1,399,1,0,0,319
+1520859646307,388,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5648,258,1,1,388,1,0,0,310
+1520859651714,412,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5648,258,1,1,411,1,0,0,317
+1520859657169,400,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5637,258,1,1,399,1,0,0,316
+1520859662583,394,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5637,258,1,1,393,1,0,0,316
+1520859668020,385,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5637,258,1,1,385,1,0,0,310
+1520859673419,390,get progress REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,5555,258,1,1,389,1,0,0,315
+1520859673816,1136,Get results REST apak-batch:7f839468-ad15-4f1b-b8d1-fc1bc7390284,200,OK,run apak and fail pipeline driver 1-1,text,true,,40944,259,1,1,1065,1,0,0,0
+1520859674956,10,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79831,0,1,1,0,1,0,0,0
+1520859686858,737,execute Apak 25 batch,200,OK,run apak and fail pipeline driver 1-1,text,true,,576,13218,1,1,737,1,0,0,454
+1520859687641,381,get all pods,200,OK,run apak and fail pipeline driver 1-1,text,true,,240095,208,1,1,143,1,0,0,0
+1520859688046,80,delete pod,200,OK,run apak and fail pipeline driver 1-1,text,true,,7265,262,1,1,79,1,0,0,0
+1520859693421,425,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5570,258,1,1,423,1,0,0,339
+1520859698885,403,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5549,258,1,1,402,1,0,0,321
+1520859704312,402,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5549,258,1,1,400,1,0,0,322
+1520859709764,392,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5651,258,1,1,391,1,0,0,310
+1520859715179,409,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5651,258,1,1,407,1,0,0,322
+1520859720642,414,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5651,258,1,1,412,1,0,0,316
+1520859726085,217,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,215,1,0,0,138
+1520859731356,394,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,393,1,0,0,311
+1520859736801,406,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,404,1,0,0,317
+1520859742233,425,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,424,1,0,0,316
+1520859747706,406,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,404,1,0,0,320
+1520859753161,397,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,396,1,0,0,313
+1520859758582,386,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,386,1,0,0,311
+1520859763987,394,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,390,1,0,0,315
+1520859769417,405,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,404,1,0,0,320
+1520859774837,448,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5653,258,1,1,447,1,0,0,358
+1520859780324,387,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,386,1,0,0,310
+1520859785765,403,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,402,1,0,0,318
+1520859791188,392,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,391,1,0,0,314
+1520859796598,215,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5652,258,1,1,214,1,0,0,136
+1520859801851,237,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,236,1,0,0,135
+1520859807113,212,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,211,1,0,0,133
+1520859812366,387,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5641,258,1,1,386,1,0,0,312
+1520859817791,397,get progress REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,5559,258,1,1,396,1,0,0,319
+1520859818198,1139,Get results REST apak-batch:a8e4d0b3-b295-48b1-9e92-89a1ae00b8b4,200,OK,run apak and fail pipeline driver 1-1,text,true,,40948,259,1,1,1059,1,0,0,0
+1520859819346,19,assert expected/actual,200,OK,run apak and fail pipeline driver 1-1,text,true,,79835,0,1,1,0,1,0,0,0
+1520859954842,623,create workflow eval wait,201,Created,create workflow 1-1,text,true,,515,796,1,1,622,1,0,0,490
+1520859955508,479,create request 5 minutes,200,OK,Create request REST 5 minutes 2-1,text,true,,574,312,1,1,479,1,0,0,309
+1520859961258,402,get progress REST evalwait:9537a009-6670-4f86-be22-a22dea64273c,200,OK,Create request REST 5 minutes 2-1,text,true,,2599,256,1,1,393,1,0,0,317
+1520859961695,103,Get results REST evalwait:9537a009-6670-4f86-be22-a22dea64273c,200,OK,Create request REST 5 minutes 2-1,text,true,,3028,257,1,1,95,1,0,0,0
+1520859961801,18,assert expected/actual,200,OK,Create request REST 5 minutes 2-1,text,false,both string was not equal,4459,0,1,1,0,1,1,0,0
+1520859961853,453,create request 10 minutes as a batch,200,OK,Create request REST 10 minutes as a batch 3-1,text,true,,574,451,1,1,453,1,0,0,314
+1520859967365,406,get progress REST evalwait:7f790bfa-0870-487d-8b51-5e2d45689458,200,OK,Create request REST 10 minutes as a batch 3-1,text,true,,2613,256,1,1,403,1,0,0,318
+1520859967797,513,Get results REST evalwait:7f790bfa-0870-487d-8b51-5e2d45689458,200,OK,Create request REST 10 minutes as a batch 3-1,text,true,,6068,257,1,1,507,1,0,0,0
+1520859968313,8,assert expected/actual,200,OK,Create request REST 10 minutes as a batch 3-1,text,false,both string was not equal,7497,0,1,1,0,1,1,0,0
+1520859968334,412,delete workflow eval wait,200,OK,delete pipeline 4-1,text,true,,510,245,1,1,412,1,0,0,324
+1520859985609,693,execute Apak,200,OK,run stored 1-1,text,true,,576,1665,1,1,692,1,0,0,507
+1520859988345,398,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2414,248,1,1,387,1,0,0,310
+1520859988785,106,delete pod,200,OK,run stored 1-1,text,true,,6649,259,1,1,105,1,0,0,0
+1520859988893,99,delete pod,200,OK,run stored 1-1,text,true,,6649,259,1,1,99,1,0,0,0
+1520859988996,171,delete pod,200,OK,run stored 1-1,text,true,,6649,259,1,1,170,1,0,0,0
+1520859994419,393,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2840,258,1,1,393,1,0,0,315
+1520859999859,426,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,425,1,0,0,329
+1520860005335,413,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,410,1,0,0,321
+1520860010804,585,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,584,1,0,0,319
+1520860016430,428,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,427,1,0,0,339
+1520860021907,219,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2844,258,1,1,219,1,0,0,141
+1520860027151,390,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2930,258,1,1,389,1,0,0,310
+1520860032564,384,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2930,258,1,1,383,1,0,0,309
+1520860037971,226,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2930,258,1,1,226,1,0,0,136
+1520860043224,386,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,385,1,0,0,310
+1520860048635,395,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,394,1,0,0,315
+1520860054068,403,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,399,1,0,0,318
+1520860059515,212,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,210,1,0,0,134
+1520860064762,213,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,212,1,0,0,134
+1520860069999,419,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,418,1,0,0,317
+1520860075461,396,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,394,1,0,0,318
+1520860080894,410,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,409,1,0,0,316
+1520860086343,415,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,414,1,0,0,307
+1520860091798,407,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,406,1,0,0,317
+1520860097243,389,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,388,1,0,0,312
+1520860102670,400,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,399,1,0,0,320
+1520860108115,422,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2931,258,1,1,421,1,0,0,312
+1520860113574,209,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,209,1,0,0,134
+1520860118805,478,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,477,1,0,0,320
+1520860124321,431,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,431,1,0,0,331
+1520860129790,386,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,385,1,0,0,309
+1520860135191,211,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,211,1,0,0,133
+1520860140420,395,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,394,1,0,0,318
+1520860145856,399,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,398,1,0,0,310
+1520860151281,212,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,211,1,0,0,136
+1520860156525,223,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,222,1,0,0,139
+1520860161777,215,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2933,258,1,1,214,1,0,0,134
+1520860167026,392,get progress REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,2853,258,1,1,391,1,0,0,317
+1520860167428,256,Get results REST apak-batch:a589ee41-654b-4b57-99cc-8212cc740998,200,OK,run stored 1-1,text,true,,6724,259,1,1,249,1,0,0,0
+1520860167690,23,assert expected/actual,200,OK,run stored 1-1,text,false,both string was not equal,45343,0,1,1,0,1,1,0,0
+1520860184822,647,execute Apak,200,OK,run stored 1-1,text,true,,576,584,1,1,647,1,0,0,496
+1520860250535,397,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2153,248,1,1,391,1,0,0,321
+1520860250964,90,delete pod,200,OK,run stored 1-1,text,true,,6475,259,1,1,89,1,0,0,1
+1520860256266,389,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2656,258,1,1,387,1,0,0,313
+1520860321739,383,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2186,248,1,1,382,1,0,0,312
+1520860322134,95,delete pod,200,OK,run stored 1-1,text,true,,6468,259,1,1,94,1,0,0,1
+1520860327247,386,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2634,258,1,1,386,1,0,0,312
+1520860392652,386,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2186,248,1,1,386,1,0,0,319
+1520860393041,86,delete pod,200,OK,run stored 1-1,text,true,,6468,259,1,1,85,1,0,0,0
+1520860398136,215,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2634,258,1,1,214,1,0,0,134
+1520860463390,380,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2186,248,1,1,379,1,0,0,311
+1520860463773,85,delete pod,200,OK,run stored 1-1,text,true,,6468,259,1,1,85,1,0,0,0
+1520860468865,467,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2634,258,1,1,466,1,0,0,316
+1520860534368,388,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2103,248,1,1,387,1,0,0,317
+1520860539777,397,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2606,258,1,1,396,1,0,0,319
+1520860605208,388,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2103,248,1,1,387,1,0,0,318
+1520860610613,386,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2606,258,1,1,384,1,0,0,311
+1520860676018,383,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2103,248,1,1,382,1,0,0,314
+1520860681420,386,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2606,258,1,1,386,1,0,0,311
+1520860746819,382,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2103,248,1,1,381,1,0,0,313
+1520860752220,390,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2606,258,1,1,389,1,0,0,315
+1520860817637,392,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2103,248,1,1,391,1,0,0,322
+1520860823053,395,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,true,,2606,258,1,1,393,1,0,0,317
+1520860888478,391,get pods running the pipeline,200,OK,run stored 1-1,text,true,,2105,248,1,1,391,1,0,0,321
+1520860893888,392,get progress REST apak-batch:ab768a18-963d-40a0-88ae-61d96d9bbba7,200,OK,run stored 1-1,text,false,max tries has exceeded,2608,258,1,1,391,1,1,0,315

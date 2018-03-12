@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sshpass -p ubadmin ssh ubadmin@10.32.10.6
+node /home/ubadmin/webhookServer/webhook-server app.js
