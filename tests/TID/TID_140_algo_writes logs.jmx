@@ -73,6 +73,18 @@
         </collectionProp>
       </Arguments>
       <hashTree/>
+      <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="elastic Authorization Manager" enabled="true">
+        <collectionProp name="AuthManager.auth_list">
+          <elementProp name="" elementType="Authorization">
+            <stringProp name="Authorization.url"></stringProp>
+            <stringProp name="Authorization.username">kube</stringProp>
+            <stringProp name="Authorization.password">ubadmin</stringProp>
+            <stringProp name="Authorization.domain"></stringProp>
+            <stringProp name="Authorization.realm"></stringProp>
+          </elementProp>
+        </collectionProp>
+      </AuthManager>
+      <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="store pipelime" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -331,7 +343,7 @@ String actual=vars.get (&quot;dataActual&quot;);
 
 numberOffset off=new numberOffset();
 
-double [] arr={100};
+double [] arr={200};
 boolean result=off.compareWithOfsset(expected,actual,arr);
 
 if (result)

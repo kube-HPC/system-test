@@ -1,21 +1,21 @@
 date,time,test name,status
-12-03-2018,14:17:56,TID_10_1_Define_the_Pipe_Line_input.jtl,pass
+12-03-2018,18:08:44,TID_10_1_Define_the_Pipe_Line_input.jtl,pass
 28-02-2018,11:30:00,TID_10_1.jtl,fail
 28-02-2018,11:30:00,TID_10_2.jtl,pass
 28-02-2018,11:30:00,TID_10 3.jtl,fail
-12-03-2018,14:17:56,TID_170_1_10 percent overhead batch.jtl,pass
-12-03-2018,14:17:56,TID_113_status manager.jtl,pass
-12-03-2018,14:17:56,TID_120_system logs.jtl,pass
-12-03-2018,14:17:56,TID_170_10 percent overhead.jtl,pass
-12-03-2018,14:17:56,TID_80_pipelines run in an order.jtl,pass
-12-03-2018,14:17:56,TID_51_run pipelines in a queue.jtl,pass
-12-03-2018,14:17:56,TID_10_2_Define_the_Pipe_Line_input.jtl,pass
-12-03-2018,14:17:56,TID_50_cancel pipeline.jtl,pass
-12-03-2018,14:17:56,TID_70_status Manager.jtl,pass
-12-03-2018,14:17:56,TID_110_sevirity levels.jtl,pass
-12-03-2018,14:17:56,TID_114_not exist ids.jtl,pass
-12-03-2018,14:17:56,TID_30_Define_the_pipelineName.jtl,pass
-12-03-2018,14:17:56,TID_11_1_Define_the_Pipe_Line order.jtl,pass
+12-03-2018,18:08:44,TID_170_1_10 percent overhead batch.jtl,pass
+12-03-2018,18:08:44,TID_113_status manager.jtl,pass
+12-03-2018,18:08:44,TID_120_system logs.jtl,pass
+12-03-2018,18:08:44,TID_170_10 percent overhead.jtl,pass
+12-03-2018,18:08:44,TID_80_pipelines run in an order.jtl,pass
+12-03-2018,18:08:44,TID_51_run pipelines in a queue.jtl,pass
+12-03-2018,18:08:44,TID_10_2_Define_the_Pipe_Line_input.jtl,pass
+12-03-2018,18:08:44,TID_50_cancel pipeline.jtl,pass
+12-03-2018,18:08:44,TID_70_status Manager.jtl,pass
+12-03-2018,18:08:44,TID_110_sevirity levels.jtl,pass
+12-03-2018,18:08:44,TID_114_not exist ids.jtl,pass
+12-03-2018,18:08:44,TID_30_Define_the_pipelineName.jtl,pass
+12-03-2018,18:08:44,TID_11_1_Define_the_Pipe_Line order.jtl,pass
 12-03-2018,15:03:40,TID_161_4_apak 1000 batch and fail pods jaeger.jtl,pass
 12-03-2018,15:03:40,TID_161_5_apak 1000 batch and fail pods redis sentinal.jtl,pass
 12-03-2018,15:03:40,TID_161_2_apak 1000 batch and fail pods pipeline.jtl,pass
@@ -26,3 +26,4 @@ date,time,test name,status
 12-03-2018,15:03:40,TID_161_10_apak 1000 batch and fail pods monitor server.jtl,pass
 12-03-2018,15:03:40,TID_161_9_apak 1000 batch and fail pods simulator.jtl,pass
 12-03-2018,15:03:40,TID_161_3_apak 1000 batch and fail pods etcd.jtl,pass
+12-03-2018,18:08:44,TID_140_algo_writes logs.jtl,fail

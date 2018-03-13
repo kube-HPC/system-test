@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1520870843363,702,execute Apak,200,OK,run stored 1-1,text,true,,576,662,1,1,702,0,513
+1520870849417,405,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2646,297,1,1,397,0,318
+1520870854878,392,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2650,297,1,1,391,0,316
+1520870860322,388,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2650,297,1,1,386,0,311
+1520870865754,398,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2650,297,1,1,396,0,316
+1520870871199,397,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2650,297,1,1,396,0,315
+1520870876650,393,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2650,297,1,1,392,0,317
+1520870882067,395,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2650,297,1,1,393,0,317
+1520870887493,393,get progress REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,2658,297,1,1,391,0,313
+1520870887909,103,Get results REST apak-batch:3adb8b4f-70aa-4f81-8780-c3ac8f0343aa,200,OK,run stored 1-1,text,true,,3721,298,1,1,94,0,0
+1520870888016,16,assert expected/actual,200,OK,run stored 1-1,text,true,,3546,0,1,1,0,0,0
+1520870898036,429,elastic query started,200,OK,run stored 1-1,text,true,,753,1036,1,1,429,0,326
+1520870898473,88,elastic query completed,200,OK,run stored 1-1,text,true,,755,1038,1,1,87,0,0
