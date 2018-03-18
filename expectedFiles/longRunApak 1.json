@@ -12,7 +12,7 @@
                 "algorithmName":"red-alg",
                 "result":
                 {
-                    "output":"{\"audio\":\"/ApakMCR/example_input_output/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":1,\"max_score\":0.1157558430811598,\"max_window_sec\":285,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/example_input_output/7.57mono.wav\\\")\",\"speakerName\":1}"
+                    "output":"{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":1,\"max_score\":0.1157558430811598,\"max_window_sec\":285,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":1}"
                 }
             }
         ],

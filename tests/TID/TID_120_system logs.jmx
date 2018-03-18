@@ -155,9 +155,9 @@
        &quot;input&quot;: [&#xd;
             {&#xd;
                 &quot;SessionGuid&quot;: &quot;1.59mono&quot;,&#xd;
-                &quot;SessionFilePath&quot;: &quot;/ApakMCR/example_input_output/1.59mono.wav&quot;,&#xd;
+                &quot;SessionFilePath&quot;: &quot;${s3path}/1.59mono.wav&quot;,&#xd;
                 &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;/ApakMCR/example_input_output/out0.csv&quot;&#xd;
+                &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
             }&#xd;
 &#xd;
        ]&#xd;
@@ -201,7 +201,7 @@
           &quot;input&quot;: [&#xd;
                {&#xd;
                    &quot;SessionGuid&quot;: &quot;1.59mono&quot;,&#xd;
-                   &quot;SessionFilePath&quot;: &quot;${apakfiles}/1.59mono.wav&quot;,&#xd;
+                   &quot;SessionFilePath&quot;: &quot;${s3path}/1.59mono.wav&quot;,&#xd;
                    &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
                    &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
                }&#xd;
