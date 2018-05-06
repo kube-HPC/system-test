@@ -4,7 +4,7 @@ import sys
 try:
     base = sys.argv[1]
 except:
-    base = '/home/eitang/WorkStuff/TestManager/system-tests/tests/done tests'
+    base = '/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
 
 file_output = open ("all TID.txt","w")
 

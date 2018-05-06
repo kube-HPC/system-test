@@ -1,0 +1,34 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "timeTook":"{timeTook}",
+    "pipeline":"indexedPipeline",
+    "data":
+    {
+        "result":
+        [
+            {
+                "nodeName":"evaladd",
+                "algorithmName":"eval-alg",
+                "result":7
+            },
+            {
+                "nodeName":"evaladd",
+                "algorithmName":"eval-alg",
+                "result":27
+            },
+            {
+                "nodeName":"evaladd",
+                "algorithmName":"eval-alg",
+                "result":55
+            },
+            {
+                "nodeName":"evaladd",
+                "algorithmName":"eval-alg",
+                "result":-3
+            }
+        ],
+        "status":"completed",
+        "storageModule":"@hkube/s3-adapter"
+    }
+}

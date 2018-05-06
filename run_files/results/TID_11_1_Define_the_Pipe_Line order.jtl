@@ -1,7 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1520870060399,559,create workflow countEven,201,Created,create workflow 1-1,text,true,,515,998,1,1,558,0,459
-1520870061304,478,execute countEven,200,OK,run stored countEven 2-1,text,true,,575,464,1,1,478,0,342
-1520870067051,406,get progress REST countEven:979b9e4f-523c-4980-9192-00c39693eaaa,200,OK,run stored countEven 2-1,text,true,,2575,257,1,1,396,0,320
-1520870067493,117,Get results REST countEven:979b9e4f-523c-4980-9192-00c39693eaaa,200,OK,run stored countEven 2-1,text,true,,2969,258,1,1,107,0,0
-1520870067613,13,assert expected/actual,200,OK,run stored countEven 2-1,text,true,,2135,0,1,1,0,0,0
-1520870067637,405,delete workflow countEven,200,OK,delete workflow 3-1,text,true,,510,246,1,1,405,0,317

@@ -1,226 +1,132 @@
-2018-03-12 18:08:19,721 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2018-03-12 18:08:19,728 INFO o.a.j.JMeter: Loading user properties from: /home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/user.properties
-2018-03-12 18:08:19,728 INFO o.a.j.JMeter: Loading system properties from: /home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/system.properties
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: Version 3.3 r1808647
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: java.version=1.8.0_151
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: os.name=Linux
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: os.arch=amd64
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: os.version=4.4.0-116-generic
-2018-03-12 18:08:19,731 INFO o.a.j.JMeter: file.encoding=UTF-8
-2018-03-12 18:08:19,732 INFO o.a.j.JMeter: Max memory     =536870912
-2018-03-12 18:08:19,732 INFO o.a.j.JMeter: Available Processors =8
-2018-03-12 18:08:19,734 INFO o.a.j.JMeter: Default Locale=English (United States)
-2018-03-12 18:08:19,734 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2018-03-12 18:08:19,734 INFO o.a.j.JMeter: JMeterHome=/home/eitang/WorkStuff/TestManager/apache-jmeter-3.3
-2018-03-12 18:08:19,734 INFO o.a.j.JMeter: user.dir  =/home/eitang/WorkStuff/TestManager/system-tests/run_files
-2018-03-12 18:08:19,734 INFO o.a.j.JMeter: PWD       =/home/eitang/WorkStuff/TestManager/system-tests/run_files
-2018-03-12 18:08:19,735 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: ubuntu-eitang-ww FullName: ubuntu-eitang-ww
-2018-03-12 18:08:19,736 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/eitang/WorkStuff/TestManager/system-tests/run_files/results/dashboards/TID_140_algo_writes logs'
-2018-03-12 18:08:19,737 INFO o.a.j.s.FileServer: Default base='/home/eitang/WorkStuff/TestManager/system-tests/run_files'
-2018-03-12 18:08:19,737 INFO o.a.j.s.FileServer: Set new base='/home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID'
-2018-03-12 18:08:19,840 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-03-12 18:08:19,849 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-03-12 18:08:19,852 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
-2018-03-12 18:08:19,857 INFO o.a.j.s.SaveService: Loading file: ../tests/TID/TID_140_algo_writes logs.jmx
-2018-03-12 18:08:19,898 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-12 18:08:19,899 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-12 18:08:19,899 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-12 18:08:19,899 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-03-12 18:08:19,899 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-03-12 18:08:19,899 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-03-12 18:08:19,956 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
-2018-03-12 18:08:19,957 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
-2018-03-12 18:08:19,957 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
-2018-03-12 18:08:19,957 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
-2018-03-12 18:08:20,186 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
-2018-03-12 18:08:20,186 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
-2018-03-12 18:08:20,186 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
-2018-03-12 18:08:20,186 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
-2018-03-12 18:08:20,189 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
-2018-03-12 18:08:20,189 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
-2018-03-12 18:08:20,190 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
-2018-03-12 18:08:20,190 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
-2018-03-12 18:08:20,195 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
-2018-03-12 18:08:20,195 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
-2018-03-12 18:08:20,195 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
-2018-03-12 18:08:20,195 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
-2018-03-12 18:08:20,202 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
-2018-03-12 18:08:20,202 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
-2018-03-12 18:08:20,203 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
-2018-03-12 18:08:20,203 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
-2018-03-12 18:08:20,208 INFO o.a.j.JMeter: Creating summariser <summary>
-2018-03-12 18:08:20,213 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2018-03-12 18:08:20,213 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results/TID_140_algo_writes logs.jtl
-2018-03-12 18:08:20,214 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/reportgenerator.properties
-2018-03-12 18:08:20,214 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2018-03-12 18:08:20,218 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2018-03-12 18:08:20,220 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2018-03-12 18:08:20,220 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
-2018-03-12 18:08:20,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2018-03-12 18:08:20,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2018-03-12 18:08:20,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2018-03-12 18:08:20,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2018-03-12 18:08:20,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2018-03-12 18:08:20,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2018-03-12 18:08:20,225 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,226 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2018-03-12 18:08:20,227 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2018-03-12 18:08:20,227 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2018-03-12 18:08:20,227 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2018-03-12 18:08:20,231 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2018-03-12 18:08:20,231 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-03-12 18:08:20,231 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2018-03-12 18:08:20,263 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-03-12 18:08:20,264 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-03-12 18:08:20,481 INFO o.a.j.JMeter: Running test (1520870900481)
-2018-03-12 18:08:20,513 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : store pipelime
-2018-03-12 18:08:20,513 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group store pipelime.
-2018-03-12 18:08:20,513 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2018-03-12 18:08:20,514 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2018-03-12 18:08:20,519 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2018-03-12 18:08:20,519 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: store pipelime to finish before starting next group
-2018-03-12 18:08:20,525 INFO o.a.j.t.JMeterThread: Thread started: store pipelime 1-1
-2018-03-12 18:08:20,527 INFO o.a.j.s.FileServer: Stored: ../../testConfigFiles/paths.csv
-2018-03-12 18:08:20,528 INFO o.a.j.s.FileServer: Stored: ../../testConfigFiles/ipConfigs.csv
-2018-03-12 18:08:20,547 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ubuntu-eitang-ww
-2018-03-12 18:08:20,553 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2018-03-12 18:08:20,562 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-03-12 18:08:20,562 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-03-12 18:08:20,562 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-03-12 18:08:20,562 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-03-12 18:08:20,628 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2018-03-12 18:08:20,634 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2018-03-12 18:08:20,634 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2018-03-12 18:08:20,727 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2018-03-12 18:08:20,728 INFO o.a.j.u.SSLManager: KeyStore created OK
-2018-03-12 18:08:20,728 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2018-03-12 18:08:21,184 INFO o.a.j.t.JMeterThread: Thread is done: store pipelime 1-1
-2018-03-12 18:08:21,184 INFO o.a.j.t.JMeterThread: Thread finished: store pipelime 1-1
-2018-03-12 18:08:21,185 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Create request REST
-2018-03-12 18:08:21,185 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Create request REST.
-2018-03-12 18:08:21,185 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2018-03-12 18:08:21,185 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2018-03-12 18:08:21,186 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
-2018-03-12 18:08:21,186 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
-2018-03-12 18:08:21,186 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
-2018-03-12 18:08:21,186 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
-2018-03-12 18:08:21,197 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
-2018-03-12 18:08:21,197 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
-2018-03-12 18:08:21,197 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
-2018-03-12 18:08:21,197 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
-2018-03-12 18:08:21,215 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2018-03-12 18:08:21,215 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Create request REST to finish before starting next group
-2018-03-12 18:08:21,215 INFO o.a.j.t.JMeterThread: Thread started: Create request REST 2-1
-2018-03-12 18:08:21,718 ERROR o.a.j.f.JavaScript: Error processing Javascript: [("${status}" != "completed") && (${counter}<30)]
-
-javax.script.ScriptException: <eval>:1:34 Expected ) but found {
-("${status}" != "completed") && (${counter}<30)
-                                  ^ in <eval> at line number 1 at column number 34
-	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470) ~[nashorn.jar:?]
-	at jdk.nashorn.api.scripting.NashornScriptEngine.compileImpl(NashornScriptEngine.java:537) ~[nashorn.jar:?]
-	at jdk.nashorn.api.scripting.NashornScriptEngine.compileImpl(NashornScriptEngine.java:524) ~[nashorn.jar:?]
-	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402) ~[nashorn.jar:?]
-	at jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155) ~[nashorn.jar:?]
-	at org.apache.jmeter.functions.JavaScript.executeWithNashorn(JavaScript.java:142) [ApacheJMeter_functions.jar:3.3 r1808647]
-	at org.apache.jmeter.functions.JavaScript.execute(JavaScript.java:103) [ApacheJMeter_functions.jar:3.3 r1808647]
-	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:137) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.engine.util.CompoundVariable.execute(CompoundVariable.java:112) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.testelement.property.FunctionProperty.getStringValue(FunctionProperty.java:101) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.WhileController.getCondition(WhileController.java:124) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.WhileController.endOfLoop(WhileController.java:56) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.WhileController.next(WhileController.java:102) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:219) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:173) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:219) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:173) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:123) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:87) [ApacheJMeter_core.jar:3.3 r1808647]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:275) [ApacheJMeter_core.jar:3.3 r1808647]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
-Caused by: jdk.nashorn.internal.runtime.ParserException: <eval>:1:34 Expected ) but found {
-("${status}" != "completed") && (${counter}<30)
-                                  ^
-	at jdk.nashorn.internal.parser.AbstractParser.error(AbstractParser.java:294) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.AbstractParser.error(AbstractParser.java:279) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.AbstractParser.expectDontAdvance(AbstractParser.java:350) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.AbstractParser.expect(AbstractParser.java:337) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.primaryExpression(Parser.java:1994) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.memberExpression(Parser.java:2511) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.leftHandSideExpression(Parser.java:2372) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.unaryExpression(Parser.java:3147) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.expression(Parser.java:3325) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.expression(Parser.java:3282) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.expressionStatement(Parser.java:1150) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.statement(Parser.java:967) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.sourceElements(Parser.java:773) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.program(Parser.java:709) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.parse(Parser.java:283) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.parser.Parser.parse(Parser.java:249) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.runtime.Context.compile(Context.java:1284) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.runtime.Context.compileScript(Context.java:1251) ~[nashorn.jar:?]
-	at jdk.nashorn.internal.runtime.Context.compileScript(Context.java:627) ~[nashorn.jar:?]
-	at jdk.nashorn.api.scripting.NashornScriptEngine.compileImpl(NashornScriptEngine.java:535) ~[nashorn.jar:?]
-	... 19 more
-2018-03-12 18:08:26,930 WARN o.a.j.t.JSR223Timer: Script did not return a value
-2018-03-12 18:08:32,395 WARN o.a.j.t.JSR223Timer: Script did not return a value
-2018-03-12 18:08:32,797 INFO o.a.j.r.Summariser: summary +      4 in 00:00:12 =    0.3/s Avg:   460 Min:   392 Max:   597 Err:     0 (0.00%) Active: 1 Started: 2 Finished: 1
-2018-03-12 18:08:43,337 INFO o.a.j.t.JMeterThread: Stop Thread detected by thread: Create request REST 2-1
-2018-03-12 18:08:43,338 INFO o.a.j.t.JMeterThread: Thread is done: Create request REST 2-1
-2018-03-12 18:08:43,338 INFO o.a.j.t.JMeterThread: Thread finished: Create request REST 2-1
-2018-03-12 18:08:43,340 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : delete pipeline
-2018-03-12 18:08:43,340 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group delete pipeline.
-2018-03-12 18:08:43,340 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2018-03-12 18:08:43,340 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2018-03-12 18:08:43,342 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2018-03-12 18:08:43,343 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2018-03-12 18:08:43,345 INFO o.a.j.t.JMeterThread: Thread started: delete pipeline 3-1
-2018-03-12 18:08:43,755 INFO o.a.j.t.JMeterThread: Thread is done: delete pipeline 3-1
-2018-03-12 18:08:43,755 INFO o.a.j.t.JMeterThread: Thread finished: delete pipeline 3-1
-2018-03-12 18:08:43,755 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2018-03-12 18:08:43,755 INFO o.a.j.s.FileServer: Close: ../../testConfigFiles/paths.csv
-2018-03-12 18:08:43,755 INFO o.a.j.s.FileServer: Close: ../../testConfigFiles/ipConfigs.csv
-2018-03-12 18:08:43,756 INFO o.a.j.r.Summariser: summary +      4 in 00:00:11 =    0.4/s Avg:   227 Min:     4 Max:   407 Err:     1 (25.00%) Active: 0 Started: 3 Finished: 3
-2018-03-12 18:08:43,756 INFO o.a.j.r.Summariser: summary =      8 in 00:00:23 =    0.3/s Avg:   344 Min:     4 Max:   597 Err:     1 (12.50%)
-2018-03-12 18:08:43,756 INFO o.a.j.JMeter: Generating Dashboard
-2018-03-12 18:08:43,757 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2018-03-12 18:08:43,762 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2018-03-12 18:08:43,800 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2018-03-12 18:08:43,800 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2018-03-12 18:08:43,801 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2018-03-12 18:08:43,801 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2018-03-12 18:08:43,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2018-03-12 18:08:43,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2018-03-12 18:08:43,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2018-03-12 18:08:43,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2018-03-12 18:08:43,811 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2018-03-12 18:08:43,811 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2018-03-12 18:08:43,812 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2018-03-12 18:08:43,812 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 56 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2018-03-12 18:08:43,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 112 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 24 samples
-2018-03-12 18:08:43,815 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 8 samples
-2018-03-12 18:08:43,816 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 8 samples produced in 38ms on channel 0
-2018-03-12 18:08:43,816 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2018-03-12 18:08:43,817 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/eitang/WorkStuff/TestManager/system-tests/run_files/results/dashboards/TID_140_algo_writes logs
-2018-03-12 18:08:43,871 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/eitang/WorkStuff/TestManager/system-tests/run_files/results/dashboards/TID_140_algo_writes logs, creating folder structure
-2018-03-12 18:08:44,013 INFO o.a.j.JMeter: Dashboard generated
+2018-04-22 16:59:13,586 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-04-22 16:59:13,593 INFO o.a.j.JMeter: Loading user properties from: /home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/user.properties
+2018-04-22 16:59:13,593 INFO o.a.j.JMeter: Loading system properties from: /home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/system.properties
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: java.version=1.8.0_162
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: os.name=Linux
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: os.arch=amd64
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: os.version=4.4.0-116-generic
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: Max memory     =536870912
+2018-04-22 16:59:13,596 INFO o.a.j.JMeter: Available Processors =8
+2018-04-22 16:59:13,599 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-04-22 16:59:13,599 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-04-22 16:59:13,599 INFO o.a.j.JMeter: JMeterHome=/home/eitang/WorkStuff/TestManager/apache-jmeter-3.3
+2018-04-22 16:59:13,599 INFO o.a.j.JMeter: user.dir  =/home/eitang/WorkStuff/TestManager/system-tests/run_files
+2018-04-22 16:59:13,599 INFO o.a.j.JMeter: PWD       =/home/eitang/WorkStuff/TestManager/system-tests/run_files
+2018-04-22 16:59:13,599 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: ubuntu-eitang-ww FullName: ubuntu-eitang-ww
+2018-04-22 16:59:13,600 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/eitang/WorkStuff/TestManager/system-tests/run_files/results/dashboards/TID_10_2_Define_the_Pipe_Line_input'
+2018-04-22 16:59:13,601 INFO o.a.j.s.FileServer: Default base='/home/eitang/WorkStuff/TestManager/system-tests/run_files'
+2018-04-22 16:59:13,601 INFO o.a.j.s.FileServer: Set new base='/home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID'
+2018-04-22 16:59:13,675 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-04-22 16:59:13,682 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-04-22 16:59:13,685 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-04-22 16:59:13,688 INFO o.a.j.s.SaveService: Loading file: ../tests/TID/TID_10_2_Define_the_Pipe_Line_input.jmx
+2018-04-22 16:59:13,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-22 16:59:13,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-22 16:59:13,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-22 16:59:13,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-22 16:59:13,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-04-22 16:59:13,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-04-22 16:59:13,738 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
+2018-04-22 16:59:13,738 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
+2018-04-22 16:59:13,738 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
+2018-04-22 16:59:13,738 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
+2018-04-22 16:59:13,921 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
+2018-04-22 16:59:13,922 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
+2018-04-22 16:59:13,922 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
+2018-04-22 16:59:13,922 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
+2018-04-22 16:59:13,925 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,925 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,925 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,925 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,929 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
+2018-04-22 16:59:13,929 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
+2018-04-22 16:59:13,929 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
+2018-04-22 16:59:13,929 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
+2018-04-22 16:59:13,935 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
+2018-04-22 16:59:13,935 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
+2018-04-22 16:59:13,935 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
+2018-04-22 16:59:13,935 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
+2018-04-22 16:59:13,937 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,938 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,938 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,938 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
+2018-04-22 16:59:13,941 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-04-22 16:59:13,944 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2018-04-22 16:59:13,944 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results/TID_10_2_Define_the_Pipe_Line_input.jtl
+2018-04-22 16:59:13,945 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/reportgenerator.properties
+2018-04-22 16:59:13,945 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2018-04-22 16:59:13,948 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2018-04-22 16:59:13,949 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2018-04-22 16:59:13,949 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2018-04-22 16:59:13,949 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2018-04-22 16:59:13,950 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2018-04-22 16:59:13,950 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2018-04-22 16:59:13,950 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2018-04-22 16:59:13,950 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2018-04-22 16:59:13,950 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,953 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-04-22 16:59:13,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2018-04-22 16:59:13,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2018-04-22 16:59:13,954 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2018-04-22 16:59:13,957 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-04-22 16:59:13,957 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-04-22 16:59:13,957 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-04-22 16:59:13,971 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-04-22 16:59:13,972 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-04-22 16:59:14,150 INFO o.a.j.JMeter: Running test (1524405554150)
+2018-04-22 16:59:14,176 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : create workflow
+2018-04-22 16:59:14,176 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group create workflow.
+2018-04-22 16:59:14,176 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-04-22 16:59:14,176 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-04-22 16:59:14,179 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-04-22 16:59:14,179 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: create workflow to finish before starting next group
+2018-04-22 16:59:14,183 INFO o.a.j.t.JMeterThread: Thread started: create workflow 1-1
+2018-04-22 16:59:14,184 INFO o.a.j.s.FileServer: Stored: ../../testConfigFiles/paths.csv
+2018-04-22 16:59:14,184 INFO o.a.j.s.FileServer: Stored: ../../testConfigFiles/ipConfigs.csv
+2018-04-22 16:59:14,194 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ubuntu-eitang-ww
+2018-04-22 16:59:14,198 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-04-22 16:59:14,203 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-04-22 16:59:14,203 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-04-22 16:59:14,203 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-04-22 16:59:14,203 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-04-22 16:59:14,245 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-04-22 16:59:14,250 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-04-22 16:59:14,250 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-04-22 16:59:14,318 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-04-22 16:59:14,319 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-04-22 16:59:14,319 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-04-22 16:59:14,878 INFO o.a.j.t.JMeterThread: Thread is done: create workflow 1-1
+2018-04-22 16:59:14,878 INFO o.a.j.t.JMeterThread: Thread finished: create workflow 1-1
+2018-04-22 16:59:14,879 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : run stored mult add
+2018-04-22 16:59:14,879 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group run stored mult add.
+2018-04-22 16:59:14,879 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2018-04-22 16:59:14,879 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-04-22 16:59:14,880 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
+2018-04-22 16:59:14,880 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get status REST.jmx
+2018-04-22 16:59:14,881 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
+2018-04-22 16:59:14,881 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get status REST.jmx
+2018-04-22 16:59:14,904 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
+2018-04-22 16:59:14,904 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_Get results REST.jmx
+2018-04-22 16:59:14,904 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
+2018-04-22 16:59:14,905 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_Get results REST.jmx
+2018-04-22 16:59:14,921 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
+2018-04-22 16:59:14,921 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tf_assert expected actual.jmx
+2018-04-22 16:59:14,921 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
+2018-04-22 16:59:14,921 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/run_files/../tests/TID/../tf_assert expected actual.jmx
+2018-04-22 16:59:14,932 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2018-04-22 16:59:14,932 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: run stored mult add to finish before starting next group
+2018-04-22 16:59:14,933 INFO o.a.j.t.JMeterThread: Thread started: run stored mult add 2-1
+2018-04-22 16:59:14,997 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2018-04-22 16:59:14,998 INFO o.a.j.r.ResultCollector: Shutdown hook ended

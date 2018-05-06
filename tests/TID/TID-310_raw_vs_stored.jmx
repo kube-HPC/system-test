@@ -489,39 +489,44 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-	&quot;name&quot;: &quot;bigevaltest&quot;,&#xd;
-	&quot;nodes&quot;: [&#xd;
-		{&#xd;
-			&quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
-			&quot;algorithmName&quot;: &quot;someAlgo&quot;,&#xd;
-			&quot;input&quot;: [&#xd;
-				[&#xd;
-					&quot;(input,require)=&gt; {&quot;,&#xd;
-					&quot;const result= input[0][0]+input[0][1]&quot;,&#xd;
-					&quot;return result;}&quot;&#xd;
-				],&#xd;
-				&quot;@flowInput.addInput&quot;&#xd;
-			]&#xd;
-		},&#xd;
-		{&#xd;
-			&quot;nodeName&quot;: &quot;evalmul&quot;,&#xd;
-			&quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-			&quot;input&quot;: [&#xd;
-				[&#xd;
-					&quot;(input,require)=&gt; {&quot;,&#xd;
-					&quot;const result = input[0][0]*input[1]&quot;,&#xd;
-					&quot;return result;}&quot;&#xd;
-				],&#xd;
-				&quot;@flowInput.multInput&quot;,&#xd;
+    &quot;name&quot;: &quot;bigevaltest&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;someAlgo&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;@flowInput.addInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                        &quot;const result= input[0][0]+input[0][1]&quot;,&#xd;
+                        &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalmul&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                	&quot;@flowInput.multInput&quot;,&#xd;
 				&quot;@evaladd&quot;&#xd;
-			]&#xd;
-		}&#xd;
-	],&#xd;
-	 &quot;flowInput&quot;:{&#xd;
-      &quot;addInput&quot;:[3,5],&#xd;
-      &quot;multInput&quot;:[3]&#xd;
-  }&#xd;
- }</stringProp>
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                        &quot;const result = input[0][0]*input[1]&quot;,&#xd;
+                        &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ],&#xd;
+    &quot;flowInput&quot;:{&#xd;
+        &quot;addInput&quot;:[3,5],&#xd;
+        &quot;multInput&quot;:[3]&#xd;
+    }&#xd;
+&#xd;
+}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>

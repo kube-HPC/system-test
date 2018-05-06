@@ -189,14 +189,6 @@
             <stringProp name="HTTPSampler.response_timeout"></stringProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="false">
-              <stringProp name="cacheKey"></stringProp>
-              <stringProp name="filename"></stringProp>
-              <stringProp name="parameters"></stringProp>
-              <stringProp name="script">sleep (5000);</stringProp>
-              <stringProp name="scriptLanguage">groovy</stringProp>
-            </JSR223Timer>
-            <hashTree/>
             <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
               <stringProp name="CounterConfig.start">1</stringProp>
               <stringProp name="CounterConfig.end"></stringProp>
@@ -205,12 +197,6 @@
               <stringProp name="CounterConfig.format"></stringProp>
               <boolProp name="CounterConfig.per_user">true</boolProp>
             </CounterConfig>
-            <hashTree/>
-            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="false">
-              <stringProp name="JSONPostProcessor.referenceNames">status1</stringProp>
-              <stringProp name="JSONPostProcessor.jsonPathExprs">$.[-1:].data.status</stringProp>
-              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-            </JSONPostProcessor>
             <hashTree/>
             <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
               <boolProp name="displayJMeterProperties">false</boolProp>
@@ -225,23 +211,6 @@
               <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
             </JSONPostProcessor>
             <hashTree/>
-            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
-              <boolProp name="resetInterpreter">false</boolProp>
-              <stringProp name="parameters"></stringProp>
-              <stringProp name="filename"></stringProp>
-              <stringProp name="script">//String response = prev.getResponseDataAsString();
-
-String response=vars.get (&quot;data&quot;);
-char [] responseCharArray = response.toCharArray();
-Arrays.sort(responseCharArray);
-response = Arrays.toString(responseCharArray);
-
-//prev.setResponseData(response.getBytes());
-
-
-vars.put (&quot;hookResponse&quot;,response);</stringProp>
-            </BeanShellPostProcessor>
-            <hashTree/>
             <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
               <boolProp name="resetInterpreter">false</boolProp>
               <stringProp name="parameters"></stringProp>
@@ -253,28 +222,6 @@ vars.put (&quot;hookResponse&quot;,response);</stringProp>
 vars.put (&quot;hookResponse&quot;,responsehook);
 </stringProp>
             </BeanShellPostProcessor>
-            <hashTree/>
-            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="false">
-              <stringProp name="BeanShellAssertion.query">String maxs=vars.get (&quot;maxTries&quot;);
-String counters=vars.get (&quot;counter&quot;);
-
-int max= Integer.parseInt (maxs);
-int counter=Integer.parseInt (counters);
-
-if (counter&lt;max)
-{
-	Failure=false;
-}
-else
-{
-	Failure=true;
-	FailureMessage=&quot;max tries has exceeded&quot;;
-}
-</stringProp>
-              <stringProp name="BeanShellAssertion.filename"></stringProp>
-              <stringProp name="BeanShellAssertion.parameters"></stringProp>
-              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
-            </BeanShellAssertion>
             <hashTree/>
             <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="max tries assetion" enabled="true">
               <stringProp name="BeanShellAssertion.query">String maxs=vars.get (&quot;maxTries&quot;);
@@ -350,23 +297,6 @@ vars.put (&quot;restResponse&quot;,responseRest);
 </stringProp>
             </BeanShellPostProcessor>
             <hashTree/>
-            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
-              <boolProp name="resetInterpreter">false</boolProp>
-              <stringProp name="parameters"></stringProp>
-              <stringProp name="filename"></stringProp>
-              <stringProp name="script">String response = prev.getResponseDataAsString();
-
-//String response=vars.get (&quot;data&quot;);
-char [] responseCharArray = response.toCharArray();
-Arrays.sort(responseCharArray);
-response = Arrays.toString(responseCharArray);
-
-//prev.setResponseData(response.getBytes());
-
-
-vars.put (&quot;restResponse&quot;,response);</stringProp>
-            </BeanShellPostProcessor>
-            <hashTree/>
             <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
               <stringProp name="BeanShellAssertion.query">String rest=vars.get (&quot;restResponse&quot;);
 String hook=vars.get (&quot;hookResponse&quot;);
@@ -421,27 +351,6 @@ else
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="false">
-            <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="script">String response1=ctx.getPreviousResult().getResponseDataAsString();
-
-
-char[] chars = response1.toCharArray();
-chars[0] = &apos;&apos;;
-chars[chars.length()-1]=&apos;&apos;;
-response1 = String.valueOf(myNameChars);
-print (&quot;********&quot;):
-print(response1);
-print (&quot;********&quot;):
-//response1=response1.replace (&quot; &quot;,&quot;&quot;);
-//response1
-vars.put (&quot;resultFromHook&quot;,response1);
-
-</stringProp>
-          </BeanShellPostProcessor>
-          <hashTree/>
           <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
             <boolProp name="displayJMeterProperties">false</boolProp>
             <boolProp name="displayJMeterVariables">true</boolProp>
@@ -481,14 +390,6 @@ vars.put (&quot;responsehook&quot;,responsehook);
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="false">
-            <stringProp name="cacheKey"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="script">sleep (5000);</stringProp>
-            <stringProp name="scriptLanguage">groovy</stringProp>
-          </JSR223Timer>
-          <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$..data.status</stringProp>

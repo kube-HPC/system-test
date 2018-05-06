@@ -1,8 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1520870070261,590,create workflow pipelineName,201,Created,create workflow 1-1,text,true,,515,714,1,1,590,0,466
-1520870071195,439,execute pipelinename,200,OK,run stored add mult 2-1,text,true,,578,401,1,1,439,0,319
-1520870076881,399,get progress REST pipelineName:578e347c-8c82-48b9-bde3-b2600d3af831,200,OK,run stored add mult 2-1,text,true,,2589,260,1,1,390,0,313
-1520870077316,101,Get results REST pipelineName:578e347c-8c82-48b9-bde3-b2600d3af831,200,OK,run stored add mult 2-1,text,true,,2993,261,1,1,92,0,0
-1520870078920,399,execute pipeline,404,Not Found,run stored add mult 2-1,text,true,,586,397,1,1,399,0,311
-1520870079326,86,delete workflow pipelineName,200,OK,run stored add mult 2-1,text,true,,510,249,1,1,86,0,0
-1520870080914,81,execute pipelineName,404,Not Found,run stored add mult 2-1,text,true,,590,401,1,1,81,0,0

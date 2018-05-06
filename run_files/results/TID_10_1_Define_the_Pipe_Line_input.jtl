@@ -1,7 +1,7 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1520870041286,617,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,617,0,487
-1520870042261,443,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,443,0,325
-1520870047993,409,get progress REST addmult:6cbc4daa-a531-4e52-a4e8-8e6fd047d61b,200,OK,run stored add mult 2-1,text,true,,2564,255,1,1,400,0,317
-1520870048444,100,Get results REST addmult:6cbc4daa-a531-4e52-a4e8-8e6fd047d61b,200,OK,run stored add mult 2-1,text,true,,2960,256,1,1,90,0,0
-1520870048547,13,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2134,0,1,1,0,0,0
-1520870048569,400,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,400,0,317
+1524405544537,680,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,679,0,531
+1524405545559,503,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,503,0,368
+1524405551331,465,get progress REST addmult:428e8d85-231c-49f6-b268-385da54644cc,200,OK,run stored add mult 2-1,text,true,,2620,255,1,1,455,0,369
+1524405551839,109,Get results REST addmult:428e8d85-231c-49f6-b268-385da54644cc,200,OK,run stored add mult 2-1,text,true,,3024,256,1,1,101,0,0
+1524405551951,15,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2198,0,1,1,0,0,0
+1524405551977,470,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,470,0,362

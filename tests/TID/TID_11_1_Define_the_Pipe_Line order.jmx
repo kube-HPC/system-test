@@ -78,69 +78,6 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow countEven" enabled="false">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">  {&#xd;
-  &quot;name&quot;: &quot;countEven&quot;,&#xd;
-   &quot;nodes&quot;: [&#xd;
-       {&#xd;
-           &quot;nodeName&quot;: &quot;even&quot;,&#xd;
-           &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-           &quot;input&quot;: [&#xd;
-                &quot;#@flowInput.nums&quot;&#xd;
-           ],&#xd;
-           &quot;extraData&quot;:{&#xd;
-               &quot;code&quot;: [&#xd;
-               &quot;function split(input) {&quot;,&#xd;
-                    &quot;return (input[0][0] + input[0][1]) % 2 === 0&quot;,&#xd;
-               &quot;}&quot;]}&#xd;
-       },&#xd;
-       {&#xd;
-           &quot;nodeName&quot;: &quot;count&quot;,&#xd;
-           &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-           &quot;input&quot;: [&#xd;
-               &quot;@even&quot;&#xd;
-           ],&#xd;
-           &quot;extraData&quot;:{&#xd;
-              &quot;code&quot;: [&#xd;
-                  &quot;function count (input) {&quot;,&#xd;
-                  &quot;let counter=0&quot;,&#xd;
-                  &quot;for (let i=0 ; i&lt;input[0].length ; i++){&quot;,&#xd;
-                  		&quot;if (input[0][i]){&quot;,&#xd;
-                  			&quot;counter++}}&quot;,&#xd;
-                  &quot;return counter&quot;,&#xd;
-                &quot;}&quot;&#xd;
-           ]}&#xd;
-       }&#xd;
-   ],&#xd;
-   &quot;options&quot;: {&#xd;
-       &quot;batchTolerance&quot;: 100,&#xd;
-       &quot;progressVerbosityLevel&quot;: &quot;debug&quot;&#xd;
-   }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow countEven" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">

@@ -78,68 +78,6 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow countLetters my" enabled="false">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;countLetters&quot;,&#xd;
-  &quot;nodes&quot;: [&#xd;
-    {&#xd;
-      &quot;nodeName&quot;: &quot;split&quot;,&#xd;
-      &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-      &quot;input&quot;: [&#xd;
-        &quot;#@flowInput.text&quot;&#xd;
-      ],&#xd;
-      &quot;extraData&quot;: {&#xd;
-        &quot;code&quot;: [&#xd;
-          &quot;function split(input) {&quot;,&#xd;
-          	&quot;return (input[0].split (&apos; &apos;));&quot;,&#xd;
-          &quot;}&quot;&#xd;
-        ]&#xd;
-      }&#xd;
-    },&#xd;
-    {&#xd;
-      &quot;nodeName&quot;: &quot;count&quot;,&#xd;
-      &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-      &quot;input&quot;: [&#xd;
-        &quot;#@split&quot;,&#xd;
-        &quot;@flowInput.letter&quot;&#xd;
-      ],&#xd;
-      &quot;extraData&quot;: {&#xd;
-        &quot;code&quot;: [&#xd;
-          &quot;function count (input) {&quot;,&#xd;
-              &quot;var counter=0;&quot;,&#xd;
-			&quot;for (i=0 ; i&lt;input[0].length ; i++)&quot;,&#xd;
-				&quot;{if (word.charAt(i)==input[1]){&quot;,&#xd;
-        				&quot;counter++}}&quot;,&#xd;
-			&quot;return counter;}&quot;&#xd;
-        ]&#xd;
-      }&#xd;
-    }&#xd;
-  ]&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow countLetters nassi" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -198,7 +136,7 @@
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored countEven" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored countletters" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
