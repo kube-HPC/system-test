@@ -2,4 +2,5 @@
 *.log
 run_files/results
 run_files/*.csv
-testConfigFiles
+testConfigFiles/*
+!testConfigFiles/template

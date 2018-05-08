@@ -1,0 +1,2 @@
+ip,port,urlHeader,methood,getpodsip,webhook,webhookport,elasticIP,elasticPort,elasticPath,s3path,apakfiles,elasticUser,elasticPass
+1.2.3.4,,hkube/api-server/api/v1,https,hkube/monitor-server/pods,5.6.7.8,3002,7.8.9.10,6443,/api/v1/namespaces/kube-system/services/elasticsearch:http/proxy/logstash-*/_search?pretty,http://10.20.30:9000/apak-data,/ApakMCR/example_input_output,username,password
