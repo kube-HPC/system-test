@@ -1,2 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1524405554217,659,create workflow mult add,201,Created,create workflow 1-1,text,true,,3365,1397,1,1,651,0,513

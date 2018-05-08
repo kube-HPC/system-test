@@ -1,0 +1,42 @@
+{
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "evalwait",
+    "data": {
+        "result": [
+            {
+                "nodeName": "evalsleep",
+                "batchIndex": 1,
+                "algorithmName": "eval-alg",
+                "result": 4
+            },
+            {
+                "nodeName": "evalsleep",
+                "batchIndex": 2,
+                "algorithmName": "eval-alg",
+                "result": 4
+            },
+            {
+                "nodeName": "evalsleep",
+                "batchIndex": 3,
+                "algorithmName": "eval-alg",
+                "result": 4
+            },
+            {
+                "nodeName": "evalsleep",
+                "batchIndex": 4,
+                "algorithmName": "eval-alg",
+                "result": 4
+            },
+            {
+                "nodeName": "evalsleep",
+                "batchIndex": 5,
+                "algorithmName": "eval-alg",
+                "result": 4
+            }
+        ],
+        "status": "completed",
+        "storageModule": "@hkube/s3-adapter"
+    }
+}

@@ -60,3 +60,11 @@ date,time,test name,status,version
 27-03-2018,10:50:00,TID_110_sevirity levels.jtl,pass,1.0.307
 27-03-2018,10:50:00,TID_114_not exist ids.jtl,pass,1.0.307
 27-03-2018,10:50:00,TID_30_Define_the_pipelineName.jtl,pass,1.0.307
+08-05-2018,09:00:31,TID_11_1_Define_the_Pipe_Line order.jtl,pass,1.1.12
+08-05-2018,09:00:31,TID_10_2_Define_the_Pipe_Line_input.jtl,fail,1.1.12
+08-05-2018,09:00:31,TID_10_1_Define_the_Pipe_Line_input.jtl,fail,1.1.12
+08-05-2018,09:00:31,TID_30_Define_the_pipelineName.jtl,pass,1.1.12
+08-05-2018,09:01:33,TID_11_1_Define_the_Pipe_Line order.jtl,pass,1.1.12
+08-05-2018,09:01:33,TID_10_2_Define_the_Pipe_Line_input.jtl,fail,1.1.12
+08-05-2018,09:01:33,TID_10_1_Define_the_Pipe_Line_input.jtl,fail,1.1.12
+08-05-2018,09:01:33,TID_30_Define_the_pipelineName.jtl,pass,1.1.12

@@ -1,0 +1,17 @@
+{
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "bytes",
+    "data": {
+        "result": [
+            {
+                "nodeName": "evalPrint",
+                "algorithmName": "eval-alg",
+                "result": 1000000
+            }
+        ],
+        "status": "completed",
+        "storageModule": "@hkube/s3-adapter"
+    }
+}
