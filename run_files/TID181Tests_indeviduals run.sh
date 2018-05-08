@@ -1,6 +1,8 @@
 #!/bin/bash
 #!/usr/bin/env python
 
+
+mkdir -p results/dashboards
 script_dir=$(dirname $0)
 dashboardPath=$script_dir'/results/dashboards'
 filePath=$script_dir'/results/regression.csv'
