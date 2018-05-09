@@ -1,0 +1,2 @@
+ip,port,urlHeader,methood,getpodsip,webhook,webhookport,elasticIP,elasticPort,elasticPath,s3path,apakfiles,elasticUser,elasticPass
+${API_SERVER_IP},${API_SERVER_PORT},hkube/api-server/api/v1,https,hkube/monitor-server/pods,${WEBHOOK_SERVER_IP},${WEBHOOK_SERVER_PORT},${ELASTICSEARCH_IP},${ELASTICSEARCH_PORT},/system/elasticsearch/logstash-*/_search?pretty,${APAK_S3_FILES_PATH},${APAK_OUTPUT_PATH},,
