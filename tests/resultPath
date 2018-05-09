@@ -5,3 +5,9 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1525769428123,100,Get results REST addmult:c4b52b1d-c970-4e75-8b0d-651d6b00d8af,200,OK,run stored add mult 2-1,text,true,,2932,256,1,1,90,1,0,0,0
 1525769428226,14,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
 1525769428252,413,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,413,1,0,0,322
+1525863342008,580,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,580,1,0,0,480
+1525863342927,525,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,525,1,0,0,331
+1525863348747,405,get progress REST addmult:b63ad707-68b1-4dab-a769-2a11d40d6322,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,400,1,0,0,325
+1525863349173,92,Get results REST addmult:b63ad707-68b1-4dab-a769-2a11d40d6322,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,89,1,0,0,0
+1525863349267,5,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525863349295,401,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,401,1,0,0,320

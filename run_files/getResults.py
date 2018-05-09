@@ -5,6 +5,9 @@ import datetime
 import requests
 import json
 
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
 all_results = 'all results.csv'
 latest_results = 'latest results.csv'
 

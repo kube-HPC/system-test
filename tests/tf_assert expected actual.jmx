@@ -80,7 +80,7 @@ if (actual.equals(expected))
 else 
 {
 	Failure=true;
-	FailureMessage=&quot;both string was not equal&quot;;
+	FailureMessage=&quot;both strings were not equal&quot;;
 //	print (&quot;fail&quot;);
 }
 </stringProp>

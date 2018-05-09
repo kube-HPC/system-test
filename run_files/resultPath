@@ -71,3 +71,93 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1525769396528,94,Get results REST addmult:5ae0a418-89ee-44f2-8735-1a2b6494bb6d,200,OK,run stored add mult 2-1,text,true,,2931,265,1,1,90,1,0,0,0
 1525769396623,4,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2105,0,1,1,0,1,0,0,0
 1525769396633,423,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,253,1,1,423,1,0,0,338
+1525785654810,637,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1151,1,1,637,1,0,0,509
+1525785655782,495,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,429,1,1,495,1,0,0,331
+1525785661589,1062,get progress REST addmult:c92f5fe1-8a1e-42ba-9cb8-d3e63d2ac67f,200,OK,run stored add mult 2-1,text,true,,2530,264,1,1,1056,1,0,0,332
+1525785662673,102,Get results REST addmult:c92f5fe1-8a1e-42ba-9cb8-d3e63d2ac67f,200,OK,run stored add mult 2-1,text,true,,2934,265,1,1,92,1,0,0,0
+1525785662778,15,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525785662804,435,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,253,1,1,435,1,0,0,353
+1525854875502,651,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,650,1,0,0,516
+1525854876504,551,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,551,1,0,0,330
+1525854882350,414,get progress REST addmult:e11c0ed4-1d0b-4102-9b97-eb33e0661196,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,402,1,0,0,323
+1525854882807,102,Get results REST addmult:e11c0ed4-1d0b-4102-9b97-eb33e0661196,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,98,1,0,0,0
+1525854882910,5,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525854882920,429,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,428,1,0,0,318
+1525854952730,600,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,600,1,0,0,480
+1525854953688,535,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,535,1,0,0,328
+1525854959492,411,get progress REST addmult:8b80705f-8754-44bc-8c3d-e2719bf0b4df,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,401,1,0,0,324
+1525854959932,100,Get results REST addmult:8b80705f-8754-44bc-8c3d-e2719bf0b4df,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,91,1,0,0,0
+1525854960037,14,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2107,0,1,1,0,1,0,0,0
+1525854960061,427,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,427,1,0,0,322
+1525855352614,679,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,678,1,0,0,480
+1525855353655,459,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,459,1,0,0,319
+1525855359401,407,get progress REST addmult:2fe216cb-0085-472a-b437-f990c7aa0b39,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,398,1,0,0,325
+1525855359834,101,Get results REST addmult:2fe216cb-0085-472a-b437-f990c7aa0b39,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,95,1,0,0,0
+1525855359937,9,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855359956,399,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,399,1,0,0,317
+1525855393396,580,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,580,1,0,0,451
+1525855394375,501,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,501,1,0,0,326
+1525855400178,407,get progress REST addmult:31e0114e-16cb-436e-ba11-1bd57b347e34,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,397,1,0,0,324
+1525855400622,106,Get results REST addmult:31e0114e-16cb-436e-ba11-1bd57b347e34,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,99,1,0,0,0
+1525855400729,8,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855400742,406,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,406,1,0,0,323
+1525855422135,609,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,609,1,0,0,473
+1525855423087,489,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,489,1,0,0,327
+1525855428881,405,get progress REST addmult:f282c45a-76c5-4245-95d8-dcc85ebb1b38,200,OK,run stored add mult 2-1,text,true,,2529,255,1,1,394,1,0,0,320
+1525855429332,100,Get results REST addmult:f282c45a-76c5-4245-95d8-dcc85ebb1b38,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,91,1,0,0,0
+1525855429434,14,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855429459,412,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,412,1,0,0,319
+1525855502242,614,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,614,1,0,0,481
+1525855503199,507,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,507,1,0,0,327
+1525855508991,407,get progress REST addmult:e95d063a-f746-4d89-acb8-05975f747e7d,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,398,1,0,0,323
+1525855509436,116,Get results REST addmult:e95d063a-f746-4d89-acb8-05975f747e7d,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,107,1,0,0,0
+1525855509556,17,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855509581,406,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,406,1,0,0,322
+1525855558907,557,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,557,1,0,0,440
+1525855559819,467,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,467,1,0,0,318
+1525855565576,411,get progress REST addmult:cd95c9b0-76f8-4706-b988-dce557d72fb4,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,400,1,0,0,325
+1525855566024,102,Get results REST addmult:cd95c9b0-76f8-4706-b988-dce557d72fb4,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,93,1,0,0,0
+1525855566129,13,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2107,0,1,1,0,1,0,0,0
+1525855566155,400,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,400,1,0,0,318
+1525855687379,550,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,549,1,0,0,440
+1525855688283,539,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,539,1,0,0,326
+1525855694102,393,get progress REST addmult:9615731b-2c3e-4fc4-812a-c9ca24f27b1a,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,384,1,0,0,310
+1525855694517,104,Get results REST addmult:9615731b-2c3e-4fc4-812a-c9ca24f27b1a,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,95,1,0,0,0
+1525855694624,13,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855694649,429,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,429,1,0,0,321
+1525855719698,571,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,571,1,0,0,459
+1525855720597,444,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,444,1,0,0,326
+1525855726290,398,get progress REST addmult:7bc74fc2-0089-41a1-9e31-25234d62e044,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,392,1,0,0,319
+1525855726703,112,Get results REST addmult:7bc74fc2-0089-41a1-9e31-25234d62e044,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,103,1,0,0,0
+1525855726818,13,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855726843,401,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,401,1,0,0,317
+1525855761628,563,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,563,1,0,0,458
+1525855762528,473,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,473,1,0,0,328
+1525855768307,408,get progress REST addmult:f306f4f4-a6db-4878-82ec-13ceda6cef05,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,399,1,0,0,325
+1525855768752,112,Get results REST addmult:f306f4f4-a6db-4878-82ec-13ceda6cef05,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,103,1,0,0,0
+1525855768867,6,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855768877,397,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,397,1,0,0,315
+1525855854046,609,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,608,1,0,0,459
+1525855854996,497,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,497,1,0,0,332
+1525855860757,228,get progress REST addmult:d78edc00-d209-48b3-8088-ec38c8097fa2,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,217,1,0,0,143
+1525855861024,142,Get results REST addmult:d78edc00-d209-48b3-8088-ec38c8097fa2,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,132,1,0,0,0
+1525855861168,6,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525855861180,397,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,397,1,0,0,313
+1525856010903,646,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,645,1,0,0,496
+1525856011918,473,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,473,1,0,0,330
+1525856017663,219,get progress REST addmult:df1f030c-7674-4a04-8892-6dcdd3152c19,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,216,1,0,0,141
+1525856017892,98,Get results REST addmult:df1f030c-7674-4a04-8892-6dcdd3152c19,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,91,1,0,0,0
+1525856017996,23,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525856018032,398,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,398,1,0,0,316
+1525856116909,564,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,564,1,0,0,470
+1525856117813,519,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,519,1,0,0,325
+1525856123639,406,get progress REST addmult:d3fb618e-de7e-4941-979d-eb92733b5b80,200,OK,run stored add mult 2-1,text,true,,2530,255,1,1,400,1,0,0,321
+1525856124058,157,Get results REST addmult:d3fb618e-de7e-4941-979d-eb92733b5b80,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,149,1,0,0,0
+1525856124219,13,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525856124248,429,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,429,1,0,0,311
+1525856414871,796,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,795,1,0,0,464
+1525856416029,501,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,501,1,0,0,318
+1525856421820,405,get progress REST addmult:ce44ebaa-4987-49ea-87d4-f617696721c4,200,OK,run stored add mult 2-1,text,true,,2529,255,1,1,399,1,0,0,323
+1525856422238,97,Get results REST addmult:ce44ebaa-4987-49ea-87d4-f617696721c4,200,OK,run stored add mult 2-1,text,true,,2933,256,1,1,90,1,0,0,0
+1525856422339,13,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
+1525856422379,404,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,404,1,0,0,312
