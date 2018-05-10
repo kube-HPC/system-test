@@ -15,11 +15,12 @@ latest_results = 'latest results.csv'
 try:
     base = sys.argv[1]
 except IndexError:
-    base = '/home/eitang/WorkStuff/TestManager/system-tests/run_files/results/'
+    base = '../results/'
 
 
 def get_system_version():
-    url = 'https://10.32.10.11/hkube/monitor-server/versions.json'
+    ip = read_from_csvVersion()
+    url = 'https://'+ip+'/hkube/monitor-server/versions.json'
     r = requests.get(url, auth=('kube', 'ubadmin'), verify=False)
     js = r.json()
     return js['systemVersion']
