@@ -11,3 +11,15 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1525863244294,101,Get results REST addmult:0eb38a09-21c6-4045-b3a8-6210e746138f,200,OK,run stored add mult 2-1,text,true,,2935,256,1,1,99,1,0,0,0
 1525863244396,2,assert expected/actual,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: ../expectedFiles/TID-10_1expected.json (No such file or directory),run stored add mult 2-1,text,false,both strings were not equal,3701,0,1,1,0,1,1,0,0
 1525863244412,414,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,414,1,0,0,317
+1526278447145,577,create workflow add mult,409,Conflict,create workflow 1-1,text,false,,566,1142,1,1,577,1,1,0,485
+1526278448068,506,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,506,1,0,0,318
+1526278453960,207,get progress REST addmult:958bf610-0cf6-4fa1-8bc0-e1a63f6ce677,200,OK,run stored add mult 2-1,text,true,,2562,255,1,1,205,1,0,0,133
+1526278454183,91,Get results REST addmult:958bf610-0cf6-4fa1-8bc0-e1a63f6ce677,200,OK,run stored add mult 2-1,text,true,,2966,256,1,1,88,1,0,0,0
+1526278454275,4,assert expected/actual,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: ../expectedFiles/TID-10_1expected.json (No such file or directory),run stored add mult 2-1,text,false,both strings were not equal,3733,0,1,1,0,1,1,0,0
+1526278454284,406,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,406,1,0,0,310
+1526278483091,585,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,585,1,0,0,451
+1526278484016,470,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,470,1,0,0,326
+1526278489859,388,get progress REST addmult:604aebba-fdae-4ba5-ac26-e13b4143af93,200,OK,run stored add mult 2-1,text,true,,2563,255,1,1,387,1,0,0,314
+1526278490262,94,Get results REST addmult:604aebba-fdae-4ba5-ac26-e13b4143af93,200,OK,run stored add mult 2-1,text,true,,2967,256,1,1,90,1,0,0,0
+1526278490357,5,assert expected/actual,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: ../expectedFiles/TID-10_1expected.json (No such file or directory),run stored add mult 2-1,text,false,both strings were not equal,3733,0,1,1,0,1,1,0,0
+1526278490367,396,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,396,1,0,0,314

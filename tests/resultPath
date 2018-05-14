@@ -11,3 +11,313 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1525863349173,92,Get results REST addmult:b63ad707-68b1-4dab-a769-2a11d40d6322,200,OK,run stored add mult 2-1,text,true,,2934,256,1,1,89,1,0,0,0
 1525863349267,5,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2108,0,1,1,0,1,0,0,0
 1525863349295,401,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,401,1,0,0,320
+1526278534611,751,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,750,1,0,0,430
+1526278535697,466,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,466,1,0,0,316
+1526278541515,385,get progress REST addmult:d2fe67ac-501e-4f2a-9c74-5f5a302a19d7,200,OK,run stored add mult 2-1,text,true,,2563,255,1,1,383,1,0,0,310
+1526278541927,110,Get results REST addmult:d2fe67ac-501e-4f2a-9c74-5f5a302a19d7,200,OK,run stored add mult 2-1,text,true,,2966,256,1,1,104,1,0,0,0
+1526278542039,8,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2141,0,1,1,0,1,0,0,0
+1526278542053,392,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,392,1,0,0,312
+1526281064108,419,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,419,1,0,0,309
+1526281064883,822,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,822,1,0,0,310
+1526281070732,394,get progress REST addmult:60e73db1-af6e-46db-8a37-20b55273e3a5,200,OK,run stored add mult 2-1,text,true,,2563,255,1,1,393,1,0,0,314
+1526281071132,99,Get results REST addmult:60e73db1-af6e-46db-8a37-20b55273e3a5,200,OK,run stored add mult 2-1,text,true,,2967,256,1,1,97,1,0,0,0
+1526281071231,2,assert expected/actual,200,OK,run stored add mult 2-1,text,false,both strings were not equal,2141,0,1,1,0,1,1,0,0
+1526281071236,398,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,398,1,0,0,315
+1526281091539,392,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1142,1,1,392,1,0,0,311
+1526281092256,494,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,427,1,1,494,1,0,0,310
+1526281097787,448,get progress REST addmult:2b9ed3f3-8465-47c9-8d23-df763f6738a9,200,OK,run stored add mult 2-1,text,true,,2563,255,1,1,448,1,0,0,315
+1526281098242,96,Get results REST addmult:2b9ed3f3-8465-47c9-8d23-df763f6738a9,200,OK,run stored add mult 2-1,text,true,,2996,256,1,1,94,1,0,0,0
+1526281098338,3,assert expected/actual,200,OK,run stored add mult 2-1,text,false,both strings were not equal,2171,0,1,1,0,1,1,0,0
+1526281098343,396,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,396,1,0,0,315
+1526281189662,596,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,596,1,0,0,308
+1526281190612,458,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,427,1,1,458,1,0,0,314
+1526281196090,382,get progress REST addmult:48288f0e-7ced-434b-a87d-839cc5612aeb,200,OK,run stored add mult 2-1,text,true,,2562,255,1,1,381,1,0,0,307
+1526281196477,93,Get results REST addmult:48288f0e-7ced-434b-a87d-839cc5612aeb,200,OK,run stored add mult 2-1,text,true,,2997,256,1,1,90,1,0,0,0
+1526281196570,7,assert expected/actual,200,OK,run stored add mult 2-1,text,false,both strings were not equal,2170,0,1,1,0,1,1,0,0
+1526281196583,399,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,399,1,0,0,313
+1526281237128,451,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,451,1,0,0,314
+1526281237909,477,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,427,1,1,477,1,0,0,313
+1526281243420,393,get progress REST addmult:809e369b-1894-4845-80b1-f3ca8aea696a,200,OK,run stored add mult 2-1,text,true,,2562,255,1,1,392,1,0,0,307
+1526281243829,98,Get results REST addmult:809e369b-1894-4845-80b1-f3ca8aea696a,200,OK,run stored add mult 2-1,text,true,,2977,256,1,1,94,1,0,0,0
+1526281243928,5,assert expected/actual,200,OK,run stored add mult 2-1,text,false,both strings were not equal,2151,0,1,1,0,1,1,0,0
+1526281243941,485,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,485,1,0,0,321
+1526281531435,486,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,486,1,0,0,307
+1526281532244,466,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,466,1,0,0,314
+1526281537728,390,get progress REST addmult:8ff84600-2f91-4719-871a-0bb144e9b24c,200,OK,run stored add mult integers 2-1,text,true,,2581,255,1,1,387,1,0,0,310
+1526281538124,98,Get results REST addmult:8ff84600-2f91-4719-871a-0bb144e9b24c,200,OK,run stored add mult integers 2-1,text,true,,2997,256,1,1,94,1,0,0,0
+1526281538222,6,assert expected/actual,200,OK,run stored add mult integers 2-1,text,false,both strings were not equal,2171,0,1,1,0,1,1,0,0
+1526281538576,585,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,585,1,0,0,311
+1526281544198,387,get progress REST addmult:c136e2fa-01cc-44d9-b062-0f76770096b0,200,OK,run stored add mult float 3-1,text,true,,2575,255,1,1,387,1,0,0,311
+1526281544590,88,Get results REST addmult:c136e2fa-01cc-44d9-b062-0f76770096b0,200,OK,run stored add mult float 3-1,text,true,,2989,256,1,1,87,1,0,0,0
+1526281544679,1,assert expected/actual,200,OK,run stored add mult float 3-1,text,false,both strings were not equal,2163,0,1,1,0,1,1,0,0
+1526281544683,397,delete workflow addmult,200,OK,delete workflow 4-1,text,true,,510,244,1,1,397,1,0,0,311
+1526281805723,421,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,421,1,0,0,311
+1526281806465,463,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,463,1,0,0,312
+1526281811955,385,get progress REST addmult:91a4b397-de52-423e-ad9d-f69f66c24ceb,200,OK,run stored add mult integers 2-1,text,true,,2591,255,1,1,384,1,0,0,310
+1526281812354,91,Get results REST addmult:91a4b397-de52-423e-ad9d-f69f66c24ceb,200,OK,run stored add mult integers 2-1,text,true,,3004,256,1,1,88,1,0,0,0
+1526281812446,6,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2190,0,1,1,0,1,0,0,0
+1526281812796,438,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,438,1,0,0,314
+1526281818264,394,get progress REST addmult:eb3c8461-a11a-49e7-888b-9abcdf57e97a,200,OK,run stored add mult float 3-1,text,true,,2578,255,1,1,394,1,0,0,322
+1526281818669,87,Get results REST addmult:eb3c8461-a11a-49e7-888b-9abcdf57e97a,200,OK,run stored add mult float 3-1,text,true,,2991,256,1,1,86,1,0,0,0
+1526281818757,2,assert expected/actual,Non HTTP response code: java.io.FileNotFoundException,Non HTTP response message: ../expectedFiles/TID_410_2_float_expected (No such file or directory),run stored add mult float 3-1,text,false,both strings were not equal,3764,0,1,1,0,1,1,0,0
+1526281818762,398,delete workflow addmult,200,OK,delete workflow 4-1,text,true,,510,244,1,1,398,1,0,0,317
+1526281832955,605,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,605,1,0,0,311
+1526281833906,489,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,489,1,0,0,308
+1526281839428,208,get progress REST addmult:910763ba-629d-4096-b720-18825a4d0e8c,200,OK,run stored add mult integers 2-1,text,true,,2590,255,1,1,208,1,0,0,134
+1526281839643,96,Get results REST addmult:910763ba-629d-4096-b720-18825a4d0e8c,200,OK,run stored add mult integers 2-1,text,true,,3006,256,1,1,94,1,0,0,0
+1526281839739,2,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2193,0,1,1,0,1,0,0,0
+1526281840070,490,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,490,1,0,0,308
+1526281845587,385,get progress REST addmult:0598710b-4cf4-464a-8df0-4c6e832cc163,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,385,1,0,0,310
+1526281845976,101,Get results REST addmult:0598710b-4cf4-464a-8df0-4c6e832cc163,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,100,1,0,0,0
+1526281846078,1,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526281846082,396,delete workflow addmult,200,OK,delete workflow 4-1,text,true,,510,244,1,1,396,1,0,0,315
+1526282443638,434,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,434,1,0,0,311
+1526282444073,88,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,88,1,0,0,0
+1526282444512,460,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,460,1,0,0,309
+1526282449995,390,get progress REST addmult:feb5f7c9-b527-41e6-b084-9ade7f87bd46,200,OK,run stored add mult integers 2-1,text,true,,2591,255,1,1,390,1,0,0,311
+1526282450390,94,Get results REST addmult:feb5f7c9-b527-41e6-b084-9ade7f87bd46,200,OK,run stored add mult integers 2-1,text,true,,3007,256,1,1,91,1,0,0,0
+1526282450484,1,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2191,0,1,1,0,1,0,0,0
+1526282450817,474,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,474,1,0,0,313
+1526282456324,386,get progress REST addmult:4bb531c2-aac1-499f-9fee-82529b4cfa92,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,385,1,0,0,313
+1526282456714,90,Get results REST addmult:4bb531c2-aac1-499f-9fee-82529b4cfa92,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,89,1,0,0,0
+1526282456804,2,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526282457155,434,execute addmult stringReplace,200,OK,run stored stringReplace 4-1,text,true,,579,426,1,1,434,1,0,0,315
+1526282462606,392,get progress REST stringReplace:508d409c-88fd-4606-9b3b-e7a186e2c44f,200,OK,run stored stringReplace 4-1,text,true,,2611,261,1,1,392,1,0,0,315
+1526282463003,98,Get results REST stringReplace:508d409c-88fd-4606-9b3b-e7a186e2c44f,200,OK,run stored stringReplace 4-1,text,true,,3048,262,1,1,96,1,0,0,0
+1526282463101,1,assert expected/actual,200,OK,run stored stringReplace 4-1,text,false,both strings were not equal,2214,0,1,1,0,1,1,0,0
+1526282463105,399,delete workflow addmult,200,OK,delete workflow 5-1,text,true,,510,244,1,1,399,1,0,0,318
+1526282473890,396,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,396,1,0,0,311
+1526282474287,73,create workflow stringReplace,409,Conflict,create workflow 1-1,text,false,,572,873,1,1,73,1,1,0,0
+1526282474689,502,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,502,1,0,0,312
+1526282480237,208,get progress REST addmult:754741c3-f846-4759-89b2-9c6a7fecfbe3,200,OK,run stored add mult integers 2-1,text,true,,2591,255,1,1,208,1,0,0,134
+1526282480454,128,Get results REST addmult:754741c3-f846-4759-89b2-9c6a7fecfbe3,200,OK,run stored add mult integers 2-1,text,true,,3006,256,1,1,127,1,0,0,0
+1526282480583,1,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2193,0,1,1,0,1,0,0,0
+1526282480907,439,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,439,1,0,0,312
+1526282486369,393,get progress REST addmult:2015e2a9-769c-4749-8a79-33dee3825a6a,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,393,1,0,0,316
+1526282486766,91,Get results REST addmult:2015e2a9-769c-4749-8a79-33dee3825a6a,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,89,1,0,0,0
+1526282486857,1,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526282487180,510,execute addmult stringReplace,200,OK,run stored stringReplace 4-1,text,true,,579,426,1,1,510,1,0,0,314
+1526282492700,394,get progress REST stringReplace:886e62e1-bebe-4b29-84e0-edc56750b199,200,OK,run stored stringReplace 4-1,text,true,,2611,261,1,1,394,1,0,0,318
+1526282493104,102,Get results REST stringReplace:886e62e1-bebe-4b29-84e0-edc56750b199,200,OK,run stored stringReplace 4-1,text,true,,3048,262,1,1,101,1,0,0,0
+1526282493206,1,assert expected/actual,200,OK,run stored stringReplace 4-1,text,false,both strings were not equal,2214,0,1,1,0,1,1,0,0
+1526282493209,394,delete workflow addmult,200,OK,delete workflow 5-1,text,true,,510,244,1,1,394,1,0,0,313
+1526282493604,81,delete workflow stringReplace,200,OK,delete workflow 5-1,text,true,,510,250,1,1,81,1,0,0,0
+1526282581864,397,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,397,1,0,0,311
+1526282582262,86,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,86,1,0,0,0
+1526282582672,502,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,502,1,0,0,310
+1526282588222,380,get progress REST addmult:63b597bc-9212-4cc3-81cc-81bce5e8139d,200,OK,run stored add mult integers 2-1,text,true,,2591,255,1,1,380,1,0,0,308
+1526282588606,88,Get results REST addmult:63b597bc-9212-4cc3-81cc-81bce5e8139d,200,OK,run stored add mult integers 2-1,text,true,,3006,256,1,1,87,1,0,0,0
+1526282588694,1,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2193,0,1,1,0,1,0,0,0
+1526282589017,453,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,453,1,0,0,309
+1526282594484,378,get progress REST addmult:708d27ea-4e2c-48c9-baf8-1d60b1e5a388,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,377,1,0,0,306
+1526282594867,93,Get results REST addmult:708d27ea-4e2c-48c9-baf8-1d60b1e5a388,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,92,1,0,0,0
+1526282594961,1,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526282595286,438,execute addmult stringReplace,200,OK,run stored stringReplace 4-1,text,true,,579,426,1,1,438,1,0,0,308
+1526282600743,389,get progress REST stringReplace:4b4b5e73-dd07-4240-957a-88a1311db261,200,OK,run stored stringReplace 4-1,text,true,,2612,261,1,1,388,1,0,0,308
+1526282601136,129,Get results REST stringReplace:4b4b5e73-dd07-4240-957a-88a1311db261,200,OK,run stored stringReplace 4-1,text,true,,3049,262,1,1,127,1,0,0,0
+1526282601265,2,assert expected/actual,200,OK,run stored stringReplace 4-1,text,true,,2238,0,1,1,0,1,0,0,0
+1526282601270,433,delete workflow addmult,200,OK,delete workflow 5-1,text,true,,510,244,1,1,433,1,0,0,308
+1526282601703,79,delete workflow stringReplace,200,OK,delete workflow 5-1,text,true,,510,250,1,1,79,1,0,0,0
+1526285357837,396,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,396,1,0,0,312
+1526285358234,87,create workflow bool,201,Created,create workflow 1-1,text,true,,515,681,1,1,87,1,0,0,0
+1526285358322,93,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,93,1,0,0,0
+1526285358731,554,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,554,1,0,0,314
+1526285364330,389,get progress REST addmult:9aae0fd2-95e5-4a92-9e0e-fcc0992ee6e7,200,OK,run stored add mult integers 2-1,text,true,,2591,255,1,1,388,1,0,0,316
+1526285364722,92,Get results REST addmult:9aae0fd2-95e5-4a92-9e0e-fcc0992ee6e7,200,OK,run stored add mult integers 2-1,text,true,,3007,256,1,1,91,1,0,0,0
+1526285364814,1,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2193,0,1,1,0,1,0,0,0
+1526285365150,458,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,458,1,0,0,315
+1526285370620,386,get progress REST addmult:232560f4-9fa2-4c3e-b42f-37f6965658f6,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,386,1,0,0,310
+1526285371010,103,Get results REST addmult:232560f4-9fa2-4c3e-b42f-37f6965658f6,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,101,1,0,0,0
+1526285371114,2,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526285371444,438,execute addmult stringReplace,200,OK,run stored stringReplace 4-1,text,true,,579,426,1,1,438,1,0,0,314
+1526285376892,393,get progress REST stringReplace:d67aeb0e-4ddb-4390-bf2b-1c915b571178,200,OK,run stored stringReplace 4-1,text,true,,2612,261,1,1,392,1,0,0,314
+1526285377296,96,Get results REST stringReplace:d67aeb0e-4ddb-4390-bf2b-1c915b571178,200,OK,run stored stringReplace 4-1,text,true,,3049,262,1,1,94,1,0,0,0
+1526285377393,3,assert expected/actual,200,OK,run stored stringReplace 4-1,text,true,,2238,0,1,1,0,1,0,0,0
+1526285377743,452,execute addmult bool,200,OK,run stored bool 5-1,text,true,,570,391,1,1,452,1,0,0,310
+1526285383222,382,get progress REST bool:faf3d1fe-edcd-4d59-9ae9-a061f5b4f702,200,OK,run stored bool 5-1,text,true,,2549,252,1,1,382,1,0,0,308
+1526285383612,76,Get results REST bool:faf3d1fe-edcd-4d59-9ae9-a061f5b4f702,200,OK,run stored bool 5-1,text,true,,2955,253,1,1,75,1,0,0,0
+1526285383689,0,assert expected/actual,200,OK,run stored bool 5-1,text,false,both strings were not equal,2171,0,1,1,0,1,1,0,0
+1526285383691,387,delete workflow addmult,200,OK,delete workflow 6-1,text,true,,510,244,1,1,387,1,0,0,307
+1526285384078,81,delete workflow stringReplace,200,OK,delete workflow 6-1,text,true,,510,250,1,1,81,1,0,0,0
+1526285384159,79,delete workflow bool,200,OK,delete workflow 6-1,text,true,,510,241,1,1,79,1,0,0,0
+1526285421885,413,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,413,1,0,0,311
+1526285422298,87,create workflow bool,201,Created,create workflow 1-1,text,true,,515,681,1,1,87,1,0,0,0
+1526285422386,94,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,94,1,0,0,0
+1526285422811,457,execute addmult bool,200,OK,run stored bool 2-1,text,true,,570,390,1,1,457,1,0,0,322
+1526285428288,388,get progress REST bool:460c4e9e-d2f8-49d5-a4c2-a87e7ba99e90,200,OK,run stored bool 2-1,text,true,,2549,252,1,1,387,1,0,0,311
+1526285428689,82,Get results REST bool:460c4e9e-d2f8-49d5-a4c2-a87e7ba99e90,200,OK,run stored bool 2-1,text,true,,2955,253,1,1,76,1,0,0,0
+1526285428771,1,assert expected/actual,200,OK,run stored bool 2-1,text,false,both strings were not equal,2171,0,1,1,0,1,1,0,0
+1526285428774,398,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,398,1,0,0,313
+1526285429172,92,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,92,1,0,0,0
+1526285429264,81,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,81,1,0,0,0
+1526285489598,397,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,397,1,0,0,307
+1526285489996,83,create workflow bool,201,Created,create workflow 1-1,text,true,,515,681,1,1,83,1,0,0,0
+1526285490080,83,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,83,1,0,0,0
+1526285490512,442,execute addmult bool,200,OK,run stored bool 2-1,text,true,,570,393,1,1,442,1,0,0,305
+1526285495976,397,get progress REST bool:fe02f16a-a370-4236-88e1-472814216e66,200,OK,run stored bool 2-1,text,true,,2549,252,1,1,396,1,0,0,320
+1526285496388,82,Get results REST bool:fe02f16a-a370-4236-88e1-472814216e66,200,OK,run stored bool 2-1,text,true,,2955,253,1,1,81,1,0,0,0
+1526285496470,1,assert expected/actual,200,OK,run stored bool 2-1,text,false,both strings were not equal,2171,0,1,1,0,1,1,0,0
+1526285496473,411,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,411,1,0,0,313
+1526285496885,85,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,85,1,0,0,0
+1526285496970,87,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,87,1,0,0,0
+1526285510228,397,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,397,1,0,0,316
+1526285510625,80,create workflow bool,201,Created,create workflow 1-1,text,true,,515,681,1,1,80,1,0,0,0
+1526285510705,81,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,81,1,0,0,0
+1526285511105,430,execute addmult bool,200,OK,run stored bool 2-1,text,true,,570,395,1,1,430,1,0,0,313
+1526285516557,381,get progress REST bool:280c31d3-03af-467b-9f72-f17ffa31151d,200,OK,run stored bool 2-1,text,true,,2549,252,1,1,380,1,0,0,307
+1526285516941,101,Get results REST bool:280c31d3-03af-467b-9f72-f17ffa31151d,200,OK,run stored bool 2-1,text,true,,2953,253,1,1,100,1,0,0,0
+1526285517042,1,assert expected/actual,200,OK,run stored bool 2-1,text,false,both strings were not equal,2169,0,1,1,0,1,1,0,0
+1526285517044,395,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,395,1,0,0,309
+1526285517439,81,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,81,1,0,0,0
+1526285517520,81,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,81,1,0,0,0
+1526285538861,395,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,395,1,0,0,313
+1526285539256,83,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,83,1,0,0,0
+1526285539339,110,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,110,1,0,0,0
+1526285539777,460,execute addmult bool,200,OK,run stored bool 2-1,text,true,,570,393,1,1,460,1,0,0,312
+1526285545258,385,get progress REST bool:488d1ff1-999b-4226-8f70-3ae4e89597e0,200,OK,run stored bool 2-1,text,true,,2549,252,1,1,384,1,0,0,312
+1526285545653,93,Get results REST bool:488d1ff1-999b-4226-8f70-3ae4e89597e0,200,OK,run stored bool 2-1,text,true,,2957,253,1,1,91,1,0,0,0
+1526285545746,1,assert expected/actual,200,OK,run stored bool 2-1,text,false,both strings were not equal,2173,0,1,1,0,1,1,0,0
+1526285545749,397,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,397,1,0,0,312
+1526285546146,94,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,94,1,0,0,0
+1526285546241,81,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,81,1,0,0,0
+1526285555112,608,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,608,1,0,0,309
+1526285555721,86,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,86,1,0,0,0
+1526285555807,89,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,89,1,0,0,0
+1526285556217,427,execute addmult bool,200,OK,run stored bool 2-1,text,true,,570,392,1,1,427,1,0,0,310
+1526285561665,385,get progress REST bool:507dda71-a3e0-45c7-a0ae-f3cc485f8bae,200,OK,run stored bool 2-1,text,true,,2548,252,1,1,385,1,0,0,312
+1526285562054,93,Get results REST bool:507dda71-a3e0-45c7-a0ae-f3cc485f8bae,200,OK,run stored bool 2-1,text,true,,2954,253,1,1,93,1,0,0,0
+1526285562148,2,assert expected/actual,200,OK,run stored bool 2-1,text,false,both strings were not equal,2170,0,1,1,0,1,1,0,0
+1526285562152,385,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,385,1,0,0,305
+1526285562537,82,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,82,1,0,0,0
+1526285562619,83,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,83,1,0,0,0
+1526285602624,436,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,436,1,0,0,329
+1526285603061,128,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,128,1,0,0,0
+1526285603189,84,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,84,1,0,0,0
+1526285603592,436,execute addmult bool true,200,OK,run stored bool true 2-1,text,true,,570,392,1,1,436,1,0,0,318
+1526285609056,389,get progress REST bool:6cd8a0b1-e0d7-49fb-9105-9e0829ef0505,200,OK,run stored bool true 2-1,text,true,,2559,252,1,1,388,1,0,0,309
+1526285609450,123,Get results REST bool:6cd8a0b1-e0d7-49fb-9105-9e0829ef0505,200,OK,run stored bool true 2-1,text,true,,2964,253,1,1,122,1,0,0,0
+1526285609574,1,assert expected/actual,200,OK,run stored bool true 2-1,text,false,both strings were not equal,2181,0,1,1,0,1,1,0,0
+1526285609904,451,execute addmult false,200,OK,run stored bool false 3-1,text,true,,570,393,1,1,451,1,0,0,313
+1526285615364,382,get progress REST bool:9ec519b3-0d6e-4e4d-8ae7-4ac1deb58f09,200,OK,run stored bool false 3-1,text,true,,2561,252,1,1,382,1,0,0,309
+1526285615750,94,Get results REST bool:9ec519b3-0d6e-4e4d-8ae7-4ac1deb58f09,200,OK,run stored bool false 3-1,text,true,,2969,253,1,1,92,1,0,0,0
+1526285615845,3,assert expected/actual,200,OK,run stored bool false 3-1,text,false,both strings were not equal,2185,0,1,1,0,1,1,0,0
+1526285615853,412,delete workflow addmult,200,OK,delete workflow 4-1,text,true,,510,244,1,1,412,1,0,0,316
+1526285616265,135,delete workflow stringReplace,200,OK,delete workflow 4-1,text,true,,510,250,1,1,135,1,0,0,0
+1526285616400,86,delete workflow bool,200,OK,delete workflow 4-1,text,true,,510,241,1,1,86,1,0,0,0
+1526285752355,458,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,457,1,0,0,374
+1526285752813,94,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,94,1,0,0,0
+1526285752908,91,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,91,1,0,0,0
+1526285753315,465,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,465,1,0,0,315
+1526285758821,382,get progress REST addmult:95eca5b2-874f-48de-b1ff-b05116c2d337,200,OK,run stored add mult integers 2-1,text,true,,2591,255,1,1,381,1,0,0,308
+1526285759208,100,Get results REST addmult:95eca5b2-874f-48de-b1ff-b05116c2d337,200,OK,run stored add mult integers 2-1,text,true,,3007,256,1,1,99,1,0,0,0
+1526285759308,1,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2193,0,1,1,0,1,0,0,0
+1526285759630,454,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,454,1,0,0,320
+1526285765093,385,get progress REST addmult:b990d9e7-2924-488a-bded-d2a21fa073c4,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,385,1,0,0,312
+1526285765481,146,Get results REST addmult:b990d9e7-2924-488a-bded-d2a21fa073c4,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,143,1,0,0,0
+1526285765628,2,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526285765983,429,execute addmult stringReplace,200,OK,run stored stringReplace 4-1,text,true,,579,426,1,1,429,1,0,0,306
+1526285771419,386,get progress REST stringReplace:11c8d9a5-dca1-44af-adc6-1cf57c1a5ecb,200,OK,run stored stringReplace 4-1,text,true,,2610,261,1,1,384,1,0,0,310
+1526285771816,126,Get results REST stringReplace:11c8d9a5-dca1-44af-adc6-1cf57c1a5ecb,200,OK,run stored stringReplace 4-1,text,true,,3045,262,1,1,125,1,0,0,0
+1526285771942,0,assert expected/actual,200,OK,run stored stringReplace 4-1,text,true,,2235,0,1,1,0,1,0,0,0
+1526285772261,425,execute addmult bool true,200,OK,run stored bool true 5-1,text,true,,570,392,1,1,425,1,0,0,312
+1526285777699,206,get progress REST bool:69da1ea1-fe85-4822-9b94-6f49f2a7bf03,200,OK,run stored bool true 5-1,text,true,,2561,252,1,1,206,1,0,0,133
+1526285777919,109,Get results REST bool:69da1ea1-fe85-4822-9b94-6f49f2a7bf03,200,OK,run stored bool true 5-1,text,true,,2967,253,1,1,108,1,0,0,0
+1526285778029,0,assert expected/actual,200,OK,run stored bool true 5-1,text,true,,2152,0,1,1,0,1,0,0,0
+1526285778347,620,execute addmult false,200,OK,run stored bool false 6-1,text,true,,570,393,1,1,620,1,0,0,306
+1526285783977,205,get progress REST bool:0e43b3a4-e2b9-4564-b2dd-3552d72c4781,200,OK,run stored bool false 6-1,text,true,,2563,252,1,1,205,1,0,0,132
+1526285784185,182,Get results REST bool:0e43b3a4-e2b9-4564-b2dd-3552d72c4781,200,OK,run stored bool false 6-1,text,true,,2971,253,1,1,181,1,0,0,0
+1526285784367,1,assert expected/actual,200,OK,run stored bool false 6-1,text,true,,2159,0,1,1,0,1,0,0,0
+1526285784370,395,delete workflow addmult,200,OK,delete workflow 7-1,text,true,,510,244,1,1,395,1,0,0,311
+1526285784766,120,delete workflow stringReplace,200,OK,delete workflow 7-1,text,true,,510,250,1,1,120,1,0,0,0
+1526285784887,80,delete workflow bool,200,OK,delete workflow 7-1,text,true,,510,241,1,1,80,1,0,0,0
+1526286291334,474,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,474,1,0,0,353
+1526286291808,106,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,106,1,0,0,0
+1526286291914,97,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,97,1,0,0,0
+1526286292363,550,execute null,200,OK,run stored null type 2-1,text,true,,570,392,1,1,550,1,0,0,309
+1526286297955,390,get progress REST bool:9528c59c-4b22-4355-880c-cb91ab44d23e,200,OK,run stored null type 2-1,text,true,,2562,252,1,1,389,1,0,0,313
+1526286298351,76,Get results REST bool:9528c59c-4b22-4355-880c-cb91ab44d23e,200,OK,run stored null type 2-1,text,true,,2968,253,1,1,75,1,0,0,0
+1526286298427,1,assert expected/actual,200,OK,run stored null type 2-1,text,false,both strings were not equal,2154,0,1,1,0,1,1,0,0
+1526286298430,429,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,429,1,0,0,311
+1526286298859,87,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,87,1,0,0,0
+1526286298946,96,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,96,1,0,0,0
+1526286345167,398,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,398,1,0,0,315
+1526286345565,83,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,83,1,0,0,0
+1526286345648,95,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,95,1,0,0,0
+1526286346061,389,execute null,400,Bad Request,run stored null type 2-1,text,false,,579,397,1,1,389,1,1,0,316
+1526286346482,393,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,393,1,0,0,310
+1526286346875,82,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,82,1,0,0,0
+1526286346957,84,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,84,1,0,0,0
+1526286369118,400,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,400,1,0,0,311
+1526286369519,104,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,104,1,0,0,0
+1526286369623,99,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,99,1,0,0,0
+1526286370041,481,execute null,200,OK,run stored null type 2-1,text,true,,570,392,1,1,481,1,0,0,308
+1526286375564,381,get progress REST bool:ce9e47e9-4631-4e4c-9ec2-8f7dce932872,200,OK,run stored null type 2-1,text,true,,2561,252,1,1,381,1,0,0,308
+1526286375949,76,Get results REST bool:ce9e47e9-4631-4e4c-9ec2-8f7dce932872,200,OK,run stored null type 2-1,text,true,,2967,253,1,1,75,1,0,0,0
+1526286376025,1,assert expected/actual,200,OK,run stored null type 2-1,text,false,both strings were not equal,2155,0,1,1,0,1,1,0,0
+1526286376028,393,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,393,1,0,0,312
+1526286376421,125,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,125,1,0,0,0
+1526286376547,99,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,99,1,0,0,0
+1526286417329,428,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,427,1,0,0,316
+1526286417758,83,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,82,1,0,0,0
+1526286417841,108,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,108,1,0,0,0
+1526286418271,483,execute null,200,OK,run stored null type 2-1,text,true,,570,392,1,1,483,1,0,0,309
+1526286423792,385,get progress REST bool:7e392d94-9ef1-4582-8baa-0776a2a26544,200,OK,run stored null type 2-1,text,true,,2561,252,1,1,384,1,0,0,308
+1526286424181,77,Get results REST bool:7e392d94-9ef1-4582-8baa-0776a2a26544,200,OK,run stored null type 2-1,text,true,,2967,253,1,1,76,1,0,0,0
+1526286424259,1,assert expected/actual,200,OK,run stored null type 2-1,text,true,,2152,0,1,1,0,1,0,0,0
+1526286424262,387,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,387,1,0,0,306
+1526286424649,80,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,80,1,0,0,0
+1526286424730,82,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,82,1,0,0,0
+1526286587888,393,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,393,1,0,0,308
+1526286588282,130,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,130,1,0,0,0
+1526286588413,88,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,88,1,0,0,0
+1526286588850,480,execute object type,200,OK,run stored object type 2-1,text,true,,570,556,1,1,480,1,0,0,324
+1526286594353,384,get progress REST bool:083f8432-acfa-4105-8efa-ede3ba3be004,200,OK,run stored object type 2-1,text,true,,2565,252,1,1,384,1,0,0,311
+1526286594741,89,Get results REST bool:083f8432-acfa-4105-8efa-ede3ba3be004,200,OK,run stored object type 2-1,text,true,,3123,253,1,1,88,1,0,0,0
+1526286594831,0,assert expected/actual,200,OK,run stored object type 2-1,text,false,both strings were not equal,2308,0,1,1,0,1,1,0,0
+1526286594833,1387,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,1387,1,0,0,1307
+1526286596220,88,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,88,1,0,0,0
+1526286596309,89,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,89,1,0,0,0
+1526286674628,412,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,412,1,0,0,316
+1526286675040,150,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,150,1,0,0,0
+1526286675190,101,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,101,1,0,0,0
+1526286675620,475,execute object type,200,OK,run stored object type 2-1,text,true,,570,556,1,1,475,1,0,0,322
+1526286681107,388,get progress REST bool:7cc02887-f187-416d-aac1-e059b729bb9a,200,OK,run stored object type 2-1,text,true,,2567,252,1,1,388,1,0,0,313
+1526286681499,94,Get results REST bool:7cc02887-f187-416d-aac1-e059b729bb9a,200,OK,run stored object type 2-1,text,true,,3125,253,1,1,91,1,0,0,0
+1526286681594,3,assert expected/actual,200,OK,run stored object type 2-1,text,true,,2776,0,1,1,0,1,0,0,0
+1526286681602,401,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,401,1,0,0,319
+1526286682004,84,delete workflow stringReplace,200,OK,delete workflow 3-1,text,true,,510,250,1,1,84,1,0,0,0
+1526286682088,80,delete workflow bool,200,OK,delete workflow 3-1,text,true,,510,241,1,1,80,1,0,0,0
+1526286697538,398,create workflow add mult,201,Created,create workflow 1-1,text,true,,515,1153,1,1,398,1,0,0,318
+1526286697936,98,create workflow bool,201,Created,create workflow 1-1,text,true,,515,678,1,1,98,1,0,0,0
+1526286698034,89,create workflow stringReplace,201,Created,create workflow 1-1,text,true,,515,873,1,1,89,1,0,0,0
+1526286698443,500,execute addmult integers,200,OK,run stored add mult integers 2-1,text,true,,573,420,1,1,500,1,0,0,309
+1526286703986,387,get progress REST addmult:ba9ebe75-a27c-4658-9b0b-aa6ff85c4d88,200,OK,run stored add mult integers 2-1,text,true,,2589,255,1,1,387,1,0,0,313
+1526286704377,91,Get results REST addmult:ba9ebe75-a27c-4658-9b0b-aa6ff85c4d88,200,OK,run stored add mult integers 2-1,text,true,,3005,256,1,1,90,1,0,0,0
+1526286704468,1,assert expected/actual,200,OK,run stored add mult integers 2-1,text,true,,2193,0,1,1,0,1,0,0,0
+1526286704799,525,execute addmult float,200,OK,run stored add mult float 3-1,text,true,,573,427,1,1,525,1,0,0,325
+1526286710333,379,get progress REST addmult:0c2c442c-7e05-4bf2-b8d1-7a5adb636c64,200,OK,run stored add mult float 3-1,text,true,,2583,255,1,1,378,1,0,0,306
+1526286710721,96,Get results REST addmult:0c2c442c-7e05-4bf2-b8d1-7a5adb636c64,200,OK,run stored add mult float 3-1,text,true,,2997,256,1,1,93,1,0,0,0
+1526286710818,2,assert expected/actual,200,OK,run stored add mult float 3-1,text,true,,2181,0,1,1,0,1,0,0,0
+1526286711171,425,execute addmult stringReplace,200,OK,run stored stringReplace 4-1,text,true,,579,426,1,1,425,1,0,0,308
+1526286716606,387,get progress REST stringReplace:72bf2a76-cf2b-4ab2-b3df-0446158aa8b3,200,OK,run stored stringReplace 4-1,text,true,,2612,261,1,1,386,1,0,0,311
+1526286717002,105,Get results REST stringReplace:72bf2a76-cf2b-4ab2-b3df-0446158aa8b3,200,OK,run stored stringReplace 4-1,text,true,,3049,262,1,1,102,1,0,0,0
+1526286717107,3,assert expected/actual,200,OK,run stored stringReplace 4-1,text,true,,2238,0,1,1,0,1,0,0,0
+1526286717459,429,execute bool true,200,OK,run stored bool true 5-1,text,true,,570,392,1,1,429,1,0,0,315
+1526286722901,385,get progress REST bool:e68dbc22-34cd-42b3-b2a2-4a9a51286cdf,200,OK,run stored bool true 5-1,text,true,,2561,252,1,1,385,1,0,0,311
+1526286723290,89,Get results REST bool:e68dbc22-34cd-42b3-b2a2-4a9a51286cdf,200,OK,run stored bool true 5-1,text,true,,2967,253,1,1,88,1,0,0,0
+1526286723380,0,assert expected/actual,200,OK,run stored bool true 5-1,text,true,,2152,0,1,1,0,1,0,0,0
+1526286723702,430,execute bool false,200,OK,run stored bool false 6-1,text,true,,570,393,1,1,430,1,0,0,315
+1526286729160,388,get progress REST bool:e07eaf73-52ef-4199-9e9e-d20c36d9d3d4,200,OK,run stored bool false 6-1,text,true,,2562,252,1,1,387,1,0,0,312
+1526286729552,91,Get results REST bool:e07eaf73-52ef-4199-9e9e-d20c36d9d3d4,200,OK,run stored bool false 6-1,text,true,,2970,253,1,1,90,1,0,0,0
+1526286729643,1,assert expected/actual,200,OK,run stored bool false 6-1,text,true,,2159,0,1,1,0,1,0,0,0
+1526286729969,464,execute null,200,OK,run stored null type 7-1,text,true,,570,392,1,1,464,1,0,0,319
+1526286735443,387,get progress REST bool:2643225c-2ed6-42e2-b058-d16a6cb6a98b,200,OK,run stored null type 7-1,text,true,,2561,252,1,1,386,1,0,0,313
+1526286735842,78,Get results REST bool:2643225c-2ed6-42e2-b058-d16a6cb6a98b,200,OK,run stored null type 7-1,text,true,,2966,253,1,1,76,1,0,0,0
+1526286735920,1,assert expected/actual,200,OK,run stored null type 7-1,text,true,,2152,0,1,1,0,1,0,0,0
+1526286736252,461,execute object type,200,OK,run stored object type 8-1,text,true,,570,556,1,1,461,1,0,0,339
+1526286741722,385,get progress REST bool:17c240aa-556a-4685-a438-89dfcca0cea3,200,OK,run stored object type 8-1,text,true,,2567,252,1,1,385,1,0,0,311
+1526286742111,89,Get results REST bool:17c240aa-556a-4685-a438-89dfcca0cea3,200,OK,run stored object type 8-1,text,true,,3125,253,1,1,89,1,0,0,0
+1526286742201,0,assert expected/actual,200,OK,run stored object type 8-1,text,true,,2776,0,1,1,0,1,0,0,0
+1526286742203,388,delete workflow addmult,200,OK,delete workflow 9-1,text,true,,510,244,1,1,388,1,0,0,308
+1526286742591,82,delete workflow stringReplace,200,OK,delete workflow 9-1,text,true,,510,250,1,1,82,1,0,0,0
+1526286742673,107,delete workflow bool,200,OK,delete workflow 9-1,text,true,,510,241,1,1,107,1,0,0,0
