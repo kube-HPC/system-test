@@ -6,7 +6,7 @@ FROM python:3-alpine
 LABEL maintainer=”vincenzo.marrazzo@domain.personal>
 
 # 3 
-ARG JMETER_VERSION="3.3"
+ARG JMETER_VERSION="4.0"
 
 # 4
 ENV JMETER_HOME /opt/apache-jmeter-${JMETER_VERSION}
