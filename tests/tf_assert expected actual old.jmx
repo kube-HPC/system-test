@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -20,7 +20,7 @@
           <stringProp name="HTTPSampler.domain"></stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">file</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding">json</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${basePath}/${expected_file_name}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -33,40 +33,11 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
-            <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="script">String dd=ctx.getPreviousResult().getResponseDataAsString();
-//String id=vars.get(&quot;id&quot;);
-//String time=vars.get (&quot;timeStamp&quot;);
-//String timeTook= vars.get (&quot;timeTook&quot;);
-
-
-//String rep1=response.replace(&quot;{id}&quot;, id);
-//String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
-//rep2=rep2.replace (&quot;\&quot;{timeTook}\&quot;&quot;, timeTook);
-//String rep3=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
-//rep3=rep3.replaceAll(&quot;\t&quot;,&quot;&quot;);
-//rep3=rep3.replaceAll(&quot; &quot;,&quot;&quot;);
-
-//dd = vars.get(&quot;dataActual&quot;);
-dd = dd.replaceAll (&quot;\n&quot;,&quot;&quot;);
-dd = dd.replaceAll(&quot;\t&quot;,&quot;&quot;);
-dd = dd.replaceAll(&quot; &quot;,&quot;&quot;);
-vars.put (&quot;responseFinal&quot;,dd);
-
-
-//print (rep3);</stringProp>
-          </BeanShellPostProcessor>
-          <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String response = prev.getResponseDataAsString();
-
-
+            <stringProp name="script">String response=ctx.getPreviousResult().getResponseDataAsString();
 String id=vars.get(&quot;id&quot;);
 String time=vars.get (&quot;timeStamp&quot;);
 String timeTook= vars.get (&quot;timeTook&quot;);
@@ -75,17 +46,12 @@ String timeTook= vars.get (&quot;timeTook&quot;);
 String rep1=response.replace(&quot;{id}&quot;, id);
 String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
 rep2=rep2.replace (&quot;\&quot;{timeTook}\&quot;&quot;, timeTook);
-rep2=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
-rep2=rep2.replaceAll(&quot;\t&quot;,&quot;&quot;);
-rep2=rep2.replaceAll(&quot; &quot;,&quot;&quot;);
+String rep3=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
+rep3=rep3.replaceAll(&quot;\t&quot;,&quot;&quot;);
+rep3=rep3.replaceAll(&quot; &quot;,&quot;&quot;);
+vars.put (&quot;responseFinal&quot;,rep3);
 
-
-char [] responseCharArray = rep2.toCharArray();
-Arrays.sort(responseCharArray);
-rep2 = Arrays.toString(responseCharArray);
-
-//print (rep2);
-vars.put (&quot;dataActual&quot;,rep2); </stringProp>
+//print (rep3);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
           <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
@@ -97,7 +63,7 @@ vars.put (&quot;dataActual&quot;,rep2); </stringProp>
           <hashTree/>
           <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
             <stringProp name="BeanShellAssertion.query">String expected=vars.get (&quot;responseFinal&quot;);
-String actual=vars.get (&quot;dataActual&quot;);
+String actual=vars.get (&quot;resultFromHook&quot;);
 
 
 //print (expected);
@@ -126,5 +92,9 @@ else
         </hashTree>
       </hashTree>
     </hashTree>
+    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="WorkBench" enabled="true">
+      <boolProp name="WorkBench.save">true</boolProp>
+    </WorkBench>
+    <hashTree/>
   </hashTree>
 </jmeterTestPlan>

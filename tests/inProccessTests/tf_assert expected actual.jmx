@@ -100,10 +100,10 @@ vars.put (&quot;dataActual&quot;,rep2); </stringProp>
 String actual=vars.get (&quot;dataActual&quot;);
 
 
-//print (expected);
-//print (&quot;*********&quot;);
-//print (actual);
-//print (&quot;***********&quot;);
+print (expected);
+print (&quot;*********&quot;);
+print (actual);
+print (&quot;***********&quot;);
 
 
 if (actual.equals(expected))

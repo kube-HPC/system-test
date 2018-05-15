@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -41,37 +41,18 @@
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get timetook" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">timeTook</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$..timeTook</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="data extract" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">dataActual1</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..data</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="true">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
-            <stringProp name="script">String response1 = prev.getResponseDataAsString();
+            <stringProp name="script">String response1=ctx.getPreviousResult().getResponseDataAsString();
 
 //print(response1);
-//response1=response.replaceAll (&quot; &quot;,&quot;&quot;);
-//response1=response1.replaceAll (&quot;\n&quot;,&quot;&quot;);
-//response1=response1.replaceAll(&quot;\t&quot;,&quot;&quot;);
-//response1=response1.replaceAll(&quot; &quot;,&quot;&quot;);
-
-
-
-char [] responseCharArray = response1.toCharArray();
-Arrays.sort(responseCharArray);
-response1 = Arrays.toString(responseCharArray);
-//prev.setResponseData(response1.getBytes()); 
-vars.put (&quot;responseFinal&quot;,response1);
-
-
-
+response1=response1.replace (&quot; &quot;,&quot;&quot;);
+vars.put (&quot;resultFromHook&quot;,response1);
 
 </stringProp>
           </BeanShellPostProcessor>
@@ -83,8 +64,18 @@ vars.put (&quot;responseFinal&quot;,response1);
             <boolProp name="displaySystemProperties">false</boolProp>
           </DebugPostProcessor>
           <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">dataActual</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..data</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
         </hashTree>
       </hashTree>
     </hashTree>
+    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="WorkBench" enabled="true">
+      <boolProp name="WorkBench.save">true</boolProp>
+    </WorkBench>
+    <hashTree/>
   </hashTree>
 </jmeterTestPlan>
