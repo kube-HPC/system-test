@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -147,6 +147,13 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="false">
+          <stringProp name="BeanShellSampler.query">vars.put (&quot;maxPods&quot;,&quot;-1&quot;);</stringProp>
+          <stringProp name="BeanShellSampler.filename"></stringProp>
+          <stringProp name="BeanShellSampler.parameters"></stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
         <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute start time" enabled="true">
           <stringProp name="BeanShellSampler.query">String startTime=&quot;${__time(,)}&quot;;
 //print (&quot;****************&quot;);
@@ -205,7 +212,7 @@ vars.put (&quot;startTime&quot;,startTime);
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute end time var expectedTime" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute end time var expectedTime" enabled="false">
           <stringProp name="BeanShellSampler.query">String endTime= &quot;${__time(,)}&quot;;
 
 //print (endTime);
@@ -245,6 +252,10 @@ else
           </BeanShellAssertion>
           <hashTree/>
         </hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="true">
+          <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete pipeline" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -322,13 +333,9 @@ else
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${__property(resultPath,,defaultfile.csv)}</stringProp>
+        <stringProp name="filename">${__property(resultPath,,defaultfile.jtl)}</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
-    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="WorkBench" enabled="true">
-      <boolProp name="WorkBench.save">true</boolProp>
-    </WorkBench>
-    <hashTree/>
   </hashTree>
 </jmeterTestPlan>

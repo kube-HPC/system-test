@@ -20,6 +20,13 @@
           <stringProp name="script">vars.put (&quot;status&quot;, &quot;started&quot;);</stringProp>
         </BeanShellPreProcessor>
         <hashTree/>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="set max pods to -1" enabled="true">
+          <stringProp name="BeanShellSampler.query">vars.put (&quot;maxPods&quot;,&quot;-1&quot;);</stringProp>
+          <stringProp name="BeanShellSampler.filename"></stringProp>
+          <stringProp name="BeanShellSampler.parameters"></stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
           <stringProp name="WhileController.condition">${__javaScript((&quot;${status}&quot; != &quot;completed&quot;) &amp;&amp; (${counter}&lt;${maxTries}),)} </stringProp>
         </WhileController>
@@ -114,6 +121,13 @@
               <stringProp name="scriptLanguage">groovy</stringProp>
             </JSR223Timer>
             <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="active pods extract" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">activePods</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$..data.states.active</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+              <stringProp name="JSONPostProcessor.defaultValues">0</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
             <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="status extract" enabled="true">
               <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
               <stringProp name="JSONPostProcessor.jsonPathExprs">$..status</stringProp>
@@ -155,6 +169,27 @@ else
               <stringProp name="BeanShellAssertion.parameters"></stringProp>
               <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
             </BeanShellAssertion>
+            <hashTree/>
+            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+              <stringProp name="filename"></stringProp>
+              <stringProp name="parameters"></stringProp>
+              <boolProp name="resetInterpreter">false</boolProp>
+              <stringProp name="script">
+
+int activepods=Integer.parseInt(vars.get(&quot;activePods&quot;));
+int maxPods=Integer.parseInt(vars.get(&quot;maxPods&quot;));
+
+//print (&quot;max pods= &quot;+maxPods);
+//print (&quot;active pods= &quot;+activepods);
+
+if (activepods &gt; maxPods){
+//	print (&quot;true &quot;+maxPods);
+	vars.put (&quot;maxPods&quot;,String.valueOf(activepods));
+
+}
+
+</stringProp>
+            </BeanShellPostProcessor>
             <hashTree/>
           </hashTree>
         </hashTree>

@@ -20,7 +20,7 @@
           <stringProp name="HTTPSampler.domain"></stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">file</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding">json</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${basePath}/${expected_file_name}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -60,7 +60,7 @@ vars.put (&quot;responseFinal&quot;,dd);
 //print (rep3);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
@@ -88,6 +88,26 @@ rep2 = Arrays.toString(responseCharArray);
 vars.put (&quot;dataActual&quot;,rep2); </stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">String response = prev.getResponseDataAsString();
+
+
+String id=vars.get(&quot;id&quot;);
+String time=vars.get (&quot;timeStamp&quot;);
+String timeTook= vars.get (&quot;timeTook&quot;);
+
+
+String rep1=response.replace(&quot;{id}&quot;, id);
+String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
+rep2=rep2.replace (&quot;\&quot;{timeTook}\&quot;&quot;, timeTook);
+
+//print (rep2);
+vars.put (&quot;dataActual&quot;,rep2); </stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
           <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
             <boolProp name="displayJMeterProperties">false</boolProp>
             <boolProp name="displayJMeterVariables">true</boolProp>
@@ -95,7 +115,7 @@ vars.put (&quot;dataActual&quot;,rep2); </stringProp>
             <boolProp name="displaySystemProperties">false</boolProp>
           </DebugPostProcessor>
           <hashTree/>
-          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="false">
             <stringProp name="BeanShellAssertion.query">String expected=vars.get (&quot;responseFinal&quot;);
 String actual=vars.get (&quot;dataActual&quot;);
 
@@ -117,6 +137,100 @@ else
 	FailureMessage=&quot;both strings were not equal&quot;;
 //	print (&quot;fail&quot;);
 }
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="false">
+            <stringProp name="BeanShellAssertion.query">debug();
+
+package org.skyscreamer.jsonassert;
+
+import org.junit.Assert;
+
+import org.json.JSONException;
+import org.junit.Test;
+import org.skyscreamer.jsonassert.Customization;
+import org.skyscreamer.jsonassert.JSONCompareMode;
+import org.skyscreamer.jsonassert.comparator.CustomComparator;
+
+import org.skyscreamer.jsonassert.JSONCompare;
+
+String expected=vars.get (&quot;responseFinal&quot;);
+String actual=vars.get (&quot;dataActual&quot;);
+
+
+//print (expected);
+//print (&quot;*********&quot;);
+//print (actual);
+//print (&quot;***********&quot;);
+
+JSONCompareResult js=new JSONCompareResult();
+
+js.compareJSON (expected,actual, false);
+
+
+
+//if (actual.equals(expected))
+//{
+	//Failure=false;
+//	print(&quot;pass&quot;);
+//}
+//else 
+//{
+//	Failure=true;
+//	FailureMessage=&quot;both strings were not equal&quot;;
+//	print (&quot;fail&quot;);
+//}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">debug();
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+String expected=vars.get (&quot;responseFinal&quot;);
+String actual=vars.get (&quot;dataActual&quot;);
+
+final JSONObject obj1 = expected;
+final JSONObject obj2 = actual;
+
+final ObjectMapper mapper = new ObjectMapper();
+
+final JsonNode tree1 = mapper.readTree(obj1.toString());
+final JsonNode tree2 = mapper.readTree(obj2.toString());
+
+
+print (tree1.equals(tree2));
+//print (expected);
+//print (&quot;*********&quot;);
+//print (actual);
+//print (&quot;***********&quot;);
+
+
+
+
+
+//if (actual.equals(expected))
+//{
+	//Failure=false;
+//	print(&quot;pass&quot;);
+//}
+//else 
+//{
+//	Failure=true;
+//	FailureMessage=&quot;both strings were not equal&quot;;
+//	print (&quot;fail&quot;);
+//}
 </stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>

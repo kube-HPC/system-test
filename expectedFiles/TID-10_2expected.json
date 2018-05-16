@@ -1,19 +1,15 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "timeTook":"{timeTook}",
-    "pipeline":"multadd",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"evaladd",
-                "algorithmName":"eval-alg",
-                "result":18
-            }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "multadd",
+    "data": [
+        {
+            "nodeName": "evaladd",
+            "algorithmName": "eval-alg",
+            "result": 18
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }

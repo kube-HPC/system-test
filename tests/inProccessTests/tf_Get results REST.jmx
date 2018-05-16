@@ -50,7 +50,7 @@
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="true">
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="false">
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
@@ -68,6 +68,27 @@ char [] responseCharArray = response1.toCharArray();
 Arrays.sort(responseCharArray);
 response1 = Arrays.toString(responseCharArray);
 //prev.setResponseData(response1.getBytes()); 
+vars.put (&quot;responseFinal&quot;,response1);
+
+
+
+
+</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">String response1 = prev.getResponseDataAsString();
+
+//print(response1);
+//response1=response.replaceAll (&quot; &quot;,&quot;&quot;);
+//response1=response1.replaceAll (&quot;\n&quot;,&quot;&quot;);
+//response1=response1.replaceAll(&quot;\t&quot;,&quot;&quot;);
+//response1=response1.replaceAll(&quot; &quot;,&quot;&quot;);
+
+
 vars.put (&quot;responseFinal&quot;,response1);
 
 

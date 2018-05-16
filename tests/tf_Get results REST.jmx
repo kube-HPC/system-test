@@ -83,6 +83,15 @@ vars.put (&quot;responseFinal&quot;,response1);
             <boolProp name="displaySystemProperties">false</boolProp>
           </DebugPostProcessor>
           <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">String maxpods = vars.get (&quot;maxPods&quot;);
+String reqId = vars.get (&quot;id&quot;);
+print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + maxpods);</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
         </hashTree>
       </hashTree>
     </hashTree>
