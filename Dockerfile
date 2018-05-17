@@ -39,6 +39,7 @@ ENV PATH $PATH:$JMETER_BIN
 
 # 8
 COPY launch.sh /
+COPY gson-2.2.2.jar /${JMETER_HOME}/lib/ext/
 
 #9
 WORKDIR ${JMETER_HOME}
