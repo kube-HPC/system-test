@@ -44,7 +44,7 @@
           <stringProp name="HTTPSampler.domain"></stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">file</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding">json</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">${basePath}/${expected_file_name}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -99,9 +99,9 @@ String timeTook= vars.get (&quot;timeTook&quot;);
 String rep1=response.replace(&quot;{id}&quot;, id);
 String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
 rep2=rep2.replace (&quot;\&quot;{timeTook}\&quot;&quot;, timeTook);
-rep2=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
-rep2=rep2.replaceAll(&quot;\t&quot;,&quot;&quot;);
-rep2=rep2.replaceAll(&quot; &quot;,&quot;&quot;);
+//rep2=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
+//rep2=rep2.replaceAll(&quot;\t&quot;,&quot;&quot;);
+//rep2=rep2.replaceAll(&quot; &quot;,&quot;&quot;);
 
 
 //char [] responseCharArray = rep2.toCharArray();

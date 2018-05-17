@@ -304,7 +304,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${__property(resultPath,,${__TestPlanName})}.jtl)</stringProp>
+        <stringProp name="filename">${__property(resultPath,defaultfile.csv)}</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>

@@ -44,7 +44,7 @@
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="data extract" enabled="true">
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="data extract" enabled="false">
             <stringProp name="JSONPostProcessor.referenceNames">dataActual1</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$..data</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
