@@ -1,0 +1,50 @@
+{
+  "jobId": "{id}",
+  "timestamp": "{timeStamp}",
+  "timeTook": "{timeTook}",
+  "pipeline": "apak-batch",
+  "data": [
+    {
+      "nodeName": "apak",
+      "batchIndex": 1,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 2,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 3,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 4,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 5,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
+      }
+    }
+  ],
+  "status": "completed",
+  "storageModule": "@hkube/s3-adapter"
+}

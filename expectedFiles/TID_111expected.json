@@ -1,50 +1,310 @@
 {
   "jobId": "{id}",
   "timestamp": "{timeStamp}",
-  "timeTook": "{timeTook}",
-  "pipeline": "apak-batch",
+  "pipeline": "evalwait",
   "data": [
     {
-      "nodeName": "apak",
+      "nodeName": "evalsleep",
       "batchIndex": 1,
-      "algorithmName": "red-alg",
-      "result": {
-        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
-      }
+      "algorithmName": "eval-alg",
+      "result": 1
     },
     {
-      "nodeName": "apak",
+      "nodeName": "evalsleep",
       "batchIndex": 2,
-      "algorithmName": "red-alg",
-      "result": {
-        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
-      }
+      "algorithmName": "eval-alg",
+      "result": 2
     },
     {
-      "nodeName": "apak",
+      "nodeName": "evalsleep",
       "batchIndex": 3,
-      "algorithmName": "red-alg",
-      "result": {
-        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
-      }
+      "algorithmName": "eval-alg",
+      "result": 3
     },
     {
-      "nodeName": "apak",
+      "nodeName": "evalsleep",
       "batchIndex": 4,
-      "algorithmName": "red-alg",
-      "result": {
-        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
-      }
+      "algorithmName": "eval-alg",
+      "result": 4
     },
     {
-      "nodeName": "apak",
+      "nodeName": "evalsleep",
       "batchIndex": 5,
-      "algorithmName": "red-alg",
-      "result": {
-        "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
-      }
+      "algorithmName": "eval-alg",
+      "result": 5
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 6,
+      "algorithmName": "eval-alg",
+      "result": 6
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 7,
+      "algorithmName": "eval-alg",
+      "result": 7
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 8,
+      "algorithmName": "eval-alg",
+      "result": 8
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 9,
+      "algorithmName": "eval-alg",
+      "result": 9
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 10,
+      "algorithmName": "eval-alg",
+      "result": 10
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 11,
+      "algorithmName": "eval-alg",
+      "result": 11
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 12,
+      "algorithmName": "eval-alg",
+      "result": 12
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 13,
+      "algorithmName": "eval-alg",
+      "result": 13
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 14,
+      "algorithmName": "eval-alg",
+      "result": 14
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 15,
+      "algorithmName": "eval-alg",
+      "result": 15
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 16,
+      "algorithmName": "eval-alg",
+      "result": 16
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 17,
+      "algorithmName": "eval-alg",
+      "result": 17
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 18,
+      "algorithmName": "eval-alg",
+      "result": 18
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 19,
+      "algorithmName": "eval-alg",
+      "result": 19
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 20,
+      "algorithmName": "eval-alg",
+      "result": 20
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 21,
+      "algorithmName": "eval-alg",
+      "result": 21
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 22,
+      "algorithmName": "eval-alg",
+      "result": 22
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 23,
+      "algorithmName": "eval-alg",
+      "result": 23
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 24,
+      "algorithmName": "eval-alg",
+      "result": 24
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 25,
+      "algorithmName": "eval-alg",
+      "result": 25
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 26,
+      "algorithmName": "eval-alg",
+      "result": 26
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 27,
+      "algorithmName": "eval-alg",
+      "result": 27
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 28,
+      "algorithmName": "eval-alg",
+      "result": 28
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 29,
+      "algorithmName": "eval-alg",
+      "result": 29
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 30,
+      "algorithmName": "eval-alg",
+      "result": 30
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 31,
+      "algorithmName": "eval-alg",
+      "result": 31
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 32,
+      "algorithmName": "eval-alg",
+      "result": 32
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 33,
+      "algorithmName": "eval-alg",
+      "result": 33
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 34,
+      "algorithmName": "eval-alg",
+      "result": 34
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 35,
+      "algorithmName": "eval-alg",
+      "result": 35
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 36,
+      "algorithmName": "eval-alg",
+      "result": 36
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 37,
+      "algorithmName": "eval-alg",
+      "result": 37
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 38,
+      "algorithmName": "eval-alg",
+      "result": 38
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 39,
+      "algorithmName": "eval-alg",
+      "result": 39
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 40,
+      "algorithmName": "eval-alg",
+      "result": 40
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 41,
+      "algorithmName": "eval-alg",
+      "result": 41
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 42,
+      "algorithmName": "eval-alg",
+      "result": 42
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 43,
+      "algorithmName": "eval-alg",
+      "result": 43
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 44,
+      "algorithmName": "eval-alg",
+      "result": 44
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 45,
+      "algorithmName": "eval-alg",
+      "result": 45
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 46,
+      "algorithmName": "eval-alg",
+      "result": 46
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 47,
+      "algorithmName": "eval-alg",
+      "result": 47
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 48,
+      "algorithmName": "eval-alg",
+      "result": 48
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 49,
+      "algorithmName": "eval-alg",
+      "result": 49
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 50,
+      "algorithmName": "eval-alg",
+      "result": 50
     }
   ],
   "status": "completed",
+  "timeTook": "{timeTook}",
   "storageModule": "@hkube/s3-adapter"
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -52,7 +52,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">300</stringProp>
+            <stringProp name="Argument.value">35</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
@@ -80,6 +80,65 @@
         </collectionProp>
       </AuthManager>
       <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflow" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1514448870000</longProp>
+        <longProp name="ThreadGroup.end_time">1514448870000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow eval wait" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;name&quot;: &quot;evalwait&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;#@flowInput.inputs&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                        &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(input[0][1]),input[0][0])});}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -95,49 +154,23 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute Apak" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute eval" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
- &quot;name&quot;: &quot;apak-batch&quot;,&#xd;
-   &quot;flowInput&quot;:{&#xd;
-       &quot;input&quot;: [&#xd;
-            {&#xd;
-                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
-                &quot;SessionFilePath&quot;: &quot;${s3path}/7.57mono.wav&quot;,&#xd;
-                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
-            },&#xd;
-            {&#xd;
-                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
-                &quot;SessionFilePath&quot;: &quot;${s3path}/7.57mono.wav&quot;,&#xd;
-                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
-            },&#xd;
-            {&#xd;
-                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
-                &quot;SessionFilePath&quot;: &quot;${s3path}/7.57mono.wav&quot;,&#xd;
-                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
-            },&#xd;
-            {&#xd;
-                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
-                &quot;SessionFilePath&quot;: &quot;${s3path}/7.57mono.wav&quot;,&#xd;
-                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
-            },&#xd;
-            {&#xd;
-                &quot;SessionGuid&quot;: &quot;7.57mono&quot;,&#xd;
-                &quot;SessionFilePath&quot;: &quot;${s3path}/7.57mono.wav&quot;,&#xd;
-                &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
-                &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
-            }&#xd;
-&#xd;
-       ]&#xd;
-   }&#xd;
+  	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
+	&quot;flowInput&quot;:{&#xd;
+		&quot;inputs&quot;:[&#xd;
+[6000,1],[6000,2],[6000,3],[6000,4],[6000,5],[6000,6],[6000,7],[6000,8],[6000,9],[6000,10],&#xd;
+[6000,11],[6000,12],[6000,13],[6000,14],[6000,15],[6000,16],[6000,17],[6000,18],[6000,19],[6000,20],&#xd;
+[6000,21],[6000,22],[6000,23],[6000,24],[6000,25],[6000,26],[6000,27],[6000,28],[6000,29],[6000,30],&#xd;
+[6000,31],[6000,32],[6000,33],[6000,34],[6000,35],[6000,36],[6000,37],[6000,38],[6000,39],[6000,40],&#xd;
+[6000,41],[6000,42],[6000,43],[6000,44],[6000,45],[6000,46],[6000,47],[6000,48],[6000,49],[6000,50]&#xd;
+		]&#xd;
+    }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -164,18 +197,21 @@
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">sleep (10000);</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
         </hashTree>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pods" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_get runing pods by jobid and delete podsToDelete of them.jmx</stringProp>
         </IncludeController>
-        <hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">2000</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-        </hashTree>
+        <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="true">
-          <stringProp name="IncludeController.includepath">../tf_Get status REST with stop.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
@@ -241,9 +277,52 @@
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete workflow" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1514448870000</longProp>
+        <longProp name="ThreadGroup.end_time">1514448870000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/evalwait</stringProp>
+          <stringProp name="HTTPSampler.method">DELETE</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -283,9 +362,5 @@
       </ResultCollector>
       <hashTree/>
     </hashTree>
-    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="WorkBench" enabled="true">
-      <boolProp name="WorkBench.save">true</boolProp>
-    </WorkBench>
-    <hashTree/>
   </hashTree>
 </jmeterTestPlan>
