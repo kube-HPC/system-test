@@ -1,110 +1,106 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "timeTook":"{timeTook}",
-    "pipeline":"countLetters",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"count",
-                "batchIndex":1,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":2,
-                "algorithmName":"eval-alg",
-                "result":1
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":3,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":4,
-                "algorithmName":"eval-alg",
-                "result":1
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":5,
-                "algorithmName":"eval-alg",
-                "result":1
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":6,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":7,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":8,
-                "algorithmName":"eval-alg",
-                "result":2
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":9,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":10,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":11,
-                "algorithmName":"eval-alg",
-                "result":1
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":12,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":13,
-                "algorithmName":"eval-alg",
-                "result":0
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":14,
-                "algorithmName":"eval-alg",
-                "result":3
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":15,
-                "algorithmName":"eval-alg",
-                "result":2
-            },
-            {
-                "nodeName":"count",
-                "batchIndex":16,
-                "algorithmName":"eval-alg",
-                "result":0
-            }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "countLetters",
+    "data": [
+        {
+            "nodeName": "count",
+            "batchIndex": 1,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 2,
+            "algorithmName": "eval-alg",
+            "result": 1
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 3,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 4,
+            "algorithmName": "eval-alg",
+            "result": 1
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 5,
+            "algorithmName": "eval-alg",
+            "result": 1
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 6,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 7,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 8,
+            "algorithmName": "eval-alg",
+            "result": 2
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 9,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 10,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 11,
+            "algorithmName": "eval-alg",
+            "result": 1
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 12,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 13,
+            "algorithmName": "eval-alg",
+            "result": 0
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 14,
+            "algorithmName": "eval-alg",
+            "result": 3
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 15,
+            "algorithmName": "eval-alg",
+            "result": 2
+        },
+        {
+            "nodeName": "count",
+            "batchIndex": 16,
+            "algorithmName": "eval-alg",
+            "result": 0
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }

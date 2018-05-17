@@ -1,19 +1,15 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "timeTook":"{timeTook}",
-    "pipeline":"stringReplace",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"replace",
-                "algorithmName":"eval-alg",
-                "result":"hello earth"
-            }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "stringReplace",
+    "data": [
+        {
+            "nodeName": "replace",
+            "algorithmName": "eval-alg",
+            "result": "hello earth"
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }

@@ -1,283 +1,249 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "pipeline":"big-batch",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"green",
-                "batchIndex":1,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":2,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":3,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":4,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":5,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":6,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":7,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":8,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":9,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"green",
-                "batchIndex":10,
-                "algorithmName":"green-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":1,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":2,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":3,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":4,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":5,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":6,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":7,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":8,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":9,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"yellow",
-                "batchIndex":10,
-                "algorithmName":"yellow-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":1,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":2,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":3,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":4,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":5,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":6,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":7,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":8,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":9,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
-            },
-            {
-                "nodeName":"black",
-                "batchIndex":10,
-                "algorithmName":"black-alg",
-                "result":
-                {
-                    "output":42
-                }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "pipeline": "big-batch",
+    "data": [
+        {
+            "nodeName": "green",
+            "batchIndex": 1,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
             }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 2,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 3,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 4,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 5,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 6,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 7,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 8,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 9,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "green",
+            "batchIndex": 10,
+            "algorithmName": "green-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 1,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 2,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 3,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 4,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 5,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 6,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 7,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 8,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 9,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "yellow",
+            "batchIndex": 10,
+            "algorithmName": "yellow-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 1,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 2,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 3,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 4,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 5,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 6,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 7,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 8,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 9,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        },
+        {
+            "nodeName": "black",
+            "batchIndex": 10,
+            "algorithmName": "black-alg",
+            "result": {
+                "output": 42
+            }
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }

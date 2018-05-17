@@ -1,34 +1,30 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "timeTook":"{timeTook}",
-    "pipeline":"evalWaitAny",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"evaladd",
-                "algorithmName":"eval-alg",
-                "result":8
-            },
-            {
-                "nodeName":"evaladd",
-                "algorithmName":"eval-alg",
-                "result":15
-            },
-            {
-                "nodeName":"evaladd",
-                "algorithmName":"eval-alg",
-                "result":90
-            },
-            {
-                "nodeName":"evaladd",
-                "algorithmName":"eval-alg",
-                "result":128
-            }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "evalWaitAny",
+    "data": [
+        {
+            "nodeName": "evaladd",
+            "algorithmName": "eval-alg",
+            "result": 8
+        },
+        {
+            "nodeName": "evaladd",
+            "algorithmName": "eval-alg",
+            "result": 15
+        },
+        {
+            "nodeName": "evaladd",
+            "algorithmName": "eval-alg",
+            "result": 90
+        },
+        {
+            "nodeName": "evaladd",
+            "algorithmName": "eval-alg",
+            "result": 128
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }

@@ -1,412 +1,410 @@
 {
-    "jobId": "{id}",
-    "timestamp": "{timeStamp}",
-    "timeTook": "{timeTook}",
-    "pipeline": "apak-batch",
-    "data": {
-      "result": [
-        {
-          "nodeName": "apak",
-          "batchIndex": 1,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 2,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 3,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 4,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 5,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 6,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 7,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 8,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 9,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 10,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 11,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 12,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 13,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 14,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 15,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 16,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 17,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 18,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 19,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 20,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 21,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 22,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 23,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 24,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 25,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 26,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 27,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 28,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 29,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 30,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 31,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 32,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 33,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 34,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 35,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 36,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 37,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 38,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 39,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 40,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 41,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 42,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 43,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 44,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 45,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 46,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 47,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 48,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 49,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        },
-        {
-          "nodeName": "apak",
-          "batchIndex": 50,
-          "algorithmName": "red-alg",
-          "result": {
-            "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
-          }
-        }
-      ],
-      "status": "completed",
-      "storageModule": "@hkube/s3-adapter"
+  "jobId": "{id}",
+  "timestamp": "{timeStamp}",
+  "timeTook": "{timeTook}",
+  "pipeline": "apak-batch",
+  "data": [
+    {
+      "nodeName": "apak",
+      "batchIndex": 1,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 2,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 3,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 4,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 5,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 6,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 7,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 8,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 9,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 10,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 11,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 12,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 13,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 14,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 15,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 16,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 17,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 18,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 19,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 20,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 21,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 22,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 23,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 24,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 25,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 26,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 27,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 28,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 29,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 30,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 31,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 32,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 33,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 34,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 35,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 36,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 37,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 38,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 39,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 40,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 41,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 42,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 43,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 44,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 45,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 46,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 47,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 48,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 49,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
+    },
+    {
+      "nodeName": "apak",
+      "batchIndex": 50,
+      "algorithmName": "red-alg",
+      "result": {
+        "output": "{\"audio\":\"/ApakMCR/localStorage/test1.wav\",\"audioGuid\":\"test1\",\"SpeakerId\":2,\"max_score\":0.012927192083320643,\"max_window_sec\":45,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/test1.wav\\\")\",\"speakerName\":2}"
+      }
     }
-  }
+  ],
+  "status": "completed",
+  "storageModule": "@hkube/s3-adapter"
+}

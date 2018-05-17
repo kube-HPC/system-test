@@ -1,26 +1,20 @@
 [
     {
-        "timestamp":"{timeStamp}",
-        "execution_id":"{id}",
-        "pipeline":"simple",
-        "data":
-        {
-            "result":
-            [
-                {
-                    "nodeName":"black",
-                    "algorithmName":"black-alg",
-                    "result":
-                    {
-                        "results":
-                        {
-                            "output":42
-                        }
+        "timestamp": "{timeStamp}",
+        "execution_id": "{id}",
+        "pipeline": "simple",
+        "data": [
+            {
+                "nodeName": "black",
+                "algorithmName": "black-alg",
+                "result": {
+                    "results": {
+                        "output": 42
                     }
                 }
-            ],
-            "status":"completed",
-            "storageModule":"@hkube/s3-adapter"
-        }
+            }
+        ],
+        "status": "completed",
+        "storageModule": "@hkube/s3-adapter"
     }
 ]

@@ -1,22 +1,17 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "pipeline":"apak-batch",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"apak",
-                "batchIndex":1,
-                "algorithmName":"red-alg",
-                "result":
-                {
-                    "output":"{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":1,\"max_score\":0.1157558430811598,\"max_window_sec\":285,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":1}"
-                }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "pipeline": "apak-batch",
+    "data": [
+        {
+            "nodeName": "apak",
+            "batchIndex": 1,
+            "algorithmName": "red-alg",
+            "result": {
+                "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":1,\"max_score\":0.1157558430811598,\"max_window_sec\":285,\"max_train\":\"2da64ce9-64f0-490a-a7e9-5c1286df5000_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":1}"
             }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }

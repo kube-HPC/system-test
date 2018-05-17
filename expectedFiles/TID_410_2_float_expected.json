@@ -1,19 +1,15 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "timeTook":"{timeTook}",
-    "pipeline":"addmult",
-    "data":
-    {
-        "result":
-        [
-            {
-                "nodeName":"evalmul",
-                "algorithmName":"eval-alg",
-                "result":"7.965"
-            }
-        ],
-        "status":"completed",
-        "storageModule":"@hkube/s3-adapter"
-    }
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "timeTook": "{timeTook}",
+    "pipeline": "addmult",
+    "data": [
+        {
+            "nodeName": "evalmul",
+            "algorithmName": "eval-alg",
+            "result": "7.965"
+        }
+    ],
+    "status": "completed",
+    "storageModule": "@hkube/s3-adapter"
 }
