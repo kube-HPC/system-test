@@ -64,9 +64,9 @@
 
 
 
-char [] responseCharArray = response1.toCharArray();
-Arrays.sort(responseCharArray);
-response1 = Arrays.toString(responseCharArray);
+//char [] responseCharArray = response1.toCharArray();
+//Arrays.sort(responseCharArray);
+//response1 = Arrays.toString(responseCharArray);
 //prev.setResponseData(response1.getBytes()); 
 vars.put (&quot;responseFinal&quot;,response1);
 

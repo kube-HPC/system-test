@@ -37,15 +37,6 @@
           <stringProp name="SystemSampler.directory">../run_files</stringProp>
         </SystemSampler>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="false">
-          <stringProp name="BeanShellSampler.query">String name=&quot;${__TestPlanName}&quot;;
-
-print (name);</stringProp>
-          <stringProp name="BeanShellSampler.filename"></stringProp>
-          <stringProp name="BeanShellSampler.parameters"></stringProp>
-          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-        </BeanShellSampler>
-        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="assert expected/actual" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -113,9 +104,9 @@ rep2=rep2.replaceAll(&quot;\t&quot;,&quot;&quot;);
 rep2=rep2.replaceAll(&quot; &quot;,&quot;&quot;);
 
 
-char [] responseCharArray = rep2.toCharArray();
-Arrays.sort(responseCharArray);
-rep2 = Arrays.toString(responseCharArray);
+//char [] responseCharArray = rep2.toCharArray();
+//Arrays.sort(responseCharArray);
+//rep2 = Arrays.toString(responseCharArray);
 
 //print (rep2);
 vars.put (&quot;dataActual&quot;,rep2); </stringProp>
@@ -128,9 +119,45 @@ vars.put (&quot;dataActual&quot;,rep2); </stringProp>
             <boolProp name="displaySystemProperties">false</boolProp>
           </DebugPostProcessor>
           <hashTree/>
-          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="false">
             <stringProp name="BeanShellAssertion.query">String expected=vars.get (&quot;responseFinal&quot;);
 String actual=vars.get (&quot;dataActual&quot;);
+
+
+//print (expected);
+//print (&quot;*********&quot;);
+//print (actual);
+//print (&quot;***********&quot;);
+
+
+if (actual.equals(expected))
+{
+	Failure=false;
+//	print(&quot;pass&quot;);
+}
+else 
+{
+	Failure=true;
+	FailureMessage=&quot;both strings were not equal&quot;;
+//	print (&quot;fail&quot;);
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
+String exp=vars.get (&quot;responseFinal&quot;);
+String act=vars.get (&quot;dataActual&quot;);
+
+
+
+JsonObject expected = new JsonParser().parse(exp).getAsJsonObject();
+JsonObject actual = new JsonParser().parse(act).getAsJsonObject();
 
 
 //print (expected);
