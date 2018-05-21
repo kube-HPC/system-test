@@ -1,15 +1,16 @@
 {
-    "jobId": "{id}",
-    "timestamp": "{timeStamp}",
-    "timeTook": "{timeTook}",
-    "pipeline": "waitcom",
-    "data": [
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"waitcom",
+    "data":
+    [
         {
-            "nodeName": "evalsleep",
-            "algorithmName": "eval-alg",
-            "result": 1500
+            "nodeName":"evalsleep",
+            "algorithmName":"eval-alg",
+            "result":1558
         }
     ],
-    "status": "completed",
-    "storageModule": "@hkube/s3-adapter"
+    "status":"completed",
+    "timeTook":"{timeTook}",
+    "storageModule":"@hkube/s3-adapter"
 }

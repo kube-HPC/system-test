@@ -292,22 +292,6 @@
         <stringProp name="filename">${__property(resultPath,defaultfile.csv)}</stringProp>
       </ResultCollector>
       <hashTree/>
-      <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="false">
-        <stringProp name="filename"></stringProp>
-        <stringProp name="parameters"></stringProp>
-        <boolProp name="resetInterpreter">false</boolProp>
-        <stringProp name="script">print (&quot;starting&quot;);</stringProp>
-      </BeanShellPreProcessor>
-      <hashTree/>
-      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
-        <stringProp name="filename"></stringProp>
-        <stringProp name="parameters"></stringProp>
-        <boolProp name="resetInterpreter">false</boolProp>
-        <stringProp name="script">String idd=vars.get (&quot;id&quot;);
-
-print (idd);</stringProp>
-      </BeanShellPostProcessor>
-      <hashTree/>
     </hashTree>
   </hashTree>
 </jmeterTestPlan>

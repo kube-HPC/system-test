@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -282,7 +282,7 @@ vars.put (&quot;podsToDeleterun&quot;,String.valueOf(num));
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="assert expected/actual offset" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="assert expected/actual offset" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -335,17 +335,15 @@ vars.put (&quot;responseFinal&quot;,rep3);
           </DebugPostProcessor>
           <hashTree/>
           <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-            <stringProp name="BeanShellAssertion.query">//String expected=vars.get (&quot;responseFinal&quot;);
-//String actual=vars.get (&quot;resultFromHook&quot;);
+            <stringProp name="BeanShellAssertion.query">import numberOffset;
 
 String expected=vars.get (&quot;dataExpected&quot;);
 String actual=vars.get (&quot;dataActual&quot;);
 
+numberOffset off = new numberOffset();
 
-numberOffset off=new numberOffset();
-
-double [] arr={200};
-boolean result=off.compareWithOfsset(expected,actual,arr);
+double [] arr = {200};
+boolean result = off.compareWithOfsset(expected,actual,arr);
 
 if (result)
 {
@@ -363,6 +361,35 @@ else
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
             <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
           </BeanShellAssertion>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="JSR223 Assertion" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">import numberOffset;
+
+def expected=vars.get (&quot;dataExpected&quot;);
+def actual=vars.get (&quot;dataActual&quot;);
+
+numberOffset off = new numberOffset();
+
+double [] arr = {200};
+boolean result = off.compareWithOfsset(expected,actual,arr);
+
+if (result)
+{
+	Failure=false;
+//	print(&quot;pass&quot;);
+}
+else 
+{
+	Failure=true;
+	FailureMessage=&quot;both string was not equal&quot;;
+//	print (&quot;fail&quot;);
+}
+</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223Assertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query " enabled="true">
@@ -422,6 +449,7 @@ else
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
@@ -506,9 +534,5 @@ else
       </ResultCollector>
       <hashTree/>
     </hashTree>
-    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="WorkBench" enabled="true">
-      <boolProp name="WorkBench.save">true</boolProp>
-    </WorkBench>
-    <hashTree/>
   </hashTree>
 </jmeterTestPlan>

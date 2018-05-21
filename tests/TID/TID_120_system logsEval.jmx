@@ -52,21 +52,28 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.value">50</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">longRunApak 1.json</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="podsToDelete" elementType="Argument">
-            <stringProp name="Argument.name">podsToDelete</stringProp>
-            <stringProp name="Argument.value">3</stringProp>
+            <stringProp name="Argument.value">TID120expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
       </Arguments>
+      <hashTree/>
+      <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="elastic Authorization Manager" enabled="true">
+        <collectionProp name="AuthManager.auth_list">
+          <elementProp name="" elementType="Authorization">
+            <stringProp name="Authorization.url"></stringProp>
+            <stringProp name="Authorization.username">${elasticUser}</stringProp>
+            <stringProp name="Authorization.password">${elasticPass}</stringProp>
+            <stringProp name="Authorization.domain"></stringProp>
+            <stringProp name="Authorization.realm"></stringProp>
+          </elementProp>
+        </collectionProp>
+      </AuthManager>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflow" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -152,7 +159,7 @@
   	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
 	&quot;flowInput&quot;:{&#xd;
 		&quot;inputs&quot;:[&#xd;
-[60000,1]&#xd;
+[15000,1]&#xd;
 		]&#xd;
     }&#xd;
 }</stringProp>
@@ -181,61 +188,102 @@
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
-        </hashTree>
-        <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
-          <stringProp name="WhileController.condition">${__javaScript((&quot;${status}&quot; == &quot;active&quot;) &amp;&amp; (${counter}&lt;${maxTries}),)} </stringProp>
-        </WhileController>
-        <hashTree>
-          <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
-            <stringProp name="CounterConfig.start">1</stringProp>
-            <stringProp name="CounterConfig.end"></stringProp>
-            <stringProp name="CounterConfig.incr">1</stringProp>
-            <stringProp name="CounterConfig.name">podsDeleted</stringProp>
-            <stringProp name="CounterConfig.format"></stringProp>
-            <boolProp name="CounterConfig.per_user">true</boolProp>
-          </CounterConfig>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">sleep (10000);</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PostProcessor>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get pods running the pipeline" enabled="true">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-            <stringProp name="HTTPSampler.port"></stringProp>
-            <stringProp name="HTTPSampler.protocol">https</stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/hkube/monitor-server/pods/${id}</stringProp>
-            <stringProp name="HTTPSampler.method">GET</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree>
-            <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-              <stringProp name="ConstantTimer.delay">35000</stringProp>
-            </ConstantTimer>
-            <hashTree/>
-            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-              <stringProp name="JSONPostProcessor.referenceNames">pod_name</stringProp>
-              <stringProp name="JSONPostProcessor.jsonPathExprs">$[0:]</stringProp>
-              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
-            </JSONPostProcessor>
-            <hashTree/>
-            <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-              <boolProp name="displayJMeterProperties">false</boolProp>
-              <boolProp name="displayJMeterVariables">true</boolProp>
-              <boolProp name="displaySamplerProperties">true</boolProp>
-              <boolProp name="displaySystemProperties">false</boolProp>
-            </DebugPostProcessor>
-            <hashTree/>
-            <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
-              <boolProp name="resetInterpreter">false</boolProp>
-              <stringProp name="parameters"></stringProp>
-              <stringProp name="filename"></stringProp>
-              <stringProp name="script">int length=Integer.parseInt (vars.get (&quot;pod_name_matchNr&quot;));
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute Apak" enabled="false">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;name&quot;: &quot;apak-batch&quot;,&#xd;
+      &quot;flowInput&quot;:{&#xd;
+          &quot;input&quot;: [&#xd;
+               {&#xd;
+                   &quot;SessionGuid&quot;: &quot;1.59mono&quot;,&#xd;
+                   &quot;SessionFilePath&quot;: &quot;${s3path}/1.59mono.wav&quot;,&#xd;
+                   &quot;SpeakerId&quot;: &quot;2&quot;,&#xd;
+                   &quot;output_file_path&quot;: &quot;${apakfiles}/out0.csv&quot;&#xd;
+               }&#xd;
+   &#xd;
+          ]&#xd;
+      }&#xd;
+   }</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..jobId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get pods running the pipeline" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/hkube/monitor-server/pods/${id}</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">2000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">pod_name</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$[0:]</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySamplerProperties">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">int length=Integer.parseInt (vars.get (&quot;pod_name_matchNr&quot;));
 int del=Integer.parseInt (vars.get (&quot;podsToDelete&quot;));
 
 
@@ -252,143 +300,67 @@ vars.put (&quot;podsToDeleterun&quot;,String.valueOf(num));
 
 
 </stringProp>
-            </BeanShellPostProcessor>
-            <hashTree/>
-          </hashTree>
-          <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller 1" enabled="true">
-            <boolProp name="LoopController.continue_forever">true</boolProp>
-            <stringProp name="LoopController.loops">${podsToDeleterun}</stringProp>
-          </LoopController>
-          <hashTree>
-            <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
-              <stringProp name="filename"></stringProp>
-              <stringProp name="parameters"></stringProp>
-              <boolProp name="resetInterpreter">false</boolProp>
-              <stringProp name="script">String currentcount=vars.get(&quot;podsDeleted&quot;);
-
-//print (currentcount);
-String pod_name_current=&quot;pod_name_&quot;+currentcount;
-//print (pod_name_current);
-
-String podToDelete=vars.get (pod_name_current);
-print (&quot;*******&quot;);
-print (podToDelete);
-
-
-vars.put (&quot;pod_name_current&quot;,podToDelete);</stringProp>
-            </BeanShellPreProcessor>
-            <hashTree/>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete pod" enabled="true">
-              <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-                <collectionProp name="Arguments.arguments"/>
-              </elementProp>
-              <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
-              <stringProp name="HTTPSampler.port">8080</stringProp>
-              <stringProp name="HTTPSampler.protocol"></stringProp>
-              <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-              <stringProp name="HTTPSampler.path">/api/v1/namespaces/default/pods/${pod_name}</stringProp>
-              <stringProp name="HTTPSampler.method">DELETE</stringProp>
-              <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-              <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-              <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-              <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-              <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-              <stringProp name="HTTPSampler.response_timeout"></stringProp>
-            </HTTPSamplerProxy>
-            <hashTree/>
-            <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-              <boolProp name="displayJMeterProperties">false</boolProp>
-              <boolProp name="displayJMeterVariables">true</boolProp>
-              <boolProp name="displaySamplerProperties">true</boolProp>
-              <boolProp name="displaySystemProperties">false</boolProp>
-            </DebugPostProcessor>
-            <hashTree/>
-          </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get progress REST ${id}" enabled="true">
-            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-              <collectionProp name="Arguments.arguments"/>
-            </elementProp>
-            <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-            <stringProp name="HTTPSampler.port">${port}</stringProp>
-            <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">${urlHeader}/exec/status/${id}</stringProp>
-            <stringProp name="HTTPSampler.method">GET</stringProp>
-            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-            <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          </HTTPSamplerProxy>
-          <hashTree>
-            <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="Counter" enabled="true">
-              <stringProp name="CounterConfig.start">1</stringProp>
-              <stringProp name="CounterConfig.end"></stringProp>
-              <stringProp name="CounterConfig.incr">1</stringProp>
-              <stringProp name="CounterConfig.name">counter</stringProp>
-              <stringProp name="CounterConfig.format"></stringProp>
-              <boolProp name="CounterConfig.per_user">true</boolProp>
-              <boolProp name="CounterConfig.reset_on_tg_iteration">true</boolProp>
-            </CounterConfig>
-            <hashTree/>
-            <JSR223Timer guiclass="TestBeanGUI" testclass="JSR223Timer" testname="JSR223 Timer" enabled="true">
-              <stringProp name="cacheKey">true</stringProp>
-              <stringProp name="filename"></stringProp>
-              <stringProp name="parameters"></stringProp>
-              <stringProp name="script">sleep (5000);</stringProp>
-              <stringProp name="scriptLanguage">groovy</stringProp>
-            </JSR223Timer>
-            <hashTree/>
-            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-              <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
-              <stringProp name="JSONPostProcessor.jsonPathExprs">$..status</stringProp>
-              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-            </JSONPostProcessor>
-            <hashTree/>
-            <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-              <boolProp name="displayJMeterProperties">false</boolProp>
-              <boolProp name="displayJMeterVariables">true</boolProp>
-              <boolProp name="displaySamplerProperties">true</boolProp>
-              <boolProp name="displaySystemProperties">false</boolProp>
-            </DebugPostProcessor>
-            <hashTree/>
-            <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="max tries assetion" enabled="true">
-              <stringProp name="BeanShellAssertion.query">String maxs=vars.get (&quot;maxTries&quot;);
-String counters=vars.get (&quot;counter&quot;);
-
-int max= Integer.parseInt (maxs);
-int counter=Integer.parseInt (counters);
-
-if (counter&lt;max)
-{
-	Failure=false;
-}
-else
-{
-	Failure=true;
-	FailureMessage=&quot;max tries has exceeded&quot;;
-}
-</stringProp>
-              <stringProp name="BeanShellAssertion.filename"></stringProp>
-              <stringProp name="BeanShellAssertion.parameters"></stringProp>
-              <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
-            </BeanShellAssertion>
-            <hashTree/>
-          </hashTree>
+          </BeanShellPostProcessor>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get results REST ${id}" enabled="true">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-            <collectionProp name="Arguments.arguments"/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="true">
+          <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
+          <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query started" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;size&quot;: 100,&#xd;
+    &quot;query&quot;: {&#xd;
+        &quot;bool&quot;: {&#xd;
+            &quot;filter&quot;: [&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.internal.jobId.keyword&quot;: &quot;${id}&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.type.keyword&quot;: &quot;pipeline-driver&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;match_phrase&quot;: {&#xd;
+                        &quot;message&quot;: &quot;started&quot;&#xd;
+                    }&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
+    },&#xd;
+    &quot;_source&quot;: [&#xd;
+        &quot;message&quot;,&#xd;
+        &quot;meta.type&quot;,&#xd;
+        &quot;@timestamp&quot;,&#xd;
+        &quot;kubernetes.pod_name&quot;&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.domain">${elasticIP}</stringProp>
+          <stringProp name="HTTPSampler.port">${elasticPort}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/exec/results/${id}</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.path">${elasticPath}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -398,47 +370,83 @@ else
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get the time stamp" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">timeStamp</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..timestamp</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">10000</stringProp>
+          </ConstantTimer>
           <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get timetook" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">timeTook</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..timeTook</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="get response and save in jmeter var result from webhook" enabled="true">
-            <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="script">String response1=ctx.getPreviousResult().getResponseDataAsString();
-
-//print(response1);
-response1=response1.replace (&quot; &quot;,&quot;&quot;);
-vars.put (&quot;resultFromHook&quot;,response1);
-
-</stringProp>
-          </BeanShellPostProcessor>
-          <hashTree/>
-          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-            <boolProp name="displayJMeterProperties">false</boolProp>
-            <boolProp name="displayJMeterVariables">true</boolProp>
-            <boolProp name="displaySamplerProperties">true</boolProp>
-            <boolProp name="displaySystemProperties">false</boolProp>
-          </DebugPostProcessor>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">dataActual</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..data</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="false">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="96994925">eytan</stringProp>
+              <stringProp name="55126294">timestamp</stringProp>
+              <stringProp name="954925063">message</stringProp>
+              <stringProp name="37015179">${id}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query completed" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;size&quot;: 100,&#xd;
+    &quot;query&quot;: {&#xd;
+        &quot;bool&quot;: {&#xd;
+            &quot;filter&quot;: [&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.internal.jobId.keyword&quot;: &quot;${id}&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;term&quot;: {&#xd;
+                        &quot;meta.type.keyword&quot;: &quot;pipeline-driver&quot;&#xd;
+                    }&#xd;
+                },&#xd;
+                {&#xd;
+                    &quot;match_phrase&quot;: {&#xd;
+                        &quot;message&quot;: &quot;completed&quot;&#xd;
+                    }&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
+    },&#xd;
+    &quot;_source&quot;: [&#xd;
+        &quot;message&quot;,&#xd;
+        &quot;meta.type&quot;,&#xd;
+        &quot;@timestamp&quot;,&#xd;
+        &quot;kubernetes.pod_name&quot;&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${elasticIP}</stringProp>
+          <stringProp name="HTTPSampler.port">${elasticPort}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${elasticPath}</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="55126294">timestamp</stringProp>
+              <stringProp name="954925063">message</stringProp>
+              <stringProp name="37015179">${id}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>

@@ -32,7 +32,7 @@
         </WhileController>
         <hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
-            <stringProp name="IfController.condition">${__javaScript(${counter}==${maxTries})}</stringProp>
+            <stringProp name="IfController.condition">${__jexl3(${counter}==${maxTries},)}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
           </IfController>
           <hashTree>
