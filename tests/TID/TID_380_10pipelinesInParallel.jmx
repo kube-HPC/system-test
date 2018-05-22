@@ -626,7 +626,7 @@ else
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">${__property(resultPath,,defaultfile.csv)}</stringProp>
+        <stringProp name="filename">${__property(resultPath,,defaultFile.csv)}</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
