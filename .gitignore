@@ -1,6 +1,7 @@
 .~*
 *.log
 run_files/results
+scripts
 run_files/*.csv
 testConfigFiles/*
 !testConfigFiles/template
