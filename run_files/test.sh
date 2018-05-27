@@ -1,12 +1,20 @@
 #!/bin/bash
 #!/usr/bin/env python
 
-jmeter=/home/eitang/WorkStuff/TestManager/apache-jmeter-3.3/bin/jmeter
+mkdir -p results/dashboards
+script_dir=$(dirname $0)
+dashboardPath=$script_dir'/results/dashboards'
+filePath=$script_dir'/results/regression.csv'
+
+cd $script_dir
 
 rm -rf results/dashboards/*
 rm results/*.jtl
+#jmeter -n -t "../tests/TID/test.jmx" -l "results/resultsFile.jtl" -e -o "results/dashboards/dashboardFile"
 
-$jmeter -n -t "../tests/done tests/done_cancel a request already done REST.jmx" -l "results/test11.jtl" -e -o "results/dashboards/test11"
-$jmeter -n -t "../tests/done tests/done_get results with wrong id REST.jmx" -l "results/test112.jtl" -e -o "results/dashboards/test112"
+# jmeter -n -t "../tests/TID/storeApak.jmx"
+jmeter -n -t "../tests/TID/TID_10_1_Define_the_Pipe_Line_input.jmx" -l "results/TID_10_1_Define_the_Pipe_Line_input.jtl" -e -o "results/dashboards/dashTID_10_1_Define_the_Pipe_Line_inputboardFile"
 
-python getResults.py results/
+python getResults.py results/ 
+echo $?
+

@@ -107,7 +107,9 @@ if succsess == False:
     print ("failed")
     for name in names:
         print (name)
+    sys.exit (1)
 
 else:
     print ("all PASS")
+    sys.exit (0)
 print ('*************')
