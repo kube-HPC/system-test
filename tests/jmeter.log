@@ -165,3 +165,256 @@ Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
 2018-05-27 10:08:26,700 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
 2018-05-27 10:08:26,700 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
 2018-05-27 10:08:26,700 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 10:58:08,867 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_171]
+	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_171]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:4.0 r1823414]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.8.0_171]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:1.8.0_171]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:1.8.0_171]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [?:1.8.0_171]
+	at java.lang.Class.newInstance(Class.java:442) [?:1.8.0_171]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:405) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:251) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:222) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.updateCurrentNode(GuiPackage.java:449) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.updateCurrentGui(GuiPackage.java:419) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:80) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.doActionNow(ActionRouter.java:125) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:114) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.LoadDraggedFile.loadProject(LoadDraggedFile.java:38) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.MainFrame.openJmxFilesFromDragAndDrop(MainFrame.java:802) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeTransferHandler.importData(JMeterTreeTransferHandler.java:216) [ApacheJMeter_core.jar:4.0 r1823414]
+	at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1544) [?:1.8.0_171]
+	at java.awt.dnd.DropTarget.drop(DropTarget.java:455) [?:1.8.0_171]
+	at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1282) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:538) [?:1.8.0_171]
+	at sun.awt.X11.XDropTargetContextPeer.processDropMessage(XDropTargetContextPeer.java:184) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:852) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:776) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48) [?:1.8.0_171]
+	at java.awt.Component.dispatchEventImpl(Component.java:4744) [?:1.8.0_171]
+	at java.awt.Container.dispatchEventImpl(Container.java:2296) [?:1.8.0_171]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_171]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4897) [?:1.8.0_171]
+	at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4608) [?:1.8.0_171]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4470) [?:1.8.0_171]
+	at java.awt.Container.dispatchEventImpl(Container.java:2282) [?:1.8.0_171]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [?:1.8.0_171]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760) [?:1.8.0_171]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [?:1.8.0_171]
+	at java.awt.EventQueue$4.run(EventQueue.java:733) [?:1.8.0_171]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [?:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_171]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_171]
+	... 58 more
+2018-05-27 10:58:08,880 INFO o.a.j.g.a.Load: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/TID_111_fail_pods_while_running_eval.jmx
+2018-05-27 10:58:08,880 INFO o.a.j.s.FileServer: Set new base='/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
+2018-05-27 10:58:08,880 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/TID_111_fail_pods_while_running_eval.jmx
+2018-05-27 10:58:08,935 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_171]
+	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_171]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:4.0 r1823414]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.8.0_171]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:1.8.0_171]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:1.8.0_171]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [?:1.8.0_171]
+	at java.lang.Class.newInstance(Class.java:442) [?:1.8.0_171]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:405) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:251) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:222) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:157) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:193) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:130) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.LoadDraggedFile.loadProject(LoadDraggedFile.java:38) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.MainFrame.openJmxFilesFromDragAndDrop(MainFrame.java:802) [ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeTransferHandler.importData(JMeterTreeTransferHandler.java:216) [ApacheJMeter_core.jar:4.0 r1823414]
+	at javax.swing.TransferHandler$DropHandler.drop(TransferHandler.java:1544) [?:1.8.0_171]
+	at java.awt.dnd.DropTarget.drop(DropTarget.java:455) [?:1.8.0_171]
+	at javax.swing.TransferHandler$SwingDropTarget.drop(TransferHandler.java:1282) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetContextPeer.processDropMessage(SunDropTargetContextPeer.java:538) [?:1.8.0_171]
+	at sun.awt.X11.XDropTargetContextPeer.processDropMessage(XDropTargetContextPeer.java:184) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchDropEvent(SunDropTargetContextPeer.java:852) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetContextPeer$EventDispatcher.dispatchEvent(SunDropTargetContextPeer.java:776) [?:1.8.0_171]
+	at sun.awt.dnd.SunDropTargetEvent.dispatch(SunDropTargetEvent.java:48) [?:1.8.0_171]
+	at java.awt.Component.dispatchEventImpl(Component.java:4744) [?:1.8.0_171]
+	at java.awt.Container.dispatchEventImpl(Container.java:2296) [?:1.8.0_171]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_171]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4897) [?:1.8.0_171]
+	at java.awt.LightweightDispatcher.processDropTargetEvent(Container.java:4608) [?:1.8.0_171]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4470) [?:1.8.0_171]
+	at java.awt.Container.dispatchEventImpl(Container.java:2282) [?:1.8.0_171]
+	at java.awt.Window.dispatchEventImpl(Window.java:2746) [?:1.8.0_171]
+	at java.awt.Component.dispatchEvent(Component.java:4711) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760) [?:1.8.0_171]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90) [?:1.8.0_171]
+	at java.awt.EventQueue$4.run(EventQueue.java:733) [?:1.8.0_171]
+	at java.awt.EventQueue$4.run(EventQueue.java:731) [?:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_171]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_171]
+	... 59 more
+2018-05-27 10:58:08,953 INFO o.a.j.s.FileServer: Set new base='/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
+2018-05-27 10:58:08,991 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:08,991 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:08,991 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:08,991 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:09,003 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get status REST.jmx
+2018-05-27 10:58:09,003 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get status REST.jmx
+2018-05-27 10:58:09,003 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get status REST.jmx
+2018-05-27 10:58:09,003 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get status REST.jmx
+2018-05-27 10:58:09,013 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 10:58:09,013 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 10:58:09,013 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 10:58:09,013 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 10:58:09,017 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,017 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,017 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,017 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,042 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:09,043 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:09,043 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:09,043 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_get runing pods by jobid and delete podsToDelete of them.jmx
+2018-05-27 10:58:09,052 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get status REST.jmx
+2018-05-27 10:58:09,052 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get status REST.jmx
+2018-05-27 10:58:09,052 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get status REST.jmx
+2018-05-27 10:58:09,052 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get status REST.jmx
+2018-05-27 10:58:09,061 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 10:58:09,061 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 10:58:09,061 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 10:58:09,062 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 10:58:09,067 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,068 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,068 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 10:58:09,068 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,833 INFO o.a.j.g.a.Load: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/TID_50_cancel pipeline.jmx
+2018-05-27 11:08:42,834 INFO o.a.j.s.FileServer: Set new base='/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
+2018-05-27 11:08:42,834 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/TID_50_cancel pipeline.jmx
+2018-05-27 11:08:42,888 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_171]
+	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_171]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) ~[ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) ~[ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) ~[ApacheJMeter_components.jar:4.0 r1823414]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) ~[ApacheJMeter_components.jar:4.0 r1823414]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_171]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_171]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_171]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:405) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:251) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:222) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:157) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:193) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:130) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:88) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:45) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) ~[ApacheJMeter_core.jar:4.0 r1823414]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758) [?:1.8.0_171]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) [?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_171]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_171]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_171]
+	... 39 more
+2018-05-27 11:08:42,913 INFO o.a.j.s.FileServer: Set new base='/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
+2018-05-27 11:08:42,943 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_stop execution.jmx
+2018-05-27 11:08:42,943 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_stop execution.jmx
+2018-05-27 11:08:42,943 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_stop execution.jmx
+2018-05-27 11:08:42,943 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_stop execution.jmx
+2018-05-27 11:08:42,944 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 11:08:42,944 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 11:08:42,944 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 11:08:42,944 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 11:08:42,949 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,949 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,949 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,949 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,972 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_stop execution.jmx
+2018-05-27 11:08:42,972 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_stop execution.jmx
+2018-05-27 11:08:42,972 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_stop execution.jmx
+2018-05-27 11:08:42,972 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_stop execution.jmx
+2018-05-27 11:08:42,973 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 11:08:42,973 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 11:08:42,973 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 11:08:42,973 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 11:08:42,977 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,978 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,978 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 11:08:42,978 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 11:09:54,626 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_stop execution.jmx
+2018-05-27 11:09:54,626 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_stop execution.jmx
+2018-05-27 11:09:54,626 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_stop execution.jmx
+2018-05-27 11:09:54,626 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_stop execution.jmx
+2018-05-27 11:09:54,627 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 11:09:54,627 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_Get results REST.jmx
+2018-05-27 11:09:54,627 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 11:09:54,627 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_Get results REST.jmx
+2018-05-27 11:09:54,632 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 11:09:54,633 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: /home/eitang/WorkStuff/TestManager/system-tests/tests/../tf_assert expected actual.jmx
+2018-05-27 11:09:54,633 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx
+2018-05-27 11:09:54,633 INFO o.a.j.s.SaveService: Loading file: /home/eitang/WorkStuff/TestManager/system-tests/tests/TID/../tf_assert expected actual.jmx

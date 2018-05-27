@@ -11,6 +11,15 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 all_results = 'all results.csv'
 latest_results = 'latest results.csv'
 
+if not os.path.exists(latest_results):
+     with open(latest_results, 'w') as results:
+        fieldnames = ['date', 'time', 'test name', 'status', 'version']
+        writer = csv.DictWriter(results, fieldnames=fieldnames)
+
+if not os.path.exists (all_results):
+    with open(all_results, 'w') as results:
+        fieldnames = ['date', 'time', 'test name', 'status', 'version']
+        writer = csv.DictWriter(results, fieldnames=fieldnames)
 
 try:
     base = sys.argv[1]
@@ -85,6 +94,7 @@ def write_to_csv(testname, status, version):
 
 
 ver = get_system_version()
+
 
 succsess = True
 names = []
