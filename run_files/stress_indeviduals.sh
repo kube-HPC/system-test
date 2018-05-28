@@ -11,10 +11,10 @@ rm results/*.jtl
 #jmeter -n -t "test.jmx" -l "results/resultsFile.jtl" -e -o "results/dashboards/dashboardFile"
 
 
-jmeter -n -t "../tests/TID/TID_100_long runing pipelines and algo.jmx" -l "results/TID_100_long runing pipelines and algo.jtl" -e -o "results/dashboards/TID_100_long runing pipelines and algo"
+jmeter -n -t "../tests/TID/TID_100_long_runing_pipelines_and_algo.jmx" -l "results/TID_100_long_runing_pipelines_and_algo.jtl" -e -o "results/dashboards/TID_100_long_runing_pipelines_and_algo"
 #sleep 15
 #jmeter -n -t "../tests/TID/TID_180_apak 8M 1000 batch.jmx" -l "results/TID_180_apak 8M 1000 batch.jtl" -e -o "results/dashboards/TID_180_apak 8M 1000 batch"
-jmeter -n -t "../tests/TID/TID_180_apak 8M 160 batch.jmx" -l "results/TID_180_apak 8M 160 batch.jtl" -e -o "results/dashboards/TID_180_apak 8M 160 batch"
+jmeter -n -t "../tests/TID/TID_180_apak_8M_160_batch.jmx" -l "results/TID_180_apak_8M_160_batch.jtl" -e -o "results/dashboards/TID_180_apak_8M_160 batch"
 sleep 15
 jmeter -n -t "../tests/TID/TID_111_fail pods while runing apak.jmx" -l "results/TID_111_fail pods while runing apak.jtl" -e -o "results/dashboards/TID_111_fail pods while runing apak"
 #sleep 15
