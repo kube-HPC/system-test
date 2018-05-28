@@ -11,6 +11,35 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
+      <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="false">
+        <boolProp name="resetInterpreter">false</boolProp>
+        <stringProp name="parameters"></stringProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="script">String xx = ctx.getThreadGroup().getName();
+String yy = ctx.getCurrentSampler().getName();
+
+
+print (xx);
+print (yy);
+</stringProp>
+      </BeanShellPreProcessor>
+      <hashTree/>
+      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="true">
+        <boolProp name="resetInterpreter">false</boolProp>
+        <stringProp name="parameters"></stringProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="script">//String zz = prev.getResponseDataAsString();
+
+String x = ctx.getPreviousResult().getResponseCode();
+
+String yy = ctx.getCurrentSampler().getName();
+print (&quot;****************&quot;);
+print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+x);//&quot;\ndata: &quot; + zz) ;
+//print (x);
+
+//print (&quot;hi &quot; + zz);</stringProp>
+      </BeanShellPostProcessor>
+      <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ip configs" enabled="true">
         <stringProp name="filename">../../testConfigFiles/ipConfigs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>

@@ -174,9 +174,7 @@ else
               <stringProp name="filename"></stringProp>
               <stringProp name="parameters"></stringProp>
               <boolProp name="resetInterpreter">false</boolProp>
-              <stringProp name="script">
-
-int activepods=Integer.parseInt(vars.get(&quot;activePods&quot;));
+              <stringProp name="script">int activepods=Integer.parseInt(vars.get(&quot;activePods&quot;));
 int maxPods=Integer.parseInt(vars.get(&quot;maxPods&quot;));
 
 //print (&quot;max pods= &quot;+maxPods);

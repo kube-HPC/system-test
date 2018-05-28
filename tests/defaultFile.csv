@@ -53,3 +53,97 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1526992275715,0,start proxy,500,"Exception occurred whilst executing system call: java.io.IOException: Cannot run program ""kubectl proxy --port=8080"" (in directory ""/home/eitang""): error=2, No such file or directory",run eval and fail api server 1-1,text,false,,0,0,1,1,0,1,1,0,0
 1526992320282,20189,start proxy,500,System Sampler interrupted whilst executing system call: java.lang.InterruptedException,run eval and fail api server 1-1,text,false,,36,0,1,1,0,1,1,0,0
 1526992357454,1,start proxy,500,"Exception occurred whilst executing system call: java.io.IOException: Cannot run program ""kubectl proxy"" (in directory ""/home/eitang/WorkStuff/TestManager/system-tests/tests""): error=2, No such file or directory",run eval and fail api server 1-1,text,false,,0,0,1,1,0,1,1,0,0
+1527503895214,537,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,537,1,0,0,447
+1527503931138,620,create workflow add mult,409,Conflict,create workflow 1-1,text,false,,566,1142,1,1,620,1,1,0,314
+1527503931762,396,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,396,1,0,0,310
+1527503938620,613,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,613,1,0,0,308
+1527503939237,411,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,411,1,0,0,331
+1527503959885,389,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,389,1,0,0,307
+1527503960282,587,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,587,1,0,0,506
+1527503986024,389,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,389,1,0,0,308
+1527503986417,439,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,439,1,0,0,311
+1527504154025,399,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,399,1,0,0,311
+1527504154426,392,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,392,1,0,0,310
+1527504221661,596,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,596,1,0,0,310
+1527504222266,425,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,425,1,0,0,310
+1527504426330,454,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,454,1,0,0,317
+1527504426789,391,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,391,1,0,0,310
+1527504434467,404,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,404,1,0,0,308
+1527504434877,396,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,396,1,0,0,306
+1527504464631,396,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,396,1,0,0,314
+1527504465033,396,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,396,1,0,0,310
+1527504478261,400,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,400,1,0,0,310
+1527504478666,385,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,385,1,0,0,305
+1527504500834,423,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,423,1,0,0,310
+1527504501262,399,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,399,1,0,0,309
+1527504511709,596,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,596,1,0,0,307
+1527504512312,387,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,387,1,0,0,307
+1527504541857,390,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,390,1,0,0,310
+1527504542252,402,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,402,1,0,0,311
+1527504544856,398,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,398,1,0,0,307
+1527504545259,395,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,395,1,0,0,308
+1527504585894,389,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,389,1,0,0,309
+1527504586293,391,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,391,1,0,0,310
+1527504587808,420,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,420,1,0,0,308
+1527504588237,599,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,599,1,0,0,518
+1527504599464,422,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,422,1,0,0,311
+1527504599896,387,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,387,1,0,0,307
+1527504605434,389,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,389,1,0,0,309
+1527504605835,392,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,392,1,0,0,308
+1527504626443,414,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,414,1,0,0,308
+1527504626868,390,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,390,1,0,0,307
+1527504643153,403,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,403,1,0,0,314
+1527504643567,428,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,428,1,0,0,319
+1527504651147,411,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,411,1,0,0,308
+1527504651567,512,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,512,1,0,0,428
+1527504681681,396,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,396,1,0,0,310
+1527504682086,421,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,421,1,0,0,314
+1527504714206,391,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,391,1,0,0,309
+1527504714604,394,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,394,1,0,0,307
+1527504729489,387,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,387,1,0,0,306
+1527504729886,396,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,396,1,0,0,309
+1527504748674,391,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,391,1,0,0,309
+1527504749078,394,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,394,1,0,0,311
+1527504819123,392,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,391,1,0,0,307
+1527504819522,393,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,393,1,0,0,313
+1527504829372,392,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,392,1,0,0,312
+1527504829777,390,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,390,1,0,0,310
+1527504958415,593,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,593,1,0,0,308
+1527504959017,400,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,400,1,0,0,314
+1527505006404,402,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,402,1,0,0,308
+1527505006811,393,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,392,1,0,0,308
+1527505072515,388,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,388,1,0,0,307
+1527505072908,401,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,401,1,0,0,306
+1527505093443,396,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,396,1,0,0,307
+1527505093845,431,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,431,1,0,0,305
+1527505113476,451,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,451,1,0,0,369
+1527505113933,411,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,411,1,0,0,310
+1527505146658,418,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,418,1,0,0,309
+1527505147081,392,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,392,1,0,0,309
+1527505166397,602,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,602,1,0,0,305
+1527505167004,452,delete workflow addmult,200,OK,delete workflow 2-1,text,true,,510,244,1,1,452,1,0,0,306
+1527505186762,390,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,390,1,0,0,309
+1527505187500,542,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,542,1,0,0,306
+1527505188069,0,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527505193394,388,get progress REST e31a5337-06d1-4c75-9b7a-95cd582b0d53.addmult,200,OK,run stored add mult 2-1,text,true,,2499,255,1,1,386,1,0,0,312
+1527505198808,380,get progress REST e31a5337-06d1-4c75-9b7a-95cd582b0d53.addmult,200,OK,run stored add mult 2-1,text,true,,2502,255,1,1,379,1,0,0,306
+1527505204210,464,get progress REST e31a5337-06d1-4c75-9b7a-95cd582b0d53.addmult,200,OK,run stored add mult 2-1,text,true,,2502,255,1,1,462,1,0,0,389
+1527505209697,205,get progress REST e31a5337-06d1-4c75-9b7a-95cd582b0d53.addmult,200,OK,run stored add mult 2-1,text,true,,2502,255,1,1,204,1,0,0,131
+1527505209919,120,stop pipeline,200,OK,run stored add mult 2-1,text,true,,5093,340,1,1,119,1,0,0,0
+1527505215047,384,get progress REST e31a5337-06d1-4c75-9b7a-95cd582b0d53.addmult,200,OK,run stored add mult 2-1,text,false,max tries has exceeded,2504,255,1,1,383,1,1,0,309
+1527505215441,397,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,397,1,0,0,314
+1527506115027,415,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,415,1,0,0,311
+1527506115787,563,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,563,1,0,0,308
+1527506116364,0,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527506121407,411,get progress REST a11337a9-f3c3-4737-a64c-5d26ecffb0db.addmult,200,OK,run stored add mult 2-1,text,true,,2499,255,1,1,387,1,0,0,311
+1527506126834,409,get progress REST a11337a9-f3c3-4737-a64c-5d26ecffb0db.addmult,200,OK,run stored add mult 2-1,text,true,,2502,255,1,1,383,1,0,0,309
+1527506133986,381,create workflow add mult,409,Conflict,create workflow 1-1,text,false,,566,1142,1,1,381,1,1,0,308
+1527506134709,477,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,477,1,0,0,309
+1527506135188,0,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527506140207,209,get progress REST d8f3756f-530a-4500-a3bc-2a6406b70073.addmult,200,OK,run stored add mult 2-1,text,true,,2498,255,1,1,208,1,0,0,133
+1527506145431,412,get progress REST d8f3756f-530a-4500-a3bc-2a6406b70073.addmult,200,OK,run stored add mult 2-1,text,true,,2501,255,1,1,411,1,0,0,307
+1527506150860,381,get progress REST d8f3756f-530a-4500-a3bc-2a6406b70073.addmult,200,OK,run stored add mult 2-1,text,true,,2501,255,1,1,380,1,0,0,306
+1527506156260,389,get progress REST d8f3756f-530a-4500-a3bc-2a6406b70073.addmult,200,OK,run stored add mult 2-1,text,true,,2501,255,1,1,388,1,0,0,311
+1527506156662,104,stop pipeline,200,OK,run stored add mult 2-1,text,true,,5093,340,1,1,103,1,0,0,0
+1527506161772,381,get progress REST d8f3756f-530a-4500-a3bc-2a6406b70073.addmult,200,OK,run stored add mult 2-1,text,false,max tries has exceeded,2503,255,1,1,380,1,1,0,307
+1527506162161,390,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,390,1,0,0,310
