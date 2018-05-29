@@ -8,7 +8,8 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <stringProp name="TestPlan.user_define_classpath">/home/eitang/WorkStuff/TestManager/system-tests/tests/TID</stringProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
     </TestPlan>
     <hashTree>
       <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="false">
@@ -24,7 +25,7 @@ print (yy);
 </stringProp>
       </BeanShellPreProcessor>
       <hashTree/>
-      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="true">
+      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="false">
         <boolProp name="resetInterpreter">false</boolProp>
         <stringProp name="parameters"></stringProp>
         <stringProp name="filename"></stringProp>
