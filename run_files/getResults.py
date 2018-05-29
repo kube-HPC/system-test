@@ -114,7 +114,7 @@ for filename in os.listdir(base):
 
 print ('*************')
 if succsess == False:
-    print ("failed")
+    print ('The following tests has failed:')
     for name in names:
         print (name)
     sys.exit (1)
