@@ -1,18 +1,17 @@
 {
-    "jobId": "{id}",
-    "timestamp": "{timeStamp}",
-    "timeTook": "{timeTook}",
-    "pipeline": "apak-batch",
-    "data": [
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"evalwait",
+    "data":
+    [
         {
-            "nodeName": "apak",
-            "batchIndex": 1,
-            "algorithmName": "red-alg",
-            "result": {
-                "output": "{\"audio\":\"/ApakMCR/localStorage/7.57mono.wav\",\"audioGuid\":\"7.57mono\",\"SpeakerId\":2,\"max_score\":0.11063209471210861,\"max_window_sec\":310,\"max_train\":\"3_1\",\"hyper\":\"=HYPERLINK(\\\"/ApakMCR/localStorage/7.57mono.wav\\\")\",\"speakerName\":2}"
-            }
+            "nodeName":"evalsleep",
+            "batchIndex":1,
+            "algorithmName":"eval-alg",
+            "result":1
         }
     ],
-    "status": "completed",
-    "storageModule": "@hkube/s3-adapter"
+    "status":"completed",
+    "timeTook":"{timeTook}",
+    "storageModule":"@hkube/s3-adapter"
 }

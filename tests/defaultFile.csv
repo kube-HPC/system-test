@@ -147,3 +147,219 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1527506156662,104,stop pipeline,200,OK,run stored add mult 2-1,text,true,,5093,340,1,1,103,1,0,0,0
 1527506161772,381,get progress REST d8f3756f-530a-4500-a3bc-2a6406b70073.addmult,200,OK,run stored add mult 2-1,text,false,max tries has exceeded,2503,255,1,1,380,1,1,0,307
 1527506162161,390,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,390,1,0,0,310
+1527578465526,628,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,628,1,0,0,316
+1527578466533,480,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,480,1,0,0,316
+1527578467018,0,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527578472050,393,get progress REST bc717278-18ca-4c82-ac52-29aedc3579ca.addmult,200,OK,run stored add mult 2-1,text,true,,2498,255,1,1,390,1,0,0,316
+1527578477463,391,get progress REST bc717278-18ca-4c82-ac52-29aedc3579ca.addmult,200,OK,run stored add mult 2-1,text,true,,2501,255,1,1,388,1,0,0,315
+1527578482886,394,get progress REST bc717278-18ca-4c82-ac52-29aedc3579ca.addmult,200,OK,run stored add mult 2-1,text,true,,2501,255,1,1,392,1,0,0,317
+1527578488318,389,get progress REST bc717278-18ca-4c82-ac52-29aedc3579ca.addmult,200,OK,run stored add mult 2-1,text,true,,2501,255,1,1,387,1,0,0,314
+1527578488741,93,stop pipeline,200,OK,run stored add mult 2-1,text,true,,5094,340,1,1,90,1,0,0,0
+1527578493847,390,get progress REST bc717278-18ca-4c82-ac52-29aedc3579ca.addmult,200,OK,run stored add mult 2-1,text,false,max tries has exceeded,2503,255,1,1,387,1,1,0,310
+1527578494248,413,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,413,1,0,0,320
+1527589616582,407,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,407,1,0,0,316
+1527589617363,599,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,598,1,0,0,319
+1527589617965,0,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527589622987,398,get progress REST 2c9f4c23-6f32-44bc-9f93-4e652cfb64ad.addmult,200,OK,run stored add mult 2-1,text,true,,2599,255,1,1,395,1,0,0,319
+1527589628420,209,get progress REST 2c9f4c23-6f32-44bc-9f93-4e652cfb64ad.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,207,1,0,0,134
+1527589633651,387,get progress REST 2c9f4c23-6f32-44bc-9f93-4e652cfb64ad.addmult,200,OK,run stored add mult 2-1,text,true,,2609,255,1,1,384,1,0,0,312
+1527589634053,109,Get results REST 2c9f4c23-6f32-44bc-9f93-4e652cfb64ad.addmult,200,OK,run stored add mult 2-1,text,true,,2946,256,1,1,103,1,0,0,0
+1527589634170,8,assert expected/actual,200,OK,run stored add mult 2-1,text,true,,2020,0,1,1,0,1,0,0,0
+1527589634206,391,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,391,1,0,0,309
+1527589652041,413,create workflow mult add,201,Created,create workflow 1-1,text,true,,3913,1397,1,1,412,1,0,0,321
+1527589652809,496,execute eval multadd,200,OK,run stored mult add 2-1,text,true,,2411,420,1,1,495,1,0,0,317
+1527589653305,1,set max pods to -1,200,OK,run stored mult add 2-1,text,true,,1286,0,1,1,0,1,0,0,0
+1527589658326,394,get progress REST e2fdb6cb-8a83-4916-99cb-03685c0108d5.multadd,200,OK,run stored mult add 2-1,text,true,,4360,255,1,1,390,1,0,0,316
+1527589658734,102,Get results REST e2fdb6cb-8a83-4916-99cb-03685c0108d5.multadd,200,OK,run stored mult add 2-1,text,true,,4782,256,1,1,101,1,0,0,0
+1527589658839,2,assert expected/actual,200,OK,run stored mult add 2-1,text,true,,4134,0,1,1,0,1,0,0,0
+1527589658845,403,delete workflow multadd,200,OK,delete workflow 3-1,text,true,,2169,244,1,1,403,1,0,0,309
+1527589680548,423,create workflow countEven,201,Created,create workflow 1-1,text,true,,1014,998,1,1,423,1,0,0,314
+1527589681341,551,execute countEven,200,OK,run stored countEven 2-1,text,true,,575,464,1,1,551,1,0,0,317
+1527589681893,0,set max pods to -1,200,OK,run stored countEven 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527589686922,441,get progress REST edbc8bce-58a0-4975-9260-eae3411083d5.countEven,200,OK,run stored countEven 2-1,text,true,,2713,257,1,1,439,1,0,0,312
+1527589692401,390,get progress REST edbc8bce-58a0-4975-9260-eae3411083d5.countEven,200,OK,run stored countEven 2-1,text,true,,2624,257,1,1,389,1,0,0,312
+1527589692804,120,Get results REST edbc8bce-58a0-4975-9260-eae3411083d5.countEven,200,OK,run stored countEven 2-1,text,true,,2954,258,1,1,118,1,0,0,0
+1527589692929,2,assert expected/actual,200,OK,run stored countEven 2-1,text,true,,2023,0,1,1,0,1,0,0,0
+1527589692936,438,delete workflow countEven,200,OK,delete workflow 3-1,text,true,,510,246,1,1,438,1,0,0,314
+1527589702188,470,create workflow countLetters nassi,201,Created,create workflow 1-1,text,true,,975,1037,1,1,470,1,0,0,315
+1527589703028,642,execute countLetters,200,OK,run stored countletters 2-1,text,true,,578,521,1,1,642,1,0,0,311
+1527589703671,0,set max pods to -1,200,OK,run stored countletters 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527589708710,388,get progress REST c291ff84-47ee-4e48-bcf1-c075cb508e8d.countLetters,200,OK,run stored countletters 2-1,text,true,,2635,260,1,1,388,1,0,0,316
+1527589709104,193,Get results REST c291ff84-47ee-4e48-bcf1-c075cb508e8d.countLetters,200,OK,run stored countletters 2-1,text,true,,5239,261,1,1,190,1,0,0,0
+1527589709300,1,assert expected/actual,200,OK,run stored countletters 2-1,text,true,,7684,0,1,1,0,1,0,0,0
+1527589710304,418,delete workflow countLetters,200,OK,delete workflow 3-1,text,true,,510,249,1,1,418,1,0,0,318
+1527589724926,401,create workflow pipelineName,201,Created,create workflow 1-1,text,true,,797,714,1,1,400,1,0,0,316
+1527589725684,526,execute pipelinename,200,OK,run stored add mult 2-1,text,true,,578,401,1,1,526,1,0,0,314
+1527589726210,1,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527589731230,392,get progress REST 8ed1c057-8ac6-428d-9b76-f92efd22158b.pipelineName,200,OK,run stored add mult 2-1,text,true,,2632,260,1,1,392,1,0,0,311
+1527589731630,113,Get results REST 8ed1c057-8ac6-428d-9b76-f92efd22158b.pipelineName,200,OK,run stored add mult 2-1,text,true,,2977,261,1,1,111,1,0,0,0
+1527589733250,385,execute pipeline,404,Not Found,run stored add mult 2-1,text,true,,586,397,1,1,385,1,0,0,312
+1527589733644,78,delete workflow pipelineName,200,OK,run stored add mult 2-1,text,true,,510,249,1,1,78,1,0,0,0
+1527589735223,74,execute pipelineName,404,Not Found,run stored add mult 2-1,text,true,,590,401,1,1,74,1,0,0,0
+1527589772934,409,create workflow eval wait,201,Created,create workflow 1-1,text,true,,814,748,1,1,409,1,0,0,315
+1527589773380,561,create request eval wait 1,200,OK,run workflow eval wait 2-1,text,true,,574,351,1,1,561,1,0,0,314
+1527589773943,115,stop execution 1d240326-b222-49a2-a87c-275eb8c757a4.evalwait,200,OK,run workflow eval wait 2-1,text,true,,510,361,1,1,115,1,0,0,0
+1527589775559,389,stop execution 1d240326-b222-49a2-a87c-275eb8c757a4.evalwait,400,Bad Request,run workflow eval wait 2-1,text,true,,596,361,1,1,389,1,0,0,315
+1527589775949,77,Get results REST 1d240326-b222-49a2-a87c-275eb8c757a4.evalwait,404,Not Found,run workflow eval wait 2-1,text,false,,2648,300,1,1,74,1,1,0,0
+1527589776035,539,create request eval wait 2,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,574,351,1,1,539,1,0,0,315
+1527589786589,229,stop execution without a reason 8560fbcb-e337-4d48-99bb-72304edbf242.evalwait,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,510,335,1,1,229,1,0,0,135
+1527589796820,670,elastic query ,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,3159,734,1,1,669,1,0,0,331
+1527589807497,408,stop execution that dosent exist,404,Not Found,stop workflow that dosent exist 4-1,text,true,,589,347,1,1,408,1,0,0,317
+1527589807911,397,delete workflow eval wait,200,OK,delete workflow 5-1,text,true,,510,288,1,1,397,1,0,0,315
+1527589913915,399,create workflow eval wait,201,Created,create workflow 1-1,text,true,,814,748,1,1,399,1,0,0,311
+1527589914332,555,create request eval wait 1,200,OK,run workflow eval wait 2-1,text,true,,574,351,1,1,555,1,0,0,317
+1527589914888,89,stop execution 5095a07d-2c82-4136-8efa-5296c6b5fd39.evalwait,200,OK,run workflow eval wait 2-1,text,true,,510,361,1,1,89,1,0,0,0
+1527589916477,387,stop execution 5095a07d-2c82-4136-8efa-5296c6b5fd39.evalwait,400,Bad Request,run workflow eval wait 2-1,text,true,,600,361,1,1,387,1,0,0,313
+1527589916865,78,Get results REST 5095a07d-2c82-4136-8efa-5296c6b5fd39.evalwait,200,OK,run workflow eval wait 2-1,text,true,,2789,300,1,1,76,1,0,0,0
+1527589926949,519,elastic query ,200,OK,run workflow eval wait 2-1,text,true,,4840,734,1,1,518,1,0,0,318
+1527589927473,509,create request eval wait 2,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,574,351,1,1,509,1,0,0,314
+1527589937993,454,stop execution without a reason ffec9c7d-0a47-44df-a03f-08678bbc5496.evalwait,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,510,335,1,1,454,1,0,0,324
+1527589948449,523,elastic query ,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,18300,734,1,1,457,1,0,0,318
+1527589958978,543,stop execution that dosent exist,404,Not Found,stop workflow that dosent exist 4-1,text,true,,589,347,1,1,543,1,0,0,439
+1527589959527,552,delete workflow eval wait,200,OK,delete workflow 5-1,text,true,,510,288,1,1,552,1,0,0,441
+1527589965716,539,create workflow eval wait,201,Created,create workflow 1-1,text,true,,814,748,1,1,539,1,0,0,429
+1527589966289,677,create request eval wait 1,200,OK,run workflow eval wait 2-1,text,true,,574,351,1,1,676,1,0,0,425
+1527589966967,121,stop execution 5d7695d5-8eed-4550-b91c-a215983d7f31.evalwait,200,OK,run workflow eval wait 2-1,text,true,,510,361,1,1,121,1,0,0,0
+1527589968589,555,stop execution 5d7695d5-8eed-4550-b91c-a215983d7f31.evalwait,400,Bad Request,run workflow eval wait 2-1,text,true,,600,361,1,1,555,1,0,0,442
+1527589969145,110,Get results REST 5d7695d5-8eed-4550-b91c-a215983d7f31.evalwait,200,OK,run workflow eval wait 2-1,text,true,,2792,300,1,1,108,1,0,0,0
+1527589979258,541,elastic query ,200,OK,run workflow eval wait 2-1,text,true,,4840,734,1,1,541,1,0,0,312
+1527589979802,481,create request eval wait 2,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,574,351,1,1,481,1,0,0,312
+1527589990300,396,stop execution without a reason 431a4d71-d089-4965-9dfe-513c0cd6fdb9.evalwait,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,510,335,1,1,396,1,0,0,310
+1527590000696,432,elastic query ,200,OK,run workflow eval wait 2 to stop without a reason 3-1,text,true,,3158,734,1,1,431,1,0,0,318
+1527590011134,395,stop execution that dosent exist,404,Not Found,stop workflow that dosent exist 4-1,text,true,,589,347,1,1,395,1,0,0,321
+1527590011533,411,delete workflow eval wait,200,OK,delete workflow 5-1,text,true,,510,288,1,1,410,1,0,0,317
+1527590038229,394,create workflow prime,201,Created,create workflow 1-1,text,true,,975,1150,1,1,394,1,0,0,315
+1527590038624,78,create workflow eval wait,201,Created,create workflow 1-1,text,true,,815,706,1,1,78,1,0,0,0
+1527590038745,515,create request eval wait 1,200,OK,run stored 2-1,text,true,,574,673,1,1,515,1,0,0,307
+1527590044260,374,execute eval prime,200,OK,run stored 2-1,text,true,,576,22420,1,1,374,1,0,0,137
+1527590044636,0,set max pods to -1,200,OK,run stored 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527590049654,555,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2611,258,1,1,553,1,0,0,439
+1527590055243,409,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2614,258,1,1,408,1,0,0,334
+1527590060684,405,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2614,258,1,1,403,1,0,0,318
+1527590066120,393,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2614,258,1,1,392,1,0,0,318
+1527590071544,393,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2614,258,1,1,392,1,0,0,319
+1527590076968,415,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2724,258,1,1,414,1,0,0,315
+1527590082417,303,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2750,258,1,1,303,1,0,0,134
+1527590087741,406,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2759,258,1,1,405,1,0,0,309
+1527590093167,313,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2762,258,1,1,311,1,0,0,134
+1527590098511,389,get progress REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,2629,258,1,1,388,1,0,0,315
+1527590098914,3759,Get results REST 4d78fbd7-448a-4d8b-a368-84b6632f5d1f.primecheck,200,OK,run stored 2-1,text,true,,190632,259,1,1,3527,1,0,0,0
+1527590102676,8,assert expected/actual,200,OK,run stored 2-1,text,true,,431410,0,1,1,0,1,0,0,0
+1527590104217,401,delete workflow primecheck,200,OK,delete workflow 3-1,text,true,,510,247,1,1,401,1,0,0,318
+1527590106118,79,delete workflow wait,200,OK,delete workflow 3-1,text,true,,510,245,1,1,79,1,0,0,0
+1527590184617,411,create workflow prime,201,Created,create workflow 1-1,text,true,,975,1150,1,1,411,1,0,0,313
+1527590185029,88,create workflow eval wait,201,Created,create workflow 1-1,text,true,,815,706,1,1,88,1,0,0,0
+1527590185185,472,create request eval wait 1,200,OK,run stored 2-1,text,true,,574,673,1,1,472,1,0,0,313
+1527590190658,423,execute eval prime,200,OK,run stored 2-1,text,true,,576,22420,1,1,423,1,0,0,134
+1527590191082,1,set max pods to -1,200,OK,run stored 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527590196118,477,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2611,258,1,1,475,1,0,0,319
+1527590201628,405,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2614,258,1,1,404,1,0,0,328
+1527590207065,223,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2614,258,1,1,223,1,0,0,134
+1527590212320,449,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2750,258,1,1,448,1,0,0,314
+1527590217803,633,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2759,258,1,1,632,1,0,0,311
+1527590223471,529,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2762,258,1,1,528,1,0,0,310
+1527590229029,511,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2759,258,1,1,511,1,0,0,317
+1527590234573,389,get progress REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,2628,258,1,1,388,1,0,0,316
+1527590234971,3165,Get results REST 3836b87a-c419-46f7-bdd2-5a409d449745.primecheck,200,OK,run stored 2-1,text,true,,190630,259,1,1,2958,1,0,0,0
+1527590238138,3,assert expected/actual,200,OK,run stored 2-1,text,true,,431409,0,1,1,0,1,0,0,0
+1527590239650,400,delete workflow primecheck,200,OK,delete workflow 3-1,text,true,,510,247,1,1,400,1,0,0,320
+1527590241551,79,delete workflow wait,200,OK,delete workflow 3-1,text,true,,510,245,1,1,79,1,0,0,0
+1527590347591,431,create workflow to fail,201,Created,store workflows 1-1,text,true,,807,747,1,1,431,1,0,0,314
+1527590348023,82,create workflow eval wait,201,Created,store workflows 1-1,text,true,,828,719,1,1,82,1,0,0,0
+1527590348169,473,execute eval wait,200,OK,run stored 2-1,text,true,,574,312,1,1,473,1,0,0,315
+1527590348642,1,set max pods to -1,200,OK,run stored 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527590353678,385,get progress REST 19aa3e39-3bfc-4b4b-b13c-bc36c80c68e1.evalwait,200,OK,run stored 2-1,text,true,,2586,256,1,1,384,1,0,0,311
+1527590359078,385,get progress REST 19aa3e39-3bfc-4b4b-b13c-bc36c80c68e1.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,384,1,0,0,311
+1527590364482,215,get progress REST 19aa3e39-3bfc-4b4b-b13c-bc36c80c68e1.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,214,1,0,0,134
+1527590369727,388,get progress REST 19aa3e39-3bfc-4b4b-b13c-bc36c80c68e1.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,387,1,0,0,313
+1527590375139,207,get progress REST 19aa3e39-3bfc-4b4b-b13c-bc36c80c68e1.evalwait,200,OK,run stored 2-1,text,true,,2597,256,1,1,206,1,0,0,134
+1527590375357,112,Get results REST 19aa3e39-3bfc-4b4b-b13c-bc36c80c68e1.evalwait,200,OK,run stored 2-1,text,true,,2968,257,1,1,111,1,0,0,0
+1527590375474,2,assert expected/actual,200,OK,run stored 2-1,text,false,both strings were not equal,2681,0,1,1,0,1,1,0,0
+1527590375517,470,run eval to fail,200,OK,run eval to fail 3-1,text,true,,574,404,1,1,470,1,0,0,313
+1527590380995,386,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2567,256,1,1,386,1,0,0,314
+1527590386387,394,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,394,1,0,0,322
+1527590391800,387,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,386,1,0,0,313
+1527590397207,393,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,392,1,0,0,318
+1527590402611,388,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,387,1,0,0,314
+1527590408018,393,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,392,1,0,0,319
+1527590413432,875,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,874,1,0,0,313
+1527590419317,388,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,388,1,0,0,314
+1527590424723,392,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2527,256,1,1,391,1,0,0,315
+1527590430130,481,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2528,256,1,1,481,1,0,0,319
+1527590549062,390,create workflow to fail,409,Conflict,store workflows 1-1,text,false,,567,747,1,1,390,1,1,0,314
+1527590549509,540,execute eval wait,200,OK,run stored 2-1,text,true,,574,312,1,1,540,1,0,0,311
+1527590550050,0,set max pods to -1,200,OK,run stored 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527590555081,393,get progress REST 897818d7-f5a6-471f-8efb-20a579a877d2.evalwait,200,OK,run stored 2-1,text,true,,2586,256,1,1,392,1,0,0,319
+1527590560488,576,get progress REST 897818d7-f5a6-471f-8efb-20a579a877d2.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,575,1,0,0,416
+1527590566093,401,get progress REST 897818d7-f5a6-471f-8efb-20a579a877d2.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,400,1,0,0,322
+1527590571524,436,get progress REST 897818d7-f5a6-471f-8efb-20a579a877d2.evalwait,200,OK,run stored 2-1,text,true,,2597,256,1,1,435,1,0,0,362
+1527590571967,115,Get results REST 897818d7-f5a6-471f-8efb-20a579a877d2.evalwait,200,OK,run stored 2-1,text,true,,2968,257,1,1,115,1,0,0,0
+1527590572084,0,assert expected/actual,200,OK,run stored 2-1,text,true,,2073,0,1,1,0,1,0,0,0
+1527590572098,621,run eval to fail,200,OK,run eval to fail 3-1,text,true,,574,404,1,1,621,1,0,0,346
+1527590577726,455,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2556,256,1,1,455,1,0,0,352
+1527590578187,76,Get results REST aa2d541d-1253-4fe9-b308-15330766da7e.evalfail,200,OK,run eval to fail 3-1,text,true,,2748,257,1,1,75,1,0,0,0
+1527590578271,441,delete workflow to fail,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,441,1,0,0,343
+1527590578713,102,delete workflow eval wait,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,102,1,0,0,0
+1527590607816,472,create workflow to fail,201,Created,store workflows 1-1,text,true,,807,747,1,1,472,1,0,0,328
+1527590608289,86,create workflow eval wait,201,Created,store workflows 1-1,text,true,,828,719,1,1,86,1,0,0,0
+1527590608417,490,execute eval wait,200,OK,run stored 2-1,text,true,,574,312,1,1,490,1,0,0,340
+1527590608908,0,set max pods to -1,200,OK,run stored 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527590613934,425,get progress REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2586,256,1,1,424,1,0,0,335
+1527590619391,441,get progress REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2589,256,1,1,440,1,0,0,361
+1527590624860,407,get progress REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,406,1,0,0,326
+1527590630295,437,get progress REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,436,1,0,0,348
+1527590635747,467,get progress REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2668,256,1,1,466,1,0,0,378
+1527590641245,444,get progress REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2597,256,1,1,443,1,0,0,353
+1527590641698,124,Get results REST eedd9513-ae54-45eb-b22b-63bb4e687a5c.evalwait,200,OK,run stored 2-1,text,true,,2968,257,1,1,122,1,0,0,0
+1527590641826,1,assert expected/actual,200,OK,run stored 2-1,text,true,,2073,0,1,1,0,1,0,0,0
+1527590641868,506,run eval to fail,200,OK,run eval to fail 3-1,text,true,,574,404,1,1,505,1,0,0,351
+1527590647379,438,get progress until failed,200,OK,run eval to fail 3-1,text,true,,2555,256,1,1,438,1,0,0,357
+1527590647825,99,Get results REST 6bd72de7-fc03-4ec9-a029-ec994d9bd07d.evalfail,200,OK,run eval to fail 3-1,text,true,,2748,257,1,1,97,1,0,0,0
+1527590647932,460,delete workflow to fail,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,460,1,0,0,370
+1527590648392,90,delete workflow eval wait,200,OK,delete eval to fail 4-1,text,true,,510,245,1,1,90,1,0,0,0
+1527590683121,411,create workflow eval wait,201,Created,create workflow 1-1,text,true,,815,702,1,1,411,1,0,0,311
+1527590683587,473,create request 5 minutes,200,OK,Create request REST 5 minutes 2-1,text,true,,574,312,1,1,472,1,0,0,309
+1527590684061,0,set max pods to -1,200,OK,Create request REST 5 minutes 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527590689077,384,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2645,256,1,1,382,1,0,0,310
+1527590694491,207,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2648,256,1,1,206,1,0,0,133
+1527590699720,385,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2727,256,1,1,384,1,0,0,311
+1527590705137,383,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2727,256,1,1,382,1,0,0,310
+1527590710547,384,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2727,256,1,1,383,1,0,0,312
+1527590715945,384,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2727,256,1,1,383,1,0,0,310
+1527590721359,392,get progress REST 80dfe1f1-694a-4bec-8941-b9b2724c668a.evalwait,200,OK,Create request REST 5 minutes 2-1,text,true,,2727,256,1,1,391,1,0,0,317
+1527593350946,438,create workflow indexedPipeline,201,Created,create workflow 1-1,text,true,,1265,1689,1,1,438,1,0,0,317
+1527593351750,631,execute indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,581,386,1,1,631,1,0,0,311
+1527593352383,0,set max pods to -1,200,OK,run stored indexedPipeline 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527593357405,388,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2653,263,1,1,388,1,0,0,315
+1527593362806,386,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,385,1,0,0,311
+1527593368210,402,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,401,1,0,0,315
+1527593373636,209,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,208,1,0,0,135
+1527593378869,386,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,385,1,0,0,312
+1527593384289,387,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,386,1,0,0,315
+1527593389688,382,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,381,1,0,0,309
+1527593395088,385,get progress REST 5062eebd-7fc5-4296-91be-a7189acbaeb8.indexedPipeline,200,OK,run stored indexedPipeline 2-1,text,true,,2656,263,1,1,385,1,0,0,313
+1527593410901,415,create workflow add mult,201,Created,create workflow 1-1,text,true,,989,1142,1,1,415,1,0,0,332
+1527593411683,458,execute addmult,200,OK,run stored add mult 2-1,text,true,,573,420,1,1,458,1,0,0,313
+1527593412146,1,set max pods to -1,200,OK,run stored add mult 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1527593417178,384,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2599,255,1,1,382,1,0,0,311
+1527593422589,388,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,387,1,0,0,315
+1527593427988,282,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,280,1,0,0,134
+1527593433299,211,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,209,1,0,0,136
+1527593438544,388,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,384,1,0,0,311
+1527593443951,389,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,387,1,0,0,314
+1527593449366,388,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,387,1,0,0,315
+1527593454768,407,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,405,1,0,0,316
+1527593460202,387,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2602,255,1,1,385,1,0,0,314
+1527593465617,385,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,384,1,0,0,312
+1527593471011,210,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,208,1,0,0,135
+1527593476246,395,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,394,1,0,0,314
+1527593481670,208,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,205,1,0,0,133
+1527593486906,391,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,389,1,0,0,316
+1527593492309,211,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,209,1,0,0,135
+1527593497546,389,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,387,1,0,0,315
+1527593502962,391,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,389,1,0,0,316
+1527593508367,388,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,386,1,0,0,314
+1527593513776,392,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,true,,2603,255,1,1,390,1,0,0,316
+1527593514190,90,stop pipeline,200,OK,run stored add mult 2-1,text,true,,5095,340,1,1,89,1,0,0,0
+1527593519291,410,get progress REST bfe8ee66-3efa-4550-be44-b9b16cb06de0.addmult,200,OK,run stored add mult 2-1,text,false,max tries has exceeded,2604,255,1,1,409,1,1,0,316
+1527593519723,416,delete workflow addmult,200,OK,delete workflow 3-1,text,true,,510,244,1,1,416,1,0,0,313
