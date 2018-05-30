@@ -458,7 +458,7 @@
         </IncludeController>
         <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="false">
-          <stringProp name="IncludeController.includepath">/home/eitang/WorkStuff/TestManager/system-tests/tests/tf_assert expected actual.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>
       </hashTree>
