@@ -29,13 +29,13 @@ print (yy);
         <boolProp name="resetInterpreter">false</boolProp>
         <stringProp name="parameters"></stringProp>
         <stringProp name="filename"></stringProp>
-        <stringProp name="script">//String zz = prev.getResponseDataAsString();
+        <stringProp name="script">String zz = prev.getResponseDataAsString();
 
 String x = ctx.getPreviousResult().getResponseCode();
 
 String yy = ctx.getCurrentSampler().getName();
 print (&quot;****************&quot;);
-print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+x);//&quot;\ndata: &quot; + zz) ;
+print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quot; + zz) ;
 //print (x);
 
 //print (&quot;hi &quot; + zz);</stringProp>
