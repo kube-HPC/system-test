@@ -1,0 +1,70 @@
+{
+  "jobId": "{id}",
+  "timestamp": "{timeStamp}",
+  "pipeline": "evalwait",
+  "data": [
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 1,
+      "algorithmName": "eval-alg",
+      "result": 1
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 2,
+      "algorithmName": "eval-alg",
+      "result": 2
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 3,
+      "algorithmName": "eval-alg",
+      "result": 3
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 4,
+      "algorithmName": "eval-alg",
+      "result": 4
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 5,
+      "algorithmName": "eval-alg",
+      "result": 5
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 6,
+      "algorithmName": "eval-alg",
+      "result": 6
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 7,
+      "algorithmName": "eval-alg",
+      "result": 7
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 8,
+      "algorithmName": "eval-alg",
+      "result": 8
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 9,
+      "algorithmName": "eval-alg",
+      "result": 9
+    },
+    {
+      "nodeName": "evalsleep",
+      "batchIndex": 10,
+      "algorithmName": "eval-alg",
+      "result": 10
+    }
+  ],
+  "status": "completed",
+  "timeTook": "{timeTook}",
+  "storageModule": "@hkube/s3-adapter"
+}

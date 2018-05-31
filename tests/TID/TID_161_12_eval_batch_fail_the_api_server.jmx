@@ -846,7 +846,7 @@ else
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="OS Process Sampler" enabled="true">
+        <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="OS Process Sampler" enabled="false">
           <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
           <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
           <stringProp name="SystemSampler.command"></stringProp>

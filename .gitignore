@@ -6,3 +6,6 @@ run_files/*.csv
 testConfigFiles/*
 !testConfigFiles/template
 !testConfigFiles/paths.csv
+tests/currentId
+tests/defaultFile.csv
+tests/jmeter.log

@@ -57,7 +57,7 @@
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">TID_111expected.json</stringProp>
+            <stringProp name="Argument.value">TID_390_expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="podsToDelete" elementType="Argument">
@@ -140,13 +140,13 @@
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">6</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <longProp name="ThreadGroup.start_time">1513166220000</longProp>
         <longProp name="ThreadGroup.end_time">1513166220000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -164,11 +164,7 @@
   	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
 	&quot;flowInput&quot;:{&#xd;
 		&quot;inputs&quot;:[&#xd;
-[60000,1],[60000,2],[60000,3],[60000,4],[60000,5],[60000,6],[60000,7],[60000,8],[60000,9],[60000,10],&#xd;
-[60000,11],[60000,12],[60000,13],[60000,14],[60000,15],[60000,16],[60000,17],[60000,18],[60000,19],[60000,20],&#xd;
-[60000,21],[60000,22],[60000,23],[60000,24],[60000,25],[60000,26],[60000,27],[60000,28],[60000,29],[60000,30],&#xd;
-[60000,31],[60000,32],[60000,33],[60000,34],[60000,35],[60000,36],[60000,37],[60000,38],[60000,39],[60000,40],&#xd;
-[60000,41],[60000,42],[60000,43],[60000,44],[60000,45],[60000,46],[60000,47],[60000,48],[60000,49],[60000,50]&#xd;
+[60000,1],[60000,2],[60000,3],[60000,4],[60000,5],[60000,6],[60000,7],[60000,8],[60000,9],[60000,10]&#xd;
 		]&#xd;
     }&#xd;
 }</stringProp>
@@ -197,16 +193,23 @@
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
-          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
-            <stringProp name="cacheKey">true</stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="script">sleep (20000);</stringProp>
-            <stringProp name="scriptLanguage">groovy</stringProp>
-          </JSR223PostProcessor>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">2000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <SampleTimeout guiclass="SampleTimeoutGui" testclass="SampleTimeout" testname="Sample Timeout" enabled="false">
+            <stringProp name="InterruptTimer.timeout">1500</stringProp>
+          </SampleTimeout>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pods" enabled="true">
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="BeanShell Sampler" enabled="true">
+          <stringProp name="BeanShellSampler.query">vars.put (&quot;status&quot;, &quot;-1&quot;);</stringProp>
+          <stringProp name="BeanShellSampler.filename"></stringProp>
+          <stringProp name="BeanShellSampler.parameters"></stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pods" enabled="false">
           <stringProp name="IncludeController.includepath">../tf_get runing pods by jobid and delete podsToDelete of them.jmx</stringProp>
         </IncludeController>
         <hashTree/>
@@ -222,7 +225,7 @@
           <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query jobId" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query " enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -267,128 +270,7 @@
         </HTTPSamplerProxy>
         <hashTree>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">30000</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="1858321408">exit code 1</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-          </ResponseAssertion>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query job name" enabled="false">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-    &quot;size&quot;: 100,&#xd;
-    &quot;query&quot;: {&#xd;
-        &quot;bool&quot;: {&#xd;
-            &quot;filter&quot;: [&#xd;
-                {&#xd;
-                    &quot;term&quot;: {&#xd;
-                        &quot;kubernetes.pod_name&quot;: &quot;${jobName}&quot;&#xd;
-                    }&#xd;
-                }&#xd;
-            ]&#xd;
-        }&#xd;
-    },&#xd;
-    &quot;_source&quot;: [&#xd;
-        &#xd;
-    ]&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${elasticIP}</stringProp>
-          <stringProp name="HTTPSampler.port">${elasticPort}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${elasticPath}</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">30000</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="1858321408">exit code 1</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-          </ResponseAssertion>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="elastic query job name" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-    &quot;size&quot;: 100,&#xd;
-    &quot;query&quot;: {&#xd;
-        &quot;bool&quot;: {&#xd;
-            &quot;must&quot;: [&#xd;
-                {&#xd;
-                    &quot;match_phrase&quot;: {&#xd;
-                        &quot;kubernetes.pod_name&quot;: {&#xd;
-                            &quot;query&quot;: &quot;${jobName}&quot;&#xd;
-                        }&#xd;
-                    }&#xd;
-                }&#xd;
-            ],&#xd;
-            &quot;filter&quot;: [],&#xd;
-            &quot;should&quot;: [],&#xd;
-            &quot;must_not&quot;: []&#xd;
-        }&#xd;
-    },&#xd;
-    &quot;_source&quot;: [&#xd;
-        &quot;message&quot;,&#xd;
-        &quot;meta.type&quot;,&#xd;
-        &quot;@timestamp&quot;&#xd;
-    ]&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${elasticIP}</stringProp>
-          <stringProp name="HTTPSampler.port">${elasticPort}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${elasticPath}</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">30000</stringProp>
+            <stringProp name="ConstantTimer.delay">10000</stringProp>
           </ConstantTimer>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">

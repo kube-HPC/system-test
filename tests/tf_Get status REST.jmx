@@ -34,6 +34,7 @@
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
             <stringProp name="IfController.condition">${__jexl3(${counter}==${maxTries},)}</stringProp>
             <boolProp name="IfController.evaluateAll">false</boolProp>
+            <boolProp name="IfController.useExpression">true</boolProp>
           </IfController>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="stop pipeline" enabled="true">
@@ -183,7 +184,6 @@ int maxPods=Integer.parseInt(vars.get(&quot;maxPods&quot;));
 if (activepods &gt; maxPods){
 //	print (&quot;true &quot;+maxPods);
 	vars.put (&quot;maxPods&quot;,String.valueOf(activepods));
-
 }
 
 </stringProp>
