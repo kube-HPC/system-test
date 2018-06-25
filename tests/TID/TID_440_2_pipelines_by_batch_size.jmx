@@ -188,20 +188,519 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create request eval wait priority 3" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create request evalwait batch 500" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;inputs&quot;:[&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000&#xd;
-		]&#xd;
+    &quot;name&quot;: &quot;evalwait&quot;,&#xd;
+    &quot;flowInput&quot;: {&#xd;
+        &quot;inputs&quot;: [&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000&#xd;
+        ]&#xd;
     },&#xd;
-    &quot;priority&quot;:3&#xd;
+    &quot;priority&quot;: 1&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -318,7 +817,7 @@ print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + ma
             <stringProp name="filename"></stringProp>
             <stringProp name="script">props.put(&quot;time1&quot;, vars.get (&quot;timeTook&quot;));
 
-print (&quot;Assaf was here&quot;);
+
 </stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
@@ -343,20 +842,119 @@ print (&quot;Assaf was here&quot;);
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create request eval wait priority 1" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create request evalwait2 batch 100" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  	&quot;name&quot;: &quot;evalwait2&quot;,&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;inputs&quot;:[&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000&#xd;
-		]&#xd;
+    &quot;name&quot;: &quot;evalwait2&quot;,&#xd;
+    &quot;flowInput&quot;: {&#xd;
+        &quot;inputs&quot;: [&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000,&#xd;
+            10000&#xd;
+        ]&#xd;
     },&#xd;
-    &quot;priority&quot;:1&#xd;
+    &quot;priority&quot;: 1&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -473,7 +1071,7 @@ print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + ma
             <stringProp name="filename"></stringProp>
             <stringProp name="script">props.put(&quot;time2&quot;, vars.get (&quot;timeTook2&quot;));
 
-print (&quot;Eytan was here&quot;);
+
 </stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
@@ -521,7 +1119,32 @@ print (&quot;Eytan was here&quot;);
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
-        <hashTree/>
+        <hashTree>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">String t1 = props.get (&quot;time1&quot;);
+String t2 = props.get (&quot;time2&quot;);
+
+float t11 = Float.valueOf (t1);
+float t22 = Float.valueOf (t2);
+
+print (t11);
+print (t22);
+
+
+if (t22&gt;t11){
+	Failure = true;
+	FailureMessage = &quot;test failed because lower priority pipeline ran before a higher priority pipeline&quot;;
+}
+else {
+	Failure = false;
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+        </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow eval wait 2" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -547,30 +1170,6 @@ print (&quot;Eytan was here&quot;);
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
-        <hashTree/>
-        <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-          <stringProp name="BeanShellAssertion.query">String t1 = props.get (&quot;time1&quot;);
-String t2 = props.get (&quot;time2&quot;);
-
-float t11 = Float.valueOf (t1);
-float t22 = Float.valueOf (t2);
-
-print (t11);
-print (t22);
-
-
-if (t22&gt;t11){
-	Failure = true;
-	FailureMessage = &quot;faileddddd&quot;;
-}
-else {
-	Failure = false;
-}
-</stringProp>
-          <stringProp name="BeanShellAssertion.filename"></stringProp>
-          <stringProp name="BeanShellAssertion.parameters"></stringProp>
-          <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
-        </BeanShellAssertion>
         <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
