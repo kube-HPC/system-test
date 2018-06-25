@@ -12,15 +12,15 @@
         },
         {
             "nodeName":"evaladd",
-            "batchIndex":1,
-            "algorithmName":"eval-alg",
-            "result":8
-        },
-        {
-            "nodeName":"evaladd",
             "batchIndex":4,
             "algorithmName":"eval-alg",
             "result":128
+        },
+        {
+            "nodeName":"evaladd",
+            "batchIndex":1,
+            "algorithmName":"eval-alg",
+            "result":8
         },
         {
             "nodeName":"evaladd",
