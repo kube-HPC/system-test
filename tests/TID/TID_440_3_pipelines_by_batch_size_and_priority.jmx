@@ -108,7 +108,8 @@
                 ]&#xd;
             }&#xd;
         }&#xd;
-    ]&#xd;
+    ],&#xd;
+    &quot;priority&quot;: 1&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -151,7 +152,8 @@
                 ]&#xd;
             }&#xd;
         }&#xd;
-    ]&#xd;
+    ],&#xd;
+        &quot;priority&quot;: 2&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -699,8 +701,7 @@
             10000,&#xd;
             10000&#xd;
         ]&#xd;
-    },&#xd;
-    &quot;priority&quot;: 1&#xd;
+    }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -953,8 +954,7 @@ print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + ma
             10000,&#xd;
             10000&#xd;
         ]&#xd;
-    },&#xd;
-    &quot;priority&quot;: 2&#xd;
+    }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
