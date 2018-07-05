@@ -320,7 +320,7 @@
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.custom_message">expected to get indication that jobId ${id}11 is not found</stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
@@ -496,7 +496,7 @@ else
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">true</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.custom_message">expected to get indication that jobId ${id}11 is not found</stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>

@@ -641,7 +641,7 @@ vars.put (&quot;resultFromHook&quot;,response1);
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.custom_message">expected to see in ES the pod failed</stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>

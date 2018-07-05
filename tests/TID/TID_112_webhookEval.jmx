@@ -484,7 +484,7 @@ if (equal)
 else
 {
 	Failure=true;
-	FailureMessage=&quot;both string was not equal&quot;;
+	FailureMessage=&quot;the response from the webhook and the rest query was not equal while requesting the same information&quot;;
 }
 </stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>

@@ -383,7 +383,7 @@ vars.put (&quot;podsToDeleterun&quot;,String.valueOf(num));
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.custom_message">expected to see in ES logs indicating the pipeline has started</stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
@@ -451,7 +451,7 @@ vars.put (&quot;podsToDeleterun&quot;,String.valueOf(num));
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">2</intProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.custom_message">expected to see in ES logs indicating the pipeline has completed</stringProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
