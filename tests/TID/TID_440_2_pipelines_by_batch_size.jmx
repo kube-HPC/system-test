@@ -140,7 +140,7 @@
     &quot;nodes&quot;: [&#xd;
         {&#xd;
             &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg2&quot;,&#xd;
             &quot;input&quot;: [&#xd;
                 &quot;#@flowInput.inputs&quot;&#xd;
             ],&#xd;
@@ -728,6 +728,226 @@
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get queues" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">10.32.10.11/hkube/api-server/internal/v1</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">algorithms/queue</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">2000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="eval_alg_scores" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">eval_alg_scores</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.[?(@.name==&quot;eval-alg&quot;)].data[0:].calculated.score</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="eval_alg2_scores" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">eval_alg2_scores</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.[?(@.name==&quot;eval-alg2&quot;)].data[0:].calculated.score</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySamplerProperties">false</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugPostProcessor>
+          <hashTree/>
+          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="false">
+            <boolProp name="resetInterpreter">false</boolProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="script">int eval_quantity = Integer.parseInt(vars.get(&quot;eval_alg_scores_matchNr&quot;));
+
+int eval2_quantity = Integer.parseInt(vars.get(&quot;eval_alg2_scores_matchNr&quot;));
+
+//print (eval_quantity);
+//print (eval2_quantity);
+
+int min;
+
+if (eval_quantity&lt;eval2_quantity){
+	min=eval_quantity;
+}
+else{
+	min=eval2_quantity;
+}
+
+//print (min);
+
+double currentNum1;
+double currentNum2;
+String s1;
+String s2;
+
+String endMessage=&quot;&quot;:
+boolean flag=true;
+
+for (int i=1 ; i&lt;=min ; i++)
+{
+	s1 = &quot;eval_alg_scores_&quot;+i;
+	s2 = &quot;eval_alg2_scores_&quot;+i;
+	currentNum1 = Double.parseDouble(vars.get (s1));
+	currentNum2 = Double.parseDouble(vars.get (s2));
+	
+//	print (&quot;**********&quot; + i + &quot;***********&quot;);
+//	print (currentNum1);
+//	print (currentNum2);
+
+	if (currentNum1&gt;currentNum2){
+		endMessage+=&quot;place &quot;+i+&quot; was bigger&quot;);
+		flag=false;
+	}
+}
+
+if (!flag){
+	//String output=&quot;the pipeline didnt run every minute&quot;;
+	SampleResult.setResponseData (endMessage);
+}else
+{
+//	String output=&quot;OK&quot;;
+	SampleResult.setResponseData (&quot;OK\n&quot;);
+}
+
+</stringProp>
+          </BeanShellPostProcessor>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="false">
+            <stringProp name="BeanShellAssertion.query">int eval_quantity = Integer.parseInt(vars.get(&quot;eval_alg_scores_matchNr&quot;));
+
+int eval2_quantity = Integer.parseInt(vars.get(&quot;eval_alg2_scores_matchNr&quot;));
+
+//print (eval_quantity);
+//print (eval2_quantity);
+
+int min;
+
+if (eval_quantity&lt;eval2_quantity){
+	min=eval_quantity;
+}
+else{
+	min=eval2_quantity;
+}
+
+//print (min);
+
+double currentNum1;
+double currentNum2;
+String s1;
+String s2;
+
+String endMessage=&quot;&quot;:
+boolean flag=true;
+
+for (int i=1 ; i&lt;=min ; i++)
+{
+	s1 = &quot;eval_alg_scores_&quot;+i;
+	s2 = &quot;eval_alg2_scores_&quot;+i;
+	currentNum1 = Double.parseDouble(vars.get (s1));
+	currentNum2 = Double.parseDouble(vars.get (s2));
+	
+//	print (&quot;**********&quot; + i + &quot;***********&quot;);
+//	print (currentNum1);
+//	print (currentNum2);
+
+	if (currentNum1&gt;currentNum2){
+		endMessage += &quot;place &quot;+i+&quot; was bigger\n&quot;);
+		flag=false;
+	}
+}
+
+if (!flag){
+	//String output=&quot;the pipeline didnt run every minute&quot;;
+	SampleResult.setResponseData (endMessage);
+}else
+{
+//	String output=&quot;OK&quot;;
+	SampleResult.setResponseData (&quot;OK\n&quot;);
+}
+
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+        </hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="comparison of scores of two algorithm qeues" enabled="true">
+          <stringProp name="BeanShellSampler.query">int eval_quantity = Integer.parseInt(vars.get(&quot;eval_alg_scores_matchNr&quot;));
+
+int eval2_quantity = Integer.parseInt(vars.get(&quot;eval_alg2_scores_matchNr&quot;));
+
+//print (eval_quantity);
+//print (eval2_quantity);
+
+int min;
+
+if (eval_quantity&lt;eval2_quantity){
+	min=eval_quantity;
+}
+else{
+	min=eval2_quantity;
+}
+
+//print (min);
+
+double currentNum1;
+double currentNum2;
+String s1;
+String s2;
+
+String endMessage=&quot;&quot;;
+boolean flag=true;
+
+for (int i=1 ; i&lt;=min ; i++)
+{
+	s1 = &quot;eval_alg_scores_&quot;+i;
+	s2 = &quot;eval_alg2_scores_&quot;+i;
+	currentNum1 = Double.parseDouble(vars.get (s1));
+	currentNum2 = Double.parseDouble(vars.get (s2));
+	
+//	print (&quot;**********&quot; + i + &quot;***********&quot;);
+//	print (currentNum1);
+//	print (currentNum2);
+
+	if (currentNum1&gt;currentNum2){
+		endMessage = endMessage+&quot;place &quot;+i+&quot; was bigger: &quot;+currentNum1+&quot;&gt;&quot;+currentNum2+&quot;\n&quot;;
+		flag=false;
+	}
+}
+
+if (!flag){
+	//String output=&quot;the pipeline didnt run every minute&quot;;
+	SampleResult.setResponseData (endMessage);
+}else
+{
+//	String output=&quot;OK&quot;;
+	SampleResult.setResponseData (&quot;OK\n&quot;);
+}
+
+</stringProp>
+          <stringProp name="BeanShellSampler.filename"></stringProp>
+          <stringProp name="BeanShellSampler.parameters"></stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="GetStatus REST" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
         </IncludeController>

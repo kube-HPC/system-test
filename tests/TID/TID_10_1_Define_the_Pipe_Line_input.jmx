@@ -25,7 +25,7 @@ print (yy);
 </stringProp>
       </BeanShellPreProcessor>
       <hashTree/>
-      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="true">
+      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="false">
         <boolProp name="resetInterpreter">false</boolProp>
         <stringProp name="parameters"></stringProp>
         <stringProp name="filename"></stringProp>

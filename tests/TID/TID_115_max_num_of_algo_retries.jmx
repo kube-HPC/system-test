@@ -52,7 +52,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.value">20</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
@@ -62,7 +62,7 @@
           </elementProp>
           <elementProp name="podsToDelete" elementType="Argument">
             <stringProp name="Argument.name">podsToDelete</stringProp>
-            <stringProp name="Argument.value">6</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>

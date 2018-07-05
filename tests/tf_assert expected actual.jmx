@@ -174,7 +174,7 @@ if (actual.equals(expected))
 else 
 {
 	Failure=true;
-	FailureMessage=&quot;both strings were not equal&quot;;
+	FailureMessage=&quot;the expected result and the actual result was not equal.&quot;;
 //	print (&quot;fail&quot;);
 }
 </stringProp>
