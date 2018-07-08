@@ -3890,3 +3890,538 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1530790858018,109,Get results REST evalwait2:b1e426e7-dd8a-4645-bb09-ae7b002ed038.evalwait2,200,OK,Create request REST 2 2-1,text,true,,19962,268,1,1,104,1,0,0,0
 1530790858139,463,delete workflow eval wait,200,OK,delete pipelines 1-1,text,false,test failed because lower priority pipeline ran before a higher priority pipeline,510,245,1,1,463,1,1,0,369
 1530790858613,93,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,93,1,0,0,0
+1531032100170,461,create workflow eval wait,201,Created,create pipelines 1-1,text,true,,815,706,1,1,461,1,0,0,367
+1531032100632,130,create workflow eval wait 2,201,Created,create pipelines 1-1,text,true,,817,708,1,1,130,1,0,0,0
+1531032100998,791,create request evalwait batch 500,200,OK,Create request REST 1 1-1,text,true,,583,10341,1,3,791,1,0,0,362
+1531032101017,947,create request evalwait2 batch 100,200,OK,Create request REST 2 2-1,text,true,,585,2341,1,3,947,1,0,0,359
+1531032101965,1,set max pods to -1,200,OK,Create request REST 2 2-1,text,true,,0,0,1,3,0,1,0,0,0
+1531032103790,715,get queues,200,OK,Create request REST 1 1-1,text,true,,118385,220,1,3,458,1,0,0,368
+1531032104505,4,comparison of scores of two algorithm qeues,200,OK,Create request REST 1 1-1,text,true,,3,0,1,3,0,1,0,0,0
+1531032104509,0,set max pods to -1,200,OK,Create request REST 1 1-1,text,true,,0,0,1,3,0,1,0,0,0
+1531032107006,448,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2700,267,1,3,447,1,0,0,363
+1531032109524,471,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6635,265,1,3,470,1,0,0,360
+1531032112480,525,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2703,267,1,3,525,1,0,0,362
+1531032115009,1643,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6743,265,1,3,1642,1,0,0,368
+1531032118027,476,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,3,475,1,0,0,358
+1531032121674,467,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6747,265,1,3,467,1,0,0,366
+1531032123520,447,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2812,267,1,3,446,1,0,0,360
+1531032127157,270,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6775,265,1,3,268,1,0,0,158
+1531032128990,449,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2839,267,1,3,449,1,0,0,362
+1531032132448,451,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,3,451,1,0,0,365
+1531032134458,856,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2839,267,1,3,855,1,0,0,366
+1531032137928,447,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,3,446,1,0,0,356
+1531032140337,448,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2839,267,1,3,448,1,0,0,363
+1531032143395,449,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,3,448,1,0,0,361
+1531032145805,457,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2839,267,1,3,455,1,0,0,367
+1531032148867,452,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,3,451,1,0,0,366
+1531032151273,450,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2839,267,1,3,449,1,0,0,360
+1531032154337,449,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,3,449,1,0,0,364
+1531032156741,489,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2840,267,1,3,489,1,0,0,364
+1531032159808,243,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6776,265,1,3,243,1,0,0,159
+1531032161036,491,create request evalwait2 batch 100 that starts after a minute,200,OK,Create request REST 3 after a minute running 3-1,text,true,,585,2341,1,3,491,1,0,0,364
+1531032161528,0,set max pods to -1,200,OK,Create request REST 3 after a minute running 3-1,text,true,,0,0,1,3,0,1,0,0,0
+1531032162252,453,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2840,267,1,3,452,1,0,0,368
+1531032165057,459,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6780,265,1,3,458,1,0,0,367
+1531032166544,245,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2745,267,1,3,244,1,0,0,159
+1531032167726,507,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2840,267,1,3,506,1,0,0,362
+1531032170535,452,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,3,451,1,0,0,361
+1531032171813,446,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2852,267,1,3,446,1,0,0,362
+1531032173249,453,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2838,267,1,3,452,1,0,0,367
+1531032176006,443,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6781,265,1,3,442,1,0,0,357
+1531032177267,446,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2852,267,1,3,446,1,0,0,361
+1531032178722,471,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,471,1,0,0,363
+1531032181468,455,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,454,1,0,0,368
+1531032182738,245,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2879,267,1,3,244,1,0,0,160
+1531032184201,453,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,452,1,0,0,367
+1531032186943,449,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,449,1,0,0,365
+1531032188007,481,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2884,267,1,3,481,1,0,0,361
+1531032189675,455,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,455,1,0,0,369
+1531032192414,450,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,449,1,0,0,363
+1531032193511,447,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2884,267,1,3,447,1,0,0,362
+1531032195139,307,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,307,1,0,0,158
+1531032197888,455,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,454,1,0,0,360
+1531032198976,274,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2884,267,1,3,274,1,0,0,167
+1531032200466,473,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,473,1,0,0,362
+1531032203362,446,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,445,1,0,0,360
+1531032204269,448,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2884,267,1,3,447,1,0,0,363
+1531032205959,445,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,444,1,0,0,357
+1531032208832,455,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,3,454,1,0,0,364
+1531032209737,514,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2884,267,1,3,513,1,0,0,362
+1531032211425,449,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,449,1,0,0,364
+1531032214309,450,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,450,1,0,0,364
+1531032215272,453,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2885,267,1,3,452,1,0,0,361
+1531032216894,460,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,459,1,0,0,363
+1531032219780,449,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,3,449,1,0,0,362
+1531032220744,450,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2885,267,1,3,450,1,0,0,365
+1531032222374,244,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,243,1,0,0,159
+1531032225238,453,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,3,453,1,0,0,367
+1531032226214,449,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2885,267,1,3,448,1,0,0,363
+1531032227637,511,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,511,1,0,0,370
+1531032230712,530,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,529,1,0,0,399
+1531032231683,473,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2883,267,1,3,473,1,0,0,389
+1531032233153,447,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2835,267,1,3,447,1,0,0,363
+1531032236262,448,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,447,1,0,0,362
+1531032237163,463,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2883,267,1,3,462,1,0,0,365
+1531032238620,563,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,3,563,1,0,0,365
+1531032241731,452,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,452,1,0,0,361
+1531032242645,453,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2856,267,1,3,453,1,0,0,368
+1531032244204,250,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,3,250,1,0,0,157
+1531032247191,457,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,3,457,1,0,0,364
+1531032248120,458,get progress REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2757,267,1,3,458,1,0,0,360
+1531032248583,109,Get results REST evalwait2:1808f295-3a28-45b9-9ce6-1b10e551dada.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,20822,268,1,3,103,1,0,0,0
+1531032249477,448,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,448,1,0,0,363
+1531032252665,550,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,549,1,0,0,364
+1531032254938,580,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,580,1,0,0,494
+1531032258235,496,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,495,1,0,0,362
+1531032260537,445,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,445,1,0,0,360
+1531032263752,470,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,470,1,0,0,365
+1531032266003,449,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,448,1,0,0,358
+1531032269229,270,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,269,1,0,0,160
+1531032271469,449,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,449,1,0,0,363
+1531032274517,445,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,2,444,1,0,0,359
+1531032276936,445,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,445,1,0,0,359
+1531032279976,461,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,461,1,0,0,360
+1531032282403,448,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,447,1,0,0,361
+1531032285456,450,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,449,1,0,0,364
+1531032287870,448,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,447,1,0,0,361
+1531032290922,448,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,2,448,1,0,0,363
+1531032293339,449,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,449,1,0,0,362
+1531032296390,465,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,465,1,0,0,358
+1531032298807,454,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,454,1,0,0,362
+1531032301869,459,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,458,1,0,0,363
+1531032304273,449,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,448,1,0,0,363
+1531032307336,448,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,447,1,0,0,360
+1531032309737,455,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,455,1,0,0,363
+1531032312808,446,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,445,1,0,0,360
+1531032315199,460,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,460,1,0,0,365
+1531032318271,451,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6779,265,1,2,451,1,0,0,365
+1531032320681,452,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,451,1,0,0,365
+1531032323742,446,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,446,1,0,0,361
+1531032326152,443,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,442,1,0,0,356
+1531032329196,452,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6783,265,1,2,452,1,0,0,367
+1531032331610,453,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,452,1,0,0,364
+1531032334667,448,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,2,447,1,0,0,362
+1531032337081,243,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,242,1,0,0,158
+1531032340133,470,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6781,265,1,2,470,1,0,0,355
+1531032342343,456,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,456,1,0,0,362
+1531032345617,464,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6781,265,1,2,463,1,0,0,378
+1531032347817,566,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,565,1,0,0,453
+1531032351099,452,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,2,451,1,0,0,365
+1531032353395,455,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,454,1,0,0,365
+1531032356573,611,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6781,265,1,2,611,1,0,0,366
+1531032358872,458,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,458,1,0,0,373
+1531032362203,448,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6781,265,1,2,447,1,0,0,361
+1531032364348,461,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,460,1,0,0,364
+1531032367671,467,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6777,265,1,2,467,1,0,0,371
+1531032369829,470,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,469,1,0,0,365
+1531032373157,446,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6754,265,1,2,446,1,0,0,359
+1531032375305,245,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2811,267,1,2,245,1,0,0,159
+1531032378620,465,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6754,265,1,2,464,1,0,0,364
+1531032380568,458,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2707,267,1,2,458,1,0,0,365
+1531032384099,442,get progress REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,6647,265,1,2,442,1,0,0,356
+1531032384549,273,Get results REST evalwait:4a14422a-87e5-4fc0-8bec-3ba5f9e72cf7.evalwait,200,OK,Create request REST 1 1-1,text,true,,88516,266,1,2,109,1,0,0,0
+1531032384826,1,assert expected/actual,200,OK,Create request REST 1 1-1,text,false,the expected result and the actual result was not equal.,51413,0,1,2,0,1,1,0,0
+1531032386043,452,get progress REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2712,267,1,1,452,1,0,0,361
+1531032386503,137,Get results REST evalwait2:c05581fe-d34c-4aff-a6e7-10e3d14abe8a.evalwait2,200,OK,Create request REST 2 2-1,text,true,,20777,268,1,1,136,1,0,0,0
+1531032386645,461,delete workflow eval wait,200,OK,delete pipelines 1-1,text,true,,510,245,1,1,461,1,0,0,359
+1531032387110,117,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,117,1,0,0,0
+1531032391354,477,create workflow eval wait,201,Created,create pipelines 1-1,text,true,,815,706,1,1,477,1,0,0,366
+1531032391831,108,create workflow eval wait 2,201,Created,create pipelines 1-1,text,true,,817,708,1,1,107,1,0,0,0
+1531032392183,618,create request evalwait batch 500 P5,200,OK,Create request REST 1 P5 1-1,text,true,,583,10341,1,2,618,1,0,0,361
+1531032394802,908,get queues,200,OK,Create request REST 1 P5 1-1,text,true,,572792,220,1,2,474,1,0,0,362
+1531032395710,1,comparison of scores of two algorithm qeues,200,OK,Create request REST 1 P5 1-1,text,true,,3,0,1,2,0,1,0,0,0
+1531032395711,0,set max pods to -1,200,OK,Create request REST 1 P5 1-1,text,true,,0,0,1,2,0,1,0,0,0
+1531032400724,456,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21840,265,1,2,454,1,0,0,368
+1531032406203,452,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21844,265,1,2,451,1,0,0,358
+1531032411675,249,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21873,265,1,2,247,1,0,0,159
+1531032416942,452,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21873,265,1,2,451,1,0,0,366
+1531032422413,448,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21875,265,1,2,447,1,0,0,362
+1531032427885,486,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21871,265,1,2,485,1,0,0,378
+1531032433380,450,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21876,265,1,2,448,1,0,0,363
+1531032438851,512,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21878,265,1,2,511,1,0,0,388
+1531032444385,244,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21878,265,1,2,243,1,0,0,158
+1531032449648,462,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21875,265,1,2,460,1,0,0,361
+1531032452211,496,create request evalwait2 batch 100 that starts after a minute P1,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,585,2341,1,2,496,1,0,0,360
+1531032452708,0,set max pods to -1,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,0,0,1,2,0,1,0,0,0
+1531032455129,448,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21875,265,1,2,447,1,0,0,362
+1531032457724,457,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2750,267,1,2,456,1,0,0,364
+1531032460597,449,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,448,1,0,0,363
+1531032463201,446,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,446,1,0,0,363
+1531032466064,483,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,482,1,0,0,363
+1531032468668,519,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,519,1,0,0,365
+1531032471565,449,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,447,1,0,0,362
+1531032474206,451,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,450,1,0,0,366
+1531032477032,447,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,446,1,0,0,361
+1531032479676,259,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,259,1,0,0,159
+1531032482496,466,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,465,1,0,0,363
+1531032484943,446,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,446,1,0,0,360
+1531032487980,444,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,444,1,0,0,359
+1531032490409,448,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,448,1,0,0,363
+1531032493433,457,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21875,265,1,2,455,1,0,0,366
+1531032495876,449,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,449,1,0,0,364
+1531032498906,503,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,502,1,0,0,396
+1531032501333,466,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2753,267,1,2,466,1,0,0,371
+1531032504425,446,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21875,265,1,2,445,1,0,0,359
+1531032506826,448,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,448,1,0,0,362
+1531032509891,292,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,291,1,0,0,159
+1531032512292,242,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,241,1,0,0,157
+1531032515200,486,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21879,265,1,2,484,1,0,0,388
+1531032517552,452,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,451,1,0,0,366
+1531032520703,452,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21877,265,1,2,451,1,0,0,362
+1531032523022,447,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,447,1,0,0,362
+1531032526175,443,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21877,265,1,2,441,1,0,0,357
+1531032528487,455,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,455,1,0,0,369
+1531032531636,245,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21877,265,1,2,243,1,0,0,159
+1531032533960,456,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,455,1,0,0,363
+1531032536901,450,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21877,265,1,2,449,1,0,0,364
+1531032539423,458,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,457,1,0,0,365
+1531032542369,462,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21875,265,1,2,461,1,0,0,376
+1531032544899,450,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,449,1,0,0,361
+1531032547848,473,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21871,265,1,2,473,1,0,0,379
+1531032550366,451,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,450,1,0,0,363
+1531032553329,251,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,250,1,0,0,159
+1531032555835,450,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,450,1,0,0,364
+1531032558601,452,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,450,1,0,0,362
+1531032561301,453,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,452,1,0,0,363
+1531032564072,445,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,444,1,0,0,360
+1531032566771,447,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,447,1,0,0,362
+1531032569536,457,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,456,1,0,0,364
+1531032572236,443,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,442,1,0,0,357
+1531032575013,468,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,467,1,0,0,359
+1531032577696,637,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,636,1,0,0,367
+1531032580498,454,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,453,1,0,0,363
+1531032583353,447,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,447,1,0,0,362
+1531032585969,447,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,447,1,0,0,362
+1531032588818,448,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,447,1,0,0,362
+1531032591424,449,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,447,1,0,0,363
+1531032594286,449,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,449,1,0,0,365
+1531032596894,467,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,466,1,0,0,361
+1531032599743,445,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,444,1,0,0,360
+1531032602376,448,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,447,1,0,0,360
+1531032605207,245,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,244,1,0,0,159
+1531032607842,449,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,448,1,0,0,362
+1531032610471,244,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,243,1,0,0,158
+1531032613310,244,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,243,1,0,0,158
+1531032615732,245,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2754,267,1,2,244,1,0,0,159
+1531032618574,456,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,455,1,0,0,367
+1531032620995,293,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2858,267,1,2,293,1,0,0,159
+1531032624047,506,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,505,1,0,0,420
+1531032626306,457,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2862,267,1,2,456,1,0,0,365
+1531032629562,516,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,515,1,0,0,365
+1531032631779,261,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2886,267,1,2,260,1,0,0,159
+1531032635096,446,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,445,1,0,0,359
+1531032637058,447,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,447,1,0,0,362
+1531032640560,455,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,454,1,0,0,368
+1531032642522,468,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,467,1,0,0,365
+1531032646036,273,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,271,1,0,0,160
+1531032648012,451,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,451,1,0,0,360
+1531032651325,449,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,448,1,0,0,363
+1531032653481,479,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,479,1,0,0,367
+1531032656791,447,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,446,1,0,0,361
+1531032658978,454,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,453,1,0,0,364
+1531032662257,460,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,459,1,0,0,372
+1531032664449,449,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,448,1,0,0,363
+1531032667735,497,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21847,265,1,2,495,1,0,0,365
+1531032669915,457,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,2,456,1,0,0,371
+1531032673249,481,get progress REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21743,265,1,2,480,1,0,0,362
+1531032673738,283,Get results REST evalwait:8aeb0d2b-0529-4c67-9802-94d837b593a8.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,103609,266,1,2,120,1,0,0,0
+1531032674026,3,assert expected/actual,200,OK,Create request REST 1 P5 1-1,text,false,the expected result and the actual result was not equal.,66506,0,1,2,0,1,1,0,0
+1531032675381,469,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,1,469,1,0,0,364
+1531032680868,447,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,446,1,0,0,361
+1531032686329,453,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2861,267,1,1,453,1,0,0,362
+1531032691801,455,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2861,267,1,1,455,1,0,0,359
+1531032697275,451,get progress REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2762,267,1,1,451,1,0,0,366
+1531032697734,110,Get results REST evalwait2:65106300-6663-4f8c-adf5-408ff139d241.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,20832,268,1,1,107,1,0,0,0
+1531032697862,487,delete workflow eval wait,200,OK,delete pipelines 1-1,text,true,,510,245,1,1,487,1,0,0,370
+1531032698354,93,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,93,1,0,0,0
+1531049855465,469,create workflow eval wait,201,Created,create pipelines 1-1,text,true,,815,706,1,1,469,1,0,0,367
+1531049855936,105,create workflow eval wait 2,201,Created,create pipelines 1-1,text,true,,817,708,1,1,105,1,0,0,0
+1531049856225,701,create request evalwait batch 500 P5,200,OK,Create request REST 1 P5 1-1,text,true,,583,10341,1,2,701,1,0,0,371
+1531049858929,971,get queues,200,OK,Create request REST 1 P5 1-1,text,true,,574112,220,1,2,465,1,0,0,363
+1531049859900,3,comparison of scores of two algorithm qeues,200,OK,Create request REST 1 P5 1-1,text,true,,3,0,1,2,0,1,0,0,0
+1531049859903,1,set max pods to -1,200,OK,Create request REST 1 P5 1-1,text,true,,0,0,1,2,0,1,0,0,0
+1531049864953,564,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21810,265,1,2,561,1,0,0,387
+1531049870554,493,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21922,265,1,2,490,1,0,0,365
+1531049876082,454,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21923,265,1,2,452,1,0,0,366
+1531049881557,458,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21952,265,1,2,456,1,0,0,367
+1531049887052,274,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21948,265,1,2,270,1,0,0,160
+1531049892367,507,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21955,265,1,2,505,1,0,0,379
+1531049897903,476,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21955,265,1,2,474,1,0,0,389
+1531049903411,450,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21957,265,1,2,447,1,0,0,361
+1531049908892,457,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21953,265,1,2,455,1,0,0,363
+1531049914383,261,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,259,1,0,0,160
+1531049916245,561,create request evalwait2 batch 100 that starts after a minute P1,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,585,2341,1,2,561,1,0,0,399
+1531049916807,1,set max pods to -1,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,0,0,1,2,0,1,0,0,0
+1531049919674,495,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,494,1,0,0,366
+1531049921838,488,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2752,267,1,2,487,1,0,0,361
+1531049925182,459,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21954,265,1,2,457,1,0,0,366
+1531049927357,476,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,475,1,0,0,375
+1531049930676,456,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,455,1,0,0,369
+1531049932865,452,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,451,1,0,0,367
+1531049936147,451,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,449,1,0,0,364
+1531049938351,250,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,249,1,0,0,159
+1531049941625,458,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21954,265,1,2,457,1,0,0,364
+1531049943638,455,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,453,1,0,0,365
+1531049947105,458,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,456,1,0,0,367
+1531049949121,499,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,498,1,0,0,362
+1531049952587,462,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21954,265,1,2,459,1,0,0,368
+1531049954639,465,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,464,1,0,0,369
+1531049958072,450,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,448,1,0,0,363
+1531049960134,471,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,470,1,0,0,374
+1531049963549,482,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21954,265,1,2,480,1,0,0,367
+1531049965638,454,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2755,267,1,2,454,1,0,0,362
+1531049969059,473,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,473,1,0,0,365
+1531049971120,484,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,483,1,0,0,364
+1531049974542,454,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,453,1,0,0,366
+1531049976633,457,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,457,1,0,0,371
+1531049980024,459,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21958,265,1,2,457,1,0,0,363
+1531049982122,447,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,446,1,0,0,361
+1531049985509,452,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21956,265,1,2,450,1,0,0,365
+1531049987596,453,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,452,1,0,0,362
+1531049990984,449,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21952,265,1,2,448,1,0,0,363
+1531049993076,458,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,457,1,0,0,362
+1531049996464,449,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21956,265,1,2,447,1,0,0,362
+1531049998564,448,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,447,1,0,0,362
+1531050001933,251,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21956,265,1,2,250,1,0,0,159
+1531050004034,455,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,454,1,0,0,365
+1531050007213,453,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21956,265,1,2,451,1,0,0,366
+1531050009512,449,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,448,1,0,0,363
+1531050012693,450,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21929,265,1,2,448,1,0,0,362
+1531050014989,448,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,447,1,0,0,362
+1531050018175,480,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21929,265,1,2,478,1,0,0,361
+1531050020460,482,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,2,482,1,0,0,376
+1531050023681,465,get progress REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21822,265,1,2,463,1,0,0,366
+1531050024158,280,Get results REST evalwait:c128f5eb-5ff5-47ac-b635-8395f30eefe0.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,103665,266,1,2,114,1,0,0,0
+1531050024445,5,assert expected/actual,200,OK,Create request REST 1 P5 1-1,text,false,the expected result and the actual result was not equal.,66588,0,1,2,0,1,1,0,0
+1531050025971,453,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,452,1,0,0,366
+1531050031439,456,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,455,1,0,0,372
+1531050036906,451,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,450,1,0,0,365
+1531050042383,456,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,455,1,0,0,369
+1531050047868,448,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,447,1,0,0,363
+1531050053342,448,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,447,1,0,0,363
+1531050058820,449,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,448,1,0,0,363
+1531050064301,470,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,470,1,0,0,367
+1531050069809,276,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,276,1,0,0,160
+1531050075099,463,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,461,1,0,0,371
+1531050080578,535,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2756,267,1,1,534,1,0,0,369
+1531050086143,471,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2860,267,1,1,470,1,0,0,364
+1531050091641,574,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2864,267,1,1,573,1,0,0,372
+1531050097233,449,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,448,1,0,0,363
+1531050102710,667,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2892,267,1,1,666,1,0,0,366
+1531050108391,456,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2892,267,1,1,455,1,0,0,363
+1531050113873,448,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2892,267,1,1,448,1,0,0,362
+1531050119353,453,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2892,267,1,1,452,1,0,0,367
+1531050124829,456,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2892,267,1,1,455,1,0,0,371
+1531050130314,456,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2890,267,1,1,455,1,0,0,366
+1531050135797,476,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2863,267,1,1,475,1,0,0,359
+1531050141301,454,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2863,267,1,1,453,1,0,0,368
+1531050146769,452,get progress REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2764,267,1,1,451,1,0,0,362
+1531050147235,128,Get results REST evalwait2:0fc08f09-f7c9-4bbc-abff-dec85e22124d.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,20817,268,1,1,125,1,0,0,0
+1531050147378,460,delete workflow eval wait,200,OK,delete pipelines 1-1,text,false,test failed because lower priority pipeline ran before a higher priority pipeline,510,245,1,1,460,1,1,0,364
+1531050147847,339,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,339,1,0,0,0
+1531051114122,458,create workflow eval wait,201,Created,create pipelines 1-1,text,true,,815,706,1,1,458,1,0,0,365
+1531051114580,97,create workflow eval wait 2,201,Created,create pipelines 1-1,text,true,,817,708,1,1,97,1,0,0,0
+1531051114930,637,create request evalwait batch 500 P5,200,OK,Create request REST 1 P5 1-1,text,true,,583,10341,1,2,637,1,0,0,364
+1531051117569,679,get queues,200,OK,Create request REST 1 P5 1-1,text,true,,559494,220,1,2,264,1,0,0,160
+1531051118248,2,comparison of scores of two algorithm qeues,200,OK,Create request REST 1 P5 1-1,text,true,,3,0,1,2,0,1,0,0,0
+1531051118250,1,set max pods to -1,200,OK,Create request REST 1 P5 1-1,text,true,,0,0,1,2,0,1,0,0,0
+1531051123264,1462,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21601,265,1,2,1461,1,0,0,1374
+1531051129743,446,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21634,265,1,2,445,1,0,0,360
+1531051135209,482,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21634,265,1,2,481,1,0,0,362
+1531051140718,538,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21634,265,1,2,537,1,0,0,366
+1531051146284,473,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21634,265,1,2,471,1,0,0,367
+1531051151784,455,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21637,265,1,2,453,1,0,0,361
+1531051157261,467,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21637,265,1,2,465,1,0,0,364
+1531051162756,453,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21639,265,1,2,452,1,0,0,366
+1531051168221,493,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21639,265,1,2,491,1,0,0,365
+1531051173744,449,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21636,265,1,2,448,1,0,0,362
+1531051174950,1519,create request evalwait2 batch 100 that starts after a minute P1,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,585,2341,1,2,1518,1,0,0,1364
+1531051176469,1,set max pods to -1,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,0,0,1,2,0,1,0,0,0
+1531051179219,456,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,455,1,0,0,362
+1531051181491,1172,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2856,267,1,2,1171,1,0,0,363
+1531051184706,503,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,502,1,0,0,400
+1531051187690,452,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2859,267,1,2,451,1,0,0,366
+1531051190225,492,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,491,1,0,0,369
+1531051193173,449,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2882,267,1,2,448,1,0,0,357
+1531051195726,453,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,452,1,0,0,367
+1531051198645,473,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2882,267,1,2,472,1,0,0,372
+1531051201204,449,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,447,1,0,0,361
+1531051204129,450,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2882,267,1,2,449,1,0,0,360
+1531051206676,276,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,274,1,0,0,160
+1531051209605,251,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2882,267,1,2,251,1,0,0,162
+1531051211980,465,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,464,1,0,0,365
+1531051214883,1143,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2883,267,1,2,1142,1,0,0,363
+1531051217459,449,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,447,1,0,0,363
+1531051221050,460,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2887,267,1,2,460,1,0,0,366
+1531051222932,467,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21636,265,1,2,466,1,0,0,381
+1531051226519,509,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2887,267,1,2,508,1,0,0,380
+1531051228418,299,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,297,1,0,0,170
+1531051232053,600,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,599,1,0,0,515
+1531051233741,447,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,445,1,0,0,360
+1531051237675,449,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,449,1,0,0,363
+1531051239211,736,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21636,265,1,2,736,1,0,0,363
+1531051243134,445,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,445,1,0,0,360
+1531051244960,450,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,448,1,0,0,361
+1531051248598,450,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,449,1,0,0,363
+1531051250433,466,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21640,265,1,2,464,1,0,0,364
+1531051254070,447,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,447,1,0,0,360
+1531051255915,481,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21638,265,1,2,480,1,0,0,363
+1531051259530,456,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,455,1,0,0,369
+1531051261423,493,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21638,265,1,2,491,1,0,0,363
+1531051265001,1146,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,1145,1,0,0,1012
+1531051266932,547,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21638,265,1,2,546,1,0,0,427
+1531051271170,593,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,592,1,0,0,471
+1531051272494,457,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21638,265,1,2,455,1,0,0,369
+1531051276787,461,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,460,1,0,0,367
+1531051277974,244,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21634,265,1,2,244,1,0,0,159
+1531051282265,586,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,586,1,0,0,361
+1531051283228,479,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21607,265,1,2,478,1,0,0,366
+1531051287862,453,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,453,1,0,0,363
+1531051288720,468,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21611,265,1,2,467,1,0,0,363
+1531051293328,463,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,2,463,1,0,0,366
+1531051294211,455,get progress REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,21504,265,1,2,454,1,0,0,362
+1531051294678,337,Get results REST evalwait:715c52be-2aa2-4975-a0bf-aa2bf4613f0f.evalwait,200,OK,Create request REST 1 P5 1-1,text,true,,103377,266,1,2,174,1,0,0,0
+1531051295021,5,assert expected/actual,200,OK,Create request REST 1 P5 1-1,text,false,the expected result and the actual result was not equal.,66273,0,1,2,0,1,1,0,0
+1531051298816,446,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,445,1,0,0,358
+1531051304284,457,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,456,1,0,0,365
+1531051309767,452,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,452,1,0,0,366
+1531051315243,459,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,458,1,0,0,367
+1531051320715,491,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,491,1,0,0,406
+1531051326223,537,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,537,1,0,0,450
+1531051331782,456,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,455,1,0,0,364
+1531051337261,452,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,452,1,0,0,364
+1531051342736,551,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,550,1,0,0,398
+1531051348311,453,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,453,1,0,0,363
+1531051353786,453,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,452,1,0,0,367
+1531051359265,452,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2888,267,1,1,451,1,0,0,366
+1531051364730,487,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2891,267,1,1,486,1,0,0,371
+1531051370239,467,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2892,267,1,1,466,1,0,0,366
+1531051375727,455,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2866,267,1,1,454,1,0,0,362
+1531051381196,448,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2866,267,1,1,448,1,0,0,362
+1531051386658,451,get progress REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,2764,267,1,1,451,1,0,0,365
+1531051387120,114,Get results REST evalwait2:8d8021bd-7e21-4831-9cb2-c72dc3850df8.evalwait2,200,OK,Create request REST 3 after a minute running P1 2-1,text,true,,20833,268,1,1,110,1,0,0,0
+1531051387250,458,delete workflow eval wait,200,OK,delete pipelines 1-1,text,false,test failed because lower priority pipeline ran before a higher priority pipeline,510,245,1,1,458,1,1,0,364
+1531051387715,130,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,129,1,0,0,0
+1531051960136,481,create workflow eval wait,201,Created,create pipelines 1-1,text,true,,811,702,1,1,481,1,0,0,370
+1531051960810,579,create request eval wait priority 1,200,OK,Create request REST 2 2-1,text,true,,583,930,1,2,579,1,0,0,363
+1531051960789,602,create request eval wait priority 3,200,OK,Create request REST 1 1-1,text,true,,583,930,1,2,602,1,0,0,361
+1531051961391,1,set max pods to -1,200,OK,Create request REST 2 2-1,text,true,,0,0,1,2,0,1,0,0,0
+1531051963392,784,get queues,200,OK,Create request REST 1 1-1,text,true,,229795,220,1,2,456,1,0,0,362
+1531051964176,3,comparison of scores of two algorithm qeues,200,OK,Create request REST 1 1-1,text,true,,3,0,1,2,0,1,0,0,0
+1531051964179,1,set max pods to -1,200,OK,Create request REST 1 1-1,text,true,,0,0,1,2,0,1,0,0,0
+1531051966416,256,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2788,265,1,2,255,1,0,0,162
+1531051969195,524,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10453,265,1,2,523,1,0,0,367
+1531051971695,465,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,464,1,0,0,369
+1531051974740,545,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10456,265,1,2,544,1,0,0,365
+1531051977171,451,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2823,265,1,2,451,1,0,0,362
+1531051980306,461,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10456,265,1,2,460,1,0,0,363
+1531051982645,458,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2823,265,1,2,458,1,0,0,369
+1531051985788,552,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10456,265,1,2,551,1,0,0,369
+1531051988128,446,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2823,265,1,2,446,1,0,0,360
+1531051991360,492,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10456,265,1,2,491,1,0,0,370
+1531051993597,486,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2823,265,1,2,486,1,0,0,360
+1531051996869,380,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10456,265,1,2,379,1,0,0,159
+1531051999093,468,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2797,265,1,2,467,1,0,0,369
+1531052002276,452,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,451,1,0,0,366
+1531052004582,467,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2797,265,1,2,467,1,0,0,363
+1531052007750,446,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10583,265,1,2,445,1,0,0,359
+1531052010070,449,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2794,265,1,2,449,1,0,0,363
+1531052013219,449,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10587,265,1,2,448,1,0,0,362
+1531052015539,472,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,472,1,0,0,365
+1531052018687,337,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10588,265,1,2,336,1,0,0,160
+1531052021035,488,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,488,1,0,0,362
+1531052024044,486,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10588,265,1,2,485,1,0,0,361
+1531052026544,811,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,811,1,0,0,385
+1531052029551,265,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10586,265,1,2,264,1,0,0,159
+1531052032376,458,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,458,1,0,0,369
+1531052034838,461,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10562,265,1,2,460,1,0,0,158
+1531052037855,480,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,480,1,0,0,358
+1531052040323,453,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,452,1,0,0,367
+1531052043357,478,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,477,1,0,0,364
+1531052045799,487,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,486,1,0,0,366
+1531052048860,450,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,449,1,0,0,362
+1531052051307,577,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,576,1,0,0,363
+1531052054329,477,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,476,1,0,0,363
+1531052056905,473,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,472,1,0,0,388
+1531052059826,295,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,295,1,0,0,174
+1531052062406,476,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,475,1,0,0,363
+1531052065142,276,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,275,1,0,0,159
+1531052067905,393,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,391,1,0,0,303
+1531052070440,453,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,452,1,0,0,365
+1531052073320,454,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,453,1,0,0,369
+1531052075913,288,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,288,1,0,0,160
+1531052078795,246,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,245,1,0,0,160
+1531052081223,450,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,449,1,0,0,365
+1531052084061,448,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,447,1,0,0,361
+1531052086694,244,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,244,1,0,0,159
+1531052089532,286,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,286,1,0,0,160
+1531052091959,469,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,469,1,0,0,363
+1531052094835,472,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,471,1,0,0,363
+1531052097453,244,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,243,1,0,0,158
+1531052100328,450,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,449,1,0,0,364
+1531052102707,465,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,464,1,0,0,365
+1531052105798,449,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,448,1,0,0,360
+1531052108191,460,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,459,1,0,0,370
+1531052111269,467,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,466,1,0,0,363
+1531052113664,544,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,544,1,0,0,366
+1531052116758,413,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,413,1,0,0,159
+1531052119232,254,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,253,1,0,0,160
+1531052122187,483,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,482,1,0,0,364
+1531052124505,479,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,479,1,0,0,381
+1531052127685,464,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,463,1,0,0,369
+1531052130003,449,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,449,1,0,0,363
+1531052133170,451,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,450,1,0,0,364
+1531052135474,575,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,574,1,0,0,363
+1531052138660,454,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,453,1,0,0,364
+1531052141071,452,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,451,1,0,0,359
+1531052144137,449,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,448,1,0,0,363
+1531052146548,453,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,452,1,0,0,367
+1531052149607,527,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,526,1,0,0,364
+1531052152020,450,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,450,1,0,0,363
+1531052155158,451,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,450,1,0,0,361
+1531052157491,445,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,445,1,0,0,360
+1531052160633,447,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10559,265,1,2,446,1,0,0,361
+1531052162945,579,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2795,265,1,2,578,1,0,0,414
+1531052166101,454,get progress REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,10465,265,1,2,453,1,0,0,362
+1531052166564,111,Get results REST evalwait:8987084d-e237-4ddb-ab01-6f794cd4f604.evalwait,200,OK,Create request REST 1 1-1,text,true,,27535,266,1,2,108,1,0,0,0
+1531052168543,478,get progress REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,2701,265,1,1,478,1,0,0,363
+1531052169030,125,Get results REST evalwait:d6a7beff-1c74-4f10-a3e4-7aca1fcdb33e.evalwait,200,OK,Create request REST 2 2-1,text,true,,19772,266,1,1,122,1,0,0,0
+1531052169176,467,delete workflow eval wait,200,OK,delete pipelines 1-1,text,false,test failed because lower priority pipeline ran before a higher priority pipeline,510,245,1,1,467,1,1,0,367
+1531052181576,461,create workflow eval wait,201,Created,create pipelines 1-1,text,true,,811,702,1,1,461,1,0,0,362
+1531052182037,106,create workflow eval wait 2,201,Created,create pipelines 1-1,text,true,,812,703,1,1,106,1,0,0,0
+1531052182310,504,create request eval wait priority 3,200,OK,Create request REST 1 1-1,text,true,,583,930,1,2,504,1,0,0,365
+1531052182328,555,create request eval wait priority 1,200,OK,Create request REST 2 2-1,text,true,,585,931,1,2,555,1,0,0,367
+1531052182884,1,set max pods to -1,200,OK,Create request REST 2 2-1,text,true,,0,0,1,2,0,1,0,0,0
+1531052184815,905,get queues,200,OK,Create request REST 1 1-1,text,true,,221991,220,1,2,584,1,0,0,360
+1531052185720,2,comparison of scores of two algorithm qeues,200,OK,Create request REST 1 1-1,text,true,,3,0,1,2,0,1,0,0,0
+1531052185722,0,set max pods to -1,200,OK,Create request REST 1 1-1,text,true,,0,0,1,2,0,1,0,0,0
+1531052187903,267,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2698,267,1,2,266,1,0,0,160
+1531052190731,477,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10136,265,1,2,476,1,0,0,371
+1531052193194,450,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2701,267,1,2,450,1,0,0,365
+1531052196229,450,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10163,265,1,2,450,1,0,0,361
+1531052198664,499,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2701,267,1,2,499,1,0,0,365
+1531052201701,305,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10167,265,1,2,304,1,0,0,161
+1531052204183,538,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2701,267,1,2,537,1,0,0,361
+1531052207027,448,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10167,265,1,2,447,1,0,0,362
+1531052209742,540,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2800,267,1,2,540,1,0,0,370
+1531052212496,475,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10167,265,1,2,475,1,0,0,359
+1531052215303,279,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2804,267,1,2,278,1,0,0,160
+1531052217988,602,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10164,265,1,2,601,1,0,0,375
+1531052220602,450,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2828,267,1,2,449,1,0,0,365
+1531052223611,585,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10164,265,1,2,584,1,0,0,364
+1531052226074,467,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2832,267,1,2,467,1,0,0,361
+1531052229223,453,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10164,265,1,2,453,1,0,0,368
+1531052231563,513,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2832,267,1,2,513,1,0,0,364
+1531052234697,474,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10164,265,1,2,473,1,0,0,362
+1531052237085,448,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2833,267,1,2,447,1,0,0,362
+1531052240193,483,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10165,265,1,2,482,1,0,0,388
+1531052242558,446,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2807,267,1,2,445,1,0,0,361
+1531052245697,480,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10142,265,1,2,479,1,0,0,362
+1531052248025,476,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2804,267,1,2,476,1,0,0,363
+1531052251200,539,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10142,265,1,2,538,1,0,0,360
+1531052253524,444,get progress REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2710,267,1,2,443,1,0,0,359
+1531052253976,107,Get results REST evalwait2:5df7bc90-2240-4d54-b317-0e73b4078bd0.evalwait2,200,OK,Create request REST 2 2-1,text,true,,19777,268,1,2,106,1,0,0,0
+1531052256755,448,get progress REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,10045,265,1,1,447,1,0,0,360
+1531052257211,113,Get results REST evalwait:a5203147-09f7-4633-a3ab-e7b722a89b05.evalwait,200,OK,Create request REST 1 1-1,text,true,,27111,266,1,1,110,1,0,0,0
+1531052257339,612,delete workflow eval wait,200,OK,delete pipelines 1-1,text,true,,510,245,1,1,612,1,0,0,368
+1531052257958,109,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,109,1,0,0,0
