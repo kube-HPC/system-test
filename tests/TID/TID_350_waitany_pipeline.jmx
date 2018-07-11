@@ -52,7 +52,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">TID_350expected.json</stringProp>
+            <stringProp name="Argument.value">TID_360expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">

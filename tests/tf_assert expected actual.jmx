@@ -94,11 +94,13 @@ vars.put (&quot;responseFinal&quot;,dd);
 String id=vars.get(&quot;id&quot;);
 String time=vars.get (&quot;timeStamp&quot;);
 String timeTook= vars.get (&quot;timeTook&quot;);
+String name = vars.get (&quot;pipelineName&quot;);
 
 
 String rep1=response.replace(&quot;{id}&quot;, id);
 String rep2=rep1.replace (&quot;{timeStamp}&quot;,time);
 rep2=rep2.replace (&quot;\&quot;{timeTook}\&quot;&quot;, timeTook);
+//rep2=rep2.replace (&quot;{pipeLineName}&quot;, name);
 //rep2=rep2.replaceAll (&quot;\n&quot;,&quot;&quot;);
 //rep2=rep2.replaceAll(&quot;\t&quot;,&quot;&quot;);
 //rep2=rep2.replaceAll(&quot; &quot;,&quot;&quot;);
@@ -174,7 +176,8 @@ if (actual.equals(expected))
 else 
 {
 	Failure=true;
-	FailureMessage=&quot;the expected result and the actual result was not equal.&quot;;
+	FailureMessage=&quot;the expected result and the actual result was not equal. \nthe actual respond was:\n&quot;+ actual;
+	
 //	print (&quot;fail&quot;);
 }
 </stringProp>

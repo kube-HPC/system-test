@@ -28,6 +28,7 @@ except IndexError:
 
 
 def get_system_version():
+    """returnes the current system version og the UUT"""
     ip = read_from_csvVersion()
     url = 'https://'+ip+'/hkube/monitor-server/versions.json'
     r = requests.get(url, auth=('kube', 'ubadmin'), verify=False)
@@ -36,6 +37,7 @@ def get_system_version():
 
 
 def find_element_pos(filepos, element_text, status, version):
+
     r = csv.reader(open(filepos, 'r'))
     lines = list(r)
     found = False
@@ -60,11 +62,13 @@ def read_from_jtl(filename):
     with open(base+filename, 'r') as f:
         reader = csv.reader(f)
         fail = False
+        failMessage=""
         for row in reader:
             if row[7] == "false":
                 # print row[8]
+                failMessage = row[8]
                 fail = True
-    return fail
+    return fail,failMessage
 
 def read_from_csvVersion():
     with open('../testConfigFiles/ipConfigs.csv', 'r') as f:
@@ -98,11 +102,13 @@ ver = get_system_version()
 
 succsess = True
 names = []
+messages=[]
 for filename in os.listdir(base):
     if filename.endswith(".jtl"):
-        now = read_from_jtl(filename)
+        now,mess = read_from_jtl(filename)
         if now:
             names.append(filename)
+            messages.append(mess)
             write_to_csv(filename, "fail", ver)
             find_element_pos(latest_results, filename, "fail", ver)
             succsess = False
@@ -115,8 +121,10 @@ for filename in os.listdir(base):
 print ('*************')
 if succsess == False:
     print ('The following tests has failed:')
-    for name in names:
-        print (name)
+    for i in range (len(names)):
+        print (names[i])
+        print(messages[i])
+        
     sys.exit (1)
 
 else:
