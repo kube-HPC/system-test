@@ -9,3 +9,5 @@ testConfigFiles/*
 tests/currentId
 tests/defaultFile.csv
 tests/jmeter.log
+run_files/currentId
+
