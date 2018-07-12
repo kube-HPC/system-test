@@ -96,7 +96,7 @@
     &quot;name&quot;: &quot;evalcron1minutes&quot;,&#xd;
     &quot;flowInput&quot;: {&#xd;
         &quot;inputs&quot;: [&#xd;
-            10000&#xd;
+            65000&#xd;
         ]&#xd;
     },&#xd;
     &quot;nodes&quot;: [&#xd;
@@ -109,7 +109,7 @@
             &quot;extraData&quot;: {&#xd;
                 &quot;code&quot;: [&#xd;
                     &quot;(input,require)=&gt; {&quot;,&#xd;
-                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
+                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(3.14),input[0])});}&quot;&#xd;
                 ]&#xd;
             }&#xd;
         }&#xd;

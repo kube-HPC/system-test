@@ -119,10 +119,12 @@ for filename in os.listdir(base):
         # print (filename)
 
 print ('*************')
-if succsess == False:
+if not succsess:
     print ('The following tests has failed:')
-    for i in range (len(names)):
+    for i in range(len(names)):
+        print ("*****Test name*****")
         print (names[i])
+        print ("*****error message*****")
         print(messages[i])
         
     sys.exit (1)

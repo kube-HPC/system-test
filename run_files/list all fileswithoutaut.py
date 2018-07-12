@@ -1,10 +1,10 @@
 import os
 import sys
 
-# try:
-#     base = sys.argv[1]
-# except:
-#     base = '/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
+try:
+    base = sys.argv[1]
+except:
+    base = '/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
 
 # file_output = open("all TID not automated.txt", "w")
 #
@@ -16,7 +16,7 @@ import sys
 # file_output.close()
 
 
-for filename in os.listdir():
+for filename in os.listdir(base):
     if filename.__contains__("indeviduals"):
         file_output = open(filename, "r")
         st = file_output.read()

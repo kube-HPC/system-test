@@ -11,3 +11,5 @@ tests/defaultFile.csv
 tests/jmeter.log
 run_files/currentId
 
+run_files/oneTest.sh
+run_files/all TID.txt

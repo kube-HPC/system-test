@@ -449,7 +449,7 @@ vars.put (&quot;responsehook&quot;,responsehook);
         <hashTree>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">status</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..data.status</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..status</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>

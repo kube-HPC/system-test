@@ -456,7 +456,7 @@ else
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
               <intProp name="Assertion.test_type">2</intProp>
-              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.custom_message">one or more of the following strings ware not found in the getProgress response:&quot;status&quot;,&quot;details&quot;,&quot;pipeline&quot;</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>

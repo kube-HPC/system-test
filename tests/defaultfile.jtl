@@ -4671,3 +4671,63 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1531142232671,283,get progress REST evalwait2:7c6006e7-5f85-4acf-9c88-47b33c1ab938.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2808,267,1,2,283,1,0,0,159
 1531142237693,455,get progress REST evalwait2:bdd62484-4119-4038-864f-6e780d1cc73a.evalwait2,200,OK,Create request REST 3 after a minute running 3-1,text,true,,2748,267,1,2,455,1,0,0,368
 1531142237972,459,get progress REST evalwait2:7c6006e7-5f85-4acf-9c88-47b33c1ab938.evalwait2,200,OK,Create request REST 2 2-1,text,true,,2808,267,1,2,459,1,0,0,362
+1531298973819,522,create workflow evalcron1minutes,201,Created,create pipeline 1-1,text,true,,888,847,1,1,522,1,0,0,374
+1531299034475,515,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,2662,260,1,1,514,1,0,0,380
+1531299094992,494,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,2957,260,1,1,492,1,0,0,374
+1531299155487,505,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3296,260,1,1,504,1,0,0,375
+1531299215993,527,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3636,260,1,1,523,1,0,0,381
+1531299276520,707,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3975,260,1,1,705,1,0,0,491
+1531299277227,13,assert times of the cron job,200,OK,get results for cron jobs 1-1,text,true,,33,0,1,1,0,1,0,0,0
+1531299277271,494,create workflow noncron,201,Created,get results by the wrong pipeline name 2-1,text,true,,845,782,1,1,493,1,0,0,391
+1531299278067,150,execute noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,581,391,1,1,150,1,0,0,0
+1531299278218,1,set max pods to -1,200,OK,get results by the wrong pipeline name 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1531299283243,479,get progress REST noncron:ddebe5ef-6038-412a-9243-f94b34a9872c.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2719,263,1,1,477,1,0,0,376
+1531299283745,113,Get results REST noncron:ddebe5ef-6038-412a-9243-f94b34a9872c.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,4954,264,1,1,112,1,0,0,0
+1531299283860,87,get results for not exisiting pipeline name,404,Not Found,get results by the wrong pipeline name 2-1,text,true,,2905,252,1,1,86,1,0,0,0
+1531299283949,88,get cron results of a non cron pipeline,404,Not Found,get results by the wrong pipeline name 2-1,text,true,,2883,243,1,1,87,1,0,0,0
+1531299284038,112,delete workflowdemme,200,OK,get results by the wrong pipeline name 2-1,text,true,,510,244,1,1,112,1,0,0,0
+1531299284158,492,delete workflow evalcron1minutes,200,OK,delete pipeline 1-1,text,true,,510,253,1,1,492,1,0,0,376
+1531305648411,557,create workflow evalcron1minutes,201,Created,create pipeline 1-1,text,true,,892,851,1,1,557,1,0,0,445
+1531305709141,856,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,4019,260,1,1,854,1,0,0,377
+1531305769998,593,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3975,260,1,1,592,1,0,0,372
+1531305839265,503,delete workflow evalcron1minutes,200,OK,delete pipeline 1-1,text,true,,510,253,1,1,503,1,0,0,377
+1531305887431,481,create workflow evalcron1minutes,201,Created,create pipeline 1-1,text,true,,891,850,1,1,481,1,0,0,379
+1531305948050,518,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3729,260,1,1,516,1,0,0,370
+1531306008567,551,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3688,260,1,1,550,1,0,0,382
+1531306069118,526,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3691,260,1,1,525,1,0,0,391
+1531306129646,510,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3790,260,1,1,509,1,0,0,372
+1531306190156,669,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3889,260,1,1,668,1,0,0,372
+1531306190825,12,assert times of the cron job,200,OK,get results for cron jobs 1-1,text,false,,66,0,1,1,0,1,1,0,0
+1531306190888,473,create workflow noncron,201,Created,get results by the wrong pipeline name 2-1,text,true,,845,782,1,1,473,1,0,0,372
+1531306191662,164,execute noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,581,391,1,1,164,1,0,0,0
+1531306191827,2,set max pods to -1,200,OK,get results by the wrong pipeline name 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1531306196847,480,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2712,263,1,1,479,1,0,0,390
+1531306202349,468,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2715,263,1,1,467,1,0,0,375
+1531306207844,460,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2715,263,1,1,459,1,0,0,371
+1531306213329,500,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2715,263,1,1,499,1,0,0,407
+1531306218848,474,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2715,263,1,1,474,1,0,0,383
+1531306224348,464,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2715,263,1,1,463,1,0,0,375
+1531306229840,469,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2715,263,1,1,468,1,0,0,381
+1531306235329,459,get progress REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2722,263,1,1,458,1,0,0,371
+1531306235798,109,Get results REST noncron:613368ed-c0d9-409d-9f68-657cbdc81c59.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,4957,264,1,1,106,1,0,0,0
+1531306235913,90,get results for not exisiting pipeline name,404,Not Found,get results by the wrong pipeline name 2-1,text,true,,2907,252,1,1,90,1,0,0,0
+1531306236004,155,get cron results of a non cron pipeline,404,Not Found,get results by the wrong pipeline name 2-1,text,true,,2885,243,1,1,155,1,0,0,0
+1531306236160,97,delete workflowdemme,200,OK,get results by the wrong pipeline name 2-1,text,true,,510,244,1,1,97,1,0,0,0
+1531306236263,481,delete workflow evalcron1minutes,200,OK,delete pipeline 1-1,text,true,,510,253,1,1,481,1,0,0,383
+1531306252904,492,create workflow evalcron1minutes,201,Created,create pipeline 1-1,text,true,,891,850,1,1,492,1,0,0,377
+1531306313560,746,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,4034,260,1,1,745,1,0,0,373
+1531306374307,532,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3991,260,1,1,531,1,0,0,386
+1531306434839,598,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3991,260,1,1,597,1,0,0,376
+1531306495439,537,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3992,260,1,1,536,1,0,0,368
+1531306555976,519,create request for results evalcron1minutes,200,OK,get results for cron jobs 1-1,text,true,,3992,260,1,1,518,1,0,0,376
+1531306556495,10,assert times of the cron job,200,OK,get results for cron jobs 1-1,text,true,,33,0,1,1,0,1,0,0,0
+1531306556545,488,create workflow noncron,201,Created,get results by the wrong pipeline name 2-1,text,true,,845,782,1,1,488,1,0,0,373
+1531306557333,212,execute noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,581,391,1,1,211,1,0,0,0
+1531306557545,1,set max pods to -1,200,OK,get results by the wrong pipeline name 2-1,text,true,,0,0,1,1,0,1,0,0,0
+1531306562568,482,get progress REST noncron:57f908d1-8cec-4a9b-b6a2-620df2df8131.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2790,263,1,1,482,1,0,0,372
+1531306568064,462,get progress REST noncron:57f908d1-8cec-4a9b-b6a2-620df2df8131.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,2722,263,1,1,462,1,0,0,370
+1531306568534,462,Get results REST noncron:57f908d1-8cec-4a9b-b6a2-620df2df8131.noncron,200,OK,get results by the wrong pipeline name 2-1,text,true,,4954,264,1,1,460,1,0,0,0
+1531306568999,87,get results for not exisiting pipeline name,404,Not Found,get results by the wrong pipeline name 2-1,text,true,,2905,252,1,1,87,1,0,0,0
+1531306569086,107,get cron results of a non cron pipeline,404,Not Found,get results by the wrong pipeline name 2-1,text,true,,2883,243,1,1,106,1,0,0,0
+1531306569194,100,delete workflowdemme,200,OK,get results by the wrong pipeline name 2-1,text,true,,510,244,1,1,100,1,0,0,0
+1531306569297,464,delete workflow evalcron1minutes,200,OK,delete pipeline 1-1,text,true,,510,253,1,1,464,1,0,0,369
