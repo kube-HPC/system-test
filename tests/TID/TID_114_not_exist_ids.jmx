@@ -465,7 +465,7 @@ else
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="false">
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
             <stringProp name="ConstantTimer.delay">2000</stringProp>
           </ConstantTimer>
           <hashTree/>
