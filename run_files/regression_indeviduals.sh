@@ -20,7 +20,7 @@ jmeter -n -t "../tests/TID/TID_12_1_Define_the_Pipeline_hirarchy.jmx" -l "result
 jmeter -n -t "../tests/TID/TID_30_Define_the_pipelineName.jmx" -l "results/TID_30_Define_the_pipelineName.jtl" -e -o "results/dashboards/TID_30_Define_the_pipelineName"
 # jmeter -n -t "../tests/TID/TID_50_cancel_pipeline.jmx" -l "results/TID_50_cancel_pipeline.jtl" -e -o "results/dashboards/TID_50_cancel_pipeline"
 jmeter -n -t "../tests/TID/TID_51_run_pipelines_in_a_queue.jmx" -l "results/TID_51_run_pipelines_in_a_queue.jtl" -e -o "results/dashboards/TID_51_run_pipelines_in_a_queue"
-jmeter -n -t "../tests/TID/TID_70_status Manager.jmx" -l "results/TID_70_status Manager.jtl" -e -o "results/dashboards/TID_70_status Manager"
+jmeter -n -t "../tests/TID/TID_70_status_ManagerEval.jmx" -l "results/TID_70_status_ManagerEval.jtl" -e -o "results/dashboards/TID_70_status_ManagerEval"
 jmeter -n -t "../tests/TID/TID_114_not_exist_ids.jmx" -l "results/TID_114_not_exist_ids.jtl" -e -o "results/dashboards/TID_114_not_exist_ids"
 # jmeter -n -t "../tests/TID/TID_113_status_manager.jmx" -l "results/TID_113_status_manager.jtl" -e -o "results/dashboards/TID_113_status_manager"
 jmeter -n -t "../tests/TID/TID_110_sevirity_levels.jmx" -l "results/TID_110_sevirity_levels.jtl" -e -o "results/dashboards/TID_110_sevirity_levels"
