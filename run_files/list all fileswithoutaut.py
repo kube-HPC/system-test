@@ -19,6 +19,7 @@ except:
 for filename in os.listdir(base):
     if filename.__contains__("indeviduals"):
         file_output = open(filename, "r")
+        print (filename)
         st = file_output.read()
         arr = st.split("\n")
 
