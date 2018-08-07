@@ -12,30 +12,33 @@ rm -rf results/dashboards/*
 rm results/*.jtl
 #jmeter -n -t "../tests/TID/test.jmx" -l "results/resultsFile.jtl" -e -o "results/dashboards/dashboardFile"
 
-jmeter -n -t "../tests/TID/TID_181_1_1apak 100 batch 1thread.jmx" -l "results/TID_181_1_1apak 100 batch 1thread.jtl" -e -o "results/dashboards/TID_181_1_1apak 100 batch 1thread"
+jmeter -n -t "../tests/TID/TID_181_5_1_eval_500_batch_1_thread_30sec.jmx" -l "results/TID_181_5_1_eval_500_batch_1_thread_30sec.jtl" -e -o "results/dashboards/TID_181_5_1_eval_500_batch_1_thread_30sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_1_2apak 100 batch 4threads.jmx" -l "results/TID_181_1_2apak 100 batch 4threads.jtl" -e -o "results/dashboards/TID_181_1_2apak 100 batch 4threads"
+jmeter -n -t "../tests/TID/TID_181_2_2_eval_500_batch_4_thread_15sec.jmx" -l "results/TID_181_2_2_eval_500_batch_4_thread_15sec.jtl" -e -o "results/dashboards/TID_181_2_2_eval_500_batch_4_thread_15sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_1_3_apak 100 8 min batch.jmx" -l "results/TID_181_1_3_apak 100 8 min batch.jtl" -e -o "results/dashboards/TID_181_1_3_apak 100 8 min batch"
+jmeter -n -t "../tests/TID/TID_181_7_cpu_load.jmx" -l "results/TID_181_7_cpu_load.jtl" -e -o "results/dashboards/TID_181_7_cpu_load"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_1_4apak 100  8 min batch 4threads.jmx" -l "results/TID_181_1_4apak 100  8 min batch 4threads.jtl" -e -o "results/dashboards/TID_181_1_4apak 100  8 min batch 4threads"
+jmeter -n -t "../tests/TID/TID_181_6_1_eval_1000_batch_1_thread_30sec.jmx" -l "results/TID_181_6_1_eval_1000_batch_1_thread_30sec.jtl" -e -o "results/dashboards/TID_181_6_1_eval_1000_batch_1_thread_30sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_2_1apak 500 batch 1thread.jmx" -l "results/TID_181_2_1apak 500 batch 1thread.jtl" -e -o "results/dashboards/TID_181_2_1apak 500 batch 1thread"
+jmeter -n -t "../tests/TID/TID_181_5_2_eval_500_batch_4_thread_30sec.jmx" -l "results/TID_181_5_2_eval_500_batch_4_thread_30sec.jtl" -e -o "results/dashboards/TID_181_5_2_eval_500_batch_4_thread_30sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_2_2apak 500 batch 4 threads.jmx" -l "results/TID_181_2_2apak 500 batch 4 threads.jtl" -e -o "results/dashboards/TID_181_2_2apak 500 batch 4 threads"
+jmeter -n -t "../tests/TID/TID_181_1_2_eval_100_batch_4_threads_15sec.jmx" -l "results/TID_181_1_2_eval_100_batch_4_threads_15sec.jtl" -e -o "results/dashboards/TID_181_1_2_eval_100_batch_4_threads_15sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_2_3apak 500 batch 8min 1thread.jmx" -l "results/TID_181_2_3apak 500 batch 8min 1thread.jtl" -e -o "results/dashboards/TID_181_2_3apak 500 batch 8min 1thread"
+jmeter -n -t "../tests/TID/TID_181_3_1_eval_1000_batch_1_thread_15sec.jmx" -l "results/TID_181_3_1_eval_1000_batch_1_thread_15sec.jtl" -e -o "results/dashboards/TID_181_3_1_eval_1000_batch_1_thread_15sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_2_4apak 500 batch 8min 4thread.jmx" -l "results/TID_181_2_4apak 500 batch 8min 4thread.jtl" -e -o "results/dashboards/TID_181_2_4apak 500 batch 8min 4thread"
+jmeter -n -t "../tests/TID/TID_181_3_2_eval_1000_batch_4_thread_15sec.jmx" -l "results/TID_181_3_2_eval_1000_batch_4_thread_15sec.jtl" -e -o "results/dashboards/TID_181_3_2_eval_1000_batch_4_thread_15sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_3_1apak 1000 batch 1min 1thread.jmx" -l "results/TID_181_3_1apak 1000 batch 1min 1thread.jtl" -e -o "results/dashboards/TID_181_3_1apak 1000 batch 1min 1thread"
+jmeter -n -t "../tests/TID/TID_181_1_1_eval_100_batch_1_thread_15sec.jmx" -l "results/TID_181_1_1_eval_100_batch_1_thread_15sec.jtl" -e -o "results/dashboards/TID_181_1_1_eval_100_batch_1_thread_15sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_3_2apak 1000 batch 4 threads 1min 1thread.jmx" -l "results/TID_181_3_2apak 1000 batch 4 threads 1min 1thread.jtl" -e -o "results/dashboards/TID_181_3_2apak 1000 batch 4 threads 1min 1thread"
+jmeter -n -t "../tests/TID/TID_181_4_2_eval_100_batch_4_thread_30sec.jmx" -l "results/TID_181_4_2_eval_100_batch_4_thread_30sec.jtl" -e -o "results/dashboards/TID_181_4_2_eval_100_batch_4_thread_30sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_3_3apak 1000 batch 8min 1thread.jmx" -l "results/TID_181_3_3apak 1000 batch 8min 1thread.jtl" -e -o "results/dashboards/TID_181_3_3apak 1000 batch 8min 1thread"
+jmeter -n -t "../tests/TID/TID_181_2_1_eval_500_batch_1_thread_15sec.jmx" -l "results/TID_181_2_1_eval_500_batch_1_thread_15sec.jtl" -e -o "results/dashboards/TID_181_2_1_eval_500_batch_1_thread_15sec"
 sleep 10
-jmeter -n -t "../tests/TID/TID_181_3_4apak 1000 batch 8min 4thread.jmx" -l "results/TID_181_3_4apak 1000 batch 8min 4thread.jtl" -e -o "results/dashboards/TID_181_3_4apak 1000 batch 8min 4thread"
+jmeter -n -t "../tests/TID/TID_181_6_2_eval_1000_batch_4_thread_30sec.jmx" -l "results/TID_181_6_2_eval_1000_batch_4_thread_30sec.jtl" -e -o "results/dashboards/TID_181_6_2_eval_1000_batch_4_thread_30sec"
 sleep 10
+jmeter -n -t "../tests/TID/TID_181_4_1_eval_100_batch_1_thread_30sec.jmx" -l "results/TID_181_4_1_eval_100_batch_1_thread_30sec.jtl" -e -o "results/dashboards/TID_181_4_1_eval_100_batch_1_thread_30sec"
+sleep 10
+
 
 
 python getResults.py results/

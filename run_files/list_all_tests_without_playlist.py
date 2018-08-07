@@ -2,12 +2,16 @@ import os
 import sys
 
 try:
-    base_tid = sys.argv[1]
+    flag_file = sys.argv[1]
+except IndexError:
+    flag_file = 0
+try:
+    base_tid = sys.argv[2]
 except IndexError:
     base_tid = '/home/eitang/WorkStuff/TestManager/system-tests/tests/TID'
 
 try:
-    base_files = sys.argv[2]
+    base_files = sys.argv[3]
 except IndexError:
     base_files = '/home/eitang/WorkStuff/TestManager/system-tests/run_files'
 
@@ -43,13 +47,14 @@ def not_found_tests(all_tests, listed_tests):
     for a in all_tests:
         if a not in listed_tests:
             arr.append(a)
-            print (a)
+            print (a[:-4])
     return arr
 
 
 arr = not_found_tests(list_all_tests(), list_all_automated_tests())
 arr.sort()
 
-file_output = open("not_in_playlist_tests.txt", "w")
-for filename in arr:
-    file_output.write(filename + "\n\n")
+if flag_file:
+    file_output = open("not_in_playlist_tests.txt", "w")
+    for filename in arr:
+        file_output.write(filename + "\n\n")

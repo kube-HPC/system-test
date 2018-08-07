@@ -4,59 +4,7 @@ TID_111_fail_pods_while_running_eval.jmx
 
 TID_112_webhookEval.jmx
 
-TID_113_status_manager.jmx
-
 TID_115_max_num_of_algo_retries.jmx
-
-TID_120_system_logsEval.jmx
-
-TID_161_12_eval_batch_fail_the_api_server.jmx
-
-TID_161_13_eval_batch_and_fail_worker_pods.jmx
-
-TID_161_14_eval_batch_and_fail_pods_pipeline.jmx
-
-TID_161_15_eval_batch_and_fail_pods_etcd.jmx
-
-TID_161_16_eval_batch_and_fail_jaeger.jmx
-
-TID_161_17_eval_batch_and_fail_pods_redis_sentinal.jmx
-
-TID_161_18_eval_batch_and_fail_pods_redis_server.jmx
-
-TID_161_19_eval_batch_and_fail_pods_http_backend.jmx
-
-TID_161_21_eval_batch_and_fail_pods_simulator_.jmx
-
-TID_161_22_eval_batch_and_fail_pods_monitor_server_.jmx
-
-TID_161_23_eval_batch_and_fail_es_data.jmx
-
-TID_161_24_eval_batch_and_fail_es_client.jmx
-
-TID_161_25_eval_batch_and_fail_es_master.jmx
-
-TID_161_26_eval_batch_and_fail_kibana.jmx
-
-TID_161_27_eval_batch_and_fail_kubernetes_dashboard.jmx
-
-TID_161_28_eval_batch_and_fail_kubedns-autoscalar.jmx
-
-TID_161_29_eval_batch_and_fail_kube-dns.jmx
-
-TID_161_30_eval_and_fail_algo_queue.jmx
-
-TID_161_31_eval_and_fail_prometheus.jmx
-
-TID_161_32_eval_and_fail_trigger_service.jmx
-
-TID_161_33_eval_and_fail_task_executor.jmx
-
-TID_161_34_eval_and_fail_resource_manager.jmx
-
-TID_161_35_eval_and_fail_pipeline_driver_queue.jmx
-
-TID_161_36_eval_and_fail_algorithm_operator.jmx
 
 TID_170_10_percent_overhead.jmx
 
@@ -78,32 +26,6 @@ TID_170_10_percent_overhead60sec_500times.jmx
 
 TID_170_1_10_percent_overhead_batch.jmx
 
-TID_181_1_1_eval_100_batch_1_thread_15sec.jmx
-
-TID_181_1_2_eval_100_batch_4_threads_15sec.jmx
-
-TID_181_2_1_eval_500_batch_1_thread_15sec.jmx
-
-TID_181_2_2_eval_500_batch_4_thread_15sec.jmx
-
-TID_181_3_1_eval_1000_batch_1_thread_15sec.jmx
-
-TID_181_3_2_eval_1000_batch_4_thread_15sec.jmx
-
-TID_181_4_1_eval_100_batch_1_thread_30sec.jmx
-
-TID_181_4_2_eval_100_batch_4_thread_30sec.jmx
-
-TID_181_5_1_eval_500_batch_1_thread_30sec.jmx
-
-TID_181_5_2_eval_500_batch_4_thread_30sec.jmx
-
-TID_181_6_1_eval_1000_batch_1_thread_30sec.jmx
-
-TID_181_6_2_eval_1000_batch_4_thread_30sec.jmx
-
-TID_181_7_cpu_load.jmx
-
 TID_182_1_burst_test_batchSize.jmx
 
 TID_182_2_burst_test_time.jmx
@@ -124,21 +46,7 @@ TID_206_pipeline_monitoring.jmx
 
 TID_210_weekendTest_eval.jmx
 
-TID_300_define_the_order_of_the_pipeline.jmx
-
-TID_371_5000_batch_of_prime.jmx
-
-TID_380_10pipelinesInParallel.jmx
-
-TID_390_10X6_requests.jmx
-
 TID_400_manyBytes.jmx
-
-TID_420_checkHotPods_continue_running.jmx
-
-TID_430_1_cron_jobs.jmx
-
-TID_430_cron_jobs.jmx
 
 TID_440_1_pipelines_by_priority.jmx
 
@@ -156,17 +64,7 @@ TID_440_6_use_all_resources_and_check_stopping_for_workers.jmx
 
 TID_450_pipeline_trigger.jmx
 
-TID_460_algo_statuses.jmx
-
 TID_470_dismiss_resources.jmx
-
-TID_480_ttl_test.jmx
-
-TID_490_override_pipeline_options.jmx
-
-TID_50_1_stop_pipeline_that_didnt_start.jmx
-
-TID_50_cancel_pipeline.jmx
 
 TID_51_run_pipelines_in_a_queue.jmx
 

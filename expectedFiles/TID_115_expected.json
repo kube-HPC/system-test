@@ -1,16 +1,8 @@
 {
-    "jobId": "{id}",
-    "timestamp": "{timeStamp}",
-    "pipeline": "evalwait",
-    "data": [
-      {
-        "nodeName": "evalsleep",
-        "batchIndex": 1,
-        "algorithmName": "eval-alg",
-        "result": 1
-      }
-    ],
-    "status": "completed",
-    "timeTook": "{timeTook}",
-    "storageModule": "@hkube/s3-adapter"
-  }
+  "jobId":"{id}",
+  "timestamp":"{timeStamp}",
+  "pipeline":"evalwait",
+  "status":"failed",
+  "error":"1/1 (100%) failed tasks, batch tolerance is 80%, error: CrashLoopBackOff",
+  "timeTook":"{timeTook}"
+}

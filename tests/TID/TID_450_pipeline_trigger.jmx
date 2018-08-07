@@ -108,10 +108,8 @@
                 ]&#xd;
             }&#xd;
         }&#xd;
-    ],&#xd;
-    &quot;triggers&quot;: {&#xd;
-        &quot;pipelines&quot;:[&quot;continue-pipeline&quot;]&#xd;
-    }&#xd;
+    ]&#xd;
+&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -155,7 +153,10 @@
                 ]&#xd;
             }&#xd;
         }&#xd;
-    ]&#xd;
+    ],&#xd;
+        &quot;triggers&quot;: {&#xd;
+        &quot;pipelines&quot;:[&quot;evalwaitWithtrigger&quot;]&#xd;
+    }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
