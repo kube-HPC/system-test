@@ -87,13 +87,13 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">50</stringProp>
+            <stringProp name="Argument.value">20</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflow" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="create workflows" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -108,14 +108,88 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow add mult" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow abc-A#" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;addmult&quot;,&#xd;
+    &quot;name&quot;: &quot;abc-A#&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;@flowInput.addInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0][0]+input[0][1]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalmul&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+            	&quot;@evaladd&quot;,&#xd;
+                &quot;@flowInput.multInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0] * input[1][0]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="913770671">pipeline name must contain only alphanumeric, dash, dot or underscore</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">true</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">60000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow abc-A" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;name&quot;: &quot;abc-A&quot;,&#xd;
     &quot;nodes&quot;: [&#xd;
         {&#xd;
             &quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
@@ -167,27 +241,115 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow cpu-load-1" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow AA$A" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-   &quot;name&quot;: &quot;cpu-load-1&quot;,&#xd;
-   &quot;nodes&quot;: [&#xd;
-       {&#xd;
-           &quot;nodeName&quot;: &quot;node1&quot;,&#xd;
-           &quot;algorithmName&quot;: &quot;cpu-load&quot;,&#xd;
+    &quot;name&quot;: &quot;AA$A&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                &quot;#@flowInput.inputs&quot;&#xd;
-            ]&#xd;
-       }&#xd;
-   ],&#xd;
-   &quot;options&quot;: {&#xd;
-       &quot;batchTolerance&quot;: 100,&#xd;
-       &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-   }&#xd;
+                &quot;@flowInput.addInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0][0]+input[0][1]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalmul&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+            	&quot;@evaladd&quot;,&#xd;
+                &quot;@flowInput.multInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0] * input[1][0]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ]&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="913770671">pipeline name must contain only alphanumeric, dash, dot or underscore</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">true</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow AAA" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;name&quot;: &quot;AAA&quot;,&#xd;
+    &quot;nodes&quot;: [&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;@flowInput.addInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0][0]+input[0][1]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;evalmul&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+            	&quot;@evaladd&quot;,&#xd;
+                &quot;@flowInput.multInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0] * input[1][0]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        }&#xd;
+    ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -208,46 +370,45 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow cpu-load-1" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow AAA" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;cpu-load-1&quot;,&#xd;
+    &quot;name&quot;: &quot;AAA&quot;,&#xd;
     &quot;nodes&quot;: [&#xd;
         {&#xd;
-            &quot;nodeName&quot;: &quot;eval1&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
+            &quot;nodeName&quot;: &quot;evaladd&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;A&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                &quot;@flowInput.range&quot;&#xd;
+                &quot;@flowInput.addInput&quot;&#xd;
             ],&#xd;
             &quot;extraData&quot;: {&#xd;
                 &quot;code&quot;: [&#xd;
-                    &quot;(input) =&gt; {&quot;,&#xd;
-                    &quot;const range = Array.from(Array(input[0]).keys());&quot;,&#xd;
-                    &quot;return range }&quot;&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0][0]+input[0][1]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
                 ]&#xd;
             }&#xd;
         },&#xd;
         {&#xd;
-            &quot;nodeName&quot;: &quot;node1&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;cpu-load&quot;,&#xd;
+            &quot;nodeName&quot;: &quot;evalmul&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                &#xd;
-                {&#xd;
-                    &quot;cpu&quot;: 2,&#xd;
-                    &quot;duration&quot;: 20&#xd;
-                },&#xd;
-                    &quot;#@eval1&quot;&#xd;
-            ]&#xd;
+            	&quot;@evaladd&quot;,&#xd;
+                &quot;@flowInput.multInput&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input,require)=&gt; {&quot;,&#xd;
+                    &quot;const result = input[0] * input[1][0]&quot;,&#xd;
+                    &quot;return result;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
         }&#xd;
-    ],&#xd;
-    &quot;options&quot;: {&#xd;
-        &quot;batchTolerance&quot;: 100,&#xd;
-        &quot;progressVerbosityLevel&quot;: &quot;info&quot;&#xd;
-    }&#xd;
+    ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -269,73 +430,34 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored cpu-load" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="store algorithms" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1513166220000</longProp>
-        <longProp name="ThreadGroup.end_time">1513166220000</longProp>
+        <longProp name="ThreadGroup.start_time">1514448870000</longProp>
+        <longProp name="ThreadGroup.end_time">1514448870000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute cpu-load-1" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="store algorithm A" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;cpu-load-1&quot;,&#xd;
-            &quot;flowInput&quot;: {&#xd;
-                &quot;inputs&quot;: [&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    },&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 60&#xd;
-                    }&#xd;
-                ]&#xd;
-            }&#xd;
+	&#xd;
+  &quot;name&quot;: &quot;A&quot;,&#xd;
+  &quot;algorithmImage&quot;: &quot;hkube/algorunner&quot;,&#xd;
+  &quot;cpu&quot;: 1,&#xd;
+  &quot;mem&quot;: &quot;512Mi&quot;&#xd;
+	&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -345,7 +467,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/algorithms</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -356,196 +478,17 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..jobId</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">300</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-            <stringProp name="FileSaver.filename">currentId</stringProp>
-            <boolProp name="FileSaver.errorsonly">false</boolProp>
-            <boolProp name="FileSaver.skipautonumber">true</boolProp>
-            <boolProp name="FileSaver.skipsuffix">true</boolProp>
-            <boolProp name="FileSaver.successonly">true</boolProp>
-          </ResultSaver>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute cpu-load-1" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;cpu-load-1&quot;,&#xd;
-            &quot;flowInput&quot;: {&#xd;
-                &quot;range&quot;:2&#xd;
-            }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="574830882">algorithm name must contain only alphanumeric, dash or dot</stringProp>
             </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/exec/stored</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..jobId</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">300</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-            <stringProp name="FileSaver.filename">currentId</stringProp>
-            <boolProp name="FileSaver.errorsonly">false</boolProp>
-            <boolProp name="FileSaver.skipautonumber">true</boolProp>
-            <boolProp name="FileSaver.skipsuffix">true</boolProp>
-            <boolProp name="FileSaver.successonly">true</boolProp>
-          </ResultSaver>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">true</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="true">
-          <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
-          <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="false">
-          <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-      </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run raw cpu-load" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
-        </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1513166220000</longProp>
-        <longProp name="ThreadGroup.end_time">1513166220000</longProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
-      </ThreadGroup>
-      <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute cpu-load-1" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;cpu-batch-dynamic&quot;,&#xd;
-    &quot;nodes&quot;: [&#xd;
-        {&#xd;
-            &quot;nodeName&quot;: &quot;eval1&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
-            &quot;input&quot;: [&#xd;
-                &quot;@flowInput.range&quot;&#xd;
-            ],&#xd;
-            &quot;extraData&quot;: {&#xd;
-                &quot;code&quot;: [&#xd;
-                    &quot;(input) =&gt; {&quot;,&#xd;
-                    &quot;const range = Array.from(Array(input[0]).keys());&quot;,&#xd;
-                    &quot;return range }&quot;&#xd;
-                ]&#xd;
-            }&#xd;
-        },&#xd;
-        {&#xd;
-            &quot;nodeName&quot;: &quot;node1&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;cpu-load&quot;,&#xd;
-            &quot;input&quot;: [&#xd;
-                    {&#xd;
-                        &quot;cpu&quot;: 2,&#xd;
-                        &quot;duration&quot;: 15&#xd;
-                    },&#xd;
-                &quot;#@eval1&quot;&#xd;
-            ]&#xd;
-        }&#xd;
-    ],&#xd;
-    &quot;flowInput&quot;: {&#xd;
-        &quot;range&quot;: 12&#xd;
-    },&#xd;
-    &quot;options&quot;: {&#xd;
-        &quot;batchTolerance&quot;: 100,&#xd;
-        &quot;progressVerbosityLevel&quot;: &quot;debug&quot;&#xd;
-    }&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/exec/raw</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">id</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..jobId</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">300</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-            <stringProp name="FileSaver.filename">currentId</stringProp>
-            <boolProp name="FileSaver.errorsonly">false</boolProp>
-            <boolProp name="FileSaver.skipautonumber">true</boolProp>
-            <boolProp name="FileSaver.skipsuffix">true</boolProp>
-            <boolProp name="FileSaver.successonly">true</boolProp>
-          </ResultSaver>
-          <hashTree/>
-        </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="true">
-          <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
-          <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="false">
-          <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
-        </IncludeController>
-        <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete workflow" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
@@ -562,7 +505,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow cpu-load-1" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow AAA" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -577,7 +520,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/cpu-load-1</stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/AAA</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -588,6 +531,79 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow abc-A" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/abc-A</stringProp>
+          <stringProp name="HTTPSampler.method">DELETE</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete algorithms" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1514448870000</longProp>
+        <longProp name="ThreadGroup.end_time">1514448870000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete algorithm A" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
+          <stringProp name="HTTPSampler.port">${port}</stringProp>
+          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/algorithms/A</stringProp>
+          <stringProp name="HTTPSampler.method">DELETE</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">60000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+        </hashTree>
       </hashTree>
       <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="Assertion Results" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>

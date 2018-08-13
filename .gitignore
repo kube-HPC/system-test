@@ -14,3 +14,4 @@ run_files/currentId
 run_files/oneTest.sh
 run_files/all TID.txt
 run_files/.idea/
+tests/defaultfile.jtl

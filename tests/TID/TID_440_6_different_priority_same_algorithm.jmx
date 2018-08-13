@@ -611,6 +611,10 @@ print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + ma
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
         </hashTree>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="GetStatus REST" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
