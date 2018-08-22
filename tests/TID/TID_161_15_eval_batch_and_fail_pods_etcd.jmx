@@ -82,6 +82,11 @@
             <stringProp name="Argument.value">etcd</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="namespace" elementType="Argument">
+            <stringProp name="Argument.name">namespace</stringProp>
+            <stringProp name="Argument.value">default</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>

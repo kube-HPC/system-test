@@ -82,6 +82,11 @@
             <stringProp name="Argument.value">kube-dns</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="namespace" elementType="Argument">
+            <stringProp name="Argument.name">namespace</stringProp>
+            <stringProp name="Argument.value">kube-system</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
