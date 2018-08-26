@@ -9852,3 +9852,16 @@ the actual respond was:
 1534832980658,165,Get results REST evalwait2:c6d4ec59-173a-4a4b-bcee-d56e8bab4155.evalwait2,200,OK,Create request REST 2 2-1,text,true,,20809,268,1,1,163,1,0,0,0
 1534832980830,461,delete workflow eval wait,200,OK,delete pipelines 1-1,text,false,test failed because lower priority pipeline ran before a higher priority pipeline,510,245,1,1,461,1,1,0,367
 1534832981296,94,delete workflow eval wait 2,200,OK,delete pipelines 1-1,text,true,,510,246,1,1,94,1,0,0,0
+1535015195778,462,create workflow eval wait,201,Created,delete pipeline 1-1,text,true,,826,706,1,1,462,1,0,0,364
+1535015196240,101,create workflow eval wait 2,201,Created,delete pipeline 1-1,text,true,,827,707,1,1,101,1,0,0,0
+1535015196609,0,compute start time,200,OK,Create request REST 1 1-1,text,true,,0,0,1,1,0,1,0,0,0
+1535015196610,492,create request,200,OK,Create request REST 1 1-1,text,true,,583,382,1,1,492,1,0,0,364
+1535015197103,0,set max pods to -1,200,OK,Create request REST 1 1-1,text,true,,0,0,1,1,0,1,0,0,0
+1535015202120,543,get progress REST evalwait:3be15798-d3e0-415a-9db7-39f701de6897.evalwait,200,OK,Create request REST 1 1-1,text,true,,2824,265,1,1,542,1,0,0,456
+1535015207681,242,get progress REST evalwait:3be15798-d3e0-415a-9db7-39f701de6897.evalwait,200,OK,Create request REST 1 1-1,text,true,,2829,265,1,1,242,1,0,0,158
+1535015212936,443,get progress REST evalwait:3be15798-d3e0-415a-9db7-39f701de6897.evalwait,200,OK,Create request REST 1 1-1,text,true,,2830,265,1,1,442,1,0,0,358
+1535015218391,450,get progress REST evalwait:3be15798-d3e0-415a-9db7-39f701de6897.evalwait,200,OK,Create request REST 1 1-1,text,true,,2830,265,1,1,448,1,0,0,363
+1535015223854,447,get progress REST evalwait:3be15798-d3e0-415a-9db7-39f701de6897.evalwait,200,OK,Create request REST 1 1-1,text,true,,2734,265,1,1,447,1,0,0,356
+1535015224309,107,Get results REST evalwait:3be15798-d3e0-415a-9db7-39f701de6897.evalwait,200,OK,Create request REST 1 1-1,text,true,,6373,266,1,1,105,1,0,0,0
+1535015224423,457,delete workflow eval wait,200,OK,delete pipeline 1-1,text,true,,510,245,1,1,457,1,0,0,363
+1535015224880,96,delete workflow eval wait 2,200,OK,delete pipeline 1-1,text,true,,510,246,1,1,96,1,0,0,0
