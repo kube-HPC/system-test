@@ -57,7 +57,7 @@
           </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">TID_420_expected.json</stringProp>
+            <stringProp name="Argument.value">TID_450_1_expected_parent.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">
@@ -288,7 +288,7 @@
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="false">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>
@@ -335,7 +335,9 @@
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
             <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="script">vars.put (&quot;status&quot; , &quot;active&quot;);</stringProp>
+            <stringProp name="script">vars.put (&quot;status&quot; , &quot;active&quot;);
+
+vars.put (&quot;expected_file_name&quot;,&quot;TID_450_1_expected_child.json&quot;);</stringProp>
           </BeanShellPreProcessor>
           <hashTree/>
           <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="reset id" enabled="true">
@@ -360,7 +362,7 @@ vars.put (&quot;id&quot; , child);
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert child" enabled="false">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert child" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>

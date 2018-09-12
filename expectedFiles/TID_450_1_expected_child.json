@@ -1,0 +1,16 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"continue-pipeline",
+    "data":
+    [
+        {
+            "nodeName":"evalsleep",
+            "algorithmName":"eval-alg",
+            "result":10
+        }
+    ],
+    "status":"completed",
+    "timeTook":"{timeTook}",
+    "storageModule":"@hkube/s3-adapter"
+}

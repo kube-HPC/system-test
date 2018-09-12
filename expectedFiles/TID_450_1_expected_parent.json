@@ -1,0 +1,17 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"evalwaitWithtrigger",
+    "data":
+    [
+        {
+            "nodeName":"evalsleep",
+            "batchIndex":1,
+            "algorithmName":"eval-alg",
+            "result":5
+        }
+    ],
+    "status":"completed",
+    "timeTook":"{timeTook}",
+    "storageModule":"@hkube/s3-adapter"
+}

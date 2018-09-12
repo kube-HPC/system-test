@@ -1,0 +1,16 @@
+{
+    "jobId":"{id}",
+    "timestamp":"{timeStamp}",
+    "pipeline":"evalwait",
+    "data":
+    [
+        {
+            "nodeName":"eval1",
+            "algorithmName":"eval-alg",
+            "result":""
+        }
+    ],
+    "status":"completed",
+    "timeTook":"{timeTook}",
+    "storageModule":"@hkube/s3-adapter"
+}
