@@ -22,7 +22,7 @@ String yy = ctx.getCurrentSampler().getName();
 
 print (xx);
 print (yy);
-</stringProp>
+different chars in al</stringProp>
       </BeanShellPreProcessor>
       <hashTree/>
       <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="false">

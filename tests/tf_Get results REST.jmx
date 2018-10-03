@@ -98,6 +98,10 @@ String reqId = vars.get (&quot;id&quot;);
 print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + maxpods);</stringProp>
           </BeanShellPostProcessor>
           <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+          </ConstantTimer>
+          <hashTree/>
         </hashTree>
       </hashTree>
     </hashTree>

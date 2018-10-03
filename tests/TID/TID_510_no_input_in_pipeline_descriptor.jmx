@@ -82,7 +82,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <collectionProp name="Arguments.arguments">
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">TID-10_1expected.json</stringProp>
+            <stringProp name="Argument.value">TID_510_expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">

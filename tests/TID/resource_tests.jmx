@@ -476,10 +476,10 @@ vars.put (&quot;counter&quot; , &quot;0&quot;);
             <hashTree/>
           </hashTree>
           <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
-            <stringProp name="WhileController.condition">${__javaScript(((&quot;${status1}&quot; == &quot;active&quot;)||(&quot;${status2}&quot; == &quot;active&quot;) ) &amp;&amp; (${counter}&lt;${maxTries}),)} </stringProp>
+            <stringProp name="WhileController.condition">${__javaScript(((&quot;${status1}&quot; == &quot;active&quot;)||(&quot;${status2}&quot; == &quot;active&quot;)),)} </stringProp>
           </WhileController>
           <hashTree>
-            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
+            <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="false">
               <stringProp name="IfController.condition">${__javaScript(${counter}==${maxTries})}</stringProp>
               <boolProp name="IfController.evaluateAll">false</boolProp>
             </IfController>
