@@ -150,8 +150,7 @@ else
           </BeanShellAssertion>
           <hashTree/>
           <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-            <stringProp name="BeanShellAssertion.query">import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+            <stringProp name="BeanShellAssertion.query">import com.google.gson.*;
 
 String exp=vars.get (&quot;responseFinal&quot;);
 String act=vars.get (&quot;dataActual&quot;);
@@ -160,15 +159,27 @@ String act=vars.get (&quot;dataActual&quot;);
 
 JsonObject expected = new JsonParser().parse(exp).getAsJsonObject();
 JsonObject actual = new JsonParser().parse(act).getAsJsonObject();
+ 
+JsonArray arr1 = expected.getAsJsonArray(&quot;data&quot;);
+JsonArray arr2 = actual.getAsJsonArray(&quot;data&quot;);
 
+boolean flag1 = true;
 
-//print (expected);
-//print (&quot;*********&quot;);
-//print (actual);
-//print (&quot;***********&quot;);
+if (arr1.size() != arr2.size()) {
+	flag1 = false;
+}
 
+for (int i=0  ;i&lt;arr1.size() ; i++)
+	{
+		JsonElement a = arr1.get(i);
 
-if (actual.equals(expected))
+		if (!arr2.contains(a))
+		{
+     		flag1=false;
+		}
+    	}
+
+if (flag1)
 {
 	Failure=false;
 //	print(&quot;pass&quot;);

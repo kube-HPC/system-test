@@ -1,35 +1,34 @@
 {
-    "jobId":"{id}",
-    "timestamp":"{timeStamp}",
-    "pipeline":"evalWaitAny",
-    "data":
-    [
+    "jobId": "{id}",
+    "timestamp": "{timeStamp}",
+    "pipeline": "evalWaitAny",
+    "data": [
         {
-            "nodeName":"evaladd",
-            "batchIndex":2,
-            "algorithmName":"eval-alg",
-            "result":15
+            "nodeName": "evaladd",
+            "batchIndex": 2,
+            "algorithmName": "eval-alg",
+            "result": 15
         },
         {
-            "nodeName":"evaladd",
-            "batchIndex":4,
-            "algorithmName":"eval-alg",
-            "result":128
+            "nodeName": "evaladd",
+            "batchIndex": 1,
+            "algorithmName": "eval-alg",
+            "result": 8
         },
         {
-            "nodeName":"evaladd",
-            "batchIndex":1,
-            "algorithmName":"eval-alg",
-            "result":8
+            "nodeName": "evaladd",
+            "batchIndex": 4,
+            "algorithmName": "eval-alg",
+            "result": 128
         },
         {
-            "nodeName":"evaladd",
-            "batchIndex":3,
-            "algorithmName":"eval-alg",
-            "result":90
+            "nodeName": "evaladd",
+            "batchIndex": 3,
+            "algorithmName": "eval-alg",
+            "result": 90
         }
     ],
-    "status":"completed",
-    "timeTook":"{timeTook}",
-    "storageModule":"@hkube/s3-adapter"
+    "status": "completed",
+    "timeTook": "{timeTook}",
+    "storageModule": "@hkube/s3-adapter"
 }
