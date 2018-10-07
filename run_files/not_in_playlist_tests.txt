@@ -62,21 +62,47 @@ TID_440_6_different_priority_same_algorithm.jmx
 
 TID_440_6_use_all_resources_and_check_stopping_for_workers.jmx
 
+TID_440_7_same_priority_same_algorithm.jmx
+
+TID_440_8_starvationTest.jmx
+
+TID_450_1_pipeline_multy_trigger.jmx
+
+TID_450_2_pipeline_multy_trigger_array.jmx
+
 TID_450_pipeline_trigger.jmx
 
 TID_470_dismiss_resources.jmx
 
+TID_500_not_existing_algo_name_in_pipeline.jmx
+
+TID_510_no_input_in_pipeline_descriptor.jmx
+
 TID_51_run_pipelines_in_a_queue.jmx
+
+TID_520_different_chars_in_names_of_algo_and_pipelines.jmx
+
+TID_530_delete_algorithms_test.jmx
+
+TID_540_big_batch.jmx
+
+TID_550_empty_array_for_batch.jmx
+
+TID_560_one_worker_start.jmx
 
 TID_90_store_results_for_X_days.jmx
 
 TID_two_starting_algo.jmx
+
+check_algorithm_max_pods_for_resource_tests.jmx
 
 delete_algorithms_for_resource_tests.jmx
 
 dynamicEval.jmx
 
 insert_algorithms_for_resource_tests.jmx
+
+resource_tests.jmx
 
 stopLastjobById.jmx
 

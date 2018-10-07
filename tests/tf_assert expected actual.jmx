@@ -156,7 +156,6 @@ String exp=vars.get (&quot;responseFinal&quot;);
 String act=vars.get (&quot;dataActual&quot;);
 
 
-
 JsonObject expected = new JsonParser().parse(exp).getAsJsonObject();
 JsonObject actual = new JsonParser().parse(act).getAsJsonObject();
  
@@ -168,16 +167,17 @@ boolean flag1 = true;
 if (arr1.size() != arr2.size()) {
 	flag1 = false;
 }
-
+	
 for (int i=0  ;i&lt;arr1.size() ; i++)
 	{
 		JsonElement a = arr1.get(i);
-
+	
 		if (!arr2.contains(a))
 		{
      		flag1=false;
 		}
-    	}
+	}
+
 
 if (flag1)
 {
