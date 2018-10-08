@@ -321,7 +321,7 @@ else
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="end status extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">endStatus</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.status</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
@@ -509,7 +509,7 @@ else
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="end status extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">endStatus</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.status</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
@@ -885,7 +885,7 @@ else
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="end status extractor" enabled="true">
             <stringProp name="JSONPostProcessor.referenceNames">endStatus</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.status</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
           </JSONPostProcessor>
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
