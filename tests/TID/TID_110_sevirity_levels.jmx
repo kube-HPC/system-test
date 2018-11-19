@@ -339,7 +339,7 @@ else
           </ResponseAssertion>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">10000</stringProp>
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
@@ -531,7 +531,7 @@ else
           </ResponseAssertion>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">10000</stringProp>
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
@@ -723,7 +723,7 @@ else
           </ResponseAssertion>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">10000</stringProp>
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
@@ -915,7 +915,7 @@ else
           </ResponseAssertion>
           <hashTree/>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">10000</stringProp>
+            <stringProp name="ConstantTimer.delay">5000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
