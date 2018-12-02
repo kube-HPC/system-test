@@ -16,3 +16,4 @@ run_files/all TID.txt
 run_files/.idea/
 tests/defaultfile.jtl
 tests/ids.csv
+python_Test_Manager/

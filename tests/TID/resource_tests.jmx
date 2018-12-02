@@ -904,7 +904,7 @@ double result	=	end-start;
 vars.put (&quot;result&quot;,String.valueOf(result));
 
 print (result);
-print (&quot;****************&quot;);</stringProp>
+</stringProp>
           <stringProp name="BeanShellSampler.filename"></stringProp>
           <stringProp name="BeanShellSampler.parameters"></stringProp>
           <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
@@ -927,6 +927,8 @@ if (total_time &lt; expectedTime)
 	String response =  &quot;expected to run &quot;+expectedTime/1000+ &quot; seconds, ran &quot;+total_time/1000+&quot; seconds&quot;;
 	SampleResult.setResponseData( response.toString() );
 	SampleResult.setDataType( org.apache.jmeter.samplers.SampleResult.TEXT );
+	print (response);
+	print (&quot;****************&quot;);
 	Failure=false;
 
 }
@@ -936,8 +938,9 @@ else
 	Failure=true;
 	FailureMessage = mess;
 	int count =  Integer.parseInt (vars.get (&quot;linesnumber&quot;));
-
 	vars.put (&quot;failures_&quot;+count, &quot;line number &quot;+count+&quot;. &quot;+mess);
+	print (mess);
+	print (&quot;****************&quot;);
 }
 </stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
@@ -946,7 +949,7 @@ else
           </BeanShellAssertion>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="end run" enabled="true"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="end run" enabled="false"/>
         <hashTree>
           <IfController guiclass="IfControllerPanel" testclass="IfController" testname="If Controller" enabled="true">
             <stringProp name="IfController.condition">${__javaScript(&quot;${serial_number}&quot; == &quot;${lines}&quot;,)}</stringProp>
