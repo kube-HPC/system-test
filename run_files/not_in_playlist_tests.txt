@@ -1,108 +1,16 @@
-TID_100_long_running_pipelines_and_algo.jmx
+jmeter -n -t "../tests/TID/TID_90_store_results_for_X_days.jmx" -l "results/TID_90_store_results_for_X_days.jtl" -e -o "results/dashboards/TID_90_store_results_for_X_days"
 
-TID_111_fail_pods_while_running_eval.jmx
+jmeter -n -t "../tests/TID/TID_two_starting_algo.jmx" -l "results/TID_two_starting_algo.jtl" -e -o "results/dashboards/TID_two_starting_algo"
 
-TID_112_webhookEval.jmx
+jmeter -n -t "../tests/TID/check_algorithm_max_pods_for_resource_tests.jmx" -l "results/check_algorithm_max_pods_for_resource_tests.jtl" -e -o "results/dashboards/check_algorithm_max_pods_for_resource_tests"
 
-TID_115_max_num_of_algo_retries.jmx
+jmeter -n -t "../tests/TID/delete_algorithms_for_resource_tests.jmx" -l "results/delete_algorithms_for_resource_tests.jtl" -e -o "results/dashboards/delete_algorithms_for_resource_tests"
 
-TID_170_10_percent_overhead.jmx
+jmeter -n -t "../tests/TID/dynamicEval.jmx" -l "results/dynamicEval.jtl" -e -o "results/dashboards/dynamicEval"
 
-TID_170_10_percent_overhead10sec_1000times.jmx
+jmeter -n -t "../tests/TID/insert_algorithms_for_resource_tests.jmx" -l "results/insert_algorithms_for_resource_tests.jtl" -e -o "results/dashboards/insert_algorithms_for_resource_tests"
 
-TID_170_10_percent_overhead10sec_100times.jmx
+jmeter -n -t "../tests/TID/resource_tests.jmx" -l "results/resource_tests.jtl" -e -o "results/dashboards/resource_tests"
 
-TID_170_10_percent_overhead10sec_10times.jmx
-
-TID_170_10_percent_overhead10sec_500times.jmx
-
-TID_170_10_percent_overhead60sec_1000times.jmx
-
-TID_170_10_percent_overhead60sec_100times.jmx
-
-TID_170_10_percent_overhead60sec_10times.jmx
-
-TID_170_10_percent_overhead60sec_500times.jmx
-
-TID_170_1_10_percent_overhead_batch.jmx
-
-TID_182_1_burst_test_batchSize.jmx
-
-TID_182_2_burst_test_time.jmx
-
-TID_182_3_burst_test_pipeline_increase.jmx
-
-TID_183_1_burst_test2_batchSize.jmx
-
-TID_183_2_burst_test2_time.jmx
-
-TID_183_3_burst_test2_pipeline_increase.jmx
-
-TID_203_1_monitoring.jmx
-
-TID_205_algorithm_monitoring.jmx
-
-TID_206_pipeline_monitoring.jmx
-
-TID_210_weekendTest_eval.jmx
-
-TID_400_manyBytes.jmx
-
-TID_440_1_pipelines_by_priority.jmx
-
-TID_440_2_pipelines_by_batch_size.jmx
-
-TID_440_3_pipelines_by_batch_size_and_priority.jmx
-
-TID_440_4_pipelines_by_batch_size_and_check_resources.jmx
-
-TID_440_5_pipelines_by_priority_after_lower_priority_takes_all_resources.jmx
-
-TID_440_6_different_priority_same_algorithm.jmx
-
-TID_440_6_use_all_resources_and_check_stopping_for_workers.jmx
-
-TID_440_7_same_priority_same_algorithm.jmx
-
-TID_440_8_starvationTest.jmx
-
-TID_450_1_pipeline_multy_trigger.jmx
-
-TID_450_2_pipeline_multy_trigger_array.jmx
-
-TID_450_pipeline_trigger.jmx
-
-TID_470_dismiss_resources.jmx
-
-TID_500_not_existing_algo_name_in_pipeline.jmx
-
-TID_510_no_input_in_pipeline_descriptor.jmx
-
-TID_51_run_pipelines_in_a_queue.jmx
-
-TID_520_different_chars_in_names_of_algo_and_pipelines.jmx
-
-TID_530_delete_algorithms_test.jmx
-
-TID_540_big_batch.jmx
-
-TID_550_empty_array_for_batch.jmx
-
-TID_560_one_worker_start.jmx
-
-TID_90_store_results_for_X_days.jmx
-
-TID_two_starting_algo.jmx
-
-check_algorithm_max_pods_for_resource_tests.jmx
-
-delete_algorithms_for_resource_tests.jmx
-
-dynamicEval.jmx
-
-insert_algorithms_for_resource_tests.jmx
-
-resource_tests.jmx
-
-stopLastjobById.jmx
+jmeter -n -t "../tests/TID/stopLastjobById.jmx" -l "results/stopLastjobById.jtl" -e -o "results/dashboards/stopLastjobById"
 

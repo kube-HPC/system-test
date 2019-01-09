@@ -4,7 +4,7 @@ import sys
 try:
     flag_file = sys.argv[1]
 except IndexError:
-    flag_file = 0
+    flag_file = 1
 try:
     base_tid = sys.argv[2]
 except IndexError:
@@ -57,4 +57,7 @@ arr.sort()
 if flag_file:
     file_output = open("not_in_playlist_tests.txt", "w")
     for filename in arr:
-        file_output.write(filename + "\n\n")
+        filename = filename[:-4]
+        st = 'jmeter -n -t "../tests/TID/'+filename+'.jmx" -l "results/'+filename+'.jtl" -e -o "results/dashboards/'+filename+'"'
+
+        file_output.write(st + "\n\n")

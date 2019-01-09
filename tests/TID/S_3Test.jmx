@@ -9,8 +9,38 @@
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
     </TestPlan>
     <hashTree>
+      <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="false">
+        <boolProp name="resetInterpreter">false</boolProp>
+        <stringProp name="parameters"></stringProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="script">String xx = ctx.getThreadGroup().getName();
+String yy = ctx.getCurrentSampler().getName();
+
+
+print (xx);
+print (yy);
+</stringProp>
+      </BeanShellPreProcessor>
+      <hashTree/>
+      <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell logger" enabled="false">
+        <boolProp name="resetInterpreter">false</boolProp>
+        <stringProp name="parameters"></stringProp>
+        <stringProp name="filename"></stringProp>
+        <stringProp name="script">String zz = prev.getResponseDataAsString();
+
+String x = ctx.getPreviousResult().getResponseCode();
+
+String yy = ctx.getCurrentSampler().getName();
+print (&quot;****************&quot;);
+print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quot; + zz) ;
+//print (x);
+
+//print (&quot;hi &quot; + zz);</stringProp>
+      </BeanShellPostProcessor>
+      <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="ip configs" enabled="true">
         <stringProp name="filename">../../testConfigFiles/ipConfigs.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
@@ -36,7 +66,7 @@
         </collectionProp>
       </HeaderManager>
       <hashTree/>
-      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="paths config" enabled="true">
+      <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="paths configs" enabled="true">
         <stringProp name="filename">../../testConfigFiles/paths.csv</stringProp>
         <stringProp name="fileEncoding"></stringProp>
         <stringProp name="variableNames"></stringProp>
@@ -50,24 +80,14 @@
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="vars" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="workflow_name" elementType="Argument">
-            <stringProp name="Argument.name">workflow_name</stringProp>
-            <stringProp name="Argument.value">simple</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="expected_file_name" elementType="Argument">
             <stringProp name="Argument.name">expected_file_name</stringProp>
-            <stringProp name="Argument.value">TID_170 expected.json</stringProp>
+            <stringProp name="Argument.value">TID-10_1expected.json</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="maxTries" elementType="Argument">
             <stringProp name="Argument.name">maxTries</stringProp>
-            <stringProp name="Argument.value">5000</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="expectedTime" elementType="Argument">
-            <stringProp name="Argument.name">expectedTime</stringProp>
-            <stringProp name="Argument.value">70000</stringProp>
+            <stringProp name="Argument.value">20</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -81,32 +101,61 @@
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1516694052000</longProp>
-        <longProp name="ThreadGroup.end_time">1516694052000</longProp>
+        <longProp name="ThreadGroup.start_time">1514448870000</longProp>
+        <longProp name="ThreadGroup.end_time">1514448870000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow eval wait" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow s3test" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;evalwait&quot;,&#xd;
+    &quot;name&quot;: &quot;s3test&quot;,&#xd;
     &quot;nodes&quot;: [&#xd;
         {&#xd;
-            &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
+            &quot;nodeName&quot;: &quot;node1&quot;,&#xd;
             &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                &quot;#@flowInput.inputs&quot;&#xd;
+                &quot;@flowInput.arraySize&quot;,&#xd;
+                &quot;@flowInput.bufferSize&quot;&#xd;
             ],&#xd;
             &quot;extraData&quot;: {&#xd;
                 &quot;code&quot;: [&#xd;
-                    &quot;(input,require)=&gt; {&quot;,&#xd;
-                        &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[0])});}&quot;&#xd;
+                    &quot;(input)=&gt; {&quot;,&#xd;
+                    &quot;return new Array(input [0]).fill(Buffer.alloc(input[1]));&quot;,&#xd;
+                    &quot;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;node2&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg2&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;#@node1&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input)=&gt; {&quot;,&#xd;
+                    &quot;return new Promise ((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(input),3000)})&quot;,&#xd;
+                    &quot;}&quot;&#xd;
+                ]&#xd;
+            }&#xd;
+        },&#xd;
+        {&#xd;
+            &quot;nodeName&quot;: &quot;node3&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg3&quot;,&#xd;
+            &quot;input&quot;: [&#xd;
+                &quot;@node2&quot;&#xd;
+            ],&#xd;
+            &quot;extraData&quot;: {&#xd;
+                &quot;code&quot;: [&#xd;
+                    &quot;(input)=&gt; {&quot;,&#xd;
+                    &quot;return input[0].length;}&quot;&#xd;
                 ]&#xd;
             }&#xd;
         }&#xd;
@@ -132,142 +181,36 @@
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Create request REST" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run stored s3test" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1518365880000</longProp>
-        <longProp name="ThreadGroup.end_time">1518415200000</longProp>
+        <longProp name="ThreadGroup.start_time">1513166220000</longProp>
+        <longProp name="ThreadGroup.end_time">1513166220000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute start time" enabled="true">
-          <stringProp name="BeanShellSampler.query">String startTime=&quot;${__time(,)}&quot;;
-//print (&quot;****************&quot;);
-vars.put (&quot;startTime&quot;,startTime);
-//print (startTime);</stringProp>
-          <stringProp name="BeanShellSampler.filename"></stringProp>
-          <stringProp name="BeanShellSampler.parameters"></stringProp>
-          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-        </BeanShellSampler>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create request" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="execute s3test" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  	&quot;name&quot;: &quot;evalwait&quot;,&#xd;
-	&quot;flowInput&quot;:{&#xd;
-		&quot;inputs&quot;:[&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,&#xd;
-10000,10000,10000,10000,10000,10000,10000,10000,10000,10000&#xd;
-		]&#xd;
+    &quot;name&quot;: &quot;s3test&quot;,&#xd;
+    &quot;flowInput&quot;: {&#xd;
+        &quot;arraySize&quot;: 5,&#xd;
+        &quot;bufferSize&quot;: 1000&#xd;
+    },&#xd;
+    &quot;options&quot;: {&#xd;
+        &quot;batchTolerance&quot;: 60,&#xd;
+        &quot;progressVerbosityLevel&quot;: &quot;debug&quot;&#xd;
     }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -295,12 +238,24 @@ vars.put (&quot;startTime&quot;,startTime);
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
           <hashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+            <stringProp name="ConstantTimer.delay">300</stringProp>
+          </ConstantTimer>
+          <hashTree/>
+          <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
+            <stringProp name="FileSaver.filename">currentId</stringProp>
+            <boolProp name="FileSaver.errorsonly">false</boolProp>
+            <boolProp name="FileSaver.skipautonumber">true</boolProp>
+            <boolProp name="FileSaver.skipsuffix">true</boolProp>
+            <boolProp name="FileSaver.successonly">true</boolProp>
+          </ResultSaver>
+          <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="GetStatus REST" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get progress" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_Get status REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="Get results REST" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get results" enabled="true">
           <stringProp name="IncludeController.includepath">../tf_Get results REST.jmx</stringProp>
         </IncludeController>
         <hashTree/>
@@ -308,48 +263,8 @@ vars.put (&quot;startTime&quot;,startTime);
           <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="compute end time var expectedTime" enabled="true">
-          <stringProp name="BeanShellSampler.query">String endTime= &quot;${__time(,)}&quot;;
-
-//print (endTime);
-double start= Double.parseDouble (vars.get(&quot;startTime&quot;).trim());
-double end=  Double.parseDouble (endTime.trim());
-double result=end-start;
-
-vars.put (&quot;result&quot;,String.valueOf(result));
-
-print (result);
-print (&quot;****************&quot;);</stringProp>
-          <stringProp name="BeanShellSampler.filename"></stringProp>
-          <stringProp name="BeanShellSampler.parameters"></stringProp>
-          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-        </BeanShellSampler>
-        <hashTree>
-          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-            <stringProp name="BeanShellAssertion.query">double total_time= Double.parseDouble (vars.get(&quot;result&quot;).trim());
-
-double expectedTime= Double.parseDouble (vars.get(&quot;expectedTime&quot;).trim());
-
-//boolean pass=total_time &lt; expectedTime;
-
-if (total_time &lt; expectedTime)
-{
-	Failure=false;
-}
-else
-{
-	Failure=true;
-	FailureMessage=&quot;the time was not compatible&quot;;
-}
-</stringProp>
-            <stringProp name="BeanShellAssertion.filename"></stringProp>
-            <stringProp name="BeanShellAssertion.parameters"></stringProp>
-            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
-          </BeanShellAssertion>
-          <hashTree/>
-        </hashTree>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete pipeline" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="delete workflow" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -357,14 +272,14 @@ else
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1516267968000</longProp>
-        <longProp name="ThreadGroup.end_time">1516267968000</longProp>
+        <longProp name="ThreadGroup.start_time">1514448870000</longProp>
+        <longProp name="ThreadGroup.end_time">1514448870000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow eval wait" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow s3test" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -379,7 +294,7 @@ else
           <stringProp name="HTTPSampler.port">${port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/evalwait</stringProp>
+          <stringProp name="HTTPSampler.path">${urlHeader}/store/pipelines/s3test</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -391,7 +306,7 @@ else
         </HTTPSamplerProxy>
         <hashTree/>
       </hashTree>
-      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+      <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="Assertion Results" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
         <objProp>
           <name>saveConfig</name>
@@ -408,6 +323,78 @@ else
             <encoding>false</encoding>
             <assertions>true</assertions>
             <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>false</assertions>
+            <subresults>false</subresults>
             <responseData>false</responseData>
             <samplerData>false</samplerData>
             <xml>false</xml>

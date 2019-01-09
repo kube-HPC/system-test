@@ -22,7 +22,7 @@ for filename in os.listdir(base):
         print (filename)
         st = file_output.read()
         arr = st.split("\n")
-
-        print (arr[10])
+        testname= arr[10]
+        print ('jmeter -n -t "../tests/TID/'+testname+'" -l results/')
 
 

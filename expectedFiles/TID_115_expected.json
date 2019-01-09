@@ -1,8 +1,8 @@
 {
-  "jobId":"{id}",
-  "timestamp":"{timeStamp}",
-  "pipeline":"evalwait",
-  "status":"failed",
-  "error":"1/1 (100%) failed tasks, batch tolerance is 80%, error: CrashLoopBackOff",
-  "timeTook":"{timeTook}"
+  "jobId": "{id}",
+  "timestamp": "{timeStamp}",
+  "pipeline": "evalwait",
+  "status": "failed",
+  "error": "1/1 (100%) failed tasks, batch tolerance is 80%, error: node evalsleep is in CrashLoopBackOff, attempts: 3/3",
+  "timeTook": "{timeTook}"
 }
