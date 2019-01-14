@@ -1,3 +1,49 @@
+jmeter -n -t "../tests/TID/S_3Test.jmx" -l "results/S_3Test.jtl" -e -o "results/dashboards/S_3Test"
+
+jmeter -n -t "../tests/TID/TID_112_webhookEval.jmx" -l "results/TID_112_webhookEval.jtl" -e -o "results/dashboards/TID_112_webhookEval"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead.jmx" -l "results/TID_170_10_percent_overhead.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead10sec_1000times.jmx" -l "results/TID_170_10_percent_overhead10sec_1000times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead10sec_1000times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead10sec_100times.jmx" -l "results/TID_170_10_percent_overhead10sec_100times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead10sec_100times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead10sec_10times.jmx" -l "results/TID_170_10_percent_overhead10sec_10times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead10sec_10times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead10sec_500times.jmx" -l "results/TID_170_10_percent_overhead10sec_500times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead10sec_500times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead60sec_1000times.jmx" -l "results/TID_170_10_percent_overhead60sec_1000times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead60sec_1000times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead60sec_100times.jmx" -l "results/TID_170_10_percent_overhead60sec_100times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead60sec_100times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead60sec_10times.jmx" -l "results/TID_170_10_percent_overhead60sec_10times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead60sec_10times"
+
+jmeter -n -t "../tests/TID/TID_170_10_percent_overhead60sec_500times.jmx" -l "results/TID_170_10_percent_overhead60sec_500times.jtl" -e -o "results/dashboards/TID_170_10_percent_overhead60sec_500times"
+
+jmeter -n -t "../tests/TID/TID_170_1_10_percent_overhead_batch.jmx" -l "results/TID_170_1_10_percent_overhead_batch.jtl" -e -o "results/dashboards/TID_170_1_10_percent_overhead_batch"
+
+jmeter -n -t "../tests/TID/TID_203_1_monitoring.jmx" -l "results/TID_203_1_monitoring.jtl" -e -o "results/dashboards/TID_203_1_monitoring"
+
+jmeter -n -t "../tests/TID/TID_205_algorithm_monitoring.jmx" -l "results/TID_205_algorithm_monitoring.jtl" -e -o "results/dashboards/TID_205_algorithm_monitoring"
+
+jmeter -n -t "../tests/TID/TID_206_pipeline_monitoring.jmx" -l "results/TID_206_pipeline_monitoring.jtl" -e -o "results/dashboards/TID_206_pipeline_monitoring"
+
+jmeter -n -t "../tests/TID/TID_210_weekendTest_eval.jmx" -l "results/TID_210_weekendTest_eval.jtl" -e -o "results/dashboards/TID_210_weekendTest_eval"
+
+jmeter -n -t "../tests/TID/TID_390_10X6_requests.jmx" -l "results/TID_390_10X6_requests.jtl" -e -o "results/dashboards/TID_390_10X6_requests"
+
+jmeter -n -t "../tests/TID/TID_440_6_use_all_resources_and_check_stopping_for_workers.jmx" -l "results/TID_440_6_use_all_resources_and_check_stopping_for_workers.jtl" -e -o "results/dashboards/TID_440_6_use_all_resources_and_check_stopping_for_workers"
+
+jmeter -n -t "../tests/TID/TID_450_1_pipeline_multy_trigger.jmx" -l "results/TID_450_1_pipeline_multy_trigger.jtl" -e -o "results/dashboards/TID_450_1_pipeline_multy_trigger"
+
+jmeter -n -t "../tests/TID/TID_450_2_pipeline_multy_trigger_array.jmx" -l "results/TID_450_2_pipeline_multy_trigger_array.jtl" -e -o "results/dashboards/TID_450_2_pipeline_multy_trigger_array"
+
+jmeter -n -t "../tests/TID/TID_450_pipeline_trigger.jmx" -l "results/TID_450_pipeline_trigger.jtl" -e -o "results/dashboards/TID_450_pipeline_trigger"
+
+jmeter -n -t "../tests/TID/TID_570_fail_pod_while_algo_running.jmx" -l "results/TID_570_fail_pod_while_algo_running.jtl" -e -o "results/dashboards/TID_570_fail_pod_while_algo_running"
+
+jmeter -n -t "../tests/TID/TID_580_hot_workers.jmx" -l "results/TID_580_hot_workers.jtl" -e -o "results/dashboards/TID_580_hot_workers"
+
 jmeter -n -t "../tests/TID/TID_90_store_results_for_X_days.jmx" -l "results/TID_90_store_results_for_X_days.jtl" -e -o "results/dashboards/TID_90_store_results_for_X_days"
 
 jmeter -n -t "../tests/TID/TID_two_starting_algo.jmx" -l "results/TID_two_starting_algo.jtl" -e -o "results/dashboards/TID_two_starting_algo"
@@ -9,6 +55,8 @@ jmeter -n -t "../tests/TID/delete_algorithms_for_resource_tests.jmx" -l "results
 jmeter -n -t "../tests/TID/dynamicEval.jmx" -l "results/dynamicEval.jtl" -e -o "results/dashboards/dynamicEval"
 
 jmeter -n -t "../tests/TID/insert_algorithms_for_resource_tests.jmx" -l "results/insert_algorithms_for_resource_tests.jtl" -e -o "results/dashboards/insert_algorithms_for_resource_tests"
+
+jmeter -n -t "../tests/TID/insert_algorithms_for_tests.jmx" -l "results/insert_algorithms_for_tests.jtl" -e -o "results/dashboards/insert_algorithms_for_tests"
 
 jmeter -n -t "../tests/TID/resource_tests.jmx" -l "results/resource_tests.jtl" -e -o "results/dashboards/resource_tests"
 

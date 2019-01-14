@@ -37,8 +37,6 @@ jmeter -n -t "../tests/TID/TID_161_26_eval_batch_and_fail_kibana.jmx" -l "result
 sleep 10
 jmeter -n -t "../tests/TID/TID_161_27_eval_batch_and_fail_kubernetes_dashboard.jmx" -l "results/TID_161_27_eval_batch_and_fail_kubernetes_dashboard.jtl" -e -o "results/dashboards/TID_161_27_eval_batch_and_fail_kubernetes_dashboard"
 sleep 10
-jmeter -n -t "../tests/TID/TID_161_27_eval_batch_and_fail_kubernetes_dashboard.jmx" -l "results/TID_161_27_eval_batch_and_fail_kubernetes_dashboard.jtl" -e -o "results/dashboards/TID_161_27_eval_batch_and_fail_kubernetes_dashboard"
-sleep 10
 jmeter -n -t "../tests/TID/TID_161_34_eval_and_fail_resource_manager.jmx" -l "results/TID_161_34_eval_and_fail_resource_manager.jtl" -e -o "results/dashboards/TID_161_34_eval_and_fail_resource_manager"
 sleep 10
 jmeter -n -t "../tests/TID/TID_161_32_eval_and_fail_trigger_service.jmx" -l "results/TID_161_32_eval_and_fail_trigger_service.jtl" -e -o "results/dashboards/TID_161_32_eval_and_fail_trigger_service"

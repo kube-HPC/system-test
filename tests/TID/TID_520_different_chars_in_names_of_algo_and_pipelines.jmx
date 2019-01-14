@@ -431,7 +431,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="574830882">algorithm name must contain only alphanumeric, dash or dot</stringProp>
+              <stringProp name="869049864">algorithm name must contain only lower-case alphanumeric, dash or dot</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -491,7 +491,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="574830882">algorithm name must contain only alphanumeric, dash or dot</stringProp>
+              <stringProp name="869049864">algorithm name must contain only lower-case alphanumeric, dash or dot</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>

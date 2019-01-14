@@ -84,7 +84,7 @@
           </elementProp>
           <elementProp name="namespace" elementType="Argument">
             <stringProp name="Argument.name">namespace</stringProp>
-            <stringProp name="Argument.value">kube-system</stringProp>
+            <stringProp name="Argument.value">monitoring</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
