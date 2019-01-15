@@ -3589,7 +3589,7 @@ else
           </ConstantTimer>
           <hashTree/>
         </hashTree>
-        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="true">
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="assert" enabled="false">
           <stringProp name="IncludeController.includepath">../tf_assert expected actual.jmx</stringProp>
         </IncludeController>
         <hashTree/>

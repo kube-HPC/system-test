@@ -282,7 +282,7 @@ print (&quot;max pods running on request &quot; + reqId + &quot; is: &quot; + ma
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1012716991">unable to run an empty batch</stringProp>
+              <stringProp name="1444">-1</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>

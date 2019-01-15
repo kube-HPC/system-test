@@ -44,6 +44,7 @@ jmeter -n -t "../tests/TID/TID_183_3_burst_test2_pipeline_increase.jmx" -l "resu
 # jmeter -n -t "../tests/TID/TID_206_pipeline_monitoring.jmx" -l "results/TID_206_pipeline_monitoring.jtl" -e -o "results/dashboards/TID_206_pipeline_monitoring"
 jmeter -n -t "../tests/TID/TID_300_define_the_order_of_the_pipeline.jmx" -l "results/TID_300_define_the_order_of_the_pipeline.jtl" -e -o "results/dashboards/TID_300_define_the_order_of_the_pipeline"
 jmeter -n -t "../tests/TID/TID_371_5000_batch_of_prime.jmx" -l "results/TID_371_5000_batch_of_prime.jtl" -e -o "results/dashboards/TID_371_5000_batch_of_prime"
+sleep 20
 jmeter -n -t "../tests/TID/TID_380_10pipelinesInParallel.jmx" -l "results/TID_380_10pipelinesInParallel.jtl" -e -o "results/dashboards/TID_380_10pipelinesInParallel"
 # jmeter -n -t "../tests/TID/TID_390_10X6_requests.jmx" -l "results/TID_390_10X6_requests.jtl" -e -o "results/dashboards/TID_390_10X6_requests"
 jmeter -n -t "../tests/TID/TID_400_manyBytes.jmx" -l "results/TID_400_manyBytes.jtl" -e -o "results/dashboards/TID_400_manyBytes"

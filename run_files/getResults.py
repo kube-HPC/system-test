@@ -59,6 +59,7 @@ def find_element_pos(filepos, element_text, status, version):
 
 
 def read_from_jtl(filename):
+    csv.field_size_limit(100000000)
     with open(base + filename, 'r') as f:
         reader = csv.reader(f)
         fail = False

@@ -54,11 +54,12 @@ except IndexError:
 #     if not found:
 #         lines.append([now_date, now_time, element_text, status, version])
 
-    writer = csv.writer(open(filepos, 'w'))
-    writer.writerows(lines)
+# writer = csv.writer(open(filepos, 'w'))
+# writer.writerows(lines)
 
 
 def read_from_jtl(filename):
+    csv.field_size_limit(100000000)
     with open(base + filename, 'r') as f:
         reader = csv.reader(f)
         fail = False
@@ -68,6 +69,8 @@ def read_from_jtl(filename):
                 # print row[8]
                 failMessage = row[8]
                 fail = True
+
+
     return fail, failMessage
 
 
@@ -92,10 +95,10 @@ def read_from_jtl(filename):
 #         writer.writerow({'date': now_date, 'time': now_time, "test name": testname, "status": status,
 #                          'version': version})
 
-    # if fail:
-    #     print 'test was failed'
-    # else:
-    #     print 'PASS'
+# if fail:
+#     print 'test was failed'
+# else:
+#     print 'PASS'
 
 
 # ver = get_system_version()
@@ -113,8 +116,8 @@ for filename in os.listdir(base):
             # find_element_pos(latest_results, filename, "fail", ver)
             succsess = False
         # else:
-            # write_to_csv(filename, "pass", ver)
-            # find_element_pos(latest_results, filename, "pass", ver)
+        # write_to_csv(filename, "pass", ver)
+        # find_element_pos(latest_results, filename, "pass", ver)
 
         # print (filename)
 
@@ -124,8 +127,8 @@ if not succsess:
     for i in range(len(names)):
         print ("*****Test name*****")
         print (names[i])
-        print ("*****error message*****")
-        print(messages[i])
+        # print ("*****error message*****")
+        # print(messages[i])
 
     sys.exit(1)
 
