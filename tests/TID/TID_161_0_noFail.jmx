@@ -74,12 +74,12 @@
           </elementProp>
           <elementProp name="podsToDelete" elementType="Argument">
             <stringProp name="Argument.name">podsToDelete</stringProp>
-            <stringProp name="Argument.value">1</stringProp>
+            <stringProp name="Argument.value">5</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="tofind" elementType="Argument">
             <stringProp name="Argument.name">tofind</stringProp>
-            <stringProp name="Argument.value">eval-alg-hot</stringProp>
+            <stringProp name="Argument.value">api</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="namespace" elementType="Argument">
@@ -105,41 +105,6 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="store algorithm eval-alg-hot" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;eval-alg-hot&quot;,&#xd;
-  &quot;algorithmImage&quot;: &quot;hkube/algorunner&quot;,&#xd;
-  &quot;cpu&quot;: 1,&#xd;
-  &quot;mem&quot;: &quot;512Mi&quot;,&#xd;
-  &quot;options&quot;: {&#xd;
-    &quot;debug&quot;: false&#xd;
-  },&#xd;
-  &quot;minHotWorkers&quot;:1&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${ip}</stringProp>
-          <stringProp name="HTTPSampler.port">${port}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${methood}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${urlHeader}/store/algorithms</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="create workflow eval-dynamic" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
@@ -165,16 +130,15 @@
         },&#xd;
         {&#xd;
             &quot;nodeName&quot;: &quot;evalsleep&quot;,&#xd;
-            &quot;algorithmName&quot;: &quot;eval-alg-hot&quot;,&#xd;
+            &quot;algorithmName&quot;: &quot;eval-alg2&quot;,&#xd;
             &quot;input&quot;: [&#xd;
                 &quot;#@eval1&quot;,&#xd;
-                &quot;@flowInput.time&quot;,&#xd;
-                &quot;@flowInput.number&quot;&#xd;
+                &quot;@flowInput.time&quot;&#xd;
             ],&#xd;
             &quot;extraData&quot;: {&#xd;
                 &quot;code&quot;: [&#xd;
                     &quot;(input,require)=&gt; {&quot;,&#xd;
-                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(input[2]),input[1])});}&quot;&#xd;
+                    &quot;return new Promise((resolve,reject)=&gt;{setTimeout(()=&gt;resolve(4),input[1])});}&quot;&#xd;
                 ]&#xd;
             }&#xd;
         }&#xd;
@@ -202,14 +166,9 @@
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
-        <hashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">10000</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-        </hashTree>
+        <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run eval" enabled="true">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="run eval and fail api server" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
@@ -252,9 +211,8 @@
                 <stringProp name="Argument.value">{&#xd;
   	&quot;name&quot;: &quot;eval-dynamic&quot;,&#xd;
 	&quot;flowInput&quot;:{&#xd;
-			&quot;range&quot;:1,&#xd;
-			&quot;time&quot;:60000,&#xd;
-			&quot;number&quot;:15&#xd;
+			&quot;range&quot;:${habatchSize},&#xd;
+			&quot;time&quot;:${haSleepTime}&#xd;
     }&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -283,111 +241,14 @@
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get all jobs in namespace ${namespace}" enabled="true">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
-          <stringProp name="HTTPSampler.port">8080</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/apis/batch/v1/namespaces/${namespace}/jobs</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">podsNames</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..metadata.name</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-            <boolProp name="displayJMeterProperties">false</boolProp>
-            <boolProp name="displayJMeterVariables">true</boolProp>
-            <boolProp name="displaySamplerProperties">true</boolProp>
-            <boolProp name="displaySystemProperties">false</boolProp>
-          </DebugPostProcessor>
-          <hashTree/>
-          <BeanShellPostProcessor guiclass="TestBeanGUI" testclass="BeanShellPostProcessor" testname="BeanShell PostProcessor" enabled="true">
-            <boolProp name="resetInterpreter">false</boolProp>
-            <stringProp name="parameters"></stringProp>
-            <stringProp name="filename"></stringProp>
-            <stringProp name="script">String sizes=vars.get(&quot;podsNames_matchNr&quot;);
-
-int size = Integer.parseInt (sizes);
-
-//print (size);
-//print (&quot;******************&quot;);
-
-String [] pods=new String [size];
-String current;
-
-for (int i=0 ; i &lt; size ; i++)
-{
-	current=vars.get(&quot;podsNames_&quot;+(i+1));
-	pods[i]=current;	
-}
-
-String find;
-String tofind=vars.get (&quot;tofind&quot;);
-
-for (int i=0 ; i&lt; size ; i++)
-{
-	if (pods[i].contains(tofind))
-	{
-		find=pods[i];
-	}
-}
-
-//print (find);
-vars.put (&quot;pod_name&quot;,find);
-
-//print (&quot;********************&quot;);</stringProp>
-          </BeanShellPostProcessor>
-          <hashTree/>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">30000</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete job" enabled="true">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">127.0.0.1</stringProp>
-          <stringProp name="HTTPSampler.port">8080</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/apis/batch//v1/namespaces/${namespace}/jobs/${pod_name}</stringProp>
-          <stringProp name="HTTPSampler.method">DELETE</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <DebugPostProcessor guiclass="TestBeanGUI" testclass="DebugPostProcessor" testname="Debug PostProcessor" enabled="true">
-            <boolProp name="displayJMeterProperties">false</boolProp>
-            <boolProp name="displayJMeterVariables">true</boolProp>
-            <boolProp name="displaySamplerProperties">true</boolProp>
-            <boolProp name="displaySystemProperties">false</boolProp>
-          </DebugPostProcessor>
-          <hashTree/>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">1000</stringProp>
-          </ConstantTimer>
-          <hashTree/>
-        </hashTree>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="get pod by name var tofind" enabled="false">
+          <stringProp name="IncludeController.includepath">../tf_get_pod by name.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
+        <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="delete pod var tofind" enabled="false">
+          <stringProp name="IncludeController.includepath">../tf_delete pod by partial name.jmx</stringProp>
+        </IncludeController>
+        <hashTree/>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
           <stringProp name="WhileController.condition">${__javaScript((&quot;${status}&quot; != &quot;completed&quot;) &amp;&amp; (${counter}&lt;${maxTries}),)} </stringProp>
         </WhileController>

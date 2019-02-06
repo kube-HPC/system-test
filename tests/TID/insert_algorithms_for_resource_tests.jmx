@@ -175,7 +175,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         </HTTPSamplerProxy>
         <hashTree>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">60000</stringProp>
+            <stringProp name="ConstantTimer.delay">15000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
@@ -213,7 +213,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         </HTTPSamplerProxy>
         <hashTree>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">60000</stringProp>
+            <stringProp name="ConstantTimer.delay">15000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
@@ -251,7 +251,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         </HTTPSamplerProxy>
         <hashTree>
           <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
-            <stringProp name="ConstantTimer.delay">60000</stringProp>
+            <stringProp name="ConstantTimer.delay">15000</stringProp>
           </ConstantTimer>
           <hashTree/>
         </hashTree>
