@@ -20,7 +20,7 @@
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
+        <stringProp name="shareMode">shareMode.group</stringProp>
       </CSVDataSet>
       <hashTree/>
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="headers for all requests" enabled="true">
@@ -45,7 +45,7 @@
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
+        <stringProp name="shareMode">shareMode.group</stringProp>
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="resourceAllocation configs" enabled="true">
@@ -57,7 +57,7 @@
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">false</boolProp>
         <boolProp name="stopThread">true</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
+        <stringProp name="shareMode">shareMode.group</stringProp>
       </CSVDataSet>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="paths configs" enabled="true">
@@ -69,7 +69,7 @@
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
+        <stringProp name="shareMode">shareMode.group</stringProp>
       </CSVDataSet>
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="vars" enabled="true">

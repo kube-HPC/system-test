@@ -50,7 +50,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
+        <stringProp name="shareMode">shareMode.group</stringProp>
       </CSVDataSet>
       <hashTree/>
       <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="headers for all requests" enabled="true">
@@ -75,7 +75,7 @@ print (&quot;sent &quot; + yy + &quot;\ngot code: &quot;+ x + &quot;\ndata: &quo
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
         <boolProp name="stopThread">false</boolProp>
-        <stringProp name="shareMode">shareMode.all</stringProp>
+        <stringProp name="shareMode">shareMode.group</stringProp>
       </CSVDataSet>
       <hashTree/>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="vars" enabled="true">
