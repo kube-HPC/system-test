@@ -3,13 +3,11 @@
     "timestamp": "{timeStamp}",
     "timeTook": "{timeTook}",
     "pipeline": "countEven",
-    "data": [
-        {
-            "nodeName": "count",
-            "algorithmName": "eval-alg",
-            "result": 7
-        }
-    ],
+    "data": [{
+        "nodeName": "count",
+        "algorithmName": "eval-alg",
+        "result": 7
+    }],
     "status": "completed",
     "storageModule": "@hkube/s3-adapter"
 }

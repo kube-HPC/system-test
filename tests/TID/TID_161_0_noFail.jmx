@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0 r1823414">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.0 r1840935">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -118,7 +118,7 @@
             &quot;nodeName&quot;: &quot;eval1&quot;,&#xd;
             &quot;algorithmName&quot;: &quot;eval-alg&quot;,&#xd;
             &quot;input&quot;: [&#xd;
-                &quot;@flowInput.range&quot;&#xd;
+                &quot;10&quot;&#xd;
             ],&#xd;
             &quot;extraData&quot;: {&#xd;
                 &quot;code&quot;: [&#xd;
@@ -133,7 +133,7 @@
             &quot;algorithmName&quot;: &quot;eval-alg2&quot;,&#xd;
             &quot;input&quot;: [&#xd;
                 &quot;#@eval1&quot;,&#xd;
-                &quot;@flowInput.time&quot;&#xd;
+                &quot;5000&quot;&#xd;
             ],&#xd;
             &quot;extraData&quot;: {&#xd;
                 &quot;code&quot;: [&#xd;
@@ -412,15 +412,8 @@ else
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="delete workflow" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value"></stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
           </elementProp>
           <stringProp name="HTTPSampler.domain">${ip}</stringProp>
           <stringProp name="HTTPSampler.port">${port}</stringProp>
