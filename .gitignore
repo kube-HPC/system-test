@@ -17,3 +17,5 @@ run_files/.idea/
 tests/defaultfile.jtl
 tests/ids.csv
 python_Test_Manager/
+tests/TID/defaultFile.csv
+tests/TID/currentId
